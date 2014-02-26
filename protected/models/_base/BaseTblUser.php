@@ -18,6 +18,7 @@
  * @property integer $user_faculty
  * @property string $user_about
  * @property integer $user_type
+ * @property string $user_avatar
  *
  * @property TblDoc[] $tblDocs
  * @property TblPost[] $tblPosts
@@ -45,10 +46,10 @@ abstract class BaseTblUser extends GxActiveRecord {
 	public function rules() {
 		return array(
 			array('user_status, user_faculty, user_type', 'numerical', 'integerOnly'=>true),
-			array('user_name, user_password, user_email, user_class', 'length', 'max'=>100),
+			array('user_name, user_password, user_email, user_class, user_avatar', 'length', 'max'=>100),
 			array('user_about', 'safe'),
-			array('user_name, user_password, user_status, user_email, user_class, user_faculty, user_about, user_type', 'default', 'setOnEmpty' => true, 'value' => null),
-			array('user_id, user_name, user_password, user_status, user_email, user_class, user_faculty, user_about, user_type', 'safe', 'on'=>'search'),
+			array('user_name, user_password, user_status, user_email, user_class, user_faculty, user_about, user_type, user_avatar', 'default', 'setOnEmpty' => true, 'value' => null),
+			array('user_id, user_name, user_password, user_status, user_email, user_class, user_faculty, user_about, user_type, user_avatar', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -77,6 +78,7 @@ abstract class BaseTblUser extends GxActiveRecord {
 			'user_faculty' => null,
 			'user_about' => Yii::t('app', 'User About'),
 			'user_type' => Yii::t('app', 'User Type'),
+			'user_avatar' => Yii::t('app', 'User Avatar'),
 			'tblDocs' => null,
 			'tblPosts' => null,
 			'user' => null,
@@ -96,6 +98,7 @@ abstract class BaseTblUser extends GxActiveRecord {
 		$criteria->compare('user_faculty', $this->user_faculty);
 		$criteria->compare('user_about', $this->user_about, true);
 		$criteria->compare('user_type', $this->user_type);
+		$criteria->compare('user_avatar', $this->user_avatar, true);
 
 		return new CActiveDataProvider($this, array(
 			'criteria' => $criteria,
