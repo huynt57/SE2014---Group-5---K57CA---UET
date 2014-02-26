@@ -11,6 +11,5 @@ Yii comes with rich features: MVC, DAO/ActiveRecord, I18N/L10N, caching, authent
 
 Everything you need to learn yii:
 
-[Yii Framework](http://www.yiiframework.com/) - Yii is a high-performance PHP framework best for developing Web 2.0 applications.
-
+[Yii Framework](http://www.yiiframework.com/) 
 
