@@ -742,3 +742,264 @@ Stack trace:
 REQUEST_URI=/SE2014-Project_Website/index.php/img/logo_white.png
 HTTP_REFERER=http://localhost/SE2014-Project_Website/index.php/blog-post.html
 ---
+2014/02/27 11:21:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/logo_white.png".' in F:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/logo_white....')
+#1 F:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/img/logo_white.png
+HTTP_REFERER=http://localhost/SE2014-Project_Website/index.php/discussion
+---
+2014/02/27 11:31:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/logo_white.png".' in F:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/logo_white....')
+#1 F:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/img/logo_white.png
+HTTP_REFERER=http://localhost/SE2014-Project_Website/index.php/discussion
+---
+2014/02/27 13:28:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in F:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 F:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/SE2014-Project_Website/index.php/
+---
+2014/02/27 13:53:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in F:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 F:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/SE2014-Project_Website/index.php/discussion
+---
+2014/02/27 13:53:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in F:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 F:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/SE2014-Project_Website/index.php/discussion
+---
+2014/02/27 13:55:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in F:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 F:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/SE2014-Project_Website/index.php/discussion
+---
+2014/02/27 13:55:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in F:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 F:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/SE2014-Project_Website/index.php/discussion
+---
+2014/02/27 13:55:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in F:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 F:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/SE2014-Project_Website/index.php/discussion
+---
+2014/02/27 13:56:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in F:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 F:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/SE2014-Project_Website/index.php/discussion
+---
+2014/02/27 13:57:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in F:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 F:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/SE2014-Project_Website/index.php/discussion
+---
+2014/02/27 13:57:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in F:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 F:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/SE2014-Project_Website/index.php/discussion
+---
+2014/02/27 14:05:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in F:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 F:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/SE2014-Project_Website/index.php/discussion
+---
+2014/02/27 14:06:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in F:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 F:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/SE2014-Project_Website/index.php/discussion
+---
+2014/02/27 14:06:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in F:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 F:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/SE2014-Project_Website/index.php/discussion
+---
+2014/02/27 14:08:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in F:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 F:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/SE2014-Project_Website/index.php/discussion
+---
+2014/02/27 14:09:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in F:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 F:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/SE2014-Project_Website/index.php/discussion
+---
+2014/02/27 14:09:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in F:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 F:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/SE2014-Project_Website/index.php/discussion
+---
+2014/02/27 14:09:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in F:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 F:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/SE2014-Project_Website/index.php/discussion
+---
+2014/02/27 14:14:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in F:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 F:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/SE2014-Project_Website/index.php/discussion
+---
+2014/02/27 14:15:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in F:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 F:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/SE2014-Project_Website/index.php/discussion
+---
+2014/02/27 14:15:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in F:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 F:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/SE2014-Project_Website/index.php/discussion
+---
+2014/02/27 14:15:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in F:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 F:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/SE2014-Project_Website/index.php/discussion
+---
+2014/02/27 14:16:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in F:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 F:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/SE2014-Project_Website/index.php/discussion
+---
+2014/02/27 14:21:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in F:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 F:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/SE2014-Project_Website/index.php/discussion
+---
+2014/02/27 14:33:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in F:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 F:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/SE2014-Project_Website/index.php/discussion
+---
+2014/02/27 14:57:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in F:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 F:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/SE2014-Project_Website/index.php/discussion
+---
+2014/02/27 14:57:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in F:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 F:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/SE2014-Project_Website/index.php/discussion
+---
+2014/02/27 14:57:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "blog-post.html".' in F:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('blog-post.html')
+#1 F:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/blog-post.html
+HTTP_REFERER=http://localhost/SE2014-Project_Website/index.php/discussion
+---
+2014/02/27 14:59:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in F:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 F:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/SE2014-Project_Website/index.php/discussion
+---
