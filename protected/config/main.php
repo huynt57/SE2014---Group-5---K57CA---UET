@@ -11,7 +11,7 @@ return array(
 
 	// preloading 'log' component
 	'preload'=>array('log'),
-
+        'defaultController' => 'discussion',   
 	// autoloading model and component classes
 	'import'=>array(
 		'application.models.*',
@@ -37,11 +37,10 @@ return array(
 			'password'=>'1',
 			// If removed, Gii defaults to localhost only. Edit carefully to taste.
 			'ipFilters'=>array('127.0.0.1','::1'),
-                    'generatorPaths' => array(
-			'ext.giix-core', // giix generators
 		),
-
-		),
+            'generatorPaths' => array(
+				'ext.giix-core', // giix generators
+			),
 		
 	),
 
@@ -102,5 +101,6 @@ return array(
 		// this is used in contact page
 		'adminEmail'=>'webmaster@example.com',
 	),
-    'theme' => 'classic',
+    //theme
+	'theme'=>'classic',
 );

@@ -206,7 +206,7 @@
                                         <div class="w-nav-list-h">
                                             <div class="w-nav-item level_1 active">
                                                 <div class="w-nav-item-h">
-                                                    <a href="index.html" class="w-nav-anchor level_1">
+                                                    <a href="<?php echo Yii::app()->createUrl("discussion") ?>" class="w-nav-anchor level_1">
                                                         <span class="w-nav-icon"><i class="icon-star"></i></span>
                                                         <span class="w-nav-title">Thảo luận</span>
                                                         <span class="w-nav-hint"></span>
@@ -265,7 +265,7 @@
 
             <!-- MAIN -->
             <div class="l-main">
-
+                <?php echo $content; ?>
             </div>
             <!-- /MAIN -->
 
@@ -289,7 +289,7 @@
                         </div>
                     </div>
 
-                   
+
 
                     <div class="one-third">
                         <div class="widget">
