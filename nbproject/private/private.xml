@@ -5,8 +5,7 @@
         <group>
             <file>file:/F:/xampp/htdocs/SE2014-Project_Website/index.php</file>
             <file>file:/F:/xampp/htdocs/SE2014-Project_Website/themes/classic/assets/css/style.css</file>
-            <file>file:/F:/xampp/htdocs/SE2014-Project_Website/themes/motioncss/gui/cols/g-cols.css</file>
-            <file>file:/F:/xampp/htdocs/SE2014-Project_Website/themes/motioncss/core/grid.css</file>
+            <file>file:/F:/xampp/htdocs/SE2014-Project_Website/protected/views/discussion/partial/sidebar_left.php</file>
             <file>file:/F:/xampp/htdocs/SE2014-Project_Website/protected/controllers/SiteController.php</file>
             <file>file:/F:/xampp/htdocs/SE2014-Project_Website/protected/config/main.php</file>
             <file>file:/F:/xampp/htdocs/SE2014-Project_Website/themes/classic/views/layouts/main.php</file>

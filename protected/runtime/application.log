@@ -1111,3 +1111,13 @@ Stack trace:
 REQUEST_URI=/SE2014-Project_Website/index.php/img/avatar.png
 HTTP_REFERER=http://localhost/SE2014-Project_Website/index.php/discussion
 ---
+2014/02/28 03:54:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in F:\xampp\htdocs\SE2014-Project_Website\framework\web\CController.php:483
+Stack trace:
+#0 F:\xampp\htdocs\SE2014-Project_Website\framework\web\CController.php(270): CController->missingAction('')
+#1 F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(282): CController->run('')
+#2 F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#3 F:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 F:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php
+---
