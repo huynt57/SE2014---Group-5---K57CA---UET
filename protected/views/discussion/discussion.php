@@ -2,6 +2,8 @@
     $(document).ready(function()
     {
         $("#comments").hide();
+        $("#hidecmt").hide();
+        
     });
 
 
@@ -35,11 +37,9 @@
     <div class="l-submain">
         <div class="l-submain-h g-html i-cf">
             <div class="g-cols">
-                <div class="one-fifth">
-                    <h3>Các chủ đề</h3>
+                <div class="one-fourth">
+                    <h3>Các chủ đề</h3>            
                     <div class="widget">
-
-
                         <nav class="w-nav">
                             <div class="w-nav-h">
                                 <div class="w-nav-list layout_ver level_1">
@@ -86,24 +86,70 @@
                                         <div class="w-nav-item level_1">
                                             <div class="w-nav-item-h">
                                                 <a href="#" class="w-nav-anchor level_1">
-                                                    <span class="w-nav-title">Animated Elements</span>
+                                                    <span class="w-nav-title">Font Awesome Icons</span>
                                                 </a>
                                             </div>
                                         </div>
                                         <div class="w-nav-item level_1">
                                             <div class="w-nav-item-h">
                                                 <a href="#" class="w-nav-anchor level_1">
-                                                    <span class="w-nav-title">Boxed & Wide Versions</span>
+                                                    <span class="w-nav-title">Slider Revolution</span>
                                                 </a>
                                             </div>
                                         </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+
+                    </div>
+                        <h3>Đang hot</h3>            
+                    <div class="widget">
+                        <nav class="w-nav">
+                            <div class="w-nav-h">
+                                <div class="w-nav-list layout_ver level_1">
+                                    <div class="w-nav-list-h">
                                         <div class="w-nav-item level_1">
                                             <div class="w-nav-item-h">
                                                 <a href="#" class="w-nav-anchor level_1">
-                                                    <span class="w-nav-title">Magnific Popup</span>
+                                                    <span class="w-nav-title">Responsive Design</span>
                                                 </a>
                                             </div>
                                         </div>
+                                        <div class="w-nav-item level_1 active">
+                                            <div class="w-nav-item-h">
+                                                <a href="#" class="w-nav-anchor level_1">
+                                                    <span class="w-nav-title">Retina Ready</span>
+                                                </a>
+                                                <div class="w-nav-list layout_ver place_inside level_2">
+                                                    <div class="w-nav-list-h">
+                                                        <div class="w-nav-item level_2">
+                                                            <div class="w-nav-item-h">
+                                                                <a href="#" class="w-nav-anchor level_2">
+                                                                    <span class="w-nav-title">Second Level Item</span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="w-nav-item level_2 active">
+                                                            <div class="w-nav-item-h">
+                                                                <a href="#" class="w-nav-anchor level_2">
+                                                                    <span class="w-nav-title">Second Level Item</span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="w-nav-item level_2">
+                                                            <div class="w-nav-item-h">
+                                                                <a href="#" class="w-nav-anchor level_2">
+                                                                    <span class="w-nav-title">Second Level Item</span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                       
                                         <div class="w-nav-item level_1">
                                             <div class="w-nav-item-h">
                                                 <a href="#" class="w-nav-anchor level_1">
@@ -126,7 +172,7 @@
 
                     </div>
                 </div>
-                <div class="three-fifths">
+                <div class="three-fourths">
                     <h3>Hãy cho ý kiến của bạn ...</h3>
                     <div class="l-content">
                         <div class="l-content-h">
@@ -369,12 +415,7 @@
                 </div>
 
 
-                <div class="one-fifth">
-                    <h3>Chủ đề nóng</h3>
-                    <p>Accusamus aliquam architecto asperiores distinctio dolore explicabo fugiat hic
-                        illum, optio pariatur provident quia reiciendis reprehenderit sapiente similique
-                        suscipit!</p>
-                </div>
+             
             </div>
         </div>
     </div>
