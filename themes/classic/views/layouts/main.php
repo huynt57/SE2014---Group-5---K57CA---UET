@@ -181,7 +181,7 @@
                             <!-- SEARCH -->
                             <div class="w-search submit_inside">
                                 <div class="w-search-h">
-                                    <a class="w-search-show" href="javascript:void(0)" style="padding-top: 33px;"><i class="icon-search"></i></a>
+                                    <a class="w-search-show" href="javascript:void(0)" style="margin: auto;"><i class="icon-search"></i></a>
                                     <form class="w-search-form show_hidden" action="#" />
                                     <div class="w-search-input">
                                         <input type="text" value="" placeholder="Bạn muốn tìm gì ?" />
