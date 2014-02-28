@@ -3,7 +3,7 @@
     {
         $("#comments").hide();
         $("#hidecmt").hide();
-        
+
     });
 
 
@@ -37,7 +37,11 @@
     <div class="l-submain">
         <div class="l-submain-h g-html i-cf">
             <div class="g-cols">
-                <div class="one-fourth">
+                <div class="one-fourth" style="
+                     border-right-style: solid;
+                     border-right-width: thin;
+                     border-color: #d0d6d9;
+                     ">
                     <h3>Các chủ đề</h3>            
                     <div class="widget">
                         <nav class="w-nav">
@@ -104,7 +108,7 @@
                         </nav>
 
                     </div>
-                        <h3>Đang hot</h3>            
+                    <h3>Đang hot</h3>            
                     <div class="widget">
                         <nav class="w-nav">
                             <div class="w-nav-h">
@@ -149,7 +153,7 @@
                                                 </div>
                                             </div>
                                         </div>
-                                       
+
                                         <div class="w-nav-item level_1">
                                             <div class="w-nav-item-h">
                                                 <a href="#" class="w-nav-anchor level_1">
@@ -415,7 +419,7 @@
                 </div>
 
 
-             
+
             </div>
         </div>
     </div>
