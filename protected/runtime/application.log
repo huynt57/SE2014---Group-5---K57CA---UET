@@ -1916,3 +1916,633 @@ Stack trace:
 REQUEST_URI=/SE2014-Project_Website/index.php/img/avatar.png
 HTTP_REFERER=http://localhost:8080/SE2014-Project_Website/index.php/discussion
 ---
+2014/03/01 19:06:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/motioncss.css".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('css/motioncss.c...')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/css/motioncss.css
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/aboutUs
+---
+2014/03/01 19:06:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/motioncss-widgets.css".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('css/motioncss-w...')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/css/motioncss-widgets.css
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/aboutUs
+---
+2014/03/01 19:06:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/style.css".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('css/style.css')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/css/style.css
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/aboutUs
+---
+2014/03/01 19:06:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/responsive.css".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('css/responsive....')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/css/responsive.css
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/aboutUs
+---
+2014/03/01 19:06:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/magnific-popup.css".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('css/magnific-po...')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/css/magnific-popup.css
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/aboutUs
+---
+2014/03/01 19:06:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/colors/color_3.css".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('css/colors/colo...')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/css/colors/color_3.css
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/aboutUs
+---
+2014/03/01 19:06:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/rs-settings.css".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('css/rs-settings...')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/css/rs-settings.css
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/aboutUs
+---
+2014/03/01 19:06:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/font-awesome.css".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('css/font-awesom...')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/css/font-awesome.css
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/aboutUs
+---
+2014/03/01 19:06:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/animation.css".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('css/animation.c...')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/css/animation.css
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/aboutUs
+---
+2014/03/01 19:06:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/switcher.css".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('css/switcher.cs...')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/css/switcher.css
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/aboutUs
+---
+2014/03/01 19:06:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery-1.9.1.js".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.9.1...')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/js/jquery-1.9.1.js
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/aboutUs
+---
+2014/03/01 19:06:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.isotope.js".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.isoto...')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/js/jquery.isotope.js
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/aboutUs
+---
+2014/03/01 19:06:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.flexslider.js".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.flexs...')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/js/jquery.flexslider.js
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/aboutUs
+---
+2014/03/01 19:06:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.carousello.js".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.carou...')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/js/jquery.carousello.js
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/aboutUs
+---
+2014/03/01 19:06:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.magnific-popup.js".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.magni...')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/js/jquery.magnific-popup.js
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/aboutUs
+---
+2014/03/01 19:06:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/g-alert.js".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('js/g-alert.js')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/js/g-alert.js
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/aboutUs
+---
+2014/03/01 19:06:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.smoothScroll.js".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.smoot...')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/js/jquery.smoothScroll.js
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/aboutUs
+---
+2014/03/01 19:06:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.parallax.js".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.paral...')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/js/jquery.parallax.js
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/aboutUs
+---
+2014/03/01 19:06:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.simpleplaceholder.js".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.simpl...')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/js/jquery.simpleplaceholder.js
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/aboutUs
+---
+2014/03/01 19:06:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/plugins.js".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('js/plugins.js')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/js/plugins.js
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/aboutUs
+---
+2014/03/01 19:06:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.themepunch.revolution.min.js".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.theme...')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/js/jquery.themepunch.revolution.min.js
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/aboutUs
+---
+2014/03/01 19:06:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/waypoints.min.js".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('js/waypoints.mi...')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/js/waypoints.min.js
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/aboutUs
+---
+2014/03/01 19:06:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/w-lang.js".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('js/w-lang.js')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/js/w-lang.js
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/aboutUs
+---
+2014/03/01 19:06:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/navToSelect.js".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('js/navToSelect....')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/js/navToSelect.js
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/aboutUs
+---
+2014/03/01 19:06:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/w-search.js".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('js/w-search.js')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/js/w-search.js
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/aboutUs
+---
+2014/03/01 19:06:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/w-tabs.js".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('js/w-tabs.js')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/js/w-tabs.js
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/aboutUs
+---
+2014/03/01 19:06:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/w-switcher.js".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('js/w-switcher.j...')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/js/w-switcher.js
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/aboutUs
+---
+2014/03/01 19:06:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/w-timeline.js".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('js/w-timeline.j...')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/js/w-timeline.js
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/aboutUs
+---
+2014/03/01 19:06:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/demo/blog-3.jpg".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/demo/blog-3...')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/demo/blog-3.jpg
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/aboutUs
+---
+2014/03/01 19:06:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/demo/team-1.jpg".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/demo/team-1...')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/demo/team-1.jpg
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/aboutUs
+---
+2014/03/01 19:06:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/demo/member-3.jpg".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/demo/member...')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/demo/member-3.jpg
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/aboutUs
+---
+2014/03/01 19:06:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/demo/member-2.jpg".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/demo/member...')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/demo/member-2.jpg
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/aboutUs
+---
+2014/03/01 19:06:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/demo/member-1.jpg".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/demo/member...')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/demo/member-1.jpg
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/aboutUs
+---
+2014/03/01 19:06:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/motioncss.css".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('css/motioncss.c...')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/css/motioncss.css
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/aboutUs
+---
+2014/03/01 19:06:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/motioncss-widgets.css".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('css/motioncss-w...')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/css/motioncss-widgets.css
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/aboutUs
+---
+2014/03/01 19:06:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/font-awesome.css".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('css/font-awesom...')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/css/font-awesome.css
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/aboutUs
+---
+2014/03/01 19:06:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/magnific-popup.css".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('css/magnific-po...')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/css/magnific-popup.css
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/aboutUs
+---
+2014/03/01 19:06:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/switcher.css".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('css/switcher.cs...')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/css/switcher.css
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/aboutUs
+---
+2014/03/01 19:06:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/style.css".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('css/style.css')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/css/style.css
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/aboutUs
+---
+2014/03/01 19:06:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/colors/color_3.css".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('css/colors/colo...')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/css/colors/color_3.css
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/aboutUs
+---
+2014/03/01 19:06:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/rs-settings.css".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('css/rs-settings...')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/css/rs-settings.css
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/aboutUs
+---
+2014/03/01 19:06:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/responsive.css".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('css/responsive....')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/css/responsive.css
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/aboutUs
+---
+2014/03/01 19:06:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "css/animation.css".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('css/animation.c...')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/css/animation.css
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/aboutUs
+---
+2014/03/01 19:06:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery-1.9.1.js".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery-1.9.1...')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/js/jquery-1.9.1.js
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/aboutUs
+---
+2014/03/01 19:06:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/g-alert.js".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('js/g-alert.js')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/js/g-alert.js
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/aboutUs
+---
+2014/03/01 19:06:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.carousello.js".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.carou...')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/js/jquery.carousello.js
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/aboutUs
+---
+2014/03/01 19:06:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.flexslider.js".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.flexs...')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/js/jquery.flexslider.js
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/aboutUs
+---
+2014/03/01 19:06:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.isotope.js".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.isoto...')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/js/jquery.isotope.js
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/aboutUs
+---
+2014/03/01 19:06:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.magnific-popup.js".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.magni...')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/js/jquery.magnific-popup.js
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/aboutUs
+---
+2014/03/01 19:06:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.parallax.js".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.paral...')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/js/jquery.parallax.js
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/aboutUs
+---
+2014/03/01 19:06:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.simpleplaceholder.js".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.simpl...')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/js/jquery.simpleplaceholder.js
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/aboutUs
+---
+2014/03/01 19:06:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.smoothScroll.js".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.smoot...')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/js/jquery.smoothScroll.js
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/aboutUs
+---
+2014/03/01 19:06:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.themepunch.revolution.min.js".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('js/jquery.theme...')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/js/jquery.themepunch.revolution.min.js
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/aboutUs
+---
+2014/03/01 19:06:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/navToSelect.js".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('js/navToSelect....')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/js/navToSelect.js
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/aboutUs
+---
+2014/03/01 19:06:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/plugins.js".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('js/plugins.js')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/js/plugins.js
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/aboutUs
+---
+2014/03/01 19:06:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/waypoints.min.js".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('js/waypoints.mi...')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/js/waypoints.min.js
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/aboutUs
+---
+2014/03/01 19:06:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/w-lang.js".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('js/w-lang.js')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/js/w-lang.js
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/aboutUs
+---
+2014/03/01 19:06:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/w-search.js".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('js/w-search.js')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/js/w-search.js
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/aboutUs
+---
+2014/03/01 19:06:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/w-tabs.js".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('js/w-tabs.js')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/js/w-tabs.js
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/aboutUs
+---
+2014/03/01 19:06:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/w-timeline.js".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('js/w-timeline.j...')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/js/w-timeline.js
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/aboutUs
+---
+2014/03/01 19:06:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/w-switcher.js".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('js/w-switcher.j...')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/js/w-switcher.js
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/aboutUs
+---
+2014/03/01 19:06:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/demo/team-1.jpg".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/demo/team-1...')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/demo/team-1.jpg
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/aboutUs
+---
+2014/03/01 19:06:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/demo/blog-3.jpg".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/demo/blog-3...')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/demo/blog-3.jpg
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/aboutUs
+---
+2014/03/01 19:06:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/demo/member-1.jpg".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/demo/member...')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/demo/member-1.jpg
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/aboutUs
+---
+2014/03/01 19:06:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/demo/member-3.jpg".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/demo/member...')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/demo/member-3.jpg
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/aboutUs
+---
+2014/03/01 19:06:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/demo/member-2.jpg".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/demo/member...')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/demo/member-2.jpg
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/aboutUs
+---
+2014/03/01 19:06:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/demo/team-1.jpg".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/demo/team-1...')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/demo/team-1.jpg
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/aboutUs
+---
+2014/03/01 19:06:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/demo/blog-3.jpg".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/demo/blog-3...')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/demo/blog-3.jpg
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/aboutUs
+---
+2014/03/01 19:06:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/demo/member-3.jpg".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/demo/member...')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/demo/member-3.jpg
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/aboutUs
+---
+2014/03/01 19:06:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/demo/member-1.jpg".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/demo/member...')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/demo/member-1.jpg
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/aboutUs
+---
