@@ -1502,3 +1502,363 @@ Stack trace:
 REQUEST_URI=/SE2014-Project_Website/index.php/gii/model/index
 HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/gii/module/index
 ---
+2014/03/01 14:49:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Astra – Contact_files/js".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('Astra ??? Conta...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/Astra%20%E2%80%93%20Contact_files/js
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/contact
+---
+2014/03/01 14:49:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Astra – Contact_files/main.js".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('Astra ??? Conta...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/Astra%20%E2%80%93%20Contact_files/main.js
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/contact
+---
+2014/03/01 14:49:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Astra – Contact_files/vt".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('Astra ??? Conta...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/Astra%20%E2%80%93%20Contact_files/vt
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/contact
+---
+2014/03/01 14:50:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Astra – Contact_files/vt(5)".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('Astra ??? Conta...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/Astra%20%E2%80%93%20Contact_files/vt(5)
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/contact
+---
+2014/03/01 14:50:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Astra – Contact_files/vt(4)".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('Astra ??? Conta...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/Astra%20%E2%80%93%20Contact_files/vt(4)
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/contact
+---
+2014/03/01 14:50:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Astra – Contact_files/vt(6)".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('Astra ??? Conta...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/Astra%20%E2%80%93%20Contact_files/vt(6)
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/contact
+---
+2014/03/01 14:50:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Astra – Contact_files/vt(1)".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('Astra ??? Conta...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/Astra%20%E2%80%93%20Contact_files/vt(1)
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/contact
+---
+2014/03/01 14:50:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Astra – Contact_files/vt(23)".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('Astra ??? Conta...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/Astra%20%E2%80%93%20Contact_files/vt(23)
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/contact
+---
+2014/03/01 14:50:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Astra – Contact_files/vt(19)".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('Astra ??? Conta...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/Astra%20%E2%80%93%20Contact_files/vt(19)
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/contact
+---
+2014/03/01 14:50:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Astra – Contact_files/vt(21)".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('Astra ??? Conta...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/Astra%20%E2%80%93%20Contact_files/vt(21)
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/contact
+---
+2014/03/01 14:50:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Astra – Contact_files/vt(14)".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('Astra ??? Conta...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/Astra%20%E2%80%93%20Contact_files/vt(14)
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/contact
+---
+2014/03/01 14:50:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Astra – Contact_files/vt(10)".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('Astra ??? Conta...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/Astra%20%E2%80%93%20Contact_files/vt(10)
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/contact
+---
+2014/03/01 14:50:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Astra – Contact_files/vt(9)".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('Astra ??? Conta...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/Astra%20%E2%80%93%20Contact_files/vt(9)
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/contact
+---
+2014/03/01 14:50:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Astra – Contact_files/vt(16)".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('Astra ??? Conta...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/Astra%20%E2%80%93%20Contact_files/vt(16)
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/contact
+---
+2014/03/01 14:50:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Astra – Contact_files/vt(18)".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('Astra ??? Conta...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/Astra%20%E2%80%93%20Contact_files/vt(18)
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/contact
+---
+2014/03/01 14:50:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Astra – Contact_files/vt(8)".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('Astra ??? Conta...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/Astra%20%E2%80%93%20Contact_files/vt(8)
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/contact
+---
+2014/03/01 14:50:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Astra – Contact_files/google_white2.png".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('Astra ??? Conta...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/Astra%20%E2%80%93%20Contact_files/google_white2.png
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/contact
+---
+2014/03/01 14:50:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Astra – Contact_files/cb_scout2.png".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('Astra ??? Conta...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/Astra%20%E2%80%93%20Contact_files/cb_scout2.png
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/contact
+---
+2014/03/01 14:50:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Astra – Contact_files/vt(2)".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('Astra ??? Conta...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/Astra%20%E2%80%93%20Contact_files/vt(2)
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/contact
+---
+2014/03/01 14:50:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Astra – Contact_files/vt(13)".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('Astra ??? Conta...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/Astra%20%E2%80%93%20Contact_files/vt(13)
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/contact
+---
+2014/03/01 14:50:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Astra – Contact_files/vt(15)".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('Astra ??? Conta...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/Astra%20%E2%80%93%20Contact_files/vt(15)
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/contact
+---
+2014/03/01 14:50:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Astra – Contact_files/mapcnt3.png".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('Astra ??? Conta...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/Astra%20%E2%80%93%20Contact_files/mapcnt3.png
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/contact
+---
+2014/03/01 14:50:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Astra – Contact_files/vt(24)".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('Astra ??? Conta...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/Astra%20%E2%80%93%20Contact_files/vt(24)
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/contact
+---
+2014/03/01 14:50:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Astra – Contact_files/vt(7)".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('Astra ??? Conta...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/Astra%20%E2%80%93%20Contact_files/vt(7)
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/contact
+---
+2014/03/01 14:50:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Astra – Contact_files/vt(26)".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('Astra ??? Conta...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/Astra%20%E2%80%93%20Contact_files/vt(26)
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/contact
+---
+2014/03/01 14:50:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Astra – Contact_files/vt(27)".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('Astra ??? Conta...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/Astra%20%E2%80%93%20Contact_files/vt(27)
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/contact
+---
+2014/03/01 14:50:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Astra – Contact_files/vt(17)".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('Astra ??? Conta...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/Astra%20%E2%80%93%20Contact_files/vt(17)
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/contact
+---
+2014/03/01 14:50:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Astra – Contact_files/vt(12)".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('Astra ??? Conta...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/Astra%20%E2%80%93%20Contact_files/vt(12)
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/contact
+---
+2014/03/01 14:50:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Astra – Contact_files/vt(3)".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('Astra ??? Conta...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/Astra%20%E2%80%93%20Contact_files/vt(3)
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/contact
+---
+2014/03/01 14:50:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Astra – Contact_files/vt(20)".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('Astra ??? Conta...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/Astra%20%E2%80%93%20Contact_files/vt(20)
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/contact
+---
+2014/03/01 14:50:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Astra – Contact_files/vt(25)".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('Astra ??? Conta...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/Astra%20%E2%80%93%20Contact_files/vt(25)
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/contact
+---
+2014/03/01 14:50:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Astra – Contact_files/imgs8.png".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('Astra ??? Conta...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/Astra%20%E2%80%93%20Contact_files/imgs8.png
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/contact
+---
+2014/03/01 14:50:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Astra – Contact_files/vt(11)".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('Astra ??? Conta...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/Astra%20%E2%80%93%20Contact_files/vt(11)
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/contact
+---
+2014/03/01 14:50:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Astra – Contact_files/vt(22)".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('Astra ??? Conta...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/Astra%20%E2%80%93%20Contact_files/vt(22)
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/contact
+---
+2014/03/01 15:51:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/img/avatar.png
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/discussion
+---
+2014/03/01 16:03:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/img/avatar.png
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/discussion
+---
+2014/03/01 16:03:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/img/avatar.png
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/discussion
+---
+2014/03/01 16:20:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Astra – Single Project – 2 3 Video_files/48363485.htm".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('Astra ??? Singl...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/Astra%20%E2%80%93%20Single%20Project%20%E2%80%93%202%203%20Video_files/48363485.htm
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/login
+---
+2014/03/01 16:20:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "Astra – Single Project – 2 3 Video_files/48363485.htm".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('Astra ??? Singl...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/Astra%20%E2%80%93%20Single%20Project%20%E2%80%93%202%203%20Video_files/48363485.htm?wmode=transparent
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/login
+---
+2014/03/01 16:23:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/img/avatar.png
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/discussion
+---

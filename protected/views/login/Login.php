@@ -4,8 +4,23 @@
 				<div class="l-content">
 					<div class="l-content-h i-widgets">
 						<div class="g-cols">
-							
-							<div class="two-fifths" style="float:none; margin: 0 auto 0 auto;">
+							<div class="one-half">
+								<div class="wpb_text_column ">
+									<div class="wpb_wrapper">
+										<h3>Project Info</h3>
+										<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
+											Aenean commodo ligula eget dolor. Aenean massa. Cum sociis 
+											natoque penatibus et magnis dis parturient montes.
+										</p>
+									</div>
+								</div>
+								<div class="w-video ratio_16-9">
+									<div class="w-video-h">
+										<iframe src="//www.youtube.com/embed/on0bAfbLALQ" width="1500" height="844" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" __idm_id__="3631105"></iframe>
+									</div>
+								</div>
+							</div>
+							<div class="one-half">
 								<div class="w-tabs layout_accordion with_icon">
 									<div class="w-tabs-h">
 										<div class="w-tabs-section with_icon active">
@@ -45,13 +60,22 @@
 																			</div>
 																		</div>
 																		<div class="g-form-row">
+																			<div class="checkbox" style="display: block; min-height: 20px; margin: 0; padding-left: 20px;">
+																				<label style="display: inline; margin-bottom: 0; font-weight: normal; cursor:pointer;">
+																					<input type="checkbox" style="float:left; line-height: normal; margin: 5px 0 0 -20px;">
+																					Duy trì Đăng Nhập
+																				</label>
+																			</div>
+																		</div>
+																		<a href="quenmatkhau" style="float:right; margin-top: 5px;">Quên Mật Khẩu?</a>
+																		<div class="g-form-row">
 																			<div class="g-form-row-field">
 																				<button class="g-btn type_primary">Đăng Nhập</button>
 																			</div>
 																		</div>
 																		<div class="g-form-row">
 																			<div class="g-form-row-field">
-																				<button class="g-btn type_primary size_small">Đăng Nhập qua Facebook</button>
+																				<button class="g-btn type_primary size_small" style="background-color: #1265A8">Đăng Nhập qua Facebook</button>
 																			</div>
 																		</div>
 																	</div>
@@ -65,7 +89,7 @@
 										<div class="w-tabs-section with_icon">
 											<div class="w-tabs-section-title">
 												<span class="w-tabs-section-title-icon fa fa-flask"></span>
-												<span class="w-tabs-section-title-text">Đăng Ký</span>
+												<span class="w-tabs-section-title-text">Chưa có Tài Khoản? Đăng Ký!</span>
 												<span class="w-tabs-section-title-control">
 													<i class="fa fa-angle-down"></i>
 												</span>
