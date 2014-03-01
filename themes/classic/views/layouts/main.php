@@ -217,7 +217,7 @@
                                                 <div class="w-nav-item-h">
                                                     <a href="#" class="w-nav-anchor level_1">
                                                         <span class="w-nav-icon"><i class="icon-star"></i></span>
-                                                        <span class="w-nav-title">Quản lý tài liệu</span>
+                                                        <span class="w-nav-title">Chia sẻ tài liệu</span>
                                                         <span class="w-nav-hint"></span>
                                                     </a>
                                                 </div>
@@ -235,7 +235,7 @@
                                             </div>
                                             <div class="w-nav-item level_1">
                                                 <div class="w-nav-item-h">
-                                                    <a href="#" class="w-nav-anchor level_1">
+                                                    <a href="<?php echo Yii::app()->createUrl("login") ?>" class="w-nav-anchor level_1">
                                                         <span class="w-nav-icon"><i class="icon-star"></i></span>
                                                         <span class="w-nav-title">Đăng nhập</span>
                                                         <span class="w-nav-hint"></span>
@@ -415,7 +415,7 @@
                                     </div>
                                     <div class="w-nav-item level_1">
                                         <div class="w-nav-item-h">
-                                            <a href="about.html" class="w-nav-anchor level_1">Quản lý tài liệu</a>
+                                            <a href="about.html" class="w-nav-anchor level_1">Chia sẻ tài liệu</a>
                                         </div>
                                     </div>
                                     <div class="w-nav-item level_1">

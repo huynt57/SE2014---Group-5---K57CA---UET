@@ -1862,3 +1862,57 @@ Stack trace:
 REQUEST_URI=/SE2014-Project_Website/index.php/img/avatar.png
 HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/discussion
 ---
+2014/03/01 17:12:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 F:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/img/avatar.png
+HTTP_REFERER=http://localhost:8080/SE2014-Project_Website/index.php/discussion
+---
+2014/03/01 17:14:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 F:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/img/avatar.png
+HTTP_REFERER=http://localhost:8080/SE2014-Project_Website/index.php/discussion
+---
+2014/03/01 17:15:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 F:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/img/avatar.png
+HTTP_REFERER=http://localhost:8080/SE2014-Project_Website/index.php/discussion
+---
+2014/03/01 17:16:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 F:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/img/avatar.png
+HTTP_REFERER=http://localhost:8080/SE2014-Project_Website/index.php/discussion
+---
+2014/03/01 17:16:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 F:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/img/avatar.png
+HTTP_REFERER=http://localhost:8080/SE2014-Project_Website/index.php/discussion
+---
+2014/03/01 17:16:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 F:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/img/avatar.png
+HTTP_REFERER=http://localhost:8080/SE2014-Project_Website/index.php/discussion
+---
