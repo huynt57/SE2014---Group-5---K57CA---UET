@@ -5,7 +5,7 @@
 					<div class="l-content-h i-widgets">
 						<div class="g-cols">
 							
-							<div class="one-third" style="float:none; margin: 0 auto 0 auto;">
+							<div class="two-fifths" style="float:none; margin: 0 auto 0 auto;">
 								<div class="w-tabs layout_accordion with_icon">
 									<div class="w-tabs-h">
 										<div class="w-tabs-section with_icon active">
