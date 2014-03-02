@@ -411,8 +411,7 @@
                 <div class="l-subfooter-h i-cf">
 
                     <div class="w-copyright">© 2014 All rights reserved. <a href='http://us-themes.com/'>BlueBee Team - K57CA - UET</a></div>
-<<<<<<< HEAD
-=======
+
 
                     <!-- NAV -->
                     <nav class="w-nav">
@@ -444,7 +443,6 @@
                         </div>
                     </nav>
 
->>>>>>> dcbe40f9547997bbe7603548f26128511566f888
                 </div>
             </div>
 
