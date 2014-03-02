@@ -8,10 +8,12 @@
 								<div class="wpb_text_column ">
 									<div class="wpb_wrapper">
 										<h3>Project Info</h3>
-										<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
+										<blockquote>
+											<b>Vu Ngoc Son</b>
+											Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
 											Aenean commodo ligula eget dolor. Aenean massa. Cum sociis 
 											natoque penatibus et magnis dis parturient montes.
-										</p>
+										</blockqoute>
 									</div>
 								</div>
 								<div class="w-video ratio_16-9">
@@ -75,7 +77,9 @@
 																		</div>
 																		<div class="g-form-row">
 																			<div class="g-form-row-field">
-																				<button class="g-btn type_primary size_small" style="background-color: #1265A8">Đăng Nhập qua Facebook</button>
+																				<button class="g-btn type_primary size_small" style="background-color: #1265A8">
+																					Đăng Nhập qua Facebook
+																				</button>
 																			</div>
 																		</div>
 																	</div>
