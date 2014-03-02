@@ -88,8 +88,8 @@
                                                         <p>Morbi sagittis, sem quis lacinia faucibus, orci ipsum gravida tortor, vel interdum mi sapien ut justo. Nulla varius consequat magna, id molestie ipsum volutpat quis. Suspendisse consectetur fringilla suctus. Pellentesque ipsum erat, facilisis ut venenatis eu, sodales.</p>
                                                     </div>
 
-                                                    <a class="w-blog-entry-more g-btn type_default size_small" id="opencmt" onclick="opencomment()"><span>Xem comment</span></a>
-                                                    <a class="w-blog-entry-more g-btn type_default size_small" id="hidecmt" onclick="closecomment()"><span>Ẩn</span></a>
+                                                    <button class=" g-btn type_primary size_small" id="opencmt" onclick="opencomment()"><span>Xem comment</span></button>
+                                                    <button class=" g-btn type_primary size_small" id="hidecmt" onclick="closecomment()"><span>Ẩn</span></button>
                                                 </div>
                                             </div>
                                             <div id="comments" class="w-comments has_form" value = "show">
