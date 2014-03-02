@@ -412,41 +412,6 @@
             <div class="l-subfooter at_bottom">
                 <div class="l-subfooter-h i-cf">
                     <div class="w-copyright">© 2014 All rights reserved. <a href='http://us-themes.com/'>BlueBee Team - K57CA - UET</a></div>
-<<<<<<< HEAD
-=======
-
-
-                    <!-- NAV -->
-                    <nav class="w-nav">
-                        <div class="w-nav-h">
-                            <div class="w-nav-list layout_hor width_auto float_right level_1">
-                                <div class="w-nav-list-h">
-                                    <div class="w-nav-item level_1 active">
-                                        <div class="w-nav-item-h">
-                                            <a href="index.html" class="w-nav-anchor level_1">Thảo luận</a>
-                                        </div>
-                                    </div>
-                                    <div class="w-nav-item level_1">
-                                        <div class="w-nav-item-h">
-                                            <a href="about.html" class="w-nav-anchor level_1">Chia sẻ tài liệu</a>
-                                        </div>
-                                    </div>
-                                    <div class="w-nav-item level_1">
-                                        <div class="w-nav-item-h">
-                                            <a href="portfolio-3.html" class="w-nav-anchor level_1">Kinh nghiệm học tập</a>
-                                        </div>
-                                    </div>
-                                    <div class="w-nav-item level_1">
-                                        <div class="w-nav-item-h">
-                                            <a href="blog.html" class="w-nav-anchor level_1">Liên hệ</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </nav>
-
->>>>>>> be270bd413757240a857877ce7df130c96052479
                 </div>
             </div>
         </div>

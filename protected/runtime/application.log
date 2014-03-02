@@ -3477,3 +3477,30 @@ REQUEST_URI=/SE2014-Project_Website/index.php/img/demo/blog-3.jpg
 HTTP_REFERER=http://localhost:8080/SE2014-Project_Website/index.php/aboutus
 >>>>>>> be270bd413757240a857877ce7df130c96052479
 ---
+2014/03/02 03:36:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/demo/team-1.jpg".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('img/demo/team-1...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/img/demo/team-1.jpg
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/aboutus
+---
+2014/03/02 03:36:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/demo/blog-3.jpg".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('img/demo/blog-3...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/img/demo/blog-3.jpg
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/aboutus
+---
+2014/03/02 03:36:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/demo/member-1.jpg".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('img/demo/member...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/img/demo/member-1.jpg
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/aboutus
+---
