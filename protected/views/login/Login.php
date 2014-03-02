@@ -29,7 +29,7 @@
 												</span>
 												<span class="w-tabs-section-title-text">Đăng Nhập</span>
 												<span class="w-tabs-section-title-control">
-													<i class="fa fa-angle-down"></i>
+													<i class="icon-angle-down"></i>
 												</span>
 											</div>
 											<div class="w-tabs-section-content" style="display: none;">
@@ -91,7 +91,7 @@
 												<span class="w-tabs-section-title-icon fa fa-flask"></span>
 												<span class="w-tabs-section-title-text">Chưa có Tài Khoản? Đăng Ký!</span>
 												<span class="w-tabs-section-title-control">
-													<i class="fa fa-angle-down"></i>
+													<i class="icon-angle-down"></i>
 												</span>
 											</div>
 											<div class="w-tabs-section-content" style="display: none;">

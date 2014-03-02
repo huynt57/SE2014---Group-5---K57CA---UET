@@ -30,30 +30,26 @@
             <div class="w-pagehead">
                 <h1>Thảo luận</h1>
                 <p>Share everything !!</p>
-
             </div>
         </div>
     </div>
     <div class="l-submain">
         <div class="l-submain-h g-html i-cf">
             <div class="g-cols">
-             <?php $this->renderPartial("partial/sidebar_left")?>
+                <?php $this->renderPartial("partial/sidebar_left")?>
                 <div class="three-fourths">
-                    <h3>Hãy cho ý kiến của bạn ...</h3>
+                    <?php $this->renderPartial("partial/postarea")?>
                     <div class="l-content">
                         <div class="l-content-h">
-
                             <div class="w-blog imgpos_atleft meta_tagscomments">
                                 <div class="w-blog-h">
                                     <div class="w-blog-list">
-
                                         <div class="w-blog-entry" >
                                             <div class="w-blog-entry-h">
                                                 <a class="w-blog-entry-link" href="blog-post.html">
                                                     <span class="w-blog-entry-img animate_afc" style="width: 60px;">
                                                         <img class="w-blog-entry-img-h" src="<?php echo Yii::app()->theme->baseUrl; ?>/assets/img/demo/blog-1.jpg" alt="" style=""/>
                                                     </span>
-
                                                     <h2 class="w-blog-entry-title">
                                                         <span class="w-blog-entry-title-h" >This is a Post</span>
                                                     </h2>
