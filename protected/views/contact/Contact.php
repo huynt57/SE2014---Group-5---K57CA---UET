@@ -1,3 +1,11 @@
+<div class="l-submain type_fullwidth">
+    <div class="l-submain-h g-html i-cf">
+        <div class="w-map">
+            <div class="w-map-h" style="height: 300px;">
+            </div>
+        </div>
+    </div>
+</div>
 <div class="l-submain">
     <div class="l-submain-h g-html i-cf">
         <div class="g-cols">

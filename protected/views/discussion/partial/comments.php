@@ -1,4 +1,4 @@
-<div id="comments" class="w-comments has_form" value = "show">
+<div id="comments" class="w-comments has_form" value = "show" style="margin-left: 15%;">
     <div class="w-comments-h">
         <h4 class="w-comments-title"><i class="icon-comments"></i>5 Comments. <a href="#form">Leave new</a></h4>
         <div class="w-comments-list">
@@ -65,7 +65,7 @@
                     <div class="g-form-row">
                         <div class="g-form-row-label"></div>
                         <div class="g-form-row-field">
-                            <button class="g-btn type_primary">Gửi bình luận</button>
+                            <button class="g-btn type_primary size_small">Gửi bình luận</button>
                         </div>
                     </div>
                 </div>
