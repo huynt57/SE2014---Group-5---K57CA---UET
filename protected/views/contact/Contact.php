@@ -33,45 +33,45 @@
 						<i class="fa fa-star"></i>
 					</span>
 				</div>
-				<div class="wpb_text_column ">
-					<div class="wpb_wrapper">
-						<h3>Get Social</h3>
-					</div>
-				</div>
 				<div class="w-socials size_big">
 					<div class="w-socials-h">
 						<div class="w-socials-list">
 							<div class="w-socials-item facebook">
-								<a class="w-socials-item-link" target="_blank" href="https://www.facebook.com/groups/1449890971909362/?bookmark_t=group">
-									<i class="fa fa-facebook"></i>
-								</a>
-								<div class="w-socials-item-popup">
-									<div class="w-socials-item-popup-h">
-										<span class="w-socials-item-popup-text">Facebook</span>
-									</div>
-								</div>
-							</div>
-							<div class="w-socials-item twitter">
-								<a class="w-socials-item-link" target="_blank" href="http://us-themes.com/wp/Astra/contact/#">
-									<i class="fa fa-twitter"></i>
-								</a>
-								<div class="w-socials-item-popup">
-									<div class="w-socials-item-popup-h">
-										<span class="w-socials-item-popup-text">Twitter</span>
-									</div>
-								</div>
-							</div>
-							<div class="w-socials-item gplus">
-								<a class="w-socials-item-link" target="_blank" href="http://us-themes.com/wp/Astra/contact/#">
-									<i class="fa fa-google-plus"></i>
-								</a>
-								<div class="w-socials-item-popup">
-									<div class="w-socials-item-popup-h">
-										<span class="w-socials-item-popup-text">Google+</span>
-									</div>
-								</div>
-							</div>
+                                            <a class="w-socials-item-link" target="_blank" href="">
+                                                <i class="icon-facebook"></i>
+                                            </a>
+                                            <div class="w-socials-item-popup">
+                                                <div class="w-socials-item-popup-h">
+                                                    <span class="w-socials-item-popup-text">Facebook</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="w-socials-item twitter">
+                                            <a class="w-socials-item-link" target="_blank" href="javascript:void(0);">
+                                                <i class="icon-twitter"></i>
+                                            </a>
+                                            <div class="w-socials-item-popup">
+                                                <div class="w-socials-item-popup-h">
+                                                    <span class="w-socials-item-popup-text">Twitter</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="w-socials-item gplus">
+                                            <a class="w-socials-item-link" target="_blank" href="javascript:void(0);">
+                                                <i class="icon-google-plus"></i>
+                                            </a>
+                                            <div class="w-socials-item-popup">
+                                                <div class="w-socials-item-popup-h">
+                                                    <span class="w-socials-item-popup-text">Google</span>
+                                                </div>
+                                            </div>
+                                        </div>
 						</div>
+					</div>
+				</div>
+				<div class="wpb_text_column ">
+					<div class="wpb_wrapper">
+						<h3>Get Social</h3>
 					</div>
 				</div>
 			</div>
