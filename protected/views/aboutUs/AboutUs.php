@@ -288,7 +288,7 @@
                                                     <h3>Bạn đã tham gia chưa ? Đăng ký ngay !!!!</h3>
                                                 </div>
                                                 <div class="w-actionbox-controls at_right">
-                                                    <a class="w-actionbox-button g-btn type_primary size_big" href="http" target="_blank">Đăng ký !</a>
+                                                    <a class="w-actionbox-button g-btn type_primary size_big" href="<?php echo Yii::app()->createUrl("login") ?>" target="_blank">Đăng ký !</a>
                                                 </div>
                                             </div>
                                         </div>
