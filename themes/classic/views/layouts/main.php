@@ -244,9 +244,18 @@
                                             </div>
                                             <div class="w-nav-item level_1">
                                                 <div class="w-nav-item-h">
-                                                    <a href="#" class="w-nav-anchor level_1">
+                                                    <a href="<?php echo Yii::app()->createUrl("contact") ?>" class="w-nav-anchor level_1">
                                                         <span class="w-nav-icon"><i class="icon-star"></i></span>
                                                         <span class="w-nav-title">Liên hệ</span>
+                                                        <span class="w-nav-hint"></span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                             <div class="w-nav-item level_1">
+                                                <div class="w-nav-item-h">
+                                                    <a href="<?php echo Yii::app()->createUrl("aboutus") ?>" class="w-nav-anchor level_1">
+                                                        <span class="w-nav-icon"><i class="icon-star"></i></span>
+                                                        <span class="w-nav-title">Về chúng tôi</span>
                                                         <span class="w-nav-hint"></span>
                                                     </a>
                                                 </div>
@@ -283,7 +292,7 @@
 
                     <div class="one-third">
                         <div class="widget">
-                            <h4>Về chúng tôi</h4>
+                            <h4>Ý tưởng</h4>
                             <p>Chúng tôi là 5 sinh viên K57CA - UET, chúng tôi tạo ra trang web này với mong muốn trở thành một nơi hoạt động bổ ích cho mọi sinh viên đại học. Đến với chúng tôi, bạn sẽ tìm thấy mọi thứ bạn cần ! </p>
                             <p>BlueBee - Everything you need to become an UET's student !!!</p>
                         </div>
@@ -294,7 +303,7 @@
                     <div class="one-third">
                         <div class="widget">
 
-                            <h4>Contact Info</h4>
+                            <h4>Tìm chúng tôi bằng cách nào ?</h4>
 
                             <div class="w-contacts">
                                 <div class="w-contacts-h">
