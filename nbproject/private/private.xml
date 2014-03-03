@@ -3,15 +3,10 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/F:/xampp/htdocs/SE2014-Project_Website/index.php</file>
-            <file>file:/F:/xampp/htdocs/SE2014-Project_Website/themes/classic/assets/css/style.css</file>
-            <file>file:/F:/xampp/htdocs/SE2014-Project_Website/protected/views/discussion/partial/sidebar_left.php</file>
-            <file>file:/F:/xampp/htdocs/SE2014-Project_Website/protected/controllers/SiteController.php</file>
-            <file>file:/F:/xampp/htdocs/SE2014-Project_Website/protected/config/main.php</file>
-            <file>file:/F:/xampp/htdocs/SE2014-Project_Website/themes/classic/views/layouts/main.php</file>
-            <file>file:/F:/xampp/htdocs/SE2014-Project_Website/protected/views/discussion/discussion.php</file>
-            <file>file:/F:/xampp/htdocs/SE2014-Project_Website/protected/controllers/DiscussionController.php</file>
-            <file>file:/F:/xampp/htdocs/SE2014-Project_Website/protected/views/site/index.php</file>
+            <file>file:/C:/xampp/htdocs/DuyKien_project/protected/views/discussion/discussion.php</file>
+            <file>file:/C:/xampp/htdocs/DuyKien_project/protected/views/user/user.php</file>
+            <file>file:/C:/xampp/htdocs/DuyKien_project/protected/views/aboutUs/AboutUs.php</file>
+            <file>file:/C:/xampp/htdocs/DuyKien_project/protected/views/discussion/partial/comments.php</file>
         </group>
     </open-files>
 </project-private>
