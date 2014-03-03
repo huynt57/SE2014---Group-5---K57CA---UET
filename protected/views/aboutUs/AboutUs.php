@@ -1,6 +1,4 @@
 
-<!-- /HEADER -->
-
 <!-- MAIN -->
 <div class="l-main-h">
     <div class="l-submain for_pagehead">

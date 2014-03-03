@@ -4559,3 +4559,1589 @@ Stack trace:
 REQUEST_URI=/SE2014-Project_Website/index.php/img/avatar.png
 HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/discussion
 ---
+2014/03/02 14:56:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\xampp\htdocs\DuyKien_project\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CController.php(270): CController->missingAction('')
+#1 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(282): CController->run('')
+#2 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('user')
+#3 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/DuyKien_project/index.php/user
+---
+2014/03/02 17:18:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/demo/member-1.jpg".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/demo/member...')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/demo/member-1.jpg
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/aboutUs
+---
+2014/03/02 17:18:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/demo/blog-3.jpg".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/demo/blog-3...')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/demo/blog-3.jpg
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/aboutUs
+---
+2014/03/02 17:18:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/demo/team-1.jpg".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/demo/team-1...')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/demo/team-1.jpg
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/aboutUs
+---
+2014/03/02 17:18:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/demo/blog-3.jpg".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/demo/blog-3...')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/demo/blog-3.jpg
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/aboutUs
+---
+2014/03/02 17:18:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/demo/team-1.jpg".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/demo/team-1...')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/demo/team-1.jpg
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/aboutUs
+---
+2014/03/02 17:18:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/demo/member-1.jpg".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/demo/member...')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/demo/member-1.jpg
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/aboutUs
+---
+2014/03/02 17:48:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/demo/serv1.jpg".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/demo/serv1....')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/demo/serv1.jpg
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/02 17:48:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/demo/serv1.jpg".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/demo/serv1....')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/demo/serv1.jpg
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/02 17:54:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cover.jpg".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('cover.jpg')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/cover.jpg
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/02 17:54:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cover.jpg".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('cover.jpg')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/cover.jpg
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/02 17:55:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cover.jpg".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('cover.jpg')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/cover.jpg
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/02 17:55:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cover.jpg".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('cover.jpg')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/cover.jpg
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/02 18:14:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cover.jpg".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('cover.jpg')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/cover.jpg
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/02 18:14:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cover.jpg".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('cover.jpg')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/cover.jpg
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/02 18:14:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cover.jpg".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('cover.jpg')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/cover.jpg
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/02 18:14:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cover.jpg".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('cover.jpg')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/cover.jpg
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/02 18:14:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cover.jpg".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('cover.jpg')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/cover.jpg
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/02 18:14:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cover.jpg".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('cover.jpg')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/cover.jpg
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/02 18:15:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cover.jpg".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('cover.jpg')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/cover.jpg
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/02 18:15:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cover.jpg".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('cover.jpg')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/cover.jpg
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/02 18:15:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cover.jpg".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('cover.jpg')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/cover.jpg
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/02 18:15:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cover.jpg".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('cover.jpg')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/cover.jpg
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/02 18:48:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/discussion
+---
+2014/03/02 18:59:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/discussion
+---
+2014/03/02 18:59:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/discussion
+---
+2014/03/02 18:59:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cover.jpg".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('cover.jpg')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/cover.jpg
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/02 18:59:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cover.jpg".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('cover.jpg')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/cover.jpg
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/02 19:00:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/discussion
+---
+2014/03/02 19:01:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/discussion
+---
+2014/03/02 19:04:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cover.jpg".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('cover.jpg')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/cover.jpg
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/02 19:04:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cover.jpg".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('cover.jpg')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/cover.jpg
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/02 19:04:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cover.jpg".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('cover.jpg')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/cover.jpg
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/02 19:04:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cover.jpg".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('cover.jpg')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/cover.jpg
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/02 19:04:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cover.jpg".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('cover.jpg')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/cover.jpg
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/02 19:04:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cover.jpg".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('cover.jpg')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/cover.jpg
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/02 19:05:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cover.jpg".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('cover.jpg')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/cover.jpg
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/02 19:05:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cover.jpg".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('cover.jpg')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/cover.jpg
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/02 19:05:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cover.jpg".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('cover.jpg')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/cover.jpg
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/02 19:05:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cover.jpg".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('cover.jpg')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/cover.jpg
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/02 19:05:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cover.jpg".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('cover.jpg')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/cover.jpg
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/02 19:05:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cover.jpg".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('cover.jpg')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/cover.jpg
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/02 19:07:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/demo/blog-3.jpg".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/demo/blog-3...')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/demo/blog-3.jpg
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/aboutUs
+---
+2014/03/02 19:07:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/demo/team-1.jpg".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/demo/team-1...')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/demo/team-1.jpg
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/aboutUs
+---
+2014/03/02 19:07:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/demo/member-1.jpg".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/demo/member...')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/demo/member-1.jpg
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/aboutUs
+---
+2014/03/02 19:07:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/demo/member-1.jpg".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/demo/member...')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/demo/member-1.jpg
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/aboutUs
+---
+2014/03/02 19:07:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/demo/team-1.jpg".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/demo/team-1...')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/demo/team-1.jpg
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/aboutUs
+---
+2014/03/02 19:07:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/demo/blog-3.jpg".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/demo/blog-3...')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/demo/blog-3.jpg
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/aboutUs
+---
+2014/03/03 02:06:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/discussion
+---
+2014/03/03 02:06:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/discussion
+---
+2014/03/03 02:11:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "useẻ".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('use???')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/use%E1%BA%BB
+---
+2014/03/03 02:17:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 02:17:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 02:17:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 02:17:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 02:17:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 02:17:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 02:18:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 02:19:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 02:21:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 02:21:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 02:25:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 02:25:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 02:26:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 02:26:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 02:26:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 02:26:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 02:26:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 02:26:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 02:26:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 02:26:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 02:26:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 02:26:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 02:29:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 02:29:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 02:29:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "blog-post.html".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('blog-post.html')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/blog-post.html
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 02:29:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 02:29:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 02:29:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 02:29:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 02:29:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 02:29:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 02:29:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 02:29:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 02:30:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 02:30:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 02:41:32 [error] [exception.CException] exception 'CException' with message 'UserController cannot find the requested view "partial/sidebar_left".' in C:\xampp\htdocs\DuyKien_project\framework\web\CController.php:878
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\protected\views\user\user.php(47): CController->renderPartial('partial/sidebar...')
+#1 C:\xampp\htdocs\DuyKien_project\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#2 C:\xampp\htdocs\DuyKien_project\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#3 C:\xampp\htdocs\DuyKien_project\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#4 C:\xampp\htdocs\DuyKien_project\framework\web\CController.php(782): CController->renderPartial('user', NULL, true)
+#5 C:\xampp\htdocs\DuyKien_project\protected\controllers\UserController.php(10): CController->render('user')
+#6 C:\xampp\htdocs\DuyKien_project\protected\controllers\UserController.php(6): UserController->actionUser()
+#7 C:\xampp\htdocs\DuyKien_project\framework\web\actions\CInlineAction.php(49): UserController->actionIndex()
+#8 C:\xampp\htdocs\DuyKien_project\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\DuyKien_project\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#10 C:\xampp\htdocs\DuyKien_project\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(282): CController->run('')
+#12 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('user')
+#13 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/DuyKien_project/index.php/user
+---
+2014/03/03 02:41:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 02:41:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 02:42:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 02:42:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 02:45:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 02:45:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 02:45:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 02:45:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 02:45:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 02:45:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 02:45:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 02:45:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 02:45:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 02:45:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 02:45:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 02:45:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 02:46:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 02:46:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 02:46:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 02:46:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 02:47:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 02:47:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 03:11:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ava.jpg".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('ava.jpg')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/ava.jpg
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 03:11:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 03:11:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 03:11:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ava.jpg".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('ava.jpg')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/ava.jpg
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 03:13:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 03:13:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 03:13:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 03:13:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 03:14:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 03:14:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 03:14:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "blog-post.html".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('blog-post.html')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/blog-post.html
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 03:15:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 03:15:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 03:15:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 03:15:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 03:15:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 03:15:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 03:15:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 03:15:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 03:18:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 03:18:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 03:18:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 03:18:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 03:18:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 03:18:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 03:18:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 03:18:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 03:20:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 03:20:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 03:20:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "upload.html".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('upload.html')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/upload.html
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 03:21:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 03:21:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 03:21:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 03:21:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 03:21:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 03:21:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 03:25:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 03:25:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 03:26:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 03:26:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 03:28:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 03:28:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 03:29:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 03:29:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 03:29:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 03:29:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 03:33:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 03:33:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 03:41:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 03:41:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 03:43:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 03:43:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 03:43:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 03:43:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 03:44:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 03:44:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 03:44:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 03:44:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 03:46:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 03:46:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 03:48:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 03:48:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 03:49:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 03:49:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 03:54:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/03 03:54:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
