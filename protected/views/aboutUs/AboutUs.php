@@ -279,7 +279,7 @@
                                     </div>
                                 </div>
 
-                                <div class="l-submain color_primary">
+                                <div class="l-submain color_primary" style="border-radius: 5px;">
                                     <div class="l-submain-h g-html">
 
                                         <div class="w-actionbox controls_aside color_primary">
