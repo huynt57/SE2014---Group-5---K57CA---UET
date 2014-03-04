@@ -45,7 +45,7 @@
         <div class="l-submain-h g-html i-cf">
             <div class="g-cols">
                 <?php $this->renderPartial("partial/bar_left")?>
-                <div class="three-fourths">
+                <div class="two-thirds">
                     <div class="l-content">
                         <div class="l-content-h">
                             <div class="w-blog imgpos_atleft meta_tagscomments">

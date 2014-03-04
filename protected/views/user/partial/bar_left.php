@@ -1,10 +1,10 @@
-   <div class="one-fourth" style="
+   <div class="one-third" style="
                      border-right-style: solid;
                      border-right-width: thin;
                      border-color: #d0d6d9;
                      ">
-                    <h3 style="margin-left: 40px">Ảnh đại diện</h3>            
-                    <div class="circular"><img src="<?php echo Yii::app()->theme->baseUrl; ?>/assets/img/demo/blog-1.jpg" alt=""/></div>
+                    <h3>Ảnh đại diện</h3>            
+                    <div class="circular"><img src="" alt=""/></div>
                     
                     <h3>Thông tin cá nhân</h3>
                         <p>

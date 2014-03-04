@@ -15268,3 +15268,615 @@ Stack trace:
 REQUEST_URI=/SE2014-Project_Website/themes/classic/
 HTTP_REFERER=http://localhost:8080/SE2014-Project_Website/index.php/login
 ---
+2014/03/04 17:19:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/04 17:19:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/themes/classic/
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/04 17:19:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/04 17:19:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/themes/classic/
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/04 17:24:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/04 17:24:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/themes/classic/
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/04 17:24:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/04 17:24:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/themes/classic/
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/04 17:24:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/04 17:24:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/themes/classic/
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/04 17:24:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/04 17:24:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/themes/classic/
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/04 17:25:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/04 17:25:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/themes/classic/
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/04 17:25:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/04 17:25:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/themes/classic/
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/04 17:25:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/04 17:25:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/themes/classic/
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/04 17:25:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/04 17:25:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/themes/classic/
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/04 17:25:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/04 17:25:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/themes/classic/
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/04 17:25:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/04 17:25:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/themes/classic/
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/04 17:26:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/04 17:26:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/themes/classic/
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/04 17:26:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/04 17:26:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/themes/classic/
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/04 17:26:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/04 17:26:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/themes/classic/
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/04 17:26:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/04 17:26:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/themes/classic/
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/04 17:26:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/04 17:26:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/themes/classic/
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/04 17:26:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/04 17:26:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/themes/classic/
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/04 17:26:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/04 17:26:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/themes/classic/
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/04 17:26:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/04 17:26:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/themes/classic/
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/04 17:27:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/04 17:27:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/themes/classic/
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/04 17:27:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/04 17:27:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/themes/classic/
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/04 17:27:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/04 17:27:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/themes/classic/
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/04 17:27:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/04 17:27:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/themes/classic/
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/04 17:28:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/04 17:28:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/themes/classic/
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/04 17:28:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/04 17:28:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/themes/classic/
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/04 17:29:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/04 17:29:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/themes/classic/
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/04 17:29:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/04 17:29:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/themes/classic/
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/04 17:30:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/04 17:30:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/themes/classic/
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/04 17:30:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/04 17:30:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/themes/classic/
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/04 17:31:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/04 17:31:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/themes/classic/
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/04 17:31:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/04 17:31:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/themes/classic/
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/04 17:31:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/04 17:31:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/themes/classic/
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/04 17:31:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
+2014/03/04 17:31:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\DuyKien_project\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 C:\xampp\htdocs\DuyKien_project\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\DuyKien_project\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/DuyKien_project/themes/classic/
+HTTP_REFERER=http://localhost/DuyKien_project/index.php/user
+---
