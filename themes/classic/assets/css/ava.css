@@ -1,11 +1,17 @@
 .circular {
-	width: 200px;
-	height: 200px;
-	border-radius: 130px;
-	-webkit-border-radius: 130px;
-	-moz-border-radius: 130px;
+	width: 250px;
+	height: 250px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
 	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-        margin-left: 50px;
+        margin-left: 20px;
+        margin-bottom: 15px;
+	}
+
+.circular img {
+	opacity: 0;
+	filter: alpha(opacity=0);
 	}

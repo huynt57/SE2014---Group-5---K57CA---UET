@@ -4,21 +4,21 @@
                      border-color: #d0d6d9;
                      ">
                     <h3>Ảnh đại diện</h3>            
-                    <div class="circular"><img src="" alt=""/></div>
-                    
-                    <h3>Thông tin cá nhân</h3>
-                        <p>
-                            Họ tên : <a href="update.html">cập nhật họ tên</a>
-                            <br/>
-                            Ngày, tháng, năm sinh : <a href="update.html">cập nhật ngày</a>
-                            <br/>
-                            Học sinh khóa : <a href="update.html">cập nhật khóa</a>
-                            <br/>
-                            Khoa : <a href="update.html">cập nhật khoa</a>
-                         </p>
-
+                    <div class="circular" style="background:url(<?php echo Yii::app()->theme->baseUrl; ?>/assets/img/demo/blog-1.jpg)"><img src="<?php echo Yii::app()->theme->baseUrl; ?>/assets/img/demo/blog-1.jpg"/></div>
+                    <div>
+                        <h3>Thông tin cá nhân</h3>
+                            <p>
+                                Họ tên : <a href="update.html">cập nhật họ tên</a>
+                                <br/>
+                                Ngày, tháng, năm sinh : <a href="update.html">cập nhật ngày</a>
+                                <br/>
+                                Học sinh khóa : <a href="update.html">cập nhật khóa</a>
+                                <br/>
+                                Khoa : <a href="update.html">cập nhật khoa</a>
+                             </p>
+                     </div>
                         <div id="form" class="w-comments-form">
-                            <div class="w-comments-form-text">Sơ lược bản thân !!</div>
+                            <div class="w-comments-form-text" style="margin-left: 20px">Sơ lược bản thân !!</div>
                             <form class="g-form" action="#" method="post" />
                             <div class="g-form-group">
                                 <div class="g-form-group-rows">
