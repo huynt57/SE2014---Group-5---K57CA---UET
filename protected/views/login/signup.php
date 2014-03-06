@@ -1,9 +1,33 @@
-
+<script type="text/javascript">
+    $(document).ready(function() {
+        var form = $('#signupform');
+        
+        form.submit(function(event) {
+            $('#res').html('');
+            var data = form.serialize();
+            $.ajax({
+                type: "POST",
+                url: '<?php echo Yii::app()->createUrl('login/signup') ?>',
+                data: data,
+                success: function(data) {
+                    var json = data;
+                    var result = $.parseJSON(json);
+                    $('#res2').html(result.message);
+//                    var json = $.parseJSON(data);
+//                    $('#res').html('Message : ' + json.message + '<br>Success : ' + json.success)
+                }
+            });
+            event.preventDefault();
+            event.stopPropagation();
+            return false;
+        });
+    });
+</script>
 <div class="w-tabs-section-content" style="display: none;">
     <div class="w-tabs-section-content-h">
         <div class="wpb_text_column ">
             <div class="wpb_wrapper">
-                <form class="g-form" action="" method="POST" id="">
+                <form class="g-form" action="<?php echo Yii::app()->createUrl('login/signup') ?>" method="POST" id="signupform">
                     <input type="hidden" name="action" value="contact">
                     <div class="g-form-group">
                         <div class="g-form-group-rows">
@@ -39,7 +63,7 @@
                             </div>
                             <div class="g-form-row">
                                 <div class="g-form-row-label">
-                                    <label class="g-form-row-label-h" id="res" style="color: red;"></label>
+                                    <label class="g-form-row-label-h" id="res2" style="color: red;"></label>
                                 </div>
 
                             </div>

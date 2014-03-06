@@ -28644,3 +28644,331 @@ REQUEST_URI=/SE2014-Project_Website/themes/classic/
 HTTP_REFERER=http://localhost:8080/SE2014-Project_Website/index.php/login
 >>>>>>> de44a56cfff6781ca45a669beeceb15b291d181f
 ---
+2014/03/06 15:03:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 F:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/
+HTTP_REFERER=http://localhost:8080/SE2014-Project_Website/index.php/login
+---
+2014/03/06 15:04:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/demo/portfolio-10.jpg".' in F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('img/demo/portfo...')
+#1 F:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/img/demo/portfolio-10.jpg
+HTTP_REFERER=http://localhost:8080/SE2014-Project_Website/index.php/document
+---
+2014/03/06 15:04:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/demo/portfolio-7.jpg".' in F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('img/demo/portfo...')
+#1 F:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/img/demo/portfolio-7.jpg
+HTTP_REFERER=http://localhost:8080/SE2014-Project_Website/index.php/document
+---
+2014/03/06 15:04:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/demo/portfolio-6.jpg".' in F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('img/demo/portfo...')
+#1 F:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/img/demo/portfolio-6.jpg
+HTTP_REFERER=http://localhost:8080/SE2014-Project_Website/index.php/document
+---
+2014/03/06 15:04:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 F:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/
+HTTP_REFERER=http://localhost:8080/SE2014-Project_Website/index.php/document
+---
+2014/03/06 15:04:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/demo/portfolio-11.jpg".' in F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('img/demo/portfo...')
+#1 F:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/img/demo/portfolio-11.jpg
+HTTP_REFERER=http://localhost:8080/SE2014-Project_Website/index.php/document
+---
+2014/03/06 15:04:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/demo/portfolio-12.jpg".' in F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('img/demo/portfo...')
+#1 F:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/img/demo/portfolio-12.jpg
+HTTP_REFERER=http://localhost:8080/SE2014-Project_Website/index.php/document
+---
+2014/03/06 15:04:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/demo/portfolio-9.jpg".' in F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('img/demo/portfo...')
+#1 F:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/img/demo/portfolio-9.jpg
+HTTP_REFERER=http://localhost:8080/SE2014-Project_Website/index.php/document
+---
+2014/03/06 15:04:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/demo/portfolio-8.jpg".' in F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('img/demo/portfo...')
+#1 F:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/img/demo/portfolio-8.jpg
+HTTP_REFERER=http://localhost:8080/SE2014-Project_Website/index.php/document
+---
+2014/03/06 15:17:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 F:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/
+HTTP_REFERER=http://localhost:8080/SE2014-Project_Website/index.php/login
+---
+2014/03/06 15:17:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 F:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/
+HTTP_REFERER=http://localhost:8080/SE2014-Project_Website/index.php/login
+---
+2014/03/06 15:20:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request """.' in F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('"')
+#1 F:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/%22
+HTTP_REFERER=http://localhost:8080/SE2014-Project_Website/index.php/login
+---
+2014/03/06 15:20:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request """.' in F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('"')
+#1 F:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/%22
+HTTP_REFERER=http://localhost:8080/SE2014-Project_Website/index.php/login
+---
+2014/03/06 15:20:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request """.' in F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('"')
+#1 F:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/%22
+HTTP_REFERER=http://localhost:8080/SE2014-Project_Website/index.php/login
+---
+2014/03/06 15:20:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 F:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/
+HTTP_REFERER=http://localhost:8080/SE2014-Project_Website/index.php/login
+---
+2014/03/06 15:20:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 F:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/
+HTTP_REFERER=http://localhost:8080/SE2014-Project_Website/index.php/login
+---
+2014/03/06 15:21:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 F:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/
+HTTP_REFERER=http://localhost:8080/SE2014-Project_Website/index.php/document
+---
+2014/03/06 15:21:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/demo/portfolio-6.jpg".' in F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('img/demo/portfo...')
+#1 F:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/img/demo/portfolio-6.jpg
+HTTP_REFERER=http://localhost:8080/SE2014-Project_Website/index.php/document
+---
+2014/03/06 15:21:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/demo/portfolio-7.jpg".' in F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('img/demo/portfo...')
+#1 F:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/img/demo/portfolio-7.jpg
+HTTP_REFERER=http://localhost:8080/SE2014-Project_Website/index.php/document
+---
+2014/03/06 15:21:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/demo/portfolio-8.jpg".' in F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('img/demo/portfo...')
+#1 F:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/img/demo/portfolio-8.jpg
+HTTP_REFERER=http://localhost:8080/SE2014-Project_Website/index.php/document
+---
+2014/03/06 15:21:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/demo/portfolio-9.jpg".' in F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('img/demo/portfo...')
+#1 F:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/img/demo/portfolio-9.jpg
+HTTP_REFERER=http://localhost:8080/SE2014-Project_Website/index.php/document
+---
+2014/03/06 15:21:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/demo/portfolio-10.jpg".' in F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('img/demo/portfo...')
+#1 F:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/img/demo/portfolio-10.jpg
+HTTP_REFERER=http://localhost:8080/SE2014-Project_Website/index.php/document
+---
+2014/03/06 15:21:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/demo/portfolio-11.jpg".' in F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('img/demo/portfo...')
+#1 F:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/img/demo/portfolio-11.jpg
+HTTP_REFERER=http://localhost:8080/SE2014-Project_Website/index.php/document
+---
+2014/03/06 15:21:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/demo/portfolio-12.jpg".' in F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('img/demo/portfo...')
+#1 F:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/img/demo/portfolio-12.jpg
+HTTP_REFERER=http://localhost:8080/SE2014-Project_Website/index.php/document
+---
+2014/03/06 15:21:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/demo/portfolio-6.jpg".' in F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('img/demo/portfo...')
+#1 F:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/img/demo/portfolio-6.jpg
+HTTP_REFERER=http://localhost:8080/SE2014-Project_Website/index.php/document
+---
+2014/03/06 15:21:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/demo/portfolio-7.jpg".' in F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('img/demo/portfo...')
+#1 F:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/img/demo/portfolio-7.jpg
+HTTP_REFERER=http://localhost:8080/SE2014-Project_Website/index.php/document
+---
+2014/03/06 15:21:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/demo/portfolio-10.jpg".' in F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('img/demo/portfo...')
+#1 F:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/img/demo/portfolio-10.jpg
+HTTP_REFERER=http://localhost:8080/SE2014-Project_Website/index.php/document
+---
+2014/03/06 15:21:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/demo/portfolio-8.jpg".' in F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('img/demo/portfo...')
+#1 F:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/img/demo/portfolio-8.jpg
+HTTP_REFERER=http://localhost:8080/SE2014-Project_Website/index.php/document
+---
+2014/03/06 15:21:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/demo/portfolio-11.jpg".' in F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('img/demo/portfo...')
+#1 F:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/img/demo/portfolio-11.jpg
+HTTP_REFERER=http://localhost:8080/SE2014-Project_Website/index.php/document
+---
+2014/03/06 15:21:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/demo/portfolio-9.jpg".' in F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('img/demo/portfo...')
+#1 F:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/img/demo/portfolio-9.jpg
+HTTP_REFERER=http://localhost:8080/SE2014-Project_Website/index.php/document
+---
+2014/03/06 15:21:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/demo/portfolio-12.jpg".' in F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('img/demo/portfo...')
+#1 F:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/img/demo/portfolio-12.jpg
+HTTP_REFERER=http://localhost:8080/SE2014-Project_Website/index.php/document
+---
+2014/03/06 15:21:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 F:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/
+HTTP_REFERER=http://localhost:8080/SE2014-Project_Website/index.php/document
+---
+2014/03/06 15:21:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 F:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/
+HTTP_REFERER=http://localhost:8080/SE2014-Project_Website/index.php/login
+---
+2014/03/06 15:21:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 F:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/
+HTTP_REFERER=http://localhost:8080/SE2014-Project_Website/index.php/login
+---
+2014/03/06 15:22:10 [error] [php] Undefined index: email (F:\xampp\htdocs\SE2014-Project_Website\protected\controllers\LoginController.php:82)
+Stack trace:
+#0 F:\xampp\htdocs\SE2014-Project_Website\framework\web\CController.php(286): LoginController->runAction()
+#1 F:\xampp\htdocs\SE2014-Project_Website\framework\web\CController.php(265): LoginController->runActionWithFilters()
+#2 F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(282): LoginController->run()
+#3 F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 F:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 F:\xampp\htdocs\SE2014-Project_Website\index.php(13): CWebApplication->run()
+REQUEST_URI=/SE2014-Project_Website/index.php/login/signup
+in F:\xampp\htdocs\SE2014-Project_Website\protected\controllers\LoginController.php (82)
+in F:\xampp\htdocs\SE2014-Project_Website\index.php (13)
+2014/03/06 15:22:16 [error] [php] Undefined index: email (F:\xampp\htdocs\SE2014-Project_Website\protected\controllers\LoginController.php:82)
+Stack trace:
+#0 F:\xampp\htdocs\SE2014-Project_Website\framework\web\CController.php(286): LoginController->runAction()
+#1 F:\xampp\htdocs\SE2014-Project_Website\framework\web\CController.php(265): LoginController->runActionWithFilters()
+#2 F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(282): LoginController->run()
+#3 F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 F:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#5 F:\xampp\htdocs\SE2014-Project_Website\index.php(13): CWebApplication->run()
+REQUEST_URI=/SE2014-Project_Website/index.php/login/signup
+in F:\xampp\htdocs\SE2014-Project_Website\protected\controllers\LoginController.php (82)
+in F:\xampp\htdocs\SE2014-Project_Website\index.php (13)
