@@ -1,89 +1,87 @@
 <div class="l-submain">
-					<div class="l-submain-h g-html">
-
-						<div class="w-portfolio columns_4">
-							<div class="w-portfolio-h">
-								<div class="w-portfolio-list">
-									<div class="w-portfolio-list-h">
-									
-										<div class="w-portfolio-item order_1 naming webdesign">
-											<div class="w-portfolio-item-h">
-												<a class="w-portfolio-item-anchor" href="project-another-slider.html">
-													<div class="w-portfolio-item-image">
-														<img src="img/demo/portfolio-1.jpg" alt="" />
-														<div class="w-portfolio-item-meta">
-															<h2 class="w-portfolio-item-title">Single Project</h2>
-															<i class="icon-mail-forward"></i>
-														</div>
+        <div class="l-submain-h g-html i-cf">
+            <div class="g-cols">
+                <?php $this->renderPartial("partial/side_bar_left")?>
+                <div class="three-fourths">
+                	<?php $this->renderPartial("partial/upload-file-area")?>
+					<div class="w-portfolio columns_4">
+						<div class="w-portfolio-h">
+							<div class="w-portfolio-list">
+								<div class="w-portfolio-list-h">
+									<div class="w-portfolio-item order_1 naming webdesign">
+										<div class="w-portfolio-item-h">
+											<a class="w-portfolio-item-anchor" href="project-another-slider.html">
+												<div class="w-portfolio-item-image">
+													<img src="<?php echo Yii::app()->theme->baseUrl; ?>/assets/img/demo/portfolio-1.jpg" alt="" />
+													<div class="w-portfolio-item-meta">
+														<h2 class="w-portfolio-item-title">Single Project</h2>
+														<i class="icon-mail-forward"></i>
 													</div>
-												</a>
-											</div>
+												</div>
+											</a>
 										</div>
-
-										<div class="w-portfolio-item order_2 naming branding">
-											<div class="w-portfolio-item-h">
-												<a class="w-portfolio-item-anchor" href="project-slider.html">
-													<div class="w-portfolio-item-image">
-														<img src="img/demo/portfolio-2.jpg" alt="" />
-														<div class="w-portfolio-item-meta">
-															<h2 class="w-portfolio-item-title">Single Project - Full Slider</h2>
-															<i class="icon-mail-forward"></i>
-														</div>
+									</div>
+									<div class="w-portfolio-item order_2 naming branding">
+										<div class="w-portfolio-item-h">
+											<a class="w-portfolio-item-anchor" href="project-slider.html">
+												<div class="w-portfolio-item-image">
+													<img src="<?php echo Yii::app()->theme->baseUrl; ?>/assets/img/demo/portfolio-2.jpg" alt="" />
+													<div class="w-portfolio-item-meta">
+														<h2 class="w-portfolio-item-title">Single Project - Full Slider</h2>
+														<i class="icon-mail-forward"></i>
 													</div>
-												</a>
-											</div>
+												</div>
+											</a>
 										</div>
+									</div>
 
-										<div class="w-portfolio-item order_3 webdesign illustration">
-											<div class="w-portfolio-item-h">
-												<a class="w-portfolio-item-anchor" href="project-slider-23.html">
-													<div class="w-portfolio-item-image">
-														<img src="img/demo/portfolio-3.jpg" alt="" />
-														<div class="w-portfolio-item-meta">
-															<h2 class="w-portfolio-item-title">Single Project - 2/3 Slider</h2>
-															<i class="icon-mail-forward"></i>
-														</div>
+									<div class="w-portfolio-item order_3 webdesign illustration">
+										<div class="w-portfolio-item-h">
+											<a class="w-portfolio-item-anchor" href="project-slider-23.html">
+												<div class="w-portfolio-item-image">
+													<img src="<?php echo Yii::app()->theme->baseUrl; ?>/assets/img/demo/portfolio-3.jpg" alt="" />
+													<div class="w-portfolio-item-meta">
+														<h2 class="w-portfolio-item-title">Single Project - 2/3 Slider</h2>
+														<i class="icon-mail-forward"></i>
 													</div>
-												</a>
-											</div>
+												</div>
+											</a>
 										</div>
-
-										<div class="w-portfolio-item order_4 photography naming">
-											<div class="w-portfolio-item-h">
-												<a class="w-portfolio-item-anchor" href="project-video.html">
-													<div class="w-portfolio-item-image">
-														<img src="img/demo/portfolio-4.jpg" alt="" />
-														<div class="w-portfolio-item-meta">
-															<h2 class="w-portfolio-item-title">Single Project - Full Video</h2>
-															<i class="icon-mail-forward"></i>
-														</div>
+									</div>
+									<div class="w-portfolio-item order_4 photography naming">
+										<div class="w-portfolio-item-h">
+											<a class="w-portfolio-item-anchor" href="project-video.html">
+												<div class="w-portfolio-item-image">
+													<img src="<?php echo Yii::app()->theme->baseUrl; ?>/assets/img/demo/portfolio-4.jpg" alt="" />
+													<div class="w-portfolio-item-meta">
+														<h2 class="w-portfolio-item-title">Single Project - Full Video</h2>
+														<i class="icon-mail-forward"></i>
 													</div>
-												</a>
-											</div>
+												</div>
+											</a>
 										</div>
-
-										<div class="w-portfolio-item order_5 webdesign">
-											<div class="w-portfolio-item-h">
-												<a class="w-portfolio-item-anchor" href="project-video-23.html">
-													<div class="w-portfolio-item-image">
-														<img src="img/demo/portfolio-5.jpg" alt="" />
-														<div class="w-portfolio-item-meta">
-															<h2 class="w-portfolio-item-title">Single Project - 2/3 Video</h2>
-															<i class="icon-mail-forward"></i>
-														</div>
+									</div>
+									<div class="w-portfolio-item order_5 webdesign">
+										<div class="w-portfolio-item-h">
+											<a class="w-portfolio-item-anchor" href="project-video-23.html">
+												<div class="w-portfolio-item-image">
+													<img src="<?php echo Yii::app()->theme->baseUrl; ?>/assets/img/demo/portfolio-5.jpg" alt="" />
+													<div class="w-portfolio-item-meta">
+														<h2 class="w-portfolio-item-title">Single Project - 2/3 Video</h2>
+														<i class="icon-mail-forward"></i>
 													</div>
-												</a>
-											</div>
+												</div>
+											</a>
 										</div>
-
-										<div class="w-portfolio-item order_6 photography illustration">
-											<div class="w-portfolio-item-h">
-												<a class="w-portfolio-item-anchor" href="project-image.html">
-													<div class="w-portfolio-item-image">
-														<img src="img/demo/portfolio-6.jpg" alt="" />
-														<div class="w-portfolio-item-meta">
-															<h2 class="w-portfolio-item-title">Single Project - Full Image</h2>
-															<i class="icon-mail-forward"></i>
+									</div>
+									<div class="w-portfolio-item order_6 photography illustration">
+										<div class="w-portfolio-item-h">
+											<a class="w-portfolio-item-anchor" href="project-image.html">
+												<div class="w-portfolio-item-image">
+													<img src="img/demo/portfolio-6.jpg" alt="" />
+													<div class="w-portfolio-item-meta">
+														<h2 class="w-portfolio-item-title">Single Project - Full Image</h2>
+														<i class="icon-mail-forward"></i>
 														</div>
 													</div>
 												</a>

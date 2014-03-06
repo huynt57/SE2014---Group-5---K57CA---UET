@@ -9,7 +9,6 @@
 				</div>
 				<div class="w-tabs-section-content">
 					<form class="g-form" action="" method="post">
-	                    <input type="hidden" name="action" value="contact">
 	                    <div class="g-form-group">
 	                        <div class="g-form-group-rows">
 	                            <div class="g-form-row" style="margin: 5px 0 5px 0; padding: 0;">
