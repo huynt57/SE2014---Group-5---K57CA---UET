@@ -15268,3 +15268,615 @@ Stack trace:
 REQUEST_URI=/SE2014-Project_Website/themes/classic/
 HTTP_REFERER=http://localhost:8080/SE2014-Project_Website/index.php/login
 ---
+2014/03/05 17:35:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/themes/classic/
+HTTP_REFERER=http://localhost/SE_2014_Group5/index.php
+---
+2014/03/05 17:35:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/img/avatar.png
+HTTP_REFERER=http://localhost/SE_2014_Group5/index.php
+---
+2014/03/05 17:35:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/img/avatar.png
+HTTP_REFERER=http://localhost/SE_2014_Group5/index.php
+---
+2014/03/05 17:35:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/themes/classic/
+HTTP_REFERER=http://localhost/SE_2014_Group5/index.php
+---
+2014/03/05 17:35:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/themes/classic/
+HTTP_REFERER=http://localhost/SE_2014_Group5/index.php
+---
+2014/03/05 17:35:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/img/avatar.png
+HTTP_REFERER=http://localhost/SE_2014_Group5/index.php
+---
+2014/03/05 17:35:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/img/avatar.png
+HTTP_REFERER=http://localhost/SE_2014_Group5/index.php
+---
+2014/03/05 17:35:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/themes/classic/
+HTTP_REFERER=http://localhost/SE_2014_Group5/index.php
+---
+2014/03/05 17:36:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/themes/classic/
+HTTP_REFERER=http://localhost/SE_2014_Group5/index.php/login
+---
+2014/03/05 17:36:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/themes/classic/
+HTTP_REFERER=http://localhost/SE_2014_Group5/index.php/login
+---
+2014/03/05 17:36:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/themes/classic/
+HTTP_REFERER=http://localhost/SE_2014_Group5/index.php/contact
+---
+2014/03/05 17:36:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/themes/classic/
+HTTP_REFERER=http://localhost/SE_2014_Group5/index.php/contact
+---
+2014/03/05 21:36:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/img/avatar.png
+HTTP_REFERER=http://localhost/SE_2014_Group5/index.php
+---
+2014/03/05 21:36:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/themes/classic/
+HTTP_REFERER=http://localhost/SE_2014_Group5/index.php
+---
+2014/03/05 21:37:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/themes/classic/
+HTTP_REFERER=http://localhost/SE_2014_Group5/index.php/document
+---
+2014/03/05 21:37:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/demo/portfolio-1.jpg".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('img/demo/portfo...')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/index.php/img/demo/portfolio-1.jpg
+HTTP_REFERER=http://localhost/SE_2014_Group5/index.php/document
+---
+2014/03/05 21:37:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/demo/portfolio-2.jpg".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('img/demo/portfo...')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/index.php/img/demo/portfolio-2.jpg
+HTTP_REFERER=http://localhost/SE_2014_Group5/index.php/document
+---
+2014/03/05 21:37:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/demo/portfolio-3.jpg".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('img/demo/portfo...')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/index.php/img/demo/portfolio-3.jpg
+HTTP_REFERER=http://localhost/SE_2014_Group5/index.php/document
+---
+2014/03/05 21:37:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/demo/portfolio-4.jpg".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('img/demo/portfo...')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/index.php/img/demo/portfolio-4.jpg
+HTTP_REFERER=http://localhost/SE_2014_Group5/index.php/document
+---
+2014/03/05 21:37:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/demo/portfolio-5.jpg".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('img/demo/portfo...')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/index.php/img/demo/portfolio-5.jpg
+HTTP_REFERER=http://localhost/SE_2014_Group5/index.php/document
+---
+2014/03/05 21:37:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/demo/portfolio-6.jpg".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('img/demo/portfo...')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/index.php/img/demo/portfolio-6.jpg
+HTTP_REFERER=http://localhost/SE_2014_Group5/index.php/document
+---
+2014/03/05 21:37:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/demo/portfolio-8.jpg".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('img/demo/portfo...')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/index.php/img/demo/portfolio-8.jpg
+HTTP_REFERER=http://localhost/SE_2014_Group5/index.php/document
+---
+2014/03/05 21:37:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/demo/portfolio-7.jpg".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('img/demo/portfo...')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/index.php/img/demo/portfolio-7.jpg
+HTTP_REFERER=http://localhost/SE_2014_Group5/index.php/document
+---
+2014/03/05 21:37:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/demo/portfolio-9.jpg".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('img/demo/portfo...')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/index.php/img/demo/portfolio-9.jpg
+HTTP_REFERER=http://localhost/SE_2014_Group5/index.php/document
+---
+2014/03/05 21:37:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/demo/portfolio-10.jpg".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('img/demo/portfo...')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/index.php/img/demo/portfolio-10.jpg
+HTTP_REFERER=http://localhost/SE_2014_Group5/index.php/document
+---
+2014/03/05 21:37:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/demo/portfolio-11.jpg".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('img/demo/portfo...')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/index.php/img/demo/portfolio-11.jpg
+HTTP_REFERER=http://localhost/SE_2014_Group5/index.php/document
+---
+2014/03/05 21:37:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/demo/portfolio-2.jpg".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('img/demo/portfo...')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/index.php/img/demo/portfolio-2.jpg
+HTTP_REFERER=http://localhost/SE_2014_Group5/index.php/document
+---
+2014/03/05 21:37:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/demo/portfolio-4.jpg".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('img/demo/portfo...')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/index.php/img/demo/portfolio-4.jpg
+HTTP_REFERER=http://localhost/SE_2014_Group5/index.php/document
+---
+2014/03/05 21:37:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/demo/portfolio-12.jpg".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('img/demo/portfo...')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/index.php/img/demo/portfolio-12.jpg
+HTTP_REFERER=http://localhost/SE_2014_Group5/index.php/document
+---
+2014/03/05 21:37:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/themes/classic/
+HTTP_REFERER=http://localhost/SE_2014_Group5/index.php/document
+---
+2014/03/05 21:37:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/demo/portfolio-1.jpg".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('img/demo/portfo...')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/index.php/img/demo/portfolio-1.jpg
+HTTP_REFERER=http://localhost/SE_2014_Group5/index.php/document
+---
+2014/03/05 21:37:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/demo/portfolio-3.jpg".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('img/demo/portfo...')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/index.php/img/demo/portfolio-3.jpg
+HTTP_REFERER=http://localhost/SE_2014_Group5/index.php/document
+---
+2014/03/05 21:37:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/themes/classic/
+HTTP_REFERER=http://localhost/SE_2014_Group5/index.php/document
+---
+2014/03/05 21:38:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/themes/classic/
+HTTP_REFERER=http://localhost/SE_2014_Group5/index.php/contact
+---
+2014/03/05 21:38:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/themes/classic/
+HTTP_REFERER=http://localhost/SE_2014_Group5/index.php/contact
+---
+2014/03/05 21:38:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/themes/classic/
+HTTP_REFERER=http://localhost/SE_2014_Group5/index.php/login
+---
+2014/03/05 21:38:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/themes/classic/
+HTTP_REFERER=http://localhost/SE_2014_Group5/index.php/login
+---
+2014/03/05 21:38:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/themes/classic/
+HTTP_REFERER=http://localhost/SE_2014_Group5/index.php/contact
+---
+2014/03/05 21:38:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/themes/classic/
+HTTP_REFERER=http://localhost/SE_2014_Group5/index.php/contact
+---
+2014/03/05 21:38:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/themes/classic/
+HTTP_REFERER=http://localhost/SE_2014_Group5/index.php/aboutus
+---
+2014/03/05 21:38:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/demo/blog-3.jpg".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('img/demo/blog-3...')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/index.php/img/demo/blog-3.jpg
+HTTP_REFERER=http://localhost/SE_2014_Group5/index.php/aboutus
+---
+2014/03/05 21:38:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/demo/team-1.jpg".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('img/demo/team-1...')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/index.php/img/demo/team-1.jpg
+HTTP_REFERER=http://localhost/SE_2014_Group5/index.php/aboutus
+---
+2014/03/05 21:38:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/demo/member-1.jpg".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('img/demo/member...')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/index.php/img/demo/member-1.jpg
+HTTP_REFERER=http://localhost/SE_2014_Group5/index.php/aboutus
+---
+2014/03/05 21:38:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/demo/blog-3.jpg".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('img/demo/blog-3...')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/index.php/img/demo/blog-3.jpg
+HTTP_REFERER=http://localhost/SE_2014_Group5/index.php/aboutus
+---
+2014/03/05 21:38:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/demo/team-1.jpg".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('img/demo/team-1...')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/index.php/img/demo/team-1.jpg
+HTTP_REFERER=http://localhost/SE_2014_Group5/index.php/aboutus
+---
+2014/03/05 21:38:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/themes/classic/
+HTTP_REFERER=http://localhost/SE_2014_Group5/index.php/aboutus
+---
+2014/03/05 21:38:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/themes/classic/
+HTTP_REFERER=http://localhost/SE_2014_Group5/index.php/discussion
+---
+2014/03/05 21:38:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/SE_2014_Group5/index.php/discussion
+---
+2014/03/05 21:38:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/SE_2014_Group5/index.php/discussion
+---
+2014/03/05 21:38:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/themes/classic/
+HTTP_REFERER=http://localhost/SE_2014_Group5/index.php/discussion
+---
+2014/03/05 21:39:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/themes/classic/
+HTTP_REFERER=http://localhost/SE_2014_Group5/index.php/login
+---
+2014/03/05 21:39:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/themes/classic/
+HTTP_REFERER=http://localhost/SE_2014_Group5/index.php/login
+---
+2014/03/05 21:39:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/themes/classic/
+HTTP_REFERER=http://localhost/SE_2014_Group5/index.php/contact
+---
+2014/03/05 21:39:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/themes/classic/
+HTTP_REFERER=http://localhost/SE_2014_Group5/index.php/contact
+---
+2014/03/05 21:39:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/themes/classic/
+HTTP_REFERER=http://localhost/SE_2014_Group5/index.php/contact
+---
+2014/03/05 21:39:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/themes/classic/
+HTTP_REFERER=http://localhost/SE_2014_Group5/index.php/contact
+---
+2014/03/05 21:39:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/themes/classic/
+HTTP_REFERER=http://localhost/SE_2014_Group5/index.php/aboutus
+---
+2014/03/05 21:39:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/demo/blog-3.jpg".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('img/demo/blog-3...')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/index.php/img/demo/blog-3.jpg
+HTTP_REFERER=http://localhost/SE_2014_Group5/index.php/aboutus
+---
+2014/03/05 21:39:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/demo/team-1.jpg".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('img/demo/team-1...')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/index.php/img/demo/team-1.jpg
+HTTP_REFERER=http://localhost/SE_2014_Group5/index.php/aboutus
+---
+2014/03/05 21:39:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/demo/member-1.jpg".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('img/demo/member...')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/index.php/img/demo/member-1.jpg
+HTTP_REFERER=http://localhost/SE_2014_Group5/index.php/aboutus
+---
+2014/03/05 21:39:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/demo/blog-3.jpg".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('img/demo/blog-3...')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/index.php/img/demo/blog-3.jpg
+HTTP_REFERER=http://localhost/SE_2014_Group5/index.php/aboutus
+---
+2014/03/05 21:39:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/demo/member-1.jpg".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('img/demo/member...')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/index.php/img/demo/member-1.jpg
+HTTP_REFERER=http://localhost/SE_2014_Group5/index.php/aboutus
+---
+2014/03/05 21:39:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/demo/team-1.jpg".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('img/demo/team-1...')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/index.php/img/demo/team-1.jpg
+HTTP_REFERER=http://localhost/SE_2014_Group5/index.php/aboutus
+---
+2014/03/05 21:39:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/themes/classic/
+HTTP_REFERER=http://localhost/SE_2014_Group5/index.php/aboutus
+---
+2014/03/05 21:42:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/themes/classic/
+HTTP_REFERER=http://localhost/SE_2014_Group5/index.php/discussion
+---
+2014/03/05 21:42:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/SE_2014_Group5/index.php/discussion
+---
+2014/03/05 21:42:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/index.php/img/avatar.png
+HTTP_REFERER=http://localhost/SE_2014_Group5/index.php/discussion
+---
+2014/03/05 21:42:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/themes/classic/
+HTTP_REFERER=http://localhost/SE_2014_Group5/index.php/discussion
+---
