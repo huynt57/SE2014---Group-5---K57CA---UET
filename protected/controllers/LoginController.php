@@ -1,5 +1,7 @@
 <?php
+
 Yii::import('application.controllers.BaseController');
+
 class LoginController extends BaseController {
 
     public function actionIndex() {
@@ -12,8 +14,8 @@ class LoginController extends BaseController {
         if ($request->isPostRequest && isset($_POST)) {
             try {
                 $loginFormData = array(
-                    'user_name' => $_POST['username'],
-                    'user_password' => $_POST['Password'],
+                    'user_name' => @$_POST['username'],
+                    'user_password' => @$_POST['Password'],
                 );
 
                 $user = User::model()->findByAttributes(array('user_name' => $loginFormData['user_name']));
@@ -36,6 +38,52 @@ class LoginController extends BaseController {
         }
 
         $this->render('Login');
+    }
+
+    public function actionSignup() {
+        $this->retVal = new stdClass();
+        $request = Yii::app()->request;
+        if ($request->isPostRequest && isset($_POST)) {
+            try {
+                $loginFormData = array(
+                    'user_name' => $_POST['contact_name'],
+                    'user_password' => $_POST['Password'],
+                    'user_email' => $_POST['contact_email'],
+                );
+
+                $user = User::model()->findByAttributes(array('user_name' => $loginFormData['user_name']));
+                if ($user) {
+                    //user existed, check password
+                    $this->retVal->message = "Ten nguoi dung da duoc dang ky";
+                } else {
+                    $user = User::model()->findByAttributes(array('user_email' => $loginFormData['user_email']));
+                    if ($user) {
+                        $this->retVal->message = "Email da duoc dang ky";
+                    } else {
+                        $model = new User;
+                        if ($model) {
+                            $model->user_name = $loginFormData['user_name'];
+                            $model->user_password - $loginFormData['user_password'];
+                            $model->email = $loginFormData['email'];
+                            $model->save(FALSE);
+                            if ($model->save(FALSE)) {
+                                $this->retVal->message = "Dăng ky thanh cong";
+                            } else {
+                                $this->retVal->message = "Khong the luu user";
+                            }
+                        } else {
+                            $this->retVal->message = "Khong the luu user";
+                        }
+                    }
+                }
+            } catch (exception $e) {
+                $this->retVal->message = $e->getMessage();
+            }
+            echo CJSON::encode($this->retVal);
+            Yii::app()->end();
+        }
+
+        $this->render('login/signup');
     }
 
     // Uncomment the following methods and override them if needed
