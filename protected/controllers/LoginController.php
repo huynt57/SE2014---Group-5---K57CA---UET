@@ -78,7 +78,7 @@ class LoginController extends BaseController {
                                                 $model = new User;
                                                 if ($model) {
                                                     $model->user_name = $loginFormData['user_name'];
-                                                    $model->user_password - $loginFormData['user_password'];
+                                                    $model->user_password = $loginFormData['user_password'];
                                                     $model->user_email = $loginFormData['user_email'];
                                                     $model->save(FALSE);
                                                     if ($model->save(FALSE)) {
