@@ -33,7 +33,7 @@
 							</div> -->
 							<div class="g-form-group-rows">
 								<div id="dropzone" style="margin: 2% 5% 2% 5%; min-height: 180px; border:2px dashed #4894C7; border-radius: 5px;">
-									<form action="http://www.torrentplease.com/dropzone.php" class="dropzone dz-clickable dz-started dz-max-files-reached" 
+									<form accept=".pdf" action="http://www.torrentplease.com/dropzone.php" class="dropzone dz-clickable dz-started dz-max-files-reached" 
 									id="my-awesome-dropzone">
 										<span style="display: none">Drop file in here(or click)</span>
 									</form>

@@ -430,7 +430,7 @@ require.register("dropzone/lib/dropzone.js", function(exports, require, module){
       params: {},
       clickable: true,
       ignoreHiddenFiles: true,
-      acceptedFiles: null,
+      acceptedFiles: true,
       acceptedMimeTypes: null,
       autoProcessQueue: true,
       addRemoveLinks: true,
@@ -445,7 +445,7 @@ require.register("dropzone/lib/dropzone.js", function(exports, require, module){
       dictCancelUploadConfirmation: "Are you sure you want to cancel this upload?",
       dictRemoveFile: "Remove file",
       dictRemoveFileConfirmation: null,
-      dictMaxFilesExceeded: "You can not upload any more files.",
+      dictMaxFilesExceeded: "Bạn không thể tải thêm tài liệu",
       accept: function(file, done) {
         return done();
       },
