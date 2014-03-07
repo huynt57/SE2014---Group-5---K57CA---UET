@@ -11,7 +11,6 @@
  *
  * The followings are the available model relations:
  * @property Faculty[] $faculties
- * @property Faculty $subject
  */
 class Subject extends CActiveRecord
 {
@@ -48,7 +47,6 @@ class Subject extends CActiveRecord
 		// class name for the relations automatically generated below.
 		return array(
 			'faculties' => array(self::HAS_MANY, 'Faculty', 'subject_id'),
-			'subject' => array(self::BELONGS_TO, 'Faculty', 'subject_id'),
 		);
 	}
 

@@ -19,7 +19,6 @@
  * The followings are the available model relations:
  * @property Comment $post
  * @property User $postAuthor
- * @property User $user
  */
 class Post extends CActiveRecord
 {
@@ -58,7 +57,6 @@ class Post extends CActiveRecord
 		return array(
 			'post' => array(self::BELONGS_TO, 'Comment', 'post_id'),
 			'postAuthor' => array(self::BELONGS_TO, 'User', 'post_author'),
-			'user' => array(self::HAS_ONE, 'User', 'user_id'),
 		);
 	}
 
