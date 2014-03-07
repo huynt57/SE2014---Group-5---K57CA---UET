@@ -1,18 +1,5 @@
 <!--Drag and Drop file to upload-->
 
-<script id="imageTemplate" type="text/x-jquery-tmpl"> 
-    <div class="imageholder">
-		<figure>
-			<img src="${filePath}" alt="${fileName}"/>
-			<figcaption>
-				${fileName} <br/>
-				<span>Original Size: ${fileOriSize} KB</span><br/>
-				<span>Upload Size: ${fileUploadSize} KB</span>
-			</figcaption>
-		</figure>
-	</div>
-</script>
-
 <div class="w-tabs layout_accordion type_toggle" style="margin-bottom: 5%">
 		<div class="w-tabs-h">
 			<div class="w-tabs-section with_icon">
