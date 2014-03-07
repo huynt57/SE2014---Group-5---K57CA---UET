@@ -22,16 +22,16 @@
 					<span class="w-tabs-section-title-control"><i class="icon-angle-down"></i></span>
 				</div>
 				<div class="w-tabs-section-content">
-					<form class="g-form" action="" method="post">
+					<!-- <form class="g-form" action="" method="post"> -->
 	                    <div class="g-form-group">
 	                    	<div class="g-form-group-rows">
 								<div class="g-form-row-field">
                                     <div class="g-input">
-                                        <input type="text" name="document_name" id="document_name" value="" style="max-width: 50%; margin-left: 5%; margin-top: 2%; border-radius: 10px;" placeholder="Tên Tài Liệu *">
+                                        <input type="text" name="document_name" id="document_name" value="" style="max-width: 50%; margin-left: 5%; margin-top: 2%; border-radius: 5px;" placeholder="Tên Tài Liệu *">
                                     </div>
                                 </div>
 							</div>
-	                        <div class="g-form-group-rows">
+	                        <!-- <div class="g-form-group-rows">
 								<div id="droparea" style="margin: 2% 5% 2% 5%; max-height: 180px">
 									<div class="dropareainner">
 										<div style="margin: 4% auto">
@@ -43,9 +43,17 @@
 									</div>
 									<input id="upload" type="file" multiple />
 								</div>
+							</div> -->
+							<div class="g-form-group-rows">
+								<div id="dropzone" style="margin: 2% 5% 2% 5%; min-height: 180px; border:2px dashed #4894C7; border-radius: 5px;">
+									<form action="http://www.torrentplease.com/dropzone.php" class="dropzone dz-clickable dz-started" 
+									id="my-awesome-dropzone">
+										<span style="display: none">Drop file in here(or click)</span>
+									</form>
+								</div>
 							</div>
 						</div>
-					</form>
+					<!-- </form> -->
 				</div>
 			</div>
 		</div>
