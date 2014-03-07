@@ -2,6 +2,18 @@ SE2014---Group-5---K57CA---UET
 ==============================
 BlueBee Project group 5 Nguyễn Thế Huy (leader), Nguyễn Văn Khánh, Lê Văn Khoa, Nguyễn Duy Kiên, Vũ Ngọc Sơn
 
+Description:
+Project BlueBee is a website specialize design for UET's students. It provides rich features: 
+- Student can discuss about learning
+- Share the documents. 
+- Students can get the useful advises from website about courses, teachers and give feedback to their teachers and courses
+
+***
+
+Technology:
+- HTML - CSS - Javascript
+- PHP - Yii Framework
+
 
 [![Yii Framework](http://static.yiiframework.com/css/img/logo.png)](http://www.yiiframework.com/)
 
