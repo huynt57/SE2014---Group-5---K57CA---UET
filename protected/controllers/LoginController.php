@@ -23,8 +23,9 @@ class LoginController extends BaseController {
                         $user = User::model()->findByAttributes(array('user_name' => $loginFormData['user_name']));
                         if ($user) {
                             //user existed, check password
-                            if (strcmp($user->user_password, md5($loginFormData['user_password']) == 0)) {
+                            if (strcmp($user->user_password, $loginFormData['user_password'] == 0)) {
                                 $this->retVal->message = "Đăng nhập thành công";
+                           //     Yii::app()->request->redirect('discussion');
                             } else {
                                 //user not existed
                                 $this->retVal->message = "Sai tên người dùng hoặc mật khẩu";
@@ -80,9 +81,10 @@ class LoginController extends BaseController {
                                                     $model->user_name = $loginFormData['user_name'];
                                                     $model->user_password = $loginFormData['user_password'];
                                                     $model->user_email = $loginFormData['user_email'];
+                                                    $model->user_status = 1;
                                                     $model->save(FALSE);
                                                     if ($model->save(FALSE)) {
-                                                        $this->retVal->message = "Đăng ký thành công";
+                                                        $this->retVal->message = "Đăng ký thành công, hãy đăng nhập bằng tài khoản của bạn";
                                                     } else {
                                                         $this->retVal->message = "Không thể lưu user";
                                                     }
