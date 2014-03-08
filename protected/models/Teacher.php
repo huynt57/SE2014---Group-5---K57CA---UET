@@ -14,6 +14,8 @@
  * @property string $teacher_comment
  *
  * The followings are the available model relations:
+ * @property Faculty[] $faculties
+ * @property Subject[] $subjects
  * @property Faculty $teacherFaculty
  */
 class Teacher extends CActiveRecord
@@ -51,6 +53,8 @@ class Teacher extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
+			'faculties' => array(self::HAS_MANY, 'Faculty', 'teacher_id'),
+			'subjects' => array(self::HAS_MANY, 'Subject', 'teacher_id'),
 			'teacherFaculty' => array(self::BELONGS_TO, 'Faculty', 'teacher_faculty'),
 		);
 	}

@@ -10,10 +10,14 @@
  * @property integer $doc_status
  * @property integer $doc_user_id
  * @property string $doc_scribd_id
+ * @property integer $doc_subject_id
+ * @property integer $doc_faculty_id
  *
  * The followings are the available model relations:
- * @property Comment $doc
+ * @property Faculty $docFaculty
  * @property User $docUser
+ * @property Comment $doc
+ * @property Subject $docSubject
  */
 class Doc extends CActiveRecord
 {
@@ -34,11 +38,11 @@ class Doc extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('doc_id', 'required'),
-			array('doc_id, doc_status, doc_user_id', 'numerical', 'integerOnly'=>true),
+			array('doc_id, doc_status, doc_user_id, doc_subject_id, doc_faculty_id', 'numerical', 'integerOnly'=>true),
 			array('doc_url, doc_name, doc_scribd_id', 'length', 'max'=>100),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('doc_id, doc_url, doc_name, doc_status, doc_user_id, doc_scribd_id', 'safe', 'on'=>'search'),
+			array('doc_id, doc_url, doc_name, doc_status, doc_user_id, doc_scribd_id, doc_subject_id, doc_faculty_id', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -50,8 +54,10 @@ class Doc extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'doc' => array(self::BELONGS_TO, 'Comment', 'doc_id'),
+			'docFaculty' => array(self::BELONGS_TO, 'Faculty', 'doc_faculty_id'),
 			'docUser' => array(self::BELONGS_TO, 'User', 'doc_user_id'),
+			'doc' => array(self::BELONGS_TO, 'Comment', 'doc_id'),
+			'docSubject' => array(self::BELONGS_TO, 'Subject', 'doc_subject_id'),
 		);
 	}
 
@@ -67,6 +73,8 @@ class Doc extends CActiveRecord
 			'doc_status' => 'Doc Status',
 			'doc_user_id' => 'Doc User',
 			'doc_scribd_id' => 'Doc Scribd',
+			'doc_subject_id' => 'Doc Subject',
+			'doc_faculty_id' => 'Doc Faculty',
 		);
 	}
 
@@ -94,6 +102,8 @@ class Doc extends CActiveRecord
 		$criteria->compare('doc_status',$this->doc_status);
 		$criteria->compare('doc_user_id',$this->doc_user_id);
 		$criteria->compare('doc_scribd_id',$this->doc_scribd_id,true);
+		$criteria->compare('doc_subject_id',$this->doc_subject_id);
+		$criteria->compare('doc_faculty_id',$this->doc_faculty_id);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

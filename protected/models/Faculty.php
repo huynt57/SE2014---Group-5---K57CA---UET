@@ -7,9 +7,13 @@
  * @property integer $faculty_id
  * @property string $faculty_name
  * @property integer $subject_id
+ * @property integer $teacher_id
  *
  * The followings are the available model relations:
+ * @property Doc[] $docs
+ * @property Teacher $teacher
  * @property Subject $subject
+ * @property Subject[] $subjects
  * @property Teacher[] $teachers
  */
 class Faculty extends CActiveRecord
@@ -30,11 +34,11 @@ class Faculty extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('subject_id', 'numerical', 'integerOnly'=>true),
+			array('subject_id, teacher_id', 'numerical', 'integerOnly'=>true),
 			array('faculty_name', 'length', 'max'=>100),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('faculty_id, faculty_name, subject_id', 'safe', 'on'=>'search'),
+			array('faculty_id, faculty_name, subject_id, teacher_id', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -46,7 +50,10 @@ class Faculty extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
+			'docs' => array(self::HAS_MANY, 'Doc', 'doc_faculty_id'),
+			'teacher' => array(self::BELONGS_TO, 'Teacher', 'teacher_id'),
 			'subject' => array(self::BELONGS_TO, 'Subject', 'subject_id'),
+			'subjects' => array(self::HAS_MANY, 'Subject', 'faculty_id'),
 			'teachers' => array(self::HAS_MANY, 'Teacher', 'teacher_faculty'),
 		);
 	}
@@ -60,6 +67,7 @@ class Faculty extends CActiveRecord
 			'faculty_id' => 'Faculty',
 			'faculty_name' => 'Faculty Name',
 			'subject_id' => 'Subject',
+			'teacher_id' => 'Teacher',
 		);
 	}
 
@@ -84,6 +92,7 @@ class Faculty extends CActiveRecord
 		$criteria->compare('faculty_id',$this->faculty_id);
 		$criteria->compare('faculty_name',$this->faculty_name,true);
 		$criteria->compare('subject_id',$this->subject_id);
+		$criteria->compare('teacher_id',$this->teacher_id);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
