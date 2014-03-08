@@ -280,25 +280,7 @@
                                                     </a>
                                                 </div>
                                             </div>
-                                            <div class="w-nav-item level_1">
-                                                <div class="w-nav-item-h">
-                                                    <a href="<?php echo Yii::app()->createUrl("contact") ?>" class="w-nav-anchor level_1">
-                                                        <span class="w-nav-icon"><i class="icon-star"></i></span>
-                                                        <span class="w-nav-title">Liên hệ</span>
-                                                        <span class="w-nav-hint"></span>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                             <div class="w-nav-item level_1">
-                                                <div class="w-nav-item-h">
-                                                    <a href="<?php echo Yii::app()->createUrl("aboutus") ?>" class="w-nav-anchor level_1">
-                                                        <span class="w-nav-icon"><i class="icon-star"></i></span>
-                                                        <span class="w-nav-title">Về chúng tôi</span>
-                                                        <span class="w-nav-hint"></span>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
+                                         
                                     </div>
                                 </div>
                             </nav>
@@ -448,10 +430,39 @@
             <div class="l-subfooter at_bottom">
                 <div class="l-subfooter-h i-cf">
                     <div class="w-copyright">© 2014 All rights reserved. <a href='http://us-themes.com/'>BlueBee Team - K57CA - UET</a></div>
+                     <!-- NAV -->
+				<nav class="w-nav">
+					<div class="w-nav-h">
+						<div class="w-nav-list layout_hor width_auto float_right level_1">
+							<div class="w-nav-list-h">
+								<div class="w-nav-item level_1">
+									<div class="w-nav-item-h">
+										<a href="" class="w-nav-anchor level_1">Điều khoản và dịch vụ</a>
+									</div>
+								</div>
+								<div class="w-nav-item level_1">
+									<div class="w-nav-item-h">
+										<a href="<?php echo Yii::app()->createUrl("contact") ?>" class="w-nav-anchor level_1">Liên hệ</a>
+									</div>
+								</div>
+								
+								<div class="w-nav-item level_1">
+									<div class="w-nav-item-h">
+										<a href="<?php echo Yii::app()->createUrl("aboutus") ?>" class="w-nav-anchor level_1">Về chúng tôi</a>
+									</div>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+				</nav>
                 </div>
+               
+            
             </div>
         </div>
     </div>
+   
     <!-- /FOOTER -->
 
     <a class="w-toplink" href="#"><i class="icon-angle-up"></i></a>
