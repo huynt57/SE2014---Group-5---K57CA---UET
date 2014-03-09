@@ -206,7 +206,7 @@
                             <div class="w-logo">
                                 <div class="w-logo-h">
                                     <a class="w-logo-link" href="index.html">
-                                        <img class="w-logo-img" src="<?php echo Yii::app()->theme->baseUrl; ?>" alt="Astra" />
+                                        <img class="w-logo-img" src="<?php echo Yii::app()->theme->baseUrl; ?>/assets/img/logo.jpg" alt="Astra" />
                                         <span class="w-logo-title">
                                             <span class="w-logo-title-h">BlueBee</span>
                                         </span>
