@@ -4,7 +4,9 @@
                      border-color: #d0d6d9;
                      ">
                     <h3>Ảnh đại diện</h3>            
-                    <div class="circular" style="background:url(<?php echo Yii::app()->theme->baseUrl; ?>/assets/img/demo/blog-1.jpg)"><img src="<?php echo Yii::app()->theme->baseUrl; ?>/assets/img/demo/blog-1.jpg"/></div>
+                    <div>
+                        <a href="http://localhost/DuyKien_project/index/upload.php"><img class="circular" src="<?php echo Yii::app()->theme->baseUrl; ?>/assets/img/demo/blog-1.jpg"/><a/>
+                    </div>
                     <div>
                         <h3>Thông tin cá nhân</h3>
                             <p>
