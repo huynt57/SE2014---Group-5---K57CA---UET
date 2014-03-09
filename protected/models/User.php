@@ -14,6 +14,7 @@
  * @property string $user_about
  * @property integer $user_type
  * @property string $user_avatar
+ * @property integer $user_favourite_doc_id
  *
  * The followings are the available model relations:
  * @property Comment[] $comments
@@ -38,12 +39,12 @@ class User extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('user_status, user_faculty, user_type', 'numerical', 'integerOnly'=>true),
+			array('user_status, user_faculty, user_type, user_favourite_doc_id', 'numerical', 'integerOnly'=>true),
 			array('user_name, user_password, user_email, user_class, user_avatar', 'length', 'max'=>100),
 			array('user_about', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('user_id, user_name, user_password, user_status, user_email, user_class, user_faculty, user_about, user_type, user_avatar', 'safe', 'on'=>'search'),
+			array('user_id, user_name, user_password, user_status, user_email, user_class, user_faculty, user_about, user_type, user_avatar, user_favourite_doc_id', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -77,6 +78,7 @@ class User extends CActiveRecord
 			'user_about' => 'User About',
 			'user_type' => 'User Type',
 			'user_avatar' => 'User Avatar',
+			'user_favourite_doc_id' => 'User Favourite Doc',
 		);
 	}
 
@@ -108,6 +110,7 @@ class User extends CActiveRecord
 		$criteria->compare('user_about',$this->user_about,true);
 		$criteria->compare('user_type',$this->user_type);
 		$criteria->compare('user_avatar',$this->user_avatar,true);
+		$criteria->compare('user_favourite_doc_id',$this->user_favourite_doc_id);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
