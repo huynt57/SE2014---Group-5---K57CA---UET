@@ -430,7 +430,7 @@ require.register("dropzone/lib/dropzone.js", function(exports, require, module){
       params: {},
       clickable: true,
       ignoreHiddenFiles: true,
-      acceptedFiles: true,
+      acceptedFiles: null,
       acceptedMimeTypes: null,
       autoProcessQueue: true,
       addRemoveLinks: true,

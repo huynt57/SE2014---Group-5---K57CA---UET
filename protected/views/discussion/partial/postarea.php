@@ -7,7 +7,7 @@
 					<span class="w-tabs-section-title-text">Hãy cho ý kiến của bạn ...</span>
 					<span class="w-tabs-section-title-control"><i class="icon-angle-down"></i></span>
 				</div>
-				<div class="w-tabs-section-content">
+				<div class="w-tabs-section-content" style="margin: 2% 5% 2% 5%">
 					<form class="g-form" action="" method="post">
 	                    <div class="g-form-group">
 	                        <div class="g-form-group-rows">
