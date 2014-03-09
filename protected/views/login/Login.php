@@ -7,7 +7,7 @@
             var data = form.serialize();
             $.ajax({
                 type: "POST",
-                url: 'http://localhost:8080/SE2014-Project_Website/index.php/login',
+                url: '<?php echo Yii::app()->createUrl('login/Login') ?>',
                 data: data,
                 success: function(data) {
                     var json = data;
