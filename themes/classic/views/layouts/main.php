@@ -104,7 +104,7 @@
                                         <div class="w-contacts-item for_phone">
                                             <i class="icon-phone"></i>
                                             <span class="w-contacts-item-name">Phone:</span>
-                                            <span class="w-contacts-item-value">+321 123 4567</span>
+                                            <span class="w-contacts-item-value">+84123456789</span>
                                         </div>
                                         <div class="w-contacts-item for_email">
                                             <i class="icon-envelope"></i>
@@ -263,7 +263,7 @@
 
                                             <div class="w-nav-item level_1">
                                                 <div class="w-nav-item-h">
-                                                    <a href="#" class="w-nav-anchor level_1">
+                                                    <a href="<?php echo Yii::app()->createUrl("share") ?>" class="w-nav-anchor level_1">
                                                         <span class="w-nav-icon"><i class="icon-star"></i></span>
                                                         <span class="w-nav-title">Kinh nghiệm học tập</span>
                                                         <span class="w-nav-hint"></span>
