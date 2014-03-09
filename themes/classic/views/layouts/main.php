@@ -206,7 +206,17 @@
                             <div class="w-logo">
                                 <div class="w-logo-h">
                                     <a class="w-logo-link" href="index.html">
-                                        <img class="w-logo-img" src="<?php echo Yii::app()->theme->baseUrl; ?>/assets/img/logo.jpg" alt="Astra" />
+                                        <img class="w-logo-img" src="<?php echo Yii::app()->theme->baseUrl; ?>/assets/img/logo.jpg" alt="BlueBee" />
+                                        <span class="w-logo-title">
+                                            <span class="w-logo-title-h">BlueBee</span>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                             <div class="w-logo">
+                                <div class="w-logo-h">
+                                    <a class="w-logo-link" href="index.html">
+                                        <img class="w-logo-img" src="<?php echo Yii::app()->theme->baseUrl; ?>/assets/img/logo2.jpg" alt="BlueBee" />
                                         <span class="w-logo-title">
                                             <span class="w-logo-title-h">BlueBee</span>
                                         </span>
