@@ -51,36 +51,36 @@
         <script type="text/javascript" src="<?php echo Yii::app()->theme->baseUrl; ?>/assets/js/w-switcher.js"></script>
 
         <!-- GMap-->
-    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
-    <script type="text/javascript" src="<?php echo Yii::app()->theme->baseUrl; ?>/assets/js/jquery.gmap.min.js"></script>
-    <script type="text/javascript">
-        jQuery(document).ready(function(){
-            jQuery('.w-map-h').gMap({
-                controls: {
-                    panControl: false,
-                    zoomControl: true,
-                    mapTypeControl: true,
-                    scaleControl: false,
-                    streetViewControl: false,
-                    overviewMapControl: false
-                },
-                address: "Đại học Quốc Gia Hà Nội - Xuân Thủy, 144 Xuân Thủy, Dịch Vọng Hậu, Cầu Giấy, Hà Nội, Vietnam",
-                zoom: 15,
-                markers:[
-                    {
-                        address: "Đại học Quốc Gia Hà Nội - Xuân Thủy, 144 Xuân Thủy, Dịch Vọng Hậu, Cầu Giấy, Hà Nội, Vietnam",
-                        html: "Trụ sở của chúng tôi",
-                        popup: true
-                    }
-                ]
+        <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+        <script type="text/javascript" src="<?php echo Yii::app()->theme->baseUrl; ?>/assets/js/jquery.gmap.min.js"></script>
+        <script type="text/javascript">
+            jQuery(document).ready(function() {
+                jQuery('.w-map-h').gMap({
+                    controls: {
+                        panControl: false,
+                        zoomControl: true,
+                        mapTypeControl: true,
+                        scaleControl: false,
+                        streetViewControl: false,
+                        overviewMapControl: false
+                    },
+                    address: "Đại học Quốc Gia Hà Nội - Xuân Thủy, 144 Xuân Thủy, Dịch Vọng Hậu, Cầu Giấy, Hà Nội, Vietnam",
+                    zoom: 15,
+                    markers: [
+                        {
+                            address: "Đại học Quốc Gia Hà Nội - Xuân Thủy, 144 Xuân Thủy, Dịch Vọng Hậu, Cầu Giấy, Hà Nội, Vietnam",
+                            html: "Trụ sở của chúng tôi",
+                            popup: true
+                        }
+                    ]
+                });
             });
-        });
-    </script>
-    <script type="text/javascript">var switchTo5x=true;</script>
-    <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
-    <script type="text/javascript">stLight.options
-    ({publisher: "ur-b6bcdd5b-dde-cce8-a00c-478890414ff", doNotHash: true, doNotCopy: false, hashAddressBar: true});
-    </script>
+        </script>
+        <script type="text/javascript">var switchTo5x = true;</script>
+        <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+        <script type="text/javascript">stLight.options
+                    ({publisher: "ur-b6bcdd5b-dde-cce8-a00c-478890414ff", doNotHash: true, doNotCopy: false, hashAddressBar: true});
+        </script>
 
     </head>
 
@@ -280,9 +280,9 @@
                                                     </a>
                                                 </div>
                                             </div>
-                                         
+
+                                        </div>
                                     </div>
-                                </div>
                             </nav>
 
                         </div>
@@ -430,39 +430,44 @@
             <div class="l-subfooter at_bottom">
                 <div class="l-subfooter-h i-cf">
                     <div class="w-copyright">© 2014 All rights reserved. <a href='http://us-themes.com/'>BlueBee Team - K57CA - UET</a></div>
-                     <!-- NAV -->
-				<nav class="w-nav">
-					<div class="w-nav-h">
-						<div class="w-nav-list layout_hor width_auto float_right level_1">
-							<div class="w-nav-list-h">
-								<div class="w-nav-item level_1">
-									<div class="w-nav-item-h">
-										<a href="" class="w-nav-anchor level_1">Điều khoản và dịch vụ</a>
-									</div>
-								</div>
-								<div class="w-nav-item level_1">
-									<div class="w-nav-item-h">
-										<a href="<?php echo Yii::app()->createUrl("contact") ?>" class="w-nav-anchor level_1">Liên hệ</a>
-									</div>
-								</div>
-								
-								<div class="w-nav-item level_1">
-									<div class="w-nav-item-h">
-										<a href="<?php echo Yii::app()->createUrl("aboutus") ?>" class="w-nav-anchor level_1">Về chúng tôi</a>
-									</div>
-								</div>
-								
-							</div>
-						</div>
-					</div>
-				</nav>
+                    <!-- NAV -->
+                    <nav class="w-nav">
+                        <div class="w-nav-h">
+                            <div class="w-nav-list layout_hor width_auto float_right level_1">
+                                <div class="w-nav-list-h">
+                                    <div class="w-nav-item level_1">
+                                        <div class="w-nav-item-h">
+                                            <a href="" class="w-nav-anchor level_1">Điều khoản và dịch vụ</a>
+                                        </div>
+                                    </div>
+                                    <div class="w-nav-item level_1">
+                                        <div class="w-nav-item-h">
+                                            <a href="" class="w-nav-anchor level_1">FAQ</a>
+                                        </div>
+                                    </div>
+                                    <div class="w-nav-item level_1">
+                                        <div class="w-nav-item-h">
+                                            <a href="<?php echo Yii::app()->createUrl("contact") ?>" class="w-nav-anchor level_1">Liên hệ</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="w-nav-item level_1">
+                                        <div class="w-nav-item-h">
+                                            <a href="<?php echo Yii::app()->createUrl("aboutus") ?>" class="w-nav-anchor level_1">Về chúng tôi</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
                 </div>
-               
-            
+
+
             </div>
         </div>
     </div>
-   
+
     <!-- /FOOTER -->
 
     <a class="w-toplink" href="#"><i class="icon-angle-up"></i></a>
