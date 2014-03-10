@@ -7,11 +7,12 @@ class DocumentController extends Controller {
     }
 
     public function actionDocument() {
-        $path = $this->actionUpload();
-        $scribd = new Scribd($api_key, $secret);
-        
-        $upload_res = $scribd->upload($path);
-        echo $upload_res;
+//        $path = $this->actionUpload();
+//        $scribd = new Scribd($api_key, $secret);
+//        
+//        $upload_res = $scribd->upload($path);
+//        echo $upload_res;
+                $path = $this->actionUpload();
         $this->render('document');
     }
     
@@ -25,7 +26,7 @@ class DocumentController extends Controller {
             move_uploaded_file($tempFile, $targetFile); //6
         }
         
-        return $targetFile;
+      //  return $targetFile;
         
     }
 
