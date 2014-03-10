@@ -63,8 +63,8 @@ class LoginController extends BaseController {
                     if (!empty($loginFormData['user_email'])) {
                         if (!empty($loginFormData['user_password'])) {
                             if (Validator::validateUsername($loginFormData['user_name'])) {
-                                if (Validator::validateUsername($loginFormData['user_email'])) {
-                                    if (Validator::validateUsername($loginFormData['user_password'])) {
+                                if (Validator::validateEmail($loginFormData['user_email'])) {
+                                    if (Validator::validatePassword($loginFormData['user_password'])) {
 
 
                                         $user = User::model()->findByAttributes(array('user_name' => $loginFormData['user_name']));
