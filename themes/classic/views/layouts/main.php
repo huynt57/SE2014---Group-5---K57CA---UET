@@ -79,7 +79,7 @@
         <script type="text/javascript">var switchTo5x = true;</script>
         <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
         <script type="text/javascript">stLight.options
-                    ({publisher: "ur-b6bcdd5b-dde-cce8-a00c-478890414ff", doNotHash: true, doNotCopy: false, hashAddressBar: true});
+                    ({publisher: "ur-b6bcdd5b-dde-cce8-a00c-478890414ff", doNotHash: true, doNotCopy: true, hashAddressBar: true});
         </script>
 
     </head>
@@ -104,7 +104,7 @@
                                         <div class="w-contacts-item for_phone">
                                             <i class="icon-phone"></i>
                                             <span class="w-contacts-item-name">Phone:</span>
-                                            <span class="w-contacts-item-value">+321 123 4567</span>
+                                            <span class="w-contacts-item-value">+84123456789</span>
                                         </div>
                                         <div class="w-contacts-item for_email">
                                             <i class="icon-envelope"></i>
@@ -206,7 +206,17 @@
                             <div class="w-logo">
                                 <div class="w-logo-h">
                                     <a class="w-logo-link" href="index.html">
-                                        <img class="w-logo-img" src="<?php echo Yii::app()->theme->baseUrl; ?>" alt="Astra" />
+                                        <img class="w-logo-img" src="<?php echo Yii::app()->theme->baseUrl; ?>/assets/img/logo.jpg" alt="BlueBee" />
+                                        <span class="w-logo-title">
+                                            <span class="w-logo-title-h">BlueBee</span>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                             <div class="w-logo">
+                                <div class="w-logo-h">
+                                    <a class="w-logo-link" href="index.html">
+                                        <img class="w-logo-img" src="<?php echo Yii::app()->theme->baseUrl; ?>/assets/img/logo2.jpg" alt="BlueBee" />
                                         <span class="w-logo-title">
                                             <span class="w-logo-title-h">BlueBee</span>
                                         </span>
@@ -263,7 +273,7 @@
 
                                             <div class="w-nav-item level_1">
                                                 <div class="w-nav-item-h">
-                                                    <a href="#" class="w-nav-anchor level_1">
+                                                    <a href="<?php echo Yii::app()->createUrl("share") ?>" class="w-nav-anchor level_1">
                                                         <span class="w-nav-icon"><i class="icon-star"></i></span>
                                                         <span class="w-nav-title">Kinh nghiệm học tập</span>
                                                         <span class="w-nav-hint"></span>
