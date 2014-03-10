@@ -40115,3 +40115,183 @@ Stack trace:
 REQUEST_URI=/SE2014-Project_Website/themes/classic/
 HTTP_REFERER=http://localhost/SE2014-Project_Website/index.php/demo
 ---
+2014/03/09 15:08:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/
+HTTP_REFERER=http://localhost/SE2014-Project_Website/index.php/share
+---
+2014/03/09 15:08:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/
+HTTP_REFERER=http://localhost/SE2014-Project_Website/index.php/share
+---
+2014/03/09 15:09:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/
+HTTP_REFERER=http://localhost/SE2014-Project_Website/index.php/share
+---
+2014/03/09 15:09:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/
+HTTP_REFERER=http://localhost/SE2014-Project_Website/index.php/share
+---
+2014/03/09 15:09:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/
+HTTP_REFERER=http://localhost/SE2014-Project_Website/index.php/share
+---
+2014/03/09 15:09:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/
+HTTP_REFERER=http://localhost/SE2014-Project_Website/index.php/share
+---
+2014/03/09 15:10:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/
+HTTP_REFERER=http://localhost/SE2014-Project_Website/index.php/share
+---
+2014/03/09 15:10:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/
+HTTP_REFERER=http://localhost/SE2014-Project_Website/index.php/share
+---
+2014/03/09 19:41:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/
+HTTP_REFERER=http://localhost/SE2014-Project_Website/index.php/share
+---
+2014/03/09 19:48:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/
+HTTP_REFERER=http://localhost/SE2014-Project_Website/index.php/share
+---
+2014/03/09 19:50:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/
+HTTP_REFERER=http://localhost/SE2014-Project_Website/index.php/share
+---
+2014/03/09 19:50:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/
+HTTP_REFERER=http://localhost/SE2014-Project_Website/index.php/share
+---
+2014/03/09 19:50:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/
+HTTP_REFERER=http://localhost/SE2014-Project_Website/index.php/share
+---
+2014/03/09 19:50:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/
+HTTP_REFERER=http://localhost/SE2014-Project_Website/index.php/share
+---
+2014/03/09 19:51:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/
+HTTP_REFERER=http://localhost/SE2014-Project_Website/index.php/share
+---
+2014/03/09 19:51:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/
+HTTP_REFERER=http://localhost/SE2014-Project_Website/index.php/share
+---
+2014/03/09 19:52:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/
+HTTP_REFERER=http://localhost/SE2014-Project_Website/index.php/share
+---
+2014/03/09 19:52:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/
+HTTP_REFERER=http://localhost/SE2014-Project_Website/index.php/share
+---
+2014/03/09 19:53:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/
+HTTP_REFERER=http://localhost/SE2014-Project_Website/index.php/demo
+---
+2014/03/09 19:53:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/
+HTTP_REFERER=http://localhost/SE2014-Project_Website/index.php/demo
+---
