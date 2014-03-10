@@ -25,14 +25,6 @@
 </script>
 
 <div class="l-main-h">
-    <div class="l-submain for_pagehead">
-        <div class="l-submain-h g-html i-cf">
-            <div class="w-pagehead">
-                <h1>Thành viên</h1>
-            </div>
-        </div>
-    </div>
-    
     <div class="l-submain">
         <div class="l-submain-h g-html i-cf">
             <div class="g-cols">
@@ -40,26 +32,24 @@
             </div>
         </div>
     </div>
-    
-    <div class="l-submain">
-        <div class="l-submain-h g-html i-cf">
-            <div class="g-cols">
-                <?php $this->renderPartial("partial/bar_left")?>
-                <div class="two-thirds">
-                    <div class="l-content">
-                        <div class="l-content-h">
-                            <div class="w-blog imgpos_atleft meta_tagscomments">
-                                <div class="w-blog-h">
-                                    <div class="w-blog-list">
-                                        <div class="w-blog-entry" >
-                                            <div class="w-blog-entry-h">
-                                                <a class="w-blog-entry-link" href="blog-post.html">
-                                                    <span class="w-blog-entry-img animate_afc" style="width: 60px;">
-                                                        <img class="w-blog-entry-img-h" src="<?php echo Yii::app()->theme->baseUrl; ?>/assets/img/demo/blog-1.jpg" alt="" style=""/>
-                                                    </span>
-                                                    <h2 class="w-blog-entry-title">
-                                                        <span class="w-blog-entry-title-h" >Các bài đã đăng</span>
-                                                    </h2>
+    <div class="l-submain-h g-html i-cf">
+        <div class="g-cols">
+            <?php $this->renderPartial("partial/bar_left")?>
+            <div class="two-thirds">
+                <div class="l-content">
+                    <div class="l-content-h">
+                        <div class="w-blog imgpos_atleft meta_tagscomments">
+                            <div class="w-blog-h">
+                                <div class="w-blog-list">
+                                    <div class="w-blog-entry" >
+                                        <div class="w-blog-entry-h">
+                                            <a class="w-blog-entry-link" href="blog-post.html">
+                                                <span class="w-blog-entry-img animate_afc" style="width: 60px;">
+                                                    <img class="w-blog-entry-img-h" src="<?php echo Yii::app()->theme->baseUrl; ?>/assets/img/demo/blog-1.jpg" alt="" style=""/>
+                                                </span>
+                                                <h2 class="w-blog-entry-title">
+                                                    <span class="w-blog-entry-title-h" >Các bài đã đăng</span>
+                                                </h2>
                                                 </a>
                                                 <div class="w-blog-entry-body" style="margin-left: 90px;">
                                                     <div class="w-blog-entry-meta">

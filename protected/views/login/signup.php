@@ -1,7 +1,6 @@
 <script type="text/javascript">
     $(document).ready(function() {
         var form = $('#signupform');
-        
         form.submit(function(event) {
             $('#res').html('');
             var data = form.serialize();

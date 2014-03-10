@@ -23,7 +23,7 @@
                             <div class="g-form-group">
                                 <div class="g-form-group-rows">
 
-                                    <div class="g-form-row">
+                                    <div class="g-form-row" style="margin-right: 5%; padding-bottom: 4%">
 
                                         <div class="g-form-row-field">
                                             <textarea name="#" id="input1x3" cols="30" rows="10"></textarea>
