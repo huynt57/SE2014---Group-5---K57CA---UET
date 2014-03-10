@@ -7,15 +7,26 @@ class DocumentController extends Controller {
     }
 
     public function actionDocument() {
-        $ds = DIRECTORY_SEPARATOR;  //1
-        $storeFolder = 'uploads';   //2
+        $path = $this->actionUpload();
+        $scribd = new Scribd($api_key, $secret);
+        
+        $upload_res = $scribd->upload($path);
+        echo $upload_res;
+        $this->render('document');
+    }
+    
+    public function actionUpload() {
+         //$ds = DIRECTORY_SEPARATOR;  //1
+        $storeFolder = Yii::app()->basePath.'\uploads\u';   //2
         if (!empty($_FILES)) {
             $tempFile = $_FILES['file']['tmp_name'];          //3             
-            $targetPath = dirname(__FILE__) . $ds . $storeFolder . $ds;  //4
+            $targetPath =  $storeFolder ;  //4
             $targetFile = $targetPath . $_FILES['file']['name'];  //5
             move_uploaded_file($tempFile, $targetFile); //6
         }
-        $this->render('document');
+        
+        return $targetFile;
+        
     }
 
     // Uncomment the following methods and override them if needed
