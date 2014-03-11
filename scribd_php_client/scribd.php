@@ -176,7 +176,7 @@ class Scribd {
 		$result = $this->postRequest($method, $params);
 		return $result;
 	}
-	private function postRequest($method, $params){
+	public function postRequest($method, $params){
 		$params['method'] = $method;
 		$params['session_key'] = $this->session_key;
     $params['my_user_id'] = $this->my_user_id;

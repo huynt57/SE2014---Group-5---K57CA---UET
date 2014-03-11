@@ -1,6 +1,7 @@
 <?php
 //error_reporting(0);
 // change the following paths if necessary
+// error_reporting(E_ALL);
 $yii=dirname(__FILE__).'/framework/yii.php';
 $config=dirname(__FILE__).'/protected/config/main.php';
 
