@@ -317,3 +317,201 @@ Stack trace:
 #15 {main}
 REQUEST_URI=/SE_2014_Group5/index.php/ViewDocument
 ---
+2014/03/11 07:17:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/index.php/img/avatar.png
+HTTP_REFERER=http://localhost:7070/SE_2014_Group5/index.php/ViewDocument
+---
+2014/03/11 07:17:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/index.php/img/avatar.png
+HTTP_REFERER=http://localhost:7070/SE_2014_Group5/index.php/ViewDocument
+---
+2014/03/11 07:18:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/index.php/img/avatar.png
+HTTP_REFERER=http://localhost:7070/SE_2014_Group5/index.php/ViewDocument
+---
+2014/03/11 07:18:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/index.php/img/avatar.png
+HTTP_REFERER=http://localhost:7070/SE_2014_Group5/index.php/ViewDocument
+---
+2014/03/11 07:20:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/index.php/img/avatar.png
+HTTP_REFERER=http://localhost:7070/SE_2014_Group5/index.php/ViewDocument
+---
+2014/03/11 07:20:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/index.php/img/avatar.png
+HTTP_REFERER=http://localhost:7070/SE_2014_Group5/index.php/ViewDocument
+---
+2014/03/11 07:21:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/index.php/img/avatar.png
+HTTP_REFERER=http://localhost:7070/SE_2014_Group5/index.php/ViewDocument
+---
+2014/03/11 07:21:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/index.php/img/avatar.png
+HTTP_REFERER=http://localhost:7070/SE_2014_Group5/index.php/ViewDocument
+---
+2014/03/11 07:32:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/index.php/img/avatar.png
+HTTP_REFERER=http://localhost:7070/SE_2014_Group5/index.php/ViewDocument
+---
+2014/03/11 07:32:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/index.php/img/avatar.png
+HTTP_REFERER=http://localhost:7070/SE_2014_Group5/index.php/ViewDocument
+---
+2014/03/11 07:32:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/index.php/img/avatar.png
+HTTP_REFERER=http://localhost:7070/SE_2014_Group5/index.php/ViewDocument
+---
+2014/03/11 07:32:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/index.php/img/avatar.png
+HTTP_REFERER=http://localhost:7070/SE_2014_Group5/index.php/ViewDocument
+---
+2014/03/11 07:33:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/index.php/img/avatar.png
+HTTP_REFERER=http://localhost:7070/SE_2014_Group5/index.php/ViewDocument
+---
+2014/03/11 07:33:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/index.php/img/avatar.png
+HTTP_REFERER=http://localhost:7070/SE_2014_Group5/index.php/ViewDocument
+---
+2014/03/11 07:34:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/index.php/img/avatar.png
+HTTP_REFERER=http://localhost:7070/SE_2014_Group5/index.php/ViewDocument
+---
+2014/03/11 07:34:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/index.php/img/avatar.png
+HTTP_REFERER=http://localhost:7070/SE_2014_Group5/index.php/ViewDocument
+---
+2014/03/11 07:34:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/index.php/img/avatar.png
+HTTP_REFERER=http://localhost:7070/SE_2014_Group5/index.php/ViewDocument
+---
+2014/03/11 07:34:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/index.php/img/avatar.png
+HTTP_REFERER=http://localhost:7070/SE_2014_Group5/index.php/ViewDocument
+---
+2014/03/11 07:35:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/index.php/img/avatar.png
+HTTP_REFERER=http://localhost:7070/SE_2014_Group5/index.php/ViewDocument
+---
+2014/03/11 07:35:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/index.php/img/avatar.png
+HTTP_REFERER=http://localhost:7070/SE_2014_Group5/index.php/ViewDocument
+---
+2014/03/11 07:35:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/index.php/img/avatar.png
+HTTP_REFERER=http://localhost:7070/SE_2014_Group5/index.php/ViewDocument
+---
+2014/03/11 07:35:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "img/avatar.png".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('img/avatar.png')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/index.php/img/avatar.png
+HTTP_REFERER=http://localhost:7070/SE_2014_Group5/index.php/ViewDocument
+---
