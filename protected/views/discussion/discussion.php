@@ -88,23 +88,14 @@
                                                     <button class=" g-btn type_primary size_small" id="hidecmt" onclick="closecomment()"><span>Ẩn</span></button>
                                                 </div>
                                             </div>
-                                     <?php $this->renderPartial("partial/comments")?>     
-
+                                        <?php $this->renderPartial("partial/comments")?>
                                         </div>
                                     </div>
                                 </div>
-
-                                
                             </div>
-
-
                         </div>
                     </div>
-
                 </div>
-
-
-
             </div>
         </div>
     </div>
