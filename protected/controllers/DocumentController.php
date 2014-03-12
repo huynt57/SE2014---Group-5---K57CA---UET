@@ -1,8 +1,11 @@
 <?php
+
 Yii::import('application.controllers.BaseController');
+
 class DocumentController extends BaseController {
 
     public function actionIndex() {
+       
         $this->actionDocument();
     }
 
@@ -17,7 +20,7 @@ class DocumentController extends BaseController {
         $api_key = "6cqkf5gln6qa1ky5eu5wy";
         $secret = "sec-ga9jk2qgz0j0qn25io6k1igei";
 
-
+        $this->retVal = new stdClass();
 
         $scribd = new Scribd($api_key, $secret);
 
@@ -29,7 +32,7 @@ class DocumentController extends BaseController {
         $targetFile = $targetPath . $_FILES['file']['name'];  //5
         move_uploaded_file($tempFile, $targetFile); //6
         $upload_scribd = $scribd->upload($targetFile);
-        var_dump($upload_scribd);
+        //var_dump($upload_scribd);
         $thumbnail_info = array('doc_id' => $upload_scribd["doc_id"],
             'method' => NULL,
             'session_key' => NULL,
@@ -37,9 +40,15 @@ class DocumentController extends BaseController {
             'width' => 400,
             'height' => 1000);
         $get_thumbnail = $scribd->postRequest('thumbnail.get', $thumbnail_info);
-        var_dump($get_thumbnail);
+        // var_dump($get_thumbnail);
+        $this->retVal->docid = $upload_scribd["doc_id"];
+        $this->retVal->thumbnail = $get_thumbnail["thumbnail_url"];
+        echo CJSON::encode($this->retVal);
+        Yii::app()->end();
+    }
 
-
+    public function actionUpdateInfo() {
+        $this->retVal = new stdClass();
         $request = Yii::app()->request;
         if ($request->isPostRequest && isset($_POST)) {
             try {
@@ -47,19 +56,20 @@ class DocumentController extends BaseController {
                     'description' => @$_POST['description'],
                     'title' => @$_POST['title'],
                     'faculty' => @$_POST['faculty'],
+                    'doc_id' => @$_POST['doc_id'],
+                    'thumbnail_url' => @$_POST['thumbnail_url']
                 );
                 $doc_model = new Doc;
                 $doc_model->doc_name = $loginFormData['title'];
                 $doc_model->doc_description = $loginFormData['description'];
-                $doc_model->doc_scribd_id = $upload_scribd["doc_id"];
-                $doc_model->doc_url = $get_thumbnail["thumbnail_url"];
-                $doc_model->doc_faculty_id = $loginFormData['faculry'];
+                $doc_model->doc_scribd_id = $loginFormData["doc_id"];
+                $doc_model->doc_url = $loginFormData["thumbnail_url"];
+                $doc_model->doc_faculty_id = $loginFormData['faculty'];
                 $doc_model->save(FALSE);
             } catch (exception $e) {
                 $this->retVal->message = $e->getMessage();
             }
-//            echo CJSON::encode($this->retVal);
-//            Yii::app()->end();
+          
         }
     }
 

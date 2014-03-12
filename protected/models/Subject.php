@@ -13,8 +13,8 @@
  * The followings are the available model relations:
  * @property Doc[] $docs
  * @property Faculty[] $faculties
- * @property Teacher $teacher
  * @property Faculty $faculty
+ * @property Teacher $teacher
  */
 class Subject extends CActiveRecord
 {
@@ -52,8 +52,8 @@ class Subject extends CActiveRecord
 		return array(
 			'docs' => array(self::HAS_MANY, 'Doc', 'doc_subject_id'),
 			'faculties' => array(self::HAS_MANY, 'Faculty', 'subject_id'),
-			'teacher' => array(self::BELONGS_TO, 'Teacher', 'teacher_id'),
 			'faculty' => array(self::BELONGS_TO, 'Faculty', 'faculty_id'),
+			'teacher' => array(self::BELONGS_TO, 'Teacher', 'teacher_id'),
 		);
 	}
 

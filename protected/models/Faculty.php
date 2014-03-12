@@ -10,9 +10,8 @@
  * @property integer $teacher_id
  *
  * The followings are the available model relations:
- * @property Doc[] $docs
- * @property Teacher $teacher
  * @property Subject $subject
+ * @property Teacher $teacher
  * @property Subject[] $subjects
  * @property Teacher[] $teachers
  */
@@ -50,9 +49,8 @@ class Faculty extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'docs' => array(self::HAS_MANY, 'Doc', 'doc_faculty_id'),
-			'teacher' => array(self::BELONGS_TO, 'Teacher', 'teacher_id'),
 			'subject' => array(self::BELONGS_TO, 'Subject', 'subject_id'),
+			'teacher' => array(self::BELONGS_TO, 'Teacher', 'teacher_id'),
 			'subjects' => array(self::HAS_MANY, 'Subject', 'faculty_id'),
 			'teachers' => array(self::HAS_MANY, 'Teacher', 'teacher_faculty'),
 		);

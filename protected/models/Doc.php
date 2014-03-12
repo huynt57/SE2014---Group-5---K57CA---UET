@@ -15,10 +15,9 @@
  * @property string $doc_description
  *
  * The followings are the available model relations:
+ * @property Comment[] $comments
  * @property User $docUser
- * @property Comment $doc
  * @property Subject $docSubject
- * @property Faculty $docFaculty
  */
 class Doc extends CActiveRecord
 {
@@ -38,8 +37,7 @@ class Doc extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('doc_id', 'required'),
-			array('doc_id, doc_status, doc_user_id, doc_subject_id, doc_faculty_id', 'numerical', 'integerOnly'=>true),
+			array('doc_status, doc_user_id, doc_subject_id, doc_faculty_id', 'numerical', 'integerOnly'=>true),
 			array('doc_url, doc_name, doc_scribd_id, doc_description', 'length', 'max'=>100),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
@@ -55,10 +53,9 @@ class Doc extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
+			'comments' => array(self::HAS_MANY, 'Comment', 'comment_post_id'),
 			'docUser' => array(self::BELONGS_TO, 'User', 'doc_user_id'),
-			'doc' => array(self::BELONGS_TO, 'Comment', 'doc_id'),
 			'docSubject' => array(self::BELONGS_TO, 'Subject', 'doc_subject_id'),
-			'docFaculty' => array(self::BELONGS_TO, 'Faculty', 'doc_faculty_id'),
 		);
 	}
 
