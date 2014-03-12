@@ -1,10 +1,10 @@
 
- <div class="l-submain for_pagehead">
-    <div class="l-submain-h g-html i-cf">
-        <div class="w-pagehead">
-            <h1>Kinh nghiệm - Chia sẻ</h1>
-        </div>
-    </div>
+<div class="l-submain for_pagehead">
+   <div class="l-submain-h g-html i-cf">
+       <div class="w-pagehead">
+           <h1>Kinh nghiệm - Chia sẻ</h1>
+       </div>
+   </div>
 </div>
 <div class="l-submain">
         <div class="l-submain-h g-html i-cf">
