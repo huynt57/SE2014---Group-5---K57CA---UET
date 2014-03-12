@@ -22,9 +22,16 @@
                         </div>
                     </div>
                     <div class="g-form-group-rows">
+                        <div class="g-form-row-field">
+                            <div class="g-input">
+                                <textarea name="description" id="description" value="" style="max-height: 5%; max-width: 90%; margin-left: 5%; margin-right: 5%; margin-top: 2%; border-radius: 5px; background-color: white;" placeholder="Thêm mô tả *"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="g-form-group-rows">
                         <div id="dropzone" class="fixmargin" style="min-height: 180px; border:2px dashed #4894C7; border-radius: 5px;">
-                            <form action="<?php echo Yii::app()->createUrl('document/upload')?>" class="dropzone dz-clickable dz-started" 
-                                  id="my-awesome-dropzone">
+                            <form action="<?php echo Yii::app()->createUrl('document/upload')?>" class="dropzone dz-clickable dz-started"
+                                id="my-awesome-dropzone">
                             </form>
                         </div>
                     </div>
