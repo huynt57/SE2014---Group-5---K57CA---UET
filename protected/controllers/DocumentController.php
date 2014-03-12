@@ -1,6 +1,6 @@
 <?php
-
-class DocumentController extends Controller {
+Yii::import('application.controllers.BaseController');
+class DocumentController extends BaseController {
 
     public function actionIndex() {
         $this->actionDocument();
@@ -38,22 +38,28 @@ class DocumentController extends Controller {
             'height' => 1000);
         $get_thumbnail = $scribd->postRequest('thumbnail.get', $thumbnail_info);
         var_dump($get_thumbnail);
-        
-       
-         $request = Yii::app()->request;
+
+
+        $request = Yii::app()->request;
         if ($request->isPostRequest && isset($_POST)) {
             try {
                 $loginFormData = array(
                     'description' => @$_POST['description'],
                     'title' => @$_POST['title'],
-                    
+                    'faculty' => @$_POST['faculty'],
                 );
                 $doc_model = new Doc;
+                $doc_model->doc_name = $loginFormData['title'];
+                $doc_model->doc_description = $loginFormData['description'];
+                $doc_model->doc_scribd_id = $upload_scribd["doc_id"];
+                $doc_model->doc_url = $get_thumbnail["thumbnail_url"];
+                $doc_model->doc_faculty_id = $loginFormData['faculry'];
+                $doc_model->save(FALSE);
             } catch (exception $e) {
                 $this->retVal->message = $e->getMessage();
             }
-            echo CJSON::encode($this->retVal);
-            Yii::app()->end();
+//            echo CJSON::encode($this->retVal);
+//            Yii::app()->end();
         }
     }
 
