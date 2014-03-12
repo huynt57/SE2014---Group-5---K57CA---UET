@@ -35,8 +35,9 @@
 .rounded1 {
         width: 300px;
         height: 150px;
-        border: thin ;
+        border: thin;
         display: inline-block;
+        color: black;
         }
         
 img.float_left{
