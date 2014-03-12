@@ -48,7 +48,7 @@ class DocumentController extends BaseController {
     }
 
     public function actionUpdateInfo() {
-        $this->retVal = new stdClass();
+     //   $this->retVal = new stdClass();
         $request = Yii::app()->request;
         if ($request->isPostRequest && isset($_POST)) {
             try {
@@ -67,7 +67,7 @@ class DocumentController extends BaseController {
                 $doc_model->doc_faculty_id = $loginFormData['faculty'];
                 $doc_model->save(FALSE);
             } catch (exception $e) {
-                $this->retVal->message = $e->getMessage();
+               // $this->retVal->message = $e->getMessage();
             }
           
         }
