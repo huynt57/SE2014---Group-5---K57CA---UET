@@ -38,6 +38,23 @@ class DocumentController extends Controller {
             'height' => 1000);
         $get_thumbnail = $scribd->postRequest('thumbnail.get', $thumbnail_info);
         var_dump($get_thumbnail);
+        
+       
+         $request = Yii::app()->request;
+        if ($request->isPostRequest && isset($_POST)) {
+            try {
+                $loginFormData = array(
+                    'description' => @$_POST['description'],
+                    'title' => @$_POST['title'],
+                    
+                );
+                $doc_model = new Doc;
+            } catch (exception $e) {
+                $this->retVal->message = $e->getMessage();
+            }
+            echo CJSON::encode($this->retVal);
+            Yii::app()->end();
+        }
     }
 
     // Uncomment the following methods and override them if needed
