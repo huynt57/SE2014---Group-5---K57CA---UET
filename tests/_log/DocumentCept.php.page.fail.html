@@ -78,7 +78,7 @@
         <script type="text/javascript">var switchTo5x = true;</script>
         <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
         <script type="text/javascript">stLight.options
-                    ({publisher: "ur-b6bcdd5b-dde-cce8-a00c-478890414ff", doNotHash: true, doNotCopy: false, hashAddressBar: true});
+                    ({publisher: "ur-b6bcdd5b-dde-cce8-a00c-478890414ff", doNotHash: true, doNotCopy: true, hashAddressBar: true});
         </script>
 
     </head>
@@ -103,7 +103,7 @@
                                         <div class="w-contacts-item for_phone">
                                             <i class="icon-phone"></i>
                                             <span class="w-contacts-item-name">Phone:</span>
-                                            <span class="w-contacts-item-value">+321 123 4567</span>
+                                            <span class="w-contacts-item-value">+84123456789</span>
                                         </div>
                                         <div class="w-contacts-item for_email">
                                             <i class="icon-envelope"></i>
@@ -204,8 +204,18 @@
                             <!-- LOGO -->
                             <div class="w-logo">
                                 <div class="w-logo-h">
-                                    <a class="w-logo-link" href="index.html">
-                                        <img class="w-logo-img" src="/SE2014-Project_Website/themes/classic" alt="Astra" />
+                                    <a class="w-logo-link" href="/SE2014-Project_Website/index.php" class="w-nav-anchor level_1">
+                                        <img class="w-logo-img" src="/SE2014-Project_Website/themes/classic/assets/img/logo.jpg" alt="BlueBee" />
+                                        <span class="w-logo-title">
+                                            <span class="w-logo-title-h">BlueBee</span>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                             <div class="w-logo">
+                                <div class="w-logo-h">
+                                    <a class="w-logo-link" href="/SE2014-Project_Website/index.php" class="w-nav-anchor level_1">
+                                        <img class="w-logo-img" src="/SE2014-Project_Website/themes/classic/assets/img/logo2.jpg" alt="BlueBee" />
                                         <span class="w-logo-title">
                                             <span class="w-logo-title-h">BlueBee</span>
                                         </span>
@@ -262,7 +272,7 @@
 
                                             <div class="w-nav-item level_1">
                                                 <div class="w-nav-item-h">
-                                                    <a href="#" class="w-nav-anchor level_1">
+                                                    <a href="/SE2014-Project_Website/index.php/share" class="w-nav-anchor level_1">
                                                         <span class="w-nav-icon"><i class="icon-star"></i></span>
                                                         <span class="w-nav-title">Kinh nghiệm học tập</span>
                                                         <span class="w-nav-hint"></span>
@@ -293,11 +303,10 @@
 
             <!-- MAIN -->
             <div class="l-main">
-                <div id="content">
-	<style>
+                <style>
     .fixsizeitems{
-        height: 210px;
-        width: 160px;
+        height: 250px;
+        width: 180px;
     }
     .fixmarginbottom{
         margin-bottom: 5%;
@@ -443,7 +452,24 @@
                     </div>
                 </div>            <div class="three-fourths">
                 <!--Drag and Drop file to upload-->
+<script type="text/javascript">
+	Dropzone.autoDiscover = false;
+    $(document).ready(function() {
+        var myDropzone = new Dropzone("#my-dropzone");
+        myDropzone.on("success", function(file, data) {
+	        var json = data;
+	        var result = $.parseJSON(json);
+	        $('#thumbnail_url').val(result.thumbnail);
+	        $('#doc_id').val(result.docid);
+        });
 
+    });
+</script>
+<style>
+    .fixmargin{
+        margin: 2% 5% 2% 5%;
+    }
+</style>
 <div class="w-tabs layout_accordion type_toggle" style="margin-bottom: 5%">
     <div class="w-tabs-h">
         <div class="w-tabs-section with_icon">
@@ -453,38 +479,59 @@
                 <span class="w-tabs-section-title-control"><i class="icon-angle-down"></i></span>
             </div>
             <div class="w-tabs-section-content">
-                <!-- <form class="g-form" action="" method="post"> -->
+
                 <div class="g-form-group">
                     <div class="g-form-group-rows">
-                        <div class="g-form-row-field">
-                            <div class="g-input">
-                                <input type="text" name="document_name" id="document_name" value="" style="max-width: 50%; margin-left: 5%; margin-top: 2%; border-radius: 5px;" placeholder="Tên Tài Liệu *">
-                            </div>
-                        </div>
-                    </div>
-                    <!-- <div class="g-form-group-rows">
-                                                    <div id="droparea" style="margin: 2% 5% 2% 5%; max-height: 180px">
-                                                            <div class="dropareainner">
-                                                                    <div style="margin: 4% auto">
-                                                                            <p class="dropfiletext">Thả file vào đây</p>
-                                                                            <p>Hoặc</p>
-                                                                            <input type="button" value="Chọn file" id="uploadbtn" class="g-btn type_primary size_small"/>
-                                                                            <p id="err">Chờ đã. Bạn hãy bật JavaScript mới xài đc :(</p>
-                                                                   </div>
-                                                            </div>
-                                                            <input id="upload" type="file" multiple />
-                                                    </div>
-                                            </div> -->
-                    <div class="g-form-group-rows">
-                        <div id="dropzone" style="margin: 2% 5% 2% 5%; min-height: 180px; border:2px dashed #4894C7; border-radius: 5px;">
-                            <form accept=".pdf" action="/SE2014-Project_Website/index.php/DocumentController/actionDocument" class="dropzone dz-clickable dz-started" 
-                                  id="my-awesome-dropzone">
-                                <span style="">Drop file in here(or click)</span>
+                        <div id="dropzone" class="fixmargin" style="min-height: 180px; border:2px dashed #4894C7; border-radius: 5px;">
+                            <form action="/SE2014-Project_Website/index.php/document/upload" class="dropzone dz-clickable dz-started"
+                                  id="my-dropzone">
                             </form>
                         </div>
                     </div>
+                    <form method="POST" id="formscribd" action="document/updateinfo">
+                        <div class="g-form-group-rows">
+                            <div class="g-form-row-field">
+                                <div class="g-input">
+                                    <input type="hidden" name="thumbnail_url" id="thumbnail_url" value="" style="max-width: 50%; margin-left: 5%; margin-top: 2%; border-radius: 5px; background-color: white;">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="g-form-group-rows">
+                            <div class="g-form-row-field">
+                                <div class="g-input">
+                                    <input type="hidden" name="doc_id" id="doc_id" value="" style="max-width: 50%; margin-left: 5%; margin-top: 2%; border-radius: 5px; background-color: white;" >
+                                </div>
+                            </div>
+                        </div>
+                        <div class="g-form-group-rows">
+                            <div class="g-form-row-field">
+                                <div class="g-input">
+                                    <input type="text" name="title" id="title" value="" style="max-width: 50%; margin-left: 5%; margin-top: 2%; border-radius: 5px; background-color: white;" placeholder="Tên Tài Liệu *">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="g-form-group-rows">
+                            <div class="g-form-row-field">
+                                <div class="g-input">
+                                    <textarea name="description" id="description" value="" style="max-height: 5%; max-width: 90%; margin-left: 5%; margin-right: 5%; margin-top: 2%; border-radius: 5px; background-color: white;" placeholder="Thêm mô tả *"></textarea>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="g-form-group-rows fixmargin one-third">
+                            <select style="max-width: 300px; border-radius: 5px; background-color: white;" name="faculty">
+                                <!--thêm ngành học tại đây-->
+                                <option>Ngành học</option>
+                                <option value="1">Công nghệ thông tin</option>
+                                <option value="2">Vật lý kĩ thuật</option>
+                            </select>
+                        </div>
+                        <div class="g-form-group-rows">
+                            <button class="g-btn type_primary size_small fixmargin" type="submit" name="Submit">Đăng Tài Liệu</button>
+                        </div>
+                    </form>
                 </div>
-                <!-- </form> -->
             </div>
         </div>
     </div>
@@ -493,92 +540,7 @@
                     <div class="w-portfolio-h">
                         <div class="w-portfolio-list">
                             <div class="w-portfolio-list-h">
-                                <div class="w-portfolio-item order_1 naming webdesign fixsizeitems fixmarginbottom">
-	<div class="w-portfolio-item-h">
-		<a class="w-portfolio-item-anchor" href="project-another-slider.html">
-			<div class="w-portfolio-item-image fixsizeitems fixmarginbottom">
-				<img src="/SE2014-Project_Website/themes/classic/assets/img/demo/portfolio-1.jpg" class="fixsizeitems" alt="" />
-				<div class="w-portfolio-item-meta">
-					<h2 class="w-portfolio-item-title">Single Project</h2>
-					<i class="icon-mail-forward"></i>
-				</div>
-			</div>
-		</a>
-	</div>
-</div>                                <div class="w-portfolio-item order_1 naming webdesign fixsizeitems fixmarginbottom">
-	<div class="w-portfolio-item-h">
-		<a class="w-portfolio-item-anchor" href="project-another-slider.html">
-			<div class="w-portfolio-item-image fixsizeitems fixmarginbottom">
-				<img src="/SE2014-Project_Website/themes/classic/assets/img/demo/portfolio-1.jpg" class="fixsizeitems" alt="" />
-				<div class="w-portfolio-item-meta">
-					<h2 class="w-portfolio-item-title">Single Project</h2>
-					<i class="icon-mail-forward"></i>
-				</div>
-			</div>
-		</a>
-	</div>
-</div>                                <div class="w-portfolio-item order_1 naming webdesign fixsizeitems fixmarginbottom">
-	<div class="w-portfolio-item-h">
-		<a class="w-portfolio-item-anchor" href="project-another-slider.html">
-			<div class="w-portfolio-item-image fixsizeitems fixmarginbottom">
-				<img src="/SE2014-Project_Website/themes/classic/assets/img/demo/portfolio-1.jpg" class="fixsizeitems" alt="" />
-				<div class="w-portfolio-item-meta">
-					<h2 class="w-portfolio-item-title">Single Project</h2>
-					<i class="icon-mail-forward"></i>
-				</div>
-			</div>
-		</a>
-	</div>
-</div>                                <div class="w-portfolio-item order_1 naming webdesign fixsizeitems fixmarginbottom">
-	<div class="w-portfolio-item-h">
-		<a class="w-portfolio-item-anchor" href="project-another-slider.html">
-			<div class="w-portfolio-item-image fixsizeitems fixmarginbottom">
-				<img src="/SE2014-Project_Website/themes/classic/assets/img/demo/portfolio-1.jpg" class="fixsizeitems" alt="" />
-				<div class="w-portfolio-item-meta">
-					<h2 class="w-portfolio-item-title">Single Project</h2>
-					<i class="icon-mail-forward"></i>
-				</div>
-			</div>
-		</a>
-	</div>
-</div>                                <div class="w-portfolio-item order_1 naming webdesign fixsizeitems fixmarginbottom">
-	<div class="w-portfolio-item-h">
-		<a class="w-portfolio-item-anchor" href="project-another-slider.html">
-			<div class="w-portfolio-item-image fixsizeitems fixmarginbottom">
-				<img src="/SE2014-Project_Website/themes/classic/assets/img/demo/portfolio-1.jpg" class="fixsizeitems" alt="" />
-				<div class="w-portfolio-item-meta">
-					<h2 class="w-portfolio-item-title">Single Project</h2>
-					<i class="icon-mail-forward"></i>
-				</div>
-			</div>
-		</a>
-	</div>
-</div>                                <div class="w-portfolio-item order_1 naming webdesign fixsizeitems fixmarginbottom">
-	<div class="w-portfolio-item-h">
-		<a class="w-portfolio-item-anchor" href="project-another-slider.html">
-			<div class="w-portfolio-item-image fixsizeitems fixmarginbottom">
-				<img src="/SE2014-Project_Website/themes/classic/assets/img/demo/portfolio-1.jpg" class="fixsizeitems" alt="" />
-				<div class="w-portfolio-item-meta">
-					<h2 class="w-portfolio-item-title">Single Project</h2>
-					<i class="icon-mail-forward"></i>
-				</div>
-			</div>
-		</a>
-	</div>
-</div>                                <div class="w-portfolio-item order_1 naming webdesign fixsizeitems fixmarginbottom">
-	<div class="w-portfolio-item-h">
-		<a class="w-portfolio-item-anchor" href="project-another-slider.html">
-			<div class="w-portfolio-item-image fixsizeitems fixmarginbottom">
-				<img src="/SE2014-Project_Website/themes/classic/assets/img/demo/portfolio-1.jpg" class="fixsizeitems" alt="" />
-				<div class="w-portfolio-item-meta">
-					<h2 class="w-portfolio-item-title">Single Project</h2>
-					<i class="icon-mail-forward"></i>
-				</div>
-			</div>
-		</a>
-	</div>
-</div>
-
+                                
                             </div>
                         </div>
 
@@ -598,8 +560,7 @@
             </div>
         </div>
     </div>
-</div></div><!-- content -->
-            </div>
+</div>            </div>
             <!-- /MAIN -->
 
         </div>
