@@ -4,10 +4,9 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/F:/xampp/htdocs/SE2014-Project_Website/index.php</file>
-            <file>file:/F:/xampp/htdocs/SE2014-Project_Website/protected/views/document/document.php</file>
-            <file>file:/F:/xampp/htdocs/SE2014-Project_Website/protected/config/main.php</file>
-            <file>file:/F:/xampp/htdocs/SE2014-Project_Website/scribd_php_client/scribd.php</file>
-            <file>file:/F:/xampp/htdocs/SE2014-Project_Website/protected/components/Scribd.php</file>
+            <file>file:/F:/xampp/htdocs/SE2014-Project_Website/protected/controllers/AboutUsController.php</file>
+            <file>file:/F:/xampp/htdocs/SE2014-Project_Website/protected/views/login/Login.php</file>
+            <file>file:/F:/xampp/htdocs/SE2014-Project_Website/protected/views/document/partial/upload-file-area.php</file>
             <file>file:/F:/xampp/htdocs/SE2014-Project_Website/protected/controllers/DocumentController.php</file>
         </group>
     </open-files>
