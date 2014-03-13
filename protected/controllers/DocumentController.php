@@ -71,6 +71,7 @@ class DocumentController extends BaseController {
             }
           
         }
+        Yii::app()->request->redirect('document');
       
     }
 
