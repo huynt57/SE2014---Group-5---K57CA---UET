@@ -65,6 +65,7 @@ class DocumentController extends BaseController {
                 $doc_model->doc_scribd_id = $loginFormData["doc_id"];
                 $doc_model->doc_url = $loginFormData["thumbnail_url"];
                 $doc_model->doc_faculty_id = $loginFormData['faculty'];
+                $doc_model->doc_status = 1;
                 $doc_model->save(FALSE);
             } catch (exception $e) {
                // $this->retVal->message = $e->getMessage();
