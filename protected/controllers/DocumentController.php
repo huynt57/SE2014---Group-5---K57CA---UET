@@ -71,7 +71,7 @@ class DocumentController extends BaseController {
             }
           
         }
-        $this->actionDocument();
+      
     }
 
     // Uncomment the following methods and override them if needed
