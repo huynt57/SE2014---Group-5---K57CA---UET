@@ -2,13 +2,6 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/F:/xampp/htdocs/SE2014-Project_Website/index.php</file>
-            <file>file:/F:/xampp/htdocs/SE2014-Project_Website/protected/views/document/document.php</file>
-            <file>file:/F:/xampp/htdocs/SE2014-Project_Website/protected/config/main.php</file>
-            <file>file:/F:/xampp/htdocs/SE2014-Project_Website/scribd_php_client/scribd.php</file>
-            <file>file:/F:/xampp/htdocs/SE2014-Project_Website/protected/components/Scribd.php</file>
-            <file>file:/F:/xampp/htdocs/SE2014-Project_Website/protected/controllers/DocumentController.php</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>
