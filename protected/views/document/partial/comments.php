@@ -1,52 +1,23 @@
+
 <div id="comments" class="w-comments has_form" value = "show">
     <div class="w-comments-h">
         <h4 class="w-comments-title"><i class="icon-comments"></i>5 Comments. <a href="#form">Leave new</a></h4>
+
         <div class="w-comments-list">
-
-            <div class="w-comments-item" id="comment-1">
-                <div class="w-comments-item-meta">
-                    <div class="w-comments-item-icon">
-                        <img src="img/avatar.png" alt="" />
+            <?php foreach ($detailcomment as $comment): ?>
+                <div class="w-comments-item" id="comment-1">
+                    <div class="w-comments-item-meta">
+                        <div class="w-comments-item-icon">
+                            <img src="img/avatar.png" alt="" />
+                        </div>
+                        <div class="w-comments-item-author">Norman Cook</div>
+                        <a class="w-comments-item-date" href="#comment-5">April 4th, 2013 3:37 am</a>
                     </div>
-                    <div class="w-comments-item-author">Norman Cook</div>
-                    <a class="w-comments-item-date" href="#comment-5">April 4th, 2013 3:37 am</a>
-                </div>
-                <div class="w-comments-item-text">
-                    <p>Maecenas euismod lacinia neque. Praesent pellen tesque tristique tortor eu vulputate. Aenean viverra justo fermentum sapin. Proin laoreet iaculis placerat. Maecenas euismod lacinia neque. Praesent pellen tesque tristique tortor eu vulputate. Aenean viverra justo fermentum sapin. Proin laoreet iaculis placerat.</p>
-                </div>
-
-            </div>
-
-
-
-            <div class="w-comments-item" id="comment-4">
-                <div class="w-comments-item-meta">
-                    <div class="w-comments-item-icon">
-                        <img src="img/avatar.png" alt="" />
+                    <div class="w-comments-item-text">
+                        <p><?php echo $comment->comment_content;?></p>
                     </div>
-                    <div class="w-comments-item-author">Admin</div>
-                    <a class="w-comments-item-date" href="#comment-5">April 4th, 2013 3:37 am</a>
                 </div>
-                <div class="w-comments-item-text">
-                    <p>Proin laoreet iaculis placerat. Maecenas euismod lacinia neque. Praesent pellen tesque tristique tortor eu vulputate. Aenean viverra justo fermentum sapin.</p>
-                </div>
-
-            </div>
-
-            <div class="w-comments-item" id="comment-5">
-                <div class="w-comments-item-meta">
-                    <div class="w-comments-item-icon">
-                        <img src="img/avatar.png" alt="" />
-                    </div>
-                    <div class="w-comments-item-author">Michael Jordan</div>
-                    <a class="w-comments-item-date" href="#comment-5">April 4th, 2013 3:37 am</a>
-                </div>
-                <div class="w-comments-item-text">
-                    <p>Proin laoreet iaculis placerat. Maecenas euismod lacinia neque. Praesent pellen tesque tristique tortor eu vulputate. Aenean viverra justo fermentum sapin.</p>
-                </div>
-
-            </div>
-
+            <?php endforeach; ?>
         </div>
 
         <div id="form" class="w-comments-form" style="margin-left: 5%; margin-right: 5%">

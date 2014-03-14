@@ -13,22 +13,24 @@ class DocumentController extends BaseController {
         $Criteria = new CDbCriteria(); //represent for query such as conditions, ordering by, limit/offset. 
         $Criteria->select = "*";
         $Criteria->order = "doc_id ASC";
-       
+
 
         $this->render('document', array('document' => Doc::model()->findAll($Criteria)));
     }
-    
-    public function actionViewDocument(){
-         if ($_GET["docid"])
-                {
-                    $spCriteria = new CDbCriteria();
-                    $spCriteria->select = "*";
-                    $spCriteria->condition = "doc_scribd_id = ".$_GET["docid"];
-                    
-                    
-                    $this->render ('viewdocument',array( 'detaildoc' => Doc::model()->findAll($spCriteria)));
-                    
-                }
+
+    public function actionViewDocument() {
+        if ($_GET["docid"]) {
+            $spCriteria = new CDbCriteria();
+            $spCriteria->select = "*";
+            $spCriteria->condition = "doc_scribd_id = " . $_GET["docid"];
+
+            $comCriteria = new CDbCriteria();
+            $comCriteria->select = "*";
+            $comCriteria->condition = "comment_doc_id = " . $_GET["docid"];
+
+            $this->render('viewdocument', array('detaildoc' => Doc::model()->findAll($spCriteria),
+                'detailcomment' => Comment::model()->findAll($comCriteria)));
+        }
     }
 
     public function actionUpload() {
@@ -88,6 +90,29 @@ class DocumentController extends BaseController {
             }
         }
         $this->redirect(Yii::app()->createUrl('document'));
+    }
+
+    public function actionComment() {
+        $this->retVal = new stdClass();
+        $request = Yii::app()->request;
+        if ($request->isPostRequest && isset($_POST)) {
+            try {
+                $loginFormData = array(
+                    'comment_doc_id' => @$_POST['comment_doc_id'],
+                    'comment_content' => @$_POST['content'],
+                );
+                $comment_model = new Comment;
+                $comment_model->comment_doc_id = $loginFormData['comment_doc_id'];
+                $comment_model->comment_content = $loginFormData['comment_content'];
+
+                $comment_model->save(FALSE);
+            } catch (exception $e) {
+                // $this->retVal->message = $e->getMessage();
+            }
+        }
+        $this->retVal->message = $loginFormData['comment_content'];
+        echo CJSON::encode($this->retVal);
+        Yii::app()->end();
     }
 
     // Uncomment the following methods and override them if needed

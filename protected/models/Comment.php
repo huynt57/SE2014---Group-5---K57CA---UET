@@ -10,11 +10,7 @@
  * @property string $comment_date
  * @property string $comment_content
  * @property integer $user_id
- *
- * The followings are the available model relations:
- * @property Doc $commentPost
- * @property User $commentAuthor
- * @property Post $post
+ * @property integer $comment_doc_id
  */
 class Comment extends CActiveRecord
 {
@@ -34,11 +30,11 @@ class Comment extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('comment_post_id, comment_author, user_id', 'numerical', 'integerOnly'=>true),
+			array('comment_post_id, comment_author, user_id, comment_doc_id', 'numerical', 'integerOnly'=>true),
 			array('comment_date, comment_content', 'safe'),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('comment_id, comment_post_id, comment_author, comment_date, comment_content, user_id', 'safe', 'on'=>'search'),
+			array('comment_id, comment_post_id, comment_author, comment_date, comment_content, user_id, comment_doc_id', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -50,9 +46,6 @@ class Comment extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'commentPost' => array(self::BELONGS_TO, 'Doc', 'comment_post_id'),
-			'commentAuthor' => array(self::BELONGS_TO, 'User', 'comment_author'),
-			'post' => array(self::HAS_ONE, 'Post', 'post_id'),
 		);
 	}
 
@@ -68,6 +61,7 @@ class Comment extends CActiveRecord
 			'comment_date' => 'Comment Date',
 			'comment_content' => 'Comment Content',
 			'user_id' => 'User',
+			'comment_doc_id' => 'Comment Doc',
 		);
 	}
 
@@ -95,6 +89,7 @@ class Comment extends CActiveRecord
 		$criteria->compare('comment_date',$this->comment_date,true);
 		$criteria->compare('comment_content',$this->comment_content,true);
 		$criteria->compare('user_id',$this->user_id);
+		$criteria->compare('comment_doc_id',$this->comment_doc_id);
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,

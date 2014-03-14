@@ -13,11 +13,6 @@
  * @property integer $doc_subject_id
  * @property integer $doc_faculty_id
  * @property string $doc_description
- *
- * The followings are the available model relations:
- * @property Comment[] $comments
- * @property User $docUser
- * @property Subject $docSubject
  */
 class Doc extends CActiveRecord
 {
@@ -53,9 +48,6 @@ class Doc extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'comments' => array(self::HAS_MANY, 'Comment', 'comment_post_id'),
-			'docUser' => array(self::BELONGS_TO, 'User', 'doc_user_id'),
-			'docSubject' => array(self::BELONGS_TO, 'Subject', 'doc_subject_id'),
 		);
 	}
 
