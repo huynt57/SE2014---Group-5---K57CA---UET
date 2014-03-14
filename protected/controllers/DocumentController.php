@@ -5,14 +5,30 @@ Yii::import('application.controllers.BaseController');
 class DocumentController extends BaseController {
 
     public function actionIndex() {
-       
+
         $this->actionDocument();
     }
 
     public function actionDocument() {
+        $Criteria = new CDbCriteria(); //represent for query such as conditions, ordering by, limit/offset. 
+        $Criteria->select = "*";
+        $Criteria->order = "doc_id ASC";
+       
 
-
-        $this->render('document');
+        $this->render('document', array('document' => Doc::model()->findAll($Criteria)));
+    }
+    
+    public function actionViewDocument(){
+         if ($_GET["docid"])
+                {
+                    $spCriteria = new CDbCriteria();
+                    $spCriteria->select = "*";
+                    $spCriteria->condition = "doc_scribd_id = ".$_GET["docid"];
+                    
+                    
+                    $this->render ('viewdocument',array( 'detaildoc' => Doc::model()->findAll($spCriteria)));
+                    
+                }
     }
 
     public function actionUpload() {
@@ -37,8 +53,8 @@ class DocumentController extends BaseController {
             'method' => NULL,
             'session_key' => NULL,
             'my_user_id' => NULL,
-            'width' => 400,
-            'height' => 1000);
+            'width' => '120',
+            'height' => '140');
         $get_thumbnail = $scribd->postRequest('thumbnail.get', $thumbnail_info);
         // var_dump($get_thumbnail);
         $this->retVal->docid = $upload_scribd["doc_id"];
@@ -48,7 +64,7 @@ class DocumentController extends BaseController {
     }
 
     public function actionUpdateInfo() {
-     //   $this->retVal = new stdClass();
+        //   $this->retVal = new stdClass();
         $request = Yii::app()->request;
         if ($request->isPostRequest && isset($_POST)) {
             try {
@@ -65,12 +81,13 @@ class DocumentController extends BaseController {
                 $doc_model->doc_scribd_id = $loginFormData["doc_id"];
                 $doc_model->doc_url = $loginFormData["thumbnail_url"];
                 $doc_model->doc_faculty_id = $loginFormData['faculty'];
+                $doc_model->doc_status = 1;
                 $doc_model->save(FALSE);
             } catch (exception $e) {
-               // $this->retVal->message = $e->getMessage();
+                // $this->retVal->message = $e->getMessage();
             }
-          
         }
+        $this->redirect(Yii::app()->createUrl('document'));
     }
 
     // Uncomment the following methods and override them if needed

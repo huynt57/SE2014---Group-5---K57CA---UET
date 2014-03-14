@@ -1,7 +1,7 @@
 <style>
     .fixsizeitems{
-        height: 210px;
-        width: 160px;
+        height: 250px;
+        width: 180px;
     }
     .fixmarginbottom{
         margin-bottom: 5%;
@@ -18,14 +18,26 @@
                     <div class="w-portfolio-h">
                         <div class="w-portfolio-list">
                             <div class="w-portfolio-list-h">
-                                <?php $this->renderPartial("partial/item") ?>
-                                <?php $this->renderPartial("partial/item") ?>
-                                <?php $this->renderPartial("partial/item") ?>
-                                <?php $this->renderPartial("partial/item") ?>
-                                <?php $this->renderPartial("partial/item") ?>
-                                <?php $this->renderPartial("partial/item") ?>
-                                <?php $this->renderPartial("partial/item") ?>
-
+                                <?php foreach ($document as $doc): ?>
+                                    
+                               
+                                <div class="w-portfolio-item order_1 naming webdesign fixsizeitems fixmarginbottom">
+                                    <div class="w-portfolio-item-h">
+                                        
+                                        <a class="w-portfolio-item-anchor" href="<?php echo Yii::app()->createUrl('document/viewdocument?docid='.$doc->doc_scribd_id)?>">
+                                          
+                                            <div class="w-portfolio-item-image fixsizeitems fixmarginbottom">
+                                                <img src="<?php echo $doc->doc_url ?>" class="fixsizeitems" alt="" style="border-style: solid; border-width: thin; border-color: #d0d6d9;"/>
+                                                <div class="w-portfolio-item-meta">
+                                                    <h2 class="w-portfolio-item-title"><?php echo $doc->doc_name ?>   </h2>
+                                                    <i class="icon-mail-forward"></i>
+                                                </div>
+                                            </div>
+                                        </a>
+                                       
+                                    </div>
+                                </div>
+                                <?php endforeach; ?>
 
                             </div>
                         </div>
