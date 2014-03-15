@@ -19,7 +19,7 @@ class DocumentController extends BaseController {
     }
 
     public function actionViewDocument() {
-        if ($_GET["docid"]) {
+        if (isset($_GET["docid"])) {
             $spCriteria = new CDbCriteria();
             $spCriteria->select = "*";
             $spCriteria->condition = "doc_scribd_id = " . $_GET["docid"];
@@ -98,14 +98,21 @@ class DocumentController extends BaseController {
         if ($request->isPostRequest && isset($_POST)) {
             try {
                 $loginFormData = array(
-                    'comment_doc_id' => @$_POST['comment_doc_id'],
-                    'comment_content' => @$_POST['content'],
+                    'comment_doc_id' => $_POST['comment_doc_id'],
+                    'comment_content' => $_POST['content'],
                 );
                 $comment_model = new Comment;
                 $comment_model->comment_doc_id = $loginFormData['comment_doc_id'];
                 $comment_model->comment_content = $loginFormData['comment_content'];
 
                 $comment_model->save(FALSE);
+                if ($comment_model->save(FALSE))
+                {
+                    $this->retVal->success = TRUE;
+                }
+                else{
+                     $this->retVal->success = FALSE;
+                }
             } catch (exception $e) {
                 // $this->retVal->message = $e->getMessage();
             }

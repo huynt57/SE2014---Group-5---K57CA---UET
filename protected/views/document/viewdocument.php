@@ -1,30 +1,38 @@
 <script type="text/javascript">
     $(document).ready(function() {
         var form = $('#commentform');
-       
-
         form.submit(function(event) {
             // prevent default action
-            e.preventDefault();
+            event.preventDefault();
             // send ajax request
             $.ajax({
-                url: '<?php echo Yii::app()->createUrl('document/viewdocument') ?>',
+                url: '<?php echo Yii::app()->createUrl('document/comment') ?>',
                 type: 'POST',
                 data: form.serialize(), //form serizlize data
                 success: function(data) {
                     // Append with fadeIn see http://stackoverflow.com/a/978731
                     var json = data;
                     var result = $.parseJSON(json);
-                    $(".w-comments-item-text").html(result.message);
-
-
-
+                    var item = $('<div class="w-comments-item" id="comment-1">\
+                                    <div class="w-comments-item-meta">\
+                                        <div class="w-comments-item-icon">\
+                                            <img src="img/avatar.png" alt="" />\
+                                        </div>\
+                                        <div class="w-comments-item-author">Norman Cook</div>\
+                                        <a class="w-comments-item-date" href="#comment-5">April 4th, 2013 3:37 am</a>\
+                                    </div>\
+                                    <div class="w-comments-item-text">\
+                                        <p>' + result.message + '</p>\
+                                    </div>\
+                                </div>').hide().fadeIn(800);
+                    $('.w-comments-list').append(item);
+                  document.getElementById("commentform").reset();
                 },
-                error: function(e) {
-                    alert(e);
+                error: function(event) {
+                    alert(event);
                 }
             });
-             event.preventDefault();
+
             event.stopPropagation();
             return false;
         });
@@ -60,24 +68,31 @@
                 </div>
             </div>
         </div>
-        <div class="g-form-group-rows">
-            <div class="g-form-row-field">
-                <div class="g-input">
-                    <input type="hidden" name="comment_doc_id" id="comment_doc_id" value="<?php echo $detail->doc_scribd_id; ?>" style="max-width: 50%; margin-left: 5%; margin-top: 2%; border-radius: 5px; background-color: white;">
-                </div>
-            </div>
-        </div>
-    <?php endforeach; ?>
-    <div class="l-submain-h g-html i-cf ">
-        <div class="g-cols">
-            <div class="four-fifths" style="float: none; margin: 0 auto">
-                <div class="l-content">
-                    <div id="comments" class="w-comments has_form" value = "show">
-                        <div class="w-comments-h">
-                            <h4 class="w-comments-title"><i class="icon-comments"></i>5 Comments. <a href="#form">Leave new</a></h4>
 
-                            <div class="w-comments-list" id="commentblock">
-                                <?php foreach ($detailcomment as $comment): ?>
+
+        <div class="l-submain-h g-html i-cf ">
+            <div class="g-cols">
+                <div class="four-fifths" style="float: none; margin: 0 auto">
+                    <div class="l-content">
+                        <div id="comments" class="w-comments has_form" value = "show">
+                            <div class="w-comments-h">
+                                <h4 class="w-comments-title"><i class="icon-comments"></i>5 Comments. <a href="#form">Leave new</a></h4>
+
+                                <div class="w-comments-list" id="commentblock">
+                                    <?php foreach ($detailcomment as $comment): ?>
+                                        <div class="w-comments-item" id="comment-1">
+                                            <div class="w-comments-item-meta">
+                                                <div class="w-comments-item-icon">
+                                                    <img src="img/avatar.png" alt="" />
+                                                </div>
+                                                <div class="w-comments-item-author">Norman Cook</div>
+                                                <a class="w-comments-item-date" href="#comment-5">April 4th, 2013 3:37 am</a>
+                                            </div>
+                                            <div class="w-comments-item-text">
+                                                <p><?php echo $comment->comment_content ?></p>
+                                            </div>
+                                        </div>
+                                    <?php endforeach; ?>
                                     <div class="w-comments-item" id="comment-1">
                                         <div class="w-comments-item-meta">
                                             <div class="w-comments-item-icon">
@@ -87,47 +102,41 @@
                                             <a class="w-comments-item-date" href="#comment-5">April 4th, 2013 3:37 am</a>
                                         </div>
                                         <div class="w-comments-item-text">
-                                            <p><?php echo $comment->comment_content ?></p>
+                                            <p></p>
                                         </div>
-                                    </div>
-                                <?php endforeach; ?>
-                                <div class="w-comments-item" id="comment-1">
-                                    <div class="w-comments-item-meta">
-                                        <div class="w-comments-item-icon">
-                                            <img src="img/avatar.png" alt="" />
-                                        </div>
-                                        <div class="w-comments-item-author">Norman Cook</div>
-                                        <a class="w-comments-item-date" href="#comment-5">April 4th, 2013 3:37 am</a>
-                                    </div>
-                                    <div class="w-comments-item-text">
-                                        <p></p>
                                     </div>
                                 </div>
-                            </div>
 
-                            <div id="form" class="w-comments-form" style="margin-left: 5%; margin-right: 5%" id="commentform">
-                                <div class="w-comments-form-title">Bình luận</div>
-                                <div class="w-comments-form-text">Cho chúng tôi thấy ý kiến của bạn !!</div>
-                                <form class="g-form" action="<?php echo Yii::app()->createUrl('document/comment') ?>" method="POST" />
-
-                                <div class="g-form-group">
+                                <div class="w-comments-form" style="margin-left: 5%; margin-right: 5%" id="form">
+                                    <div class="w-comments-form-title">Bình luận</div>
+                                    <div class="w-comments-form-text">Cho chúng tôi thấy ý kiến của bạn !!</div>
+                                    <form class="g-form" action="<?php echo Yii::app()->createUrl('document/comment') ?>" method="POST" id="commentform"/>
                                     <div class="g-form-group-rows">
-
-                                        <div class="g-form-row">
-
-                                            <div class="g-form-row-field">
-                                                <textarea name="content" id="input1x3" cols="30" rows="10"></textarea>
-                                            </div>
-                                        </div>
-                                        <div class="g-form-row">
-                                            <div class="g-form-row-label"></div>
-                                            <div class="g-form-row-field">
-                                                <button class="g-btn type_primary size_small" type="submit" name="Submit" id="submit">Gửi bình luận</button>
+                                        <div class="g-form-row-field">
+                                            <div class="g-input">
+                                                <input type="hidden" name="comment_doc_id" id="comment_doc_id" value="<?php echo $detail->doc_scribd_id; ?>" style="max-width: 50%; margin-left: 5%; margin-top: 2%; border-radius: 5px; background-color: white;">
                                             </div>
                                         </div>
                                     </div>
+                                    <div class="g-form-group">
+                                        <div class="g-form-group-rows">
+
+                                            <div class="g-form-row">
+
+                                                <div class="g-form-row-field">
+                                                    <textarea name="content" id="input1x3" cols="30" rows="10"></textarea>
+                                                </div>
+                                            </div>
+                                            <div class="g-form-row">
+                                                <div class="g-form-row-label"></div>
+                                                <div class="g-form-row-field">
+                                                    <button class="g-btn type_primary size_small" type="submit" name="Submit" id="submit">Gửi bình luận</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </form>
                                 </div>
-                                </form>
                             </div>
                         </div>
                     </div>
@@ -135,4 +144,4 @@
             </div>
         </div>
     </div>
-</div>
+<?php endforeach; ?>
