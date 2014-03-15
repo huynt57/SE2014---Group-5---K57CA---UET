@@ -22,7 +22,7 @@
     <div class="l-submain-h g-html i-cf ">
         <div class="g-cols">
          	<div class="four-fifths" style="float: none; margin: 0 auto">
-		    	<button class="g-btn type_default size_small"><span><i class="icon-download-alt"></i>Chia sẻ Tài liệu</span></button>
+		    	<button class="g-btn type_default size_small"><span><i class="icon-share"></i>Chia sẻ Tài liệu</span></button>
 				<button class="g-btn type_default size_small"><span><i class="icon-plus-sign-alt"></i>Thêm vào mục yêu thích</span></button>
 			</div>
 		</div>
