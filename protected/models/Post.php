@@ -15,10 +15,6 @@
  * @property integer $post_rate
  * @property integer $post_comment_open
  * @property string $post_type
- *
- * The followings are the available model relations:
- * @property Comment $post
- * @property User $postAuthor
  */
 class Post extends CActiveRecord
 {
@@ -55,8 +51,6 @@ class Post extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'post' => array(self::BELONGS_TO, 'Comment', 'post_id'),
-			'postAuthor' => array(self::BELONGS_TO, 'User', 'post_author'),
 		);
 	}
 

@@ -5,14 +5,32 @@ Yii::import('application.controllers.BaseController');
 class DocumentController extends BaseController {
 
     public function actionIndex() {
-       
+
         $this->actionDocument();
     }
 
     public function actionDocument() {
+        $Criteria = new CDbCriteria(); //represent for query such as conditions, ordering by, limit/offset. 
+        $Criteria->select = "*";
+        $Criteria->order = "doc_id ASC";
 
 
-        $this->render('document');
+        $this->render('document', array('document' => Doc::model()->findAll($Criteria)));
+    }
+
+    public function actionViewDocument() {
+        if ($_GET["docid"]) {
+            $spCriteria = new CDbCriteria();
+            $spCriteria->select = "*";
+            $spCriteria->condition = "doc_scribd_id = " . $_GET["docid"];
+
+            $comCriteria = new CDbCriteria();
+            $comCriteria->select = "*";
+            $comCriteria->condition = "comment_doc_id = " . $_GET["docid"];
+
+            $this->render('viewdocument', array('detaildoc' => Doc::model()->findAll($spCriteria),
+                'detailcomment' => Comment::model()->findAll($comCriteria)));
+        }
     }
 
     public function actionUpload() {
@@ -37,8 +55,8 @@ class DocumentController extends BaseController {
             'method' => NULL,
             'session_key' => NULL,
             'my_user_id' => NULL,
-            'width' => 400,
-            'height' => 1000);
+            'width' => '120',
+            'height' => '140');
         $get_thumbnail = $scribd->postRequest('thumbnail.get', $thumbnail_info);
         // var_dump($get_thumbnail);
         $this->retVal->docid = $upload_scribd["doc_id"];
@@ -48,7 +66,7 @@ class DocumentController extends BaseController {
     }
 
     public function actionUpdateInfo() {
-     //   $this->retVal = new stdClass();
+        //   $this->retVal = new stdClass();
         $request = Yii::app()->request;
         if ($request->isPostRequest && isset($_POST)) {
             try {
@@ -68,12 +86,33 @@ class DocumentController extends BaseController {
                 $doc_model->doc_status = 1;
                 $doc_model->save(FALSE);
             } catch (exception $e) {
-               // $this->retVal->message = $e->getMessage();
+                // $this->retVal->message = $e->getMessage();
             }
-          
         }
-        Yii::app()->request->redirect('document');
-      
+        $this->redirect(Yii::app()->createUrl('document'));
+    }
+
+    public function actionComment() {
+        $this->retVal = new stdClass();
+        $request = Yii::app()->request;
+        if ($request->isPostRequest && isset($_POST)) {
+            try {
+                $loginFormData = array(
+                    'comment_doc_id' => @$_POST['comment_doc_id'],
+                    'comment_content' => @$_POST['content'],
+                );
+                $comment_model = new Comment;
+                $comment_model->comment_doc_id = $loginFormData['comment_doc_id'];
+                $comment_model->comment_content = $loginFormData['comment_content'];
+
+                $comment_model->save(FALSE);
+            } catch (exception $e) {
+                // $this->retVal->message = $e->getMessage();
+            }
+        }
+        $this->retVal->message = $loginFormData['comment_content'];
+        echo CJSON::encode($this->retVal);
+        Yii::app()->end();
     }
 
     // Uncomment the following methods and override them if needed

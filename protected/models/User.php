@@ -15,11 +15,6 @@
  * @property integer $user_type
  * @property string $user_avatar
  * @property integer $user_favourite_doc_id
- *
- * The followings are the available model relations:
- * @property Comment[] $comments
- * @property Doc[] $docs
- * @property Post[] $posts
  */
 class User extends CActiveRecord
 {
@@ -56,9 +51,6 @@ class User extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'comments' => array(self::HAS_MANY, 'Comment', 'comment_author'),
-			'docs' => array(self::HAS_MANY, 'Doc', 'doc_user_id'),
-			'posts' => array(self::HAS_MANY, 'Post', 'post_author'),
 		);
 	}
 
