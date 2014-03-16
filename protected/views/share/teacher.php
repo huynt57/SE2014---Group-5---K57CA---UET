@@ -170,8 +170,24 @@
                                                                 <span class="w-tabs-section-title-control"><i class="icon-angle-down"></i></span>
                                                         </div>
                                                         <div class="w-tabs-section-content">
-                                                                <div class="w-tabs-section-content-h">
-                                                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                                                                <div class="w-tabs-section-content-h"> 
+                                                                    <span class="star-rating">
+                                                                      <input type="radio" name="rating" value="1"><i></i>
+                                                                      <input type="radio" name="rating" value="2"><i></i>
+                                                                      <input type="radio" name="rating" value="3"><i></i>
+                                                                      <input type="radio" name="rating" value="4"><i></i>
+                                                                      <input type="radio" name="rating" value="5"><i></i>
+                                                                    </span>
+                                                                    <strong class="choice">Choose a rating</strong>
+                                                                    
+                                                                    <script>
+                                                                        $(':radio').change(
+                                                                            function(){
+                                                                              $('.choice').text( this.value + ' stars' );
+                                                                            } 
+                                                                          )
+                                                                    </script>
+
                                                                 </div>
                                                         </div>
                                                 </div>
