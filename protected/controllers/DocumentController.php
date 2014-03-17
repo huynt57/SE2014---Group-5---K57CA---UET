@@ -56,7 +56,7 @@ class DocumentController extends BaseController {
             'session_key' => NULL,
             'my_user_id' => NULL,
             'width' => '120',
-            'height' => '140');
+            'height' => '100');
         $get_thumbnail = $scribd->postRequest('thumbnail.get', $thumbnail_info);
         // var_dump($get_thumbnail);
         $this->retVal->docid = $upload_scribd["doc_id"];
