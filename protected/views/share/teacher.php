@@ -171,23 +171,32 @@
                                                         </div>
                                                         <div class="w-tabs-section-content">
                                                                 <div class="w-tabs-section-content-h"> 
-                                                                    <span class="star-rating">
-                                                                      <input type="radio" name="rating" value="1"><i></i>
-                                                                      <input type="radio" name="rating" value="2"><i></i>
-                                                                      <input type="radio" name="rating" value="3"><i></i>
-                                                                      <input type="radio" name="rating" value="4"><i></i>
-                                                                      <input type="radio" name="rating" value="5"><i></i>
-                                                                    </span>
-                                                                    <strong class="choice">Choose a rating</strong>
+                                                                    <div class='movie_choice'>
+                                                                        Rate: Raiders of the Lost Ark
+                                                                        <div id="r1" class="rate_widget">
+                                                                            <div class="star_1 ratings_stars"></div>
+                                                                            <div class="star_2 ratings_stars"></div>
+                                                                            <div class="star_3 ratings_stars"></div>
+                                                                            <div class="star_4 ratings_stars"></div>
+                                                                            <div class="star_5 ratings_stars"></div>
+                                                                            <div class="total_votes">vote data</div>
+                                                                        </div>
+                                                                    </div>
                                                                     
                                                                     <script>
-                                                                        $(':radio').change(
-                                                                            function(){
-                                                                              $('.choice').text( this.value + ' stars' );
-                                                                            } 
-                                                                          )
+                                                                        $('.ratings_stars').hover(
+                                                                            // Handles the mouseover
+                                                                            function() {
+                                                                                $(this).prevAll().andSelf().addClass('ratings_over');
+                                                                                $(this).nextAll().removeClass('ratings_vote');
+                                                                            },
+                                                                            // Handles the mouseout
+                                                                            function() {
+                                                                                $(this).prevAll().andSelf().removeClass('ratings_over');
+                                                                                set_votes($(this).parent());
+                                                                            }
+                                                                        );
                                                                     </script>
-
                                                                 </div>
                                                         </div>
                                                 </div>
