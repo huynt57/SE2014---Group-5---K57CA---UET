@@ -41,15 +41,15 @@
                                                 </div>
                                             </div>
                                         </div>
+                                    </div>
                                 </div>
                             </div>
-                           </div>
+                        </div>
                     </div>
-                </div>
-
-                    <h2>Sơ lược</h2>
-
-                    <div class="g-hr type_short">
+                    <div style="margin-top: 3%">
+                        <h2>Sơ lược</h2>
+                    </div>
+                    <div class="g-hr type_long">
                             <span class="g-hr-h">
                                     <i class="icon-arrow-down"></i>
                             </span>

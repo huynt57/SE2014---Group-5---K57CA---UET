@@ -10,6 +10,10 @@ class ShareController extends Controller {
         $this->render('share');
     }
 
+    public function actionTeacher(){
+        $this->render('teacher');
+    }
+
     // Uncomment the following methods and override them if needed
     /*
       public function filters()
