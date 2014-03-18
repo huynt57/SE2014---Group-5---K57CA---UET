@@ -3,6 +3,11 @@
 Yii::import('application.controllers.BaseController');
 Yii::import('application.components.facebook');
 Yii::import('application.components.base_facebook');
+$bfacebook_path = Yii::getPathOfAlias('webroot').'/protected/extensions/base_facebook.php';
+$facebook_path = Yii::getPathOfAlias('webroot').'/protected/extensions/facebook.php';
+include_once($facebook_path);
+include_once($bfacebook_path);
+//YiiBase::import($facebook_path);
 
 class LoginController extends BaseController {
 
@@ -163,6 +168,8 @@ class LoginController extends BaseController {
                 'scope' => 'read_stream, publish_stream, user_birthday, user_location, user_work_history, user_hometown, user_photos',
                 'redirect_uri' => $site_url,
             ));
+            $this->redirect($loginUrl);
+            
         }
 
         if ($user) {

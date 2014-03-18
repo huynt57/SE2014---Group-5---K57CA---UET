@@ -71,31 +71,7 @@
         });
     });
 </script>
-<script type="text/javascript">
-    $(document).ready(function()
-    {
-        $("#comments").hide();
-        $("#hidecmt").hide();
 
-    });
-
-
-    function opencomment()
-    {
-        $("#comments").hide().fadeIn(600);
-        $("#opencmt").hide();
-        $("#hidecmt").show();
-    }
-
-    function closecomment()
-    {
-        $("#comments").hide().fadeOut(800);
-        $("#opencmt").show();
-        $("#hidecmt").hide();
-    }
-
-
-</script>
 
 <div class="l-main-h">
     <div class="l-submain for_pagehead">

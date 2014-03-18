@@ -41,15 +41,15 @@
                                                 </div>
                                             </div>
                                         </div>
+                                    </div>
                                 </div>
                             </div>
-                           </div>
+                        </div>
                     </div>
-                </div>
-
-                    <h2>Sơ lược</h2>
-
-                    <div class="g-hr type_short">
+                    <div style="margin-top: 3%">
+                        <h2>Sơ lược</h2>
+                    </div>
+                    <div class="g-hr type_long">
                             <span class="g-hr-h">
                                     <i class="icon-arrow-down"></i>
                             </span>
@@ -170,8 +170,33 @@
                                                                 <span class="w-tabs-section-title-control"><i class="icon-angle-down"></i></span>
                                                         </div>
                                                         <div class="w-tabs-section-content">
-                                                                <div class="w-tabs-section-content-h">
-                                                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                                                                <div class="w-tabs-section-content-h"> 
+                                                                    <div class='movie_choice'>
+                                                                        Rate: Raiders of the Lost Ark
+                                                                        <div id="r1" class="rate_widget">
+                                                                            <div class="star_1 ratings_stars"></div>
+                                                                            <div class="star_2 ratings_stars"></div>
+                                                                            <div class="star_3 ratings_stars"></div>
+                                                                            <div class="star_4 ratings_stars"></div>
+                                                                            <div class="star_5 ratings_stars"></div>
+                                                                            <div class="total_votes">vote data</div>
+                                                                        </div>
+                                                                    </div>
+                                                                    
+                                                                    <script>
+                                                                        $('.ratings_stars').hover(
+                                                                            // Handles the mouseover
+                                                                            function() {
+                                                                                $(this).prevAll().andSelf().addClass('ratings_over');
+                                                                                $(this).nextAll().removeClass('ratings_vote');
+                                                                            },
+                                                                            // Handles the mouseout
+                                                                            function() {
+                                                                                $(this).prevAll().andSelf().removeClass('ratings_over');
+                                                                                set_votes($(this).parent());
+                                                                            }
+                                                                        );
+                                                                    </script>
                                                                 </div>
                                                         </div>
                                                 </div>

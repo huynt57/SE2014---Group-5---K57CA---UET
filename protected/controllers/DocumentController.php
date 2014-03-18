@@ -89,7 +89,13 @@ class DocumentController extends BaseController {
                 // $this->retVal->message = $e->getMessage();
             }
         }
-        $this->redirect(Yii::app()->createUrl('document'));
+        $this->retVal->docid = $loginFormData["doc_id"];
+        $this->retVal->thumbnail = $loginFormData["thumbnail_url"];
+        $this->retVal->title = $loginFormData["title"];
+        $this->retVal->description = $loginFormData["description"];
+        $this->retVal->faculty = $loginFormData["faculty"];
+        echo CJSON::encode($this->retVal);
+        Yii::app()->end();
     }
 
     public function actionComment() {
@@ -106,12 +112,10 @@ class DocumentController extends BaseController {
                 $comment_model->comment_content = $loginFormData['comment_content'];
 
                 $comment_model->save(FALSE);
-                if ($comment_model->save(FALSE))
-                {
+                if ($comment_model->save(FALSE)) {
                     $this->retVal->success = TRUE;
-                }
-                else{
-                     $this->retVal->success = FALSE;
+                } else {
+                    $this->retVal->success = FALSE;
                 }
             } catch (exception $e) {
                 // $this->retVal->message = $e->getMessage();
