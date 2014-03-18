@@ -127,7 +127,35 @@ class LoginController extends BaseController {
 
         $this->render('login/signup');
     }
-
+    function getFb(){
+		$app_id = "1428478800723370";
+        $app_secret = "64b21e0ab23ec7db82979f9607065704";
+        $site_url = "bluebee-uet.com";
+        
+        $facebook = new Facebook(array(
+            'appId' => $app_id,
+            'secret' => $app_secret,
+            "cookie" => true
+        ));
+        return $facebook;   
+    }
+    public function actionFb_login(){
+	    $facebook = $this->getFb();
+	    $loginUrl = $facebook->getLoginUrl(array(
+            'scope' => '',
+            'redirect_uri' => "http://bluebee-uet.com/discussion",
+        ));
+        $this->redirect($loginUrl);
+    }
+    public function actionFb_login_result(){
+	    $facebook = $this->getFb();
+	    $access_token = $facebook->getAccessToken();
+		//$message .= "access_token = ".$access_token."<br/>";
+		$user = $facebook->api("me","get",array(
+			"access_token" => $access_token
+		));
+		//print_r($user);
+    }
     public function actionloginFacebook() {
         $app_id = "1428478800723370";
         $app_secret = "64b21e0ab23ec7db82979f9607065704";

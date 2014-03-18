@@ -14611,3 +14611,30 @@ REQUEST_URI=/SE_2014_Group5/themes/classic/assets/js/modernizr.custom.js
 HTTP_REFERER=http://localhost:7070/SE_2014_Group5/index.php/Search
 >>>>>>> ae129f899a05550015addd4d99504174f16ffef3
 ---
+2014/03/18 15:59:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.themepunch.revolution.min.js".' in F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 F:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\xampp\htdocs\SE2014-Project_Website\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/assets/js/jquery.themepunch.revolution.min.js
+HTTP_REFERER=http://localhost:8080/SE2014-Project_Website/index.php/share/teacher
+---
+2014/03/18 15:59:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.flexslider.js".' in F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 F:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\xampp\htdocs\SE2014-Project_Website\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/assets/js/jquery.flexslider.js
+HTTP_REFERER=http://localhost:8080/SE2014-Project_Website/index.php/share/teacher
+---
+2014/03/18 15:59:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/modernizr.custom.js".' in F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 F:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\xampp\htdocs\SE2014-Project_Website\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/assets/js/modernizr.custom.js
+HTTP_REFERER=http://localhost:8080/SE2014-Project_Website/index.php/share/teacher
+---
