@@ -9,15 +9,23 @@
 </style>
 <script type="text/javascript">
     $(document).ready(function() {
+        $('#loading').hide();
         var form = $('#formscribd');
         form.submit(function(event) {
             // prevent default action
             event.preventDefault();
             // send ajax request
+
             $.ajax({
+                beforeSend: function() {
+                    $('#loading').show();
+                },
                 url: '<?php echo Yii::app()->createUrl('document/updateinfo') ?>',
                 type: 'POST',
                 data: form.serialize(), //form serizlize data
+                complete: function() {
+                    $('#loading').hide();
+                },
                 success: function(data) {
                     // Append with fadeIn see http://stackoverflow.com/a/978731
                     var json = data;
@@ -25,7 +33,7 @@
                     var docid = result.docid;
                     var item = $('<div class="w-portfolio-item order_1 naming webdesign fixsizeitems fixmarginbottom">' +
                             '<div class="w-portfolio-item-h">' +
-                            '<a class="w-portfolio-item-anchor" href="<?php echo Yii::app()->createUrl('document/viewdocument?docid=' + result.docid) ?>">' +
+                            '<a class="w-portfolio-item-anchor" href="<?php echo Yii::app()->createUrl('document/viewdocument?docid=' + result . docid) ?>">' +
                             '<div class="w-portfolio-item-image fixsizeitems fixmarginbottom">' +
                             '<img src="' + result.thumbnail + '" class="fixsizeitems" alt="" style="border-style: solid; border-width: thin; border-color: #d0d6d9;"/>' +
                             '<div class="w-portfolio-item-meta">' +
@@ -40,11 +48,13 @@
 
                     $('.w-tabs-section-title-text').click();
                     document.getElementById("formscribd").reset();
-                    document.getElementById("#my-dropzone").reset();
+                    document.getElementById("my-dropzone").reset();
+                    $('#loading').hide();
                 },
                 error: function(event) {
                     alert(event);
                 }
+
             });
 
             event.stopPropagation();
@@ -56,14 +66,17 @@
 <div class="l-submain">
     <div class="l-submain-h g-html i-cf">
         <div class="g-cols">
-<?php $this->renderPartial("partial/side_bar_left") ?>
+            <?php $this->renderPartial("partial/side_bar_left") ?>
             <div class="three-fourths">
-            <?php $this->renderPartial("partial/upload-file-area") ?>
+                <?php $this->renderPartial("partial/upload-file-area") ?>
                 <div class="w-portfolio columns_4">
+                     <div> <img class="" src="<?php echo Yii::app()->theme->baseUrl; ?>/assets/img/ajax-loader.gif" alt="" style="" id="loading"/></div>
                     <div class="w-portfolio-h">
                         <div class="w-portfolio-list">
+                           
                             <div class="w-portfolio-list-h" id="docblock">
-<?php foreach ($document as $doc): ?>
+
+                                <?php foreach ($document as $doc): ?>
 
 
                                     <div class="w-portfolio-item order_1 naming webdesign fixsizeitems fixmarginbottom">
@@ -82,7 +95,7 @@
 
                                         </div>
                                     </div>
-<?php endforeach; ?>
+                                <?php endforeach; ?>
 
                             </div>
                         </div>
