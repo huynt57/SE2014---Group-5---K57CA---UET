@@ -21,11 +21,11 @@
                                         <div class="w-comments-item-author">Norman Cook</div>\
                                         <a class="w-comments-item-date" href="#comment-5">April 4th, 2013 3:37 am</a>\
                                     </div>\
-                                    <div class="w-comments-item-text">\
-                                        <p>' + result.message + '</p>\
+                                     <div class="w-comments-item-text">\
+                                       <p>' + result.message + '</p>\
                                     </div>\
                                 </div>').hide().fadeIn(800);
-                    $('.w-comments-list').append(item);
+                    $('#commentblock').append(item);
                   document.getElementById("commentform").reset();
                 },
                 error: function(event) {
@@ -93,18 +93,7 @@
                                             </div>
                                         </div>
                                     <?php endforeach; ?>
-                                    <div class="w-comments-item" id="comment-1">
-                                        <div class="w-comments-item-meta">
-                                            <div class="w-comments-item-icon">
-                                                <img src="img/avatar.png" alt="" />
-                                            </div>
-                                            <div class="w-comments-item-author">Norman Cook</div>
-                                            <a class="w-comments-item-date" href="#comment-5">April 4th, 2013 3:37 am</a>
-                                        </div>
-                                        <div class="w-comments-item-text">
-                                            <p></p>
-                                        </div>
-                                    </div>
+                                 
                                 </div>
 
                                 <div class="w-comments-form" style="margin-left: 5%; margin-right: 5%" id="form">
