@@ -79,7 +79,7 @@
             <div class="w-pagehead">
                 <h1>Thảo luận</h1>
                 <p>Share everything !!</p>
-            </div>s
+            </div>
         </div>
     </div>
     <div class="l-submain">

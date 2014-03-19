@@ -25,7 +25,7 @@
                     var docid = result.docid;
                     var item = $('<div class="w-portfolio-item order_1 naming webdesign fixsizeitems fixmarginbottom">' +
                             '<div class="w-portfolio-item-h">' +
-                            '<a class="w-portfolio-item-anchor" href="<?php echo Yii::app()->createUrl('document/viewdocument?docid=' + docid) ?>">' +
+                            '<a class="w-portfolio-item-anchor" href="<?php echo Yii::app()->createUrl('document/viewdocument?docid=' + 'result.docid') ?>">' +
                             '<div class="w-portfolio-item-image fixsizeitems fixmarginbottom">' +
                             '<img src="' + result.thumbnail + '" class="fixsizeitems" alt="" style="border-style: solid; border-width: thin; border-color: #d0d6d9;"/>' +
                             '<div class="w-portfolio-item-meta">' +

@@ -5,3 +5,4 @@
 	<div class="l-submain-h g-html i-cf ">
             <div class="g-cols">
 			<?php $this->renderPartial("partial/result-bar-left")?>
+			<?php $this->renderPartial("partial/result-bar-right")?>
