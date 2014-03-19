@@ -8,6 +8,7 @@
 	        var result = $.parseJSON(json);
 	        $('#thumbnail_url').val(result.thumbnail);
 	        $('#doc_id').val(result.docid);
+                
         });
 
     });

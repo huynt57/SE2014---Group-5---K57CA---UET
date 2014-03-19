@@ -12,7 +12,7 @@ class DocumentController extends BaseController {
     public function actionDocument() {
         $Criteria = new CDbCriteria(); //represent for query such as conditions, ordering by, limit/offset. 
         $Criteria->select = "*";
-        $Criteria->order = "doc_id ASC";
+        $Criteria->order = "doc_id DESC";
 
 
         $this->render('document', array('document' => Doc::model()->findAll($Criteria)));
@@ -35,8 +35,8 @@ class DocumentController extends BaseController {
 
     public function actionUpload() {
         //$ds = DIRECTORY_SEPARATOR;  //1
-        $api_key = "6cqkf5gln6qa1ky5eu5wy";
-        $secret = "sec-ga9jk2qgz0j0qn25io6k1igei";
+        $api_key = "24cxjtv3vw69wu5p7pqd9";
+        $secret = "sec-b2rlvg8kxwwpkz9fo3i02mo9vo";
 
         $this->retVal = new stdClass();
 
@@ -55,8 +55,8 @@ class DocumentController extends BaseController {
             'method' => NULL,
             'session_key' => NULL,
             'my_user_id' => NULL,
-            'width' => '120',
-            'height' => '100');
+            'width' => '180',
+            'height' => '220');
         $get_thumbnail = $scribd->postRequest('thumbnail.get', $thumbnail_info);
         // var_dump($get_thumbnail);
         $this->retVal->docid = $upload_scribd["doc_id"];
