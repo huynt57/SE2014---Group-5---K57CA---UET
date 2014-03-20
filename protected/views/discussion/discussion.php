@@ -1,14 +1,22 @@
 <script type="text/javascript">
     $(document).ready(function() {
+         $('#loading').hide();
         var form = $('#postform');
         form.submit(function(event) {
             // prevent default action
             event.preventDefault();
             // send ajax request
+           
             $.ajax({
+                beforeSend: function() {
+           $('#loading').show();
+        },
                 url: '<?php echo Yii::app()->createUrl('discussion/makepost') ?>',
                 type: 'POST',
                 data: form.serialize(), //form serizlize data
+        complete: function() {
+            $('#loading').hide();
+        },
                 success: function(data) {
                     // Append with fadeIn see http://stackoverflow.com/a/978731
                     var json = data;
@@ -53,6 +61,7 @@
                                                     '</div>'+
                                                '</div>'+
                                                '</div>').hide().fadeIn(800);
+                                        $('#loading').html('');
                     $('#blogblock').prepend(item);
                   document.getElementById("postform").reset();
                 },
@@ -84,6 +93,7 @@
                     <div class="one-half" style="margin-bottom: 40px">
                         <div class="w-tabs layout_accordion type_toggle">
                             <div class="w-tabs-h">
+                              
                                 <div class="w-tabs-section with_icon">
                                     <div class="w-tabs-section-title">
                                         <span class="w-tabs-section-title-icon icon-book"></span>
@@ -114,12 +124,15 @@
                             </div>
                         </div>
                     </div>
+                     <div> <img class="w-blog-entry-img-h" src="<?php echo Yii::app()->theme->baseUrl; ?>/assets/img/ajax-loader.gif" alt="" style="" id="loading"/></div>
                     <?php foreach ($post as $detailpost): ?>
                         <div class="l-content">
                             <div class="l-content-h">
                                 <div class="w-blog imgpos_atleft meta_tagscomments">
                                     <div class="w-blog-h" id="blogblock">
+                                       
                                         <div class="w-blog-list">
+                                             
                                             <div class="w-blog-entry" >
                                                 <div class="w-blog-entry-h">
                                                     <a class="w-blog-entry-link" href="blog-post.html">

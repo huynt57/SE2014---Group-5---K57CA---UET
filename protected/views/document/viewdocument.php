@@ -1,11 +1,15 @@
 <script type="text/javascript">
     $(document).ready(function() {
+         $('#loading').hide();
         var form = $('#commentform');
         form.submit(function(event) {
             // prevent default action
             event.preventDefault();
             // send ajax request
             $.ajax({
+                beforeSend: function() {
+                    $('#loading').show();
+                },
                 url: '<?php echo Yii::app()->createUrl('document/comment') ?>',
                 type: 'POST',
                 data: form.serialize(), //form serizlize data
@@ -21,12 +25,15 @@
                                         <div class="w-comments-item-author">Norman Cook</div>\
                                         <a class="w-comments-item-date" href="#comment-5">April 4th, 2013 3:37 am</a>\
                                     </div>\
-                                    <div class="w-comments-item-text">\
-                                        <p>' + result.message + '</p>\
+                                     <div class="w-comments-item-text">\
+                                       <p>' + result.message + '</p>\
                                     </div>\
                                 </div>').hide().fadeIn(800);
-                    $('.w-comments-list').append(item);
+                    $('#commentblock').append(item);
                   document.getElementById("commentform").reset();
+                },
+                 complete: function() {
+                    $('#loading').hide();
                 },
                 error: function(event) {
                     alert(event);
@@ -93,20 +100,9 @@
                                             </div>
                                         </div>
                                     <?php endforeach; ?>
-                                    <div class="w-comments-item" id="comment-1">
-                                        <div class="w-comments-item-meta">
-                                            <div class="w-comments-item-icon">
-                                                <img src="img/avatar.png" alt="" />
-                                            </div>
-                                            <div class="w-comments-item-author">Norman Cook</div>
-                                            <a class="w-comments-item-date" href="#comment-5">April 4th, 2013 3:37 am</a>
-                                        </div>
-                                        <div class="w-comments-item-text">
-                                            <p></p>
-                                        </div>
-                                    </div>
+                                 
                                 </div>
-
+  <div> <img class="" src="<?php echo Yii::app()->theme->baseUrl; ?>/assets/img/ajax-loader.gif" alt="" style="" id="loading"/></div>
                                 <div class="w-comments-form" style="margin-left: 5%; margin-right: 5%" id="form">
                                     <div class="w-comments-form-title">Bình luận</div>
                                     <div class="w-comments-form-text">Cho chúng tôi thấy ý kiến của bạn !!</div>
