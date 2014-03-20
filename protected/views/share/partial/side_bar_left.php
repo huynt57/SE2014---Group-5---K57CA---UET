@@ -25,12 +25,12 @@
                                                                         <div class="w-nav-list-h">
                                                                                 <div class="w-nav-item level_3">
                                                                                         <div class="w-nav-item-h">
-                                                                                            <a href="home-landing.html" class="w-nav-anchor level_3" style="color: black">Đại số</a>
+                                                                                            <a href="<?php echo Yii::app()->createUrl('share/subject')?>" class="w-nav-anchor level_3" style="color: black">Đại số</a>
                                                                                         </div>
                                                                                 </div>
                                                                                 <div class="w-nav-item level_3">
                                                                                         <div class="w-nav-item-h">
-                                                                                            <a href="home-parallax.html" class="w-nav-anchor level_3" style="color: black">Giải tích</a>
+                                                                                            <a href="<?php echo Yii::app()->createUrl('share/subject')?> class="w-nav-anchor level_3" style="color: black">Giải tích</a>
                                                                                         </div>
                                                                                 </div>
                                                                         </div>

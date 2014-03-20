@@ -13,6 +13,10 @@ class ShareController extends Controller {
     public function actionTeacher(){
         $this->render('teacher');
     }
+    
+    public function actionSubject(){
+        $this->render('subject');
+    }
 
     // Uncomment the following methods and override them if needed
     /*
