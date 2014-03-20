@@ -13,16 +13,12 @@
                     // Append with fadeIn see http://stackoverflow.com/a/978731
                     var json = data;
                     var result = $.parseJSON(json);
-                  
                     var item = $('<div class="w-blog-entry" >'+
            ' <div class="w-blog-entry-h">'+
                                             '<a class="w-blog-entry-link" href="blog-post.html">'+
                                                         '<span class="w-blog-entry-img animate_afc animate_start" style="width: 60px;">'+
                                                             '<img class="w-blog-entry-img-h" src="<?php echo Yii::app()->theme->baseUrl; ?>/assets/img/demo/blog-1.jpg" alt="" style=""/>'+
                                                         '</span>'+
-                                                       ' <h2 class="w-blog-entry-title">'+
-                                                            '<span class="w-blog-entry-title-h" >This is a Post</span>'+
-                                                        '</h2>'+
                                                    ' </a>'+
                                                     '<div class="w-blog-entry-body" style="margin-left: 90px;">'+
                                                         '<div class="w-blog-entry-meta">'+
@@ -54,7 +50,6 @@
                                                             '<p>'+result.message+'</p>'+
                                                         '</div>'+
                                                         '<button class=" g-btn type_primary size_small" id="opencmt" onclick=""><span>Xem thêm</span></button>'+
-                                                        
                                                     '</div>'+
                                                '</div>'+
                                                '</div>').hide().fadeIn(800);
@@ -65,7 +60,6 @@
                     alert(event);
                 }
             });
-
             event.stopPropagation();
             return false;
         });
@@ -132,9 +126,6 @@
                                                         <span class="w-blog-entry-img animate_afc" style="width: 60px;">
                                                             <img class="w-blog-entry-img-h" src="<?php echo Yii::app()->theme->baseUrl; ?>/assets/img/demo/blog-1.jpg" alt="" style=""/>
                                                         </span>
-                                                        <h2 class="w-blog-entry-title">
-                                                            <span class="w-blog-entry-title-h" >This is a Post</span>
-                                                        </h2>
                                                     </a>
                                                     <div class="w-blog-entry-body" style="margin-left: 90px;">
                                                         <div class="w-blog-entry-meta">
@@ -167,10 +158,8 @@
                                                         </div>
 
                                                         <button class=" g-btn type_primary size_small" id="opencmt" ><span>Xem thêm</span></button>
-                                                       
                                                     </div>
                                                 </div>
-                                               
                                             </div>
                                         </div>
                                     </div>
