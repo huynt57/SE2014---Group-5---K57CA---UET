@@ -6,7 +6,6 @@
             // prevent default action
             event.preventDefault();
             // send ajax request
-           
             $.ajax({
                 beforeSend: function() {
            $('#loading').show();
@@ -69,6 +68,7 @@
                     alert(event);
                 }
             });
+
             event.stopPropagation();
             return false;
         });
@@ -93,10 +93,9 @@
                     <div class="one-half" style="margin-bottom: 40px">
                         <div class="w-tabs layout_accordion type_toggle">
                             <div class="w-tabs-h">
-                              
                                 <div class="w-tabs-section with_icon">
                                     <div class="w-tabs-section-title">
-                                        <span class="w-tabs-section-title-icon icon-book"></span>
+                                        <span class="w-tabs-section-title-icon icon-pencil"></span>
                                         <span class="w-tabs-section-title-text">Hãy cho ý kiến của bạn ...</span>
                                         <span class="w-tabs-section-title-control"><i class="icon-angle-down"></i></span>
                                     </div>
@@ -130,9 +129,7 @@
                             <div class="l-content-h">
                                 <div class="w-blog imgpos_atleft meta_tagscomments">
                                     <div class="w-blog-h" id="blogblock">
-                                       
                                         <div class="w-blog-list">
-                                             
                                             <div class="w-blog-entry" >
                                                 <div class="w-blog-entry-h">
                                                     <a class="w-blog-entry-link" href="blog-post.html">
