@@ -37,6 +37,16 @@
                                                         <br/>
                                                         <span>SĐT: 010101010</span>
                                                         <br/>
+                                                        <div class="input select rating-f">
+                                                            <label for="example-f">Vote:</label>
+                                                            <select id="example-f" name="rating">
+                                                                <option value="1">1</option>
+                                                                <option value="2">2</option>
+                                                                <option value="3">3</option>
+                                                                <option value="4">4</option>
+                                                                <option value="5">5</option>
+                                                            </select>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -163,48 +173,11 @@
                                                                 </div>
                                                         </div>
                                                 </div>
-                                                <div class="w-tabs-section with_icon">
-                                                        <div class="w-tabs-section-title">
-                                                                <span class="w-tabs-section-title-icon icon-male"></span>
-                                                                <span class="w-tabs-section-title-text">Rate</span>
-                                                                <span class="w-tabs-section-title-control"><i class="icon-angle-down"></i></span>
-                                                        </div>
-                                                        <div class="w-tabs-section-content">
-                                                                <div class="w-tabs-section-content-h"> 
-                                                                    <div class='movie_choice'>
-                                                                        Rate: Raiders of the Lost Ark
-                                                                        <div id="r1" class="rate_widget">
-                                                                            <div class="star_1 ratings_stars"></div>
-                                                                            <div class="star_2 ratings_stars"></div>
-                                                                            <div class="star_3 ratings_stars"></div>
-                                                                            <div class="star_4 ratings_stars"></div>
-                                                                            <div class="star_5 ratings_stars"></div>
-                                                                            <div class="total_votes">vote data</div>
-                                                                        </div>
-                                                                    </div>
-                                                                    
-                                                                    <script>
-                                                                        $('.ratings_stars').hover(
-                                                                            // Handles the mouseover
-                                                                            function() {
-                                                                                $(this).prevAll().andSelf().addClass('ratings_over');
-                                                                                $(this).nextAll().removeClass('ratings_vote');
-                                                                            },
-                                                                            // Handles the mouseout
-                                                                            function() {
-                                                                                $(this).prevAll().andSelf().removeClass('ratings_over');
-                                                                                set_votes($(this).parent());
-                                                                            }
-                                                                        );
-                                                                    </script>
-                                                                </div>
-                                                        </div>
-                                                </div>
                                         </div>
                                 </div>
                             </div>
                     </div>
-
+                    
                     <div class="g-hr type_invisible">
                             <span class="g-hr-h">
                                     <i class="icon-star"></i>
