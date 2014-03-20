@@ -37,16 +37,7 @@
                                                         <br/>
                                                         <span>SĐT: 010101010</span>
                                                         <br/>
-                                                        <div class="input select rating-f">
-                                                            <label for="example-f">Vote:</label>
-                                                            <select id="example-f" name="rating">
-                                                                <option value="1">1</option>
-                                                                <option value="2">2</option>
-                                                                <option value="3">3</option>
-                                                                <option value="4">4</option>
-                                                                <option value="5">5</option>
-                                                            </select>
-                                                        </div>
+                                                        
                                                     </div>
                                                 </div>
                                             </div>
@@ -173,6 +164,28 @@
                                                                 </div>
                                                         </div>
                                                 </div>
+                                                <div class="w-tabs-section with_icon">
+                                                            <div class="w-tabs-section-title">
+                                                                    <span class="w-tabs-section-title-icon icon-male"></span>
+                                                                    <span class="w-tabs-section-title-text">Rate</span>
+                                                                    <span class="w-tabs-section-title-control"><i class="icon-angle-down"></i></span>
+                                                            </div>
+                                                            <div class="w-tabs-section-content">
+                                                                    <div class="w-tabs-section-content-h">
+                                                                            <div class="input select rating-f">
+                                                                                <label for="example-f">Đánh giá:</label>
+                                                                                <select id="example-f" name="rating">
+                                                                                    <option value="1">1</option>
+                                                                                    <option value="2">2</option>
+                                                                                    <option value="3">3</option>
+                                                                                    <option value="4">4</option>
+                                                                                    <option value="5">5</option>
+                                                                                </select>
+                                                                                
+                                                                            </div>
+                                                                    </div>
+                                                            </div>
+                                                    </div>
                                         </div>
                                 </div>
                             </div>

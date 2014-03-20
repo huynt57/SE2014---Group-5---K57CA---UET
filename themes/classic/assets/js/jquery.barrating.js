@@ -98,7 +98,7 @@
                             text = text ? text : $this.data('barrating').currentRatingText;
 
                             // change selected OPTION in the select box (now hidden)
-                            $this.find('option[value="' + value + '"]').prop('selected', true);
+                            $this.find('option[value= "' + value + '"]').prop('selected', true);
 
                             // update .br-current-rating div
                             if (userOptions.showSelectedRating) { 
@@ -112,7 +112,7 @@
                         function (event) {
 
                             // add classes
-                            $(this).find('a[data-rating-value="' + $this.data('barrating').currentRatingValue + '"]')
+                            $(this).find('a[data-rating-value= "' + $this.data('barrating').currentRatingValue + '"]')
                                 .addClass('br-selected br-current')[nextAllorPreviousAll]()
                                 .addClass('br-selected');
 

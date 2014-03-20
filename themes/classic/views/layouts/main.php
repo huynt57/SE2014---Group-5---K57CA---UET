@@ -52,11 +52,10 @@
         
         <!-- Star rating-->
         <link rel="stylesheet" type="text/css" media="all" href="<?php echo Yii::app()->theme->baseUrl; ?>/assets/css/ratings.css" />
-        <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
         <script type="text/javascript" src="<?php echo Yii::app()->theme->baseUrl; ?>/assets/js/jquery.barrating.js"></script>
         <script type="text/javascript">
             $(function () {
-                $('#example-f').barrating({ showSelectedRating:false });
+                $('#example-f').barrating();
             });
         </script>
          
