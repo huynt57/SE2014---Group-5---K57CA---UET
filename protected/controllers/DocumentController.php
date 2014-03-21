@@ -14,7 +14,6 @@ class DocumentController extends BaseController {
         $Criteria->select = "*";
         $Criteria->order = "doc_id ASC";
 
-
         $this->render('document', array('document' => Doc::model()->findAll($Criteria)));
     }
 

@@ -17,7 +17,7 @@
                                                 <div class="l-submain-h g-html i-cf">
                                                         <div>
                                                                 <img class="rounded float_left" src="<?php echo Yii::app()->theme->baseUrl; ?>/assets/img/demo/blog-1.jpg"/>
-                                                                <span style="font-size: xx-large">Đại số tuyến tính</span>
+                                                                <span style="font-size: xx-large"><?php echo $subject->subject_name ?></span>
                                                         </div>
                                                     
                                                         <div style="margin-top: 10px">

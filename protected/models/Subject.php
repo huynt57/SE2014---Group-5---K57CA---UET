@@ -6,7 +6,7 @@
  * The followings are the available columns in table 'tbl_subject':
  * @property integer $subject_id
  * @property string $subject_name
- * @property integer $faculty_id
+ * @property integer $year_id
  * @property string $subject_id_university
  * @property integer $teacher_id
  */
@@ -28,11 +28,11 @@ class Subject extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('faculty_id, teacher_id', 'numerical', 'integerOnly'=>true),
+			array('year_id, teacher_id', 'numerical', 'integerOnly'=>true),
 			array('subject_name, subject_id_university', 'length', 'max'=>100),
 			// The following rule is used by search().
 			// @todo Please remove those attributes that should not be searched.
-			array('subject_id, subject_name, faculty_id, subject_id_university, teacher_id', 'safe', 'on'=>'search'),
+			array('subject_id, subject_name, year_id, subject_id_university, teacher_id', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -55,7 +55,7 @@ class Subject extends CActiveRecord
 		return array(
 			'subject_id' => 'Subject',
 			'subject_name' => 'Subject Name',
-			'faculty_id' => 'Faculty',
+			'year_id' => 'Year',
 			'subject_id_university' => 'Subject Id University',
 			'teacher_id' => 'Teacher',
 		);
@@ -81,7 +81,7 @@ class Subject extends CActiveRecord
 
 		$criteria->compare('subject_id',$this->subject_id);
 		$criteria->compare('subject_name',$this->subject_name,true);
-		$criteria->compare('faculty_id',$this->faculty_id);
+		$criteria->compare('year_id',$this->year_id);
 		$criteria->compare('subject_id_university',$this->subject_id_university,true);
 		$criteria->compare('teacher_id',$this->teacher_id);
 

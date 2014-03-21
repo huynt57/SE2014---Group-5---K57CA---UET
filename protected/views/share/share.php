@@ -9,7 +9,9 @@
 <div class="l-submain">
         <div class="l-submain-h g-html i-cf">
             <div class="g-cols">
+               
                 <?php $this->renderPartial("partial/side_bar_left")?>
+                
                 <div class="three-fourths">
                             <div class="l-submain-h g-html i-cf">
                                     <div class="g-cols">

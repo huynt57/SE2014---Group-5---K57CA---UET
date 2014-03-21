@@ -1,15 +1,39 @@
 <?php
 
-class ShareController extends Controller {
+Yii::import('application.controllers.BaseController');
+
+class ShareController extends BaseController {
 
     public function actionIndex() {
         $this->actionShare();
     }
 
     public function actionShare() {
+        
         $this->render('share');
     }
+    
+    public function actionSideBarLeft(){
+        $subCriterial = new CDbCriteria();
+        $subCriterial->select = "*";
+        $subCriterial->order = "year_id ASC";
+        
+        $this->render('side_bar_left', array('year' => Subject::model()->findAll($subCriterial)));
+    }
 
+
+    public function actionTeacher() {
+        $this->render('teacher');
+    }
+
+    public function actionViewSubject() {
+        if(isset($_GET["subname"])){
+            $subCriterial = new CDbCriteria();
+            $subCriterial->select = "*";
+            $subCriterial->condition = "subject_name = " .$_GET["subname"];
+            $this->render('subject',array("subject"=> Subject::model()->findAll($subCriterial)));
+        }
+    }
     // Uncomment the following methods and override them if needed
     /*
       public function filters()
