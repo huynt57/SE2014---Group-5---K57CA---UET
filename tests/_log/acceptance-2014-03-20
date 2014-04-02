@@ -1,0 +1,17 @@
+[2014-03-20 17:05:07] DiscussionPageCept.php.INFO: am on page "/" [] []
+[2014-03-20 17:05:08] DiscussionPageCept.php.INFO: see "Thảo luận" [] []
+[2014-03-20 17:05:09] DiscussionPageCept.php.INFO: PASSED [] []
+[2014-03-20 17:05:09] DocumentCept.php.INFO: am on page "/document" [] []
+[2014-03-20 17:05:10] DocumentCept.php.INFO: see "" [] []
+[2014-03-20 17:05:10] DocumentCept.php.ALERT: Failed asserting that 
+-->  <bold>/SE2014-Project_Website/index.php/document</bold><info>PHP notice /*<![CDATA[*/ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,t</info>
+<debug>[Content too long to display. See complete response in '_log' directory]</debug>
+--> contains "". [] []
+[2014-03-20 17:05:10] DocumentCept.php.INFO: # FAILED # [] []
+[2014-03-20 17:05:10] DocumentCept.php.INFO: PASSED [] []
+[2014-03-20 17:05:10] LoginCept.php.INFO: am on page "/login" [] []
+[2014-03-20 17:05:10] LoginCept.php.INFO: fill field "username","davert" [] []
+[2014-03-20 17:05:10] LoginCept.php.INFO: fill field "Password","qwerty" [] []
+[2014-03-20 17:05:10] LoginCept.php.INFO: click "Submit" [] []
+[2014-03-20 17:05:11] LoginCept.php.INFO: see "Ten nguoi dung chua dc dang ky" [] []
+[2014-03-20 17:05:11] LoginCept.php.INFO: PASSED [] []
