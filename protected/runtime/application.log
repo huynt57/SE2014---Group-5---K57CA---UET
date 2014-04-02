@@ -16400,6 +16400,34 @@ REQUEST_URI=/SE2014-Project_Website/themes/classic/assets/js/modernizr.custom.js
 HTTP_REFERER=http://localhost:8080/SE2014-Project_Website/index.php/search
 >>>>>>> c260e89b9efe3b52607c58be9f37890ee19526de
 ---
+<<<<<<< HEAD
+2014/03/20 03:59:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.flexslider.js".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/themes/classic/assets/js/jquery.flexslider.js
+HTTP_REFERER=http://localhost:7070/SE_2014_Group5/index.php/Search
+---
+2014/03/20 03:59:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.themepunch.revolution.min.js".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/themes/classic/assets/js/jquery.themepunch.revolution.min.js
+HTTP_REFERER=http://localhost:7070/SE_2014_Group5/index.php/Search
+---
+2014/03/20 03:59:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/modernizr.custom.js".' in D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php:286
+Stack trace:
+#0 D:\xampp\htdocs\SE_2014_Group5\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 D:\xampp\htdocs\SE_2014_Group5\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 D:\xampp\htdocs\SE_2014_Group5\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE_2014_Group5/themes/classic/assets/js/modernizr.custom.js
+HTTP_REFERER=http://localhost:7070/SE_2014_Group5/index.php/Search
+=======
 2014/03/20 11:55:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.themepunch.revolution.min.js".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
 Stack trace:
 #0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
@@ -17759,6 +17787,7 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/SE2014-Project_Website/themes/classic/assets/js/modernizr.custom.js
 HTTP_REFERER=http://localhost:8080/SE2014-Project_Website/index.php/share/teacher
+>>>>>>> 1086c425dba10fa697e346341948f318a2f05dbe
 ---
 2014/03/20 17:31:59 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [1049] Unknown database 'uet_study'' in C:\xampp\htdocs\SE2014-Project_Website\framework\db\CDbConnection.php:382
 Stack trace:
