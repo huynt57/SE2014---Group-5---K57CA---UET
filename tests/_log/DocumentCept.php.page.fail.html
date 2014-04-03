@@ -25,6 +25,7 @@
         <link rel="stylesheet" type="text/css" media="all" href="/SE2014-Project_Website/themes/classic/assets/css/dropzone.css" />
         <link rel="stylesheet" type="text/css" media="all" href="/SE2014-Project_Website/themes/classic/assets/css/basic.css" />
 
+
         <!-- javascript -->
         <script type="text/javascript" src="/SE2014-Project_Website/themes/classic/assets/js/jquery-1.9.1.js"></script>
         <script type="text/javascript" src="/SE2014-Project_Website/themes/classic/assets/js/g-alert.js"></script>
@@ -46,9 +47,17 @@
         <script type="text/javascript" src="/SE2014-Project_Website/themes/classic/assets/js/w-timeline.js"></script>
         <script type="text/javascript" src="/SE2014-Project_Website/themes/classic/assets/js/modernizr.custom.js"></script>
         <script type="text/javascript" src="/SE2014-Project_Website/themes/classic/assets/js/dropzone.js"></script>
-
         <script type="text/javascript" src="/SE2014-Project_Website/themes/classic/assets/js/w-switcher.js"></script>
-
+        
+        <!-- Star rating-->
+        <link rel="stylesheet" type="text/css" media="all" href="/SE2014-Project_Website/themes/classic/assets/css/ratings.css" />
+        <script type="text/javascript" src="/SE2014-Project_Website/themes/classic/assets/js/jquery.barrating.js"></script>
+        <script type="text/javascript">
+            $(function () {
+                $('#example-f').barrating();
+            });
+        </script>
+         
         <!-- GMap-->
         <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
         <script type="text/javascript" src="/SE2014-Project_Website/themes/classic/assets/js/jquery.gmap.min.js"></script>
@@ -305,13 +314,68 @@
             <div class="l-main">
                 <style>
     .fixsizeitems{
-        height: 250px;
+        height: 220px;
         width: 180px;
     }
     .fixmarginbottom{
         margin-bottom: 5%;
     }
 </style>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('#loading').hide();
+        var form = $('#formscribd');
+        form.submit(function(event) {
+            // prevent default action
+            event.preventDefault();
+            // send ajax request
+
+            $.ajax({
+                beforeSend: function() {
+                    $('#loading').show();
+                },
+                url: '/SE2014-Project_Website/index.php/document/updateinfo',
+                type: 'POST',
+                data: form.serialize(), //form serizlize data
+                complete: function() {
+                    $('#loading').hide();
+                },
+                success: function(data) {
+                    // Append with fadeIn see http://stackoverflow.com/a/978731
+                    var json = data;
+                    var result = $.parseJSON(json);
+                    var docid = result.docid;
+                    var item = $('<div class="w-portfolio-item order_1 naming webdesign fixsizeitems fixmarginbottom">' +
+                            '<div class="w-portfolio-item-h">' +
+                            '<a class="w-portfolio-item-anchor" href="/SE2014-Project_Website/index.php/0">' +
+                            '<div class="w-portfolio-item-image fixsizeitems fixmarginbottom">' +
+                            '<img src="' + result.thumbnail + '" class="fixsizeitems" alt="" style="border-style: solid; border-width: thin; border-color: #d0d6d9;"/>' +
+                            '<div class="w-portfolio-item-meta">' +
+                            '<h2 class="w-portfolio-item-title">' + result.title + '   </h2>' +
+                            '<i class="icon-mail-forward"></i>' +
+                            '</div>' +
+                            '</div>' +
+                            '</a>' +
+                            '</div>' +
+                            '</div>').hide().fadeIn(800);
+                    $('#docblock').prepend(item);
+
+                    $('.w-tabs-section-title-text').click();
+                    document.getElementById("formscribd").reset();
+                    document.getElementById("my-dropzone").reset();
+                    $('#loading').hide();
+                },
+                error: function(event) {
+                    alert(event);
+                }
+
+            });
+
+            event.stopPropagation();
+            return false;
+        });
+    });
+</script>
 
 <div class="l-submain">
     <div class="l-submain-h g-html i-cf">
@@ -461,6 +525,7 @@
 	        var result = $.parseJSON(json);
 	        $('#thumbnail_url').val(result.thumbnail);
 	        $('#doc_id').val(result.docid);
+                
         });
 
     });
@@ -537,9 +602,48 @@
     </div>
 </div>
                 <div class="w-portfolio columns_4">
+                     <div> <img class="" src="/SE2014-Project_Website/themes/classic/assets/img/ajax-loader.gif" alt="" style="" id="loading"/></div>
                     <div class="w-portfolio-h">
                         <div class="w-portfolio-list">
-                            <div class="w-portfolio-list-h">
+                           
+                            <div class="w-portfolio-list-h" id="docblock">
+
+                                
+
+                                    <div class="w-portfolio-item order_1 naming webdesign fixsizeitems fixmarginbottom">
+                                        <div class="w-portfolio-item-h">
+
+                                            <a class="w-portfolio-item-anchor" href="/SE2014-Project_Website/index.php/document/viewdocument?docid=">
+
+                                                <div class="w-portfolio-item-image fixsizeitems fixmarginbottom">
+                                                    <img src="" class="fixsizeitems" alt="" style="border-style: solid; border-width: thin; border-color: #d0d6d9;"/>
+                                                    <div class="w-portfolio-item-meta">
+                                                        <h2 class="w-portfolio-item-title">K57CA   </h2>
+                                                        <i class="icon-mail-forward"></i>
+                                                    </div>
+                                                </div>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                
+
+                                    <div class="w-portfolio-item order_1 naming webdesign fixsizeitems fixmarginbottom">
+                                        <div class="w-portfolio-item-h">
+
+                                            <a class="w-portfolio-item-anchor" href="/SE2014-Project_Website/index.php/document/viewdocument?docid=">
+
+                                                <div class="w-portfolio-item-image fixsizeitems fixmarginbottom">
+                                                    <img src="" class="fixsizeitems" alt="" style="border-style: solid; border-width: thin; border-color: #d0d6d9;"/>
+                                                    <div class="w-portfolio-item-meta">
+                                                        <h2 class="w-portfolio-item-title">K57CA   </h2>
+                                                        <i class="icon-mail-forward"></i>
+                                                    </div>
+                                                </div>
+                                            </a>
+
+                                        </div>
+                                    </div>
                                 
                             </div>
                         </div>
