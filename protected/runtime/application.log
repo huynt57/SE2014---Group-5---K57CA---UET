@@ -17816,3 +17816,1013 @@ Stack trace:
 REQUEST_URI=/SE2014---Group-5---K57CA---UET/themes/classic/assets/js/modernizr.custom.js
 HTTP_REFERER=http://localhost:7070/SE2014---Group-5---K57CA---UET/index.php
 ---
+2014/03/21 11:08:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.flexslider.js".' in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014---Group-5---K57CA---UET/themes/classic/assets/js/jquery.flexslider.js
+HTTP_REFERER=http://localhost:7070/SE2014---Group-5---K57CA---UET/index.php
+---
+2014/03/21 11:08:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.themepunch.revolution.min.js".' in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014---Group-5---K57CA---UET/themes/classic/assets/js/jquery.themepunch.revolution.min.js
+HTTP_REFERER=http://localhost:7070/SE2014---Group-5---K57CA---UET/index.php
+---
+2014/03/21 11:08:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/modernizr.custom.js".' in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014---Group-5---K57CA---UET/themes/classic/assets/js/modernizr.custom.js
+HTTP_REFERER=http://localhost:7070/SE2014---Group-5---K57CA---UET/index.php
+---
+2014/03/21 11:08:33 [error] [php] Undefined variable: year (C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\views\share\partial\side_bar_left.php:14)
+Stack trace:
+#0 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(869): ShareController->renderFile()
+#1 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\views\share\share.php(12): ShareController->renderPartial()
+#2 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CBaseController.php(126): require()
+#3 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CBaseController.php(95): ShareController->renderInternal()
+#4 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(869): ShareController->renderFile()
+#5 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(782): ShareController->renderPartial()
+#6 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php(10): ShareController->render()
+#7 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php(6): ShareController->actionShare()
+#8 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\actions\CInlineAction.php(49): ShareController->actionIndex()
+#9 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(308): CInlineAction->runWithParams()
+#10 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(286): ShareController->runAction()
+#11 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(265): ShareController->runActionWithFilters()
+#12 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(282): ShareController->run()
+#13 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\index.php(14): CWebApplication->run()
+REQUEST_URI=/SE2014---Group-5---K57CA---UET/index.php/share
+in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\views\share\partial\side_bar_left.php (14)
+in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\views\share\share.php (12)
+in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php (10)
+2014/03/22 08:16:38 [error] [php] Undefined variable: year (C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\views\share\partial\side_bar_left.php:14)
+Stack trace:
+#0 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(869): ShareController->renderFile()
+#1 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\views\share\share.php(12): ShareController->renderPartial()
+#2 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CBaseController.php(126): require()
+#3 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CBaseController.php(95): ShareController->renderInternal()
+#4 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(869): ShareController->renderFile()
+#5 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(782): ShareController->renderPartial()
+#6 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php(10): ShareController->render()
+#7 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php(6): ShareController->actionShare()
+#8 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\actions\CInlineAction.php(49): ShareController->actionIndex()
+#9 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(308): CInlineAction->runWithParams()
+#10 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(286): ShareController->runAction()
+#11 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(265): ShareController->runActionWithFilters()
+#12 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(282): ShareController->run()
+#13 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\index.php(14): CWebApplication->run()
+REQUEST_URI=/SE2014---Group-5---K57CA---UET/index.php/share
+in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\views\share\partial\side_bar_left.php (14)
+in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\views\share\share.php (12)
+in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php (10)
+2014/03/22 08:24:11 [error] [php] Undefined variable: year (C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\views\share\share.php:12)
+Stack trace:
+#0 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(869): ShareController->renderFile()
+#1 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(782): ShareController->renderPartial()
+#2 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php(10): ShareController->render()
+#3 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php(6): ShareController->actionShare()
+#4 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\actions\CInlineAction.php(49): ShareController->actionIndex()
+#5 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(286): ShareController->runAction()
+#7 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(265): ShareController->runActionWithFilters()
+#8 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(282): ShareController->run()
+#9 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\index.php(14): CWebApplication->run()
+REQUEST_URI=/SE2014---Group-5---K57CA---UET/index.php/share
+in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\views\share\share.php (12)
+in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php (10)
+in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php (6)
+2014/03/22 08:26:19 [error] [php] Undefined variable: year (C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\views\share\share.php:12)
+Stack trace:
+#0 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(869): ShareController->renderFile()
+#1 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(782): ShareController->renderPartial()
+#2 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php(10): ShareController->render()
+#3 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php(6): ShareController->actionShare()
+#4 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\actions\CInlineAction.php(49): ShareController->actionIndex()
+#5 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(286): ShareController->runAction()
+#7 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(265): ShareController->runActionWithFilters()
+#8 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(282): ShareController->run()
+#9 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\index.php(14): CWebApplication->run()
+REQUEST_URI=/SE2014---Group-5---K57CA---UET/index.php/share
+in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\views\share\share.php (12)
+in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php (10)
+in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php (6)
+2014/03/22 08:40:24 [error] [php] Undefined variable: yea (C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\views\share\partial\side_bar_left.php:12)
+Stack trace:
+#0 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(869): ShareController->renderFile()
+#1 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\views\share\share.php(13): ShareController->renderPartial()
+#2 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CBaseController.php(126): require()
+#3 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CBaseController.php(95): ShareController->renderInternal()
+#4 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(869): ShareController->renderFile()
+#5 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(782): ShareController->renderPartial()
+#6 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php(13): ShareController->render()
+#7 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php(6): ShareController->actionShare()
+#8 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\actions\CInlineAction.php(49): ShareController->actionIndex()
+#9 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(308): CInlineAction->runWithParams()
+#10 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(286): ShareController->runAction()
+#11 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(265): ShareController->runActionWithFilters()
+#12 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(282): ShareController->run()
+#13 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\index.php(14): CWebApplication->run()
+REQUEST_URI=/SE2014---Group-5---K57CA---UET/index.php/share
+in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\views\share\partial\side_bar_left.php (12)
+in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\views\share\share.php (13)
+in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php (13)
+2014/03/22 08:43:14 [error] [php] Undefined variable: year (C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\views\share\partial\side_bar_left.php:12)
+Stack trace:
+#0 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(869): ShareController->renderFile()
+#1 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\views\share\share.php(13): ShareController->renderPartial()
+#2 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CBaseController.php(126): require()
+#3 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CBaseController.php(95): ShareController->renderInternal()
+#4 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(869): ShareController->renderFile()
+#5 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(782): ShareController->renderPartial()
+#6 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php(13): ShareController->render()
+#7 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php(6): ShareController->actionShare()
+#8 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\actions\CInlineAction.php(49): ShareController->actionIndex()
+#9 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(308): CInlineAction->runWithParams()
+#10 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(286): ShareController->runAction()
+#11 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(265): ShareController->runActionWithFilters()
+#12 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(282): ShareController->run()
+#13 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\index.php(14): CWebApplication->run()
+REQUEST_URI=/SE2014---Group-5---K57CA---UET/index.php/share
+in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\views\share\partial\side_bar_left.php (12)
+in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\views\share\share.php (13)
+in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php (13)
+2014/03/22 08:45:13 [error] [php] Undefined variable: year (C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\views\share\share.php:12)
+Stack trace:
+#0 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(869): ShareController->renderFile()
+#1 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(782): ShareController->renderPartial()
+#2 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php(13): ShareController->render()
+#3 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php(6): ShareController->actionShare()
+#4 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\actions\CInlineAction.php(49): ShareController->actionIndex()
+#5 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(286): ShareController->runAction()
+#7 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(265): ShareController->runActionWithFilters()
+#8 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(282): ShareController->run()
+#9 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\index.php(14): CWebApplication->run()
+REQUEST_URI=/SE2014---Group-5---K57CA---UET/index.php/share
+in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\views\share\share.php (12)
+in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php (13)
+in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php (6)
+2014/03/22 08:48:09 [error] [php] Undefined variable: year (C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\views\share\share.php:12)
+Stack trace:
+#0 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(869): ShareController->renderFile()
+#1 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(782): ShareController->renderPartial()
+#2 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php(13): ShareController->render()
+#3 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php(6): ShareController->actionShare()
+#4 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\actions\CInlineAction.php(49): ShareController->actionIndex()
+#5 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(286): ShareController->runAction()
+#7 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(265): ShareController->runActionWithFilters()
+#8 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(282): ShareController->run()
+#9 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\index.php(14): CWebApplication->run()
+REQUEST_URI=/SE2014---Group-5---K57CA---UET/index.php/share
+in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\views\share\share.php (12)
+in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php (13)
+in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php (6)
+2014/03/22 08:48:22 [error] [php] Undefined variable: year (C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\views\share\share.php:13)
+Stack trace:
+#0 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(869): ShareController->renderFile()
+#1 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(782): ShareController->renderPartial()
+#2 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php(13): ShareController->render()
+#3 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php(6): ShareController->actionShare()
+#4 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\actions\CInlineAction.php(49): ShareController->actionIndex()
+#5 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(286): ShareController->runAction()
+#7 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(265): ShareController->runActionWithFilters()
+#8 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(282): ShareController->run()
+#9 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\index.php(14): CWebApplication->run()
+REQUEST_URI=/SE2014---Group-5---K57CA---UET/index.php/share
+in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\views\share\share.php (13)
+in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php (13)
+in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php (6)
+2014/03/22 08:48:28 [error] [php] Undefined variable: year (C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\views\share\share.php:13)
+Stack trace:
+#0 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(869): ShareController->renderFile()
+#1 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(782): ShareController->renderPartial()
+#2 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php(13): ShareController->render()
+#3 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php(6): ShareController->actionShare()
+#4 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\actions\CInlineAction.php(49): ShareController->actionIndex()
+#5 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(286): ShareController->runAction()
+#7 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(265): ShareController->runActionWithFilters()
+#8 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(282): ShareController->run()
+#9 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\index.php(14): CWebApplication->run()
+REQUEST_URI=/SE2014---Group-5---K57CA---UET/index.php/share
+in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\views\share\share.php (13)
+in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php (13)
+in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php (6)
+2014/03/22 08:48:40 [error] [php] Undefined variable: year (C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\views\share\partial\side_bar_left.php:12)
+Stack trace:
+#0 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(869): ShareController->renderFile()
+#1 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\views\share\share.php(13): ShareController->renderPartial()
+#2 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CBaseController.php(126): require()
+#3 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CBaseController.php(95): ShareController->renderInternal()
+#4 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(869): ShareController->renderFile()
+#5 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(782): ShareController->renderPartial()
+#6 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php(13): ShareController->render()
+#7 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php(6): ShareController->actionShare()
+#8 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\actions\CInlineAction.php(49): ShareController->actionIndex()
+#9 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(308): CInlineAction->runWithParams()
+#10 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(286): ShareController->runAction()
+#11 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(265): ShareController->runActionWithFilters()
+#12 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(282): ShareController->run()
+#13 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\index.php(14): CWebApplication->run()
+REQUEST_URI=/SE2014---Group-5---K57CA---UET/index.php/share
+in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\views\share\partial\side_bar_left.php (12)
+in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\views\share\share.php (13)
+in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php (13)
+2014/03/22 08:49:48 [error] [php] Undefined variable: year (C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\views\share\partial\side_bar_left.php:12)
+Stack trace:
+#0 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(869): ShareController->renderFile()
+#1 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\views\share\share.php(13): ShareController->renderPartial()
+#2 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CBaseController.php(126): require()
+#3 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CBaseController.php(95): ShareController->renderInternal()
+#4 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(869): ShareController->renderFile()
+#5 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(782): ShareController->renderPartial()
+#6 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php(13): ShareController->render()
+#7 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php(6): ShareController->actionShare()
+#8 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\actions\CInlineAction.php(49): ShareController->actionIndex()
+#9 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(308): CInlineAction->runWithParams()
+#10 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(286): ShareController->runAction()
+#11 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(265): ShareController->runActionWithFilters()
+#12 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(282): ShareController->run()
+#13 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\index.php(14): CWebApplication->run()
+REQUEST_URI=/SE2014---Group-5---K57CA---UET/index.php/share
+in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\views\share\partial\side_bar_left.php (12)
+in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\views\share\share.php (13)
+in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php (13)
+2014/03/22 09:59:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.flexslider.js".' in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014---Group-5---K57CA---UET/themes/classic/assets/js/jquery.flexslider.js
+HTTP_REFERER=http://localhost:7070/SE2014---Group-5---K57CA---UET/index.php/share
+---
+2014/03/22 09:59:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.themepunch.revolution.min.js".' in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014---Group-5---K57CA---UET/themes/classic/assets/js/jquery.themepunch.revolution.min.js
+HTTP_REFERER=http://localhost:7070/SE2014---Group-5---K57CA---UET/index.php/share
+---
+2014/03/22 09:59:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/modernizr.custom.js".' in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014---Group-5---K57CA---UET/themes/classic/assets/js/modernizr.custom.js
+HTTP_REFERER=http://localhost:7070/SE2014---Group-5---K57CA---UET/index.php/share
+---
+2014/03/22 10:00:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.flexslider.js".' in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014---Group-5---K57CA---UET/themes/classic/assets/js/jquery.flexslider.js
+HTTP_REFERER=http://localhost:7070/SE2014---Group-5---K57CA---UET/index.php/share
+---
+2014/03/22 10:00:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.themepunch.revolution.min.js".' in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014---Group-5---K57CA---UET/themes/classic/assets/js/jquery.themepunch.revolution.min.js
+HTTP_REFERER=http://localhost:7070/SE2014---Group-5---K57CA---UET/index.php/share
+---
+2014/03/22 10:00:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/modernizr.custom.js".' in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014---Group-5---K57CA---UET/themes/classic/assets/js/modernizr.custom.js
+HTTP_REFERER=http://localhost:7070/SE2014---Group-5---K57CA---UET/index.php/share
+---
+2014/03/22 10:01:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.flexslider.js".' in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014---Group-5---K57CA---UET/themes/classic/assets/js/jquery.flexslider.js
+HTTP_REFERER=http://localhost:7070/SE2014---Group-5---K57CA---UET/index.php/share
+---
+2014/03/22 10:01:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.themepunch.revolution.min.js".' in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014---Group-5---K57CA---UET/themes/classic/assets/js/jquery.themepunch.revolution.min.js
+HTTP_REFERER=http://localhost:7070/SE2014---Group-5---K57CA---UET/index.php/share
+---
+2014/03/22 10:01:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/modernizr.custom.js".' in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014---Group-5---K57CA---UET/themes/classic/assets/js/modernizr.custom.js
+HTTP_REFERER=http://localhost:7070/SE2014---Group-5---K57CA---UET/index.php/share
+---
+2014/03/22 10:01:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.flexslider.js".' in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014---Group-5---K57CA---UET/themes/classic/assets/js/jquery.flexslider.js
+HTTP_REFERER=http://localhost:7070/SE2014---Group-5---K57CA---UET/index.php/share
+---
+2014/03/22 10:01:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.themepunch.revolution.min.js".' in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014---Group-5---K57CA---UET/themes/classic/assets/js/jquery.themepunch.revolution.min.js
+HTTP_REFERER=http://localhost:7070/SE2014---Group-5---K57CA---UET/index.php/share
+---
+2014/03/22 10:01:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/modernizr.custom.js".' in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014---Group-5---K57CA---UET/themes/classic/assets/js/modernizr.custom.js
+HTTP_REFERER=http://localhost:7070/SE2014---Group-5---K57CA---UET/index.php/share
+---
+2014/03/22 10:04:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.flexslider.js".' in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014---Group-5---K57CA---UET/themes/classic/assets/js/jquery.flexslider.js
+HTTP_REFERER=http://localhost:7070/SE2014---Group-5---K57CA---UET/index.php/share
+---
+2014/03/22 10:04:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/modernizr.custom.js".' in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014---Group-5---K57CA---UET/themes/classic/assets/js/modernizr.custom.js
+HTTP_REFERER=http://localhost:7070/SE2014---Group-5---K57CA---UET/index.php/share
+---
+2014/03/22 10:04:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.themepunch.revolution.min.js".' in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014---Group-5---K57CA---UET/themes/classic/assets/js/jquery.themepunch.revolution.min.js
+HTTP_REFERER=http://localhost:7070/SE2014---Group-5---K57CA---UET/index.php/share
+---
+2014/03/22 10:06:30 [error] [php] Undefined variable: year (C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\views\share\partial\side_bar_left.php:17)
+Stack trace:
+#0 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(869): ShareController->renderFile()
+#1 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\views\share\share.php(13): ShareController->renderPartial()
+#2 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CBaseController.php(126): require()
+#3 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CBaseController.php(95): ShareController->renderInternal()
+#4 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(869): ShareController->renderFile()
+#5 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(782): ShareController->renderPartial()
+#6 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php(13): ShareController->render()
+#7 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php(6): ShareController->actionShare()
+#8 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\actions\CInlineAction.php(49): ShareController->actionIndex()
+#9 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(308): CInlineAction->runWithParams()
+#10 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(286): ShareController->runAction()
+#11 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(265): ShareController->runActionWithFilters()
+#12 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(282): ShareController->run()
+#13 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\index.php(14): CWebApplication->run()
+REQUEST_URI=/SE2014---Group-5---K57CA---UET/index.php/share
+in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\views\share\partial\side_bar_left.php (17)
+in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\views\share\share.php (13)
+in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php (13)
+2014/03/22 10:11:07 [error] [php] Undefined variable: year (C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\views\share\partial\side_bar_left.php:17)
+Stack trace:
+#0 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(869): ShareController->renderFile()
+#1 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\views\share\share.php(13): ShareController->renderPartial()
+#2 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CBaseController.php(126): require()
+#3 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CBaseController.php(95): ShareController->renderInternal()
+#4 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(869): ShareController->renderFile()
+#5 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(782): ShareController->renderPartial()
+#6 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php(13): ShareController->render()
+#7 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php(6): ShareController->actionShare()
+#8 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\actions\CInlineAction.php(49): ShareController->actionIndex()
+#9 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(308): CInlineAction->runWithParams()
+#10 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(286): ShareController->runAction()
+#11 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(265): ShareController->runActionWithFilters()
+#12 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(282): ShareController->run()
+#13 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\index.php(14): CWebApplication->run()
+REQUEST_URI=/SE2014---Group-5---K57CA---UET/index.php/share
+in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\views\share\partial\side_bar_left.php (17)
+in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\views\share\share.php (13)
+in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php (13)
+2014/03/22 10:14:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.flexslider.js".' in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014---Group-5---K57CA---UET/themes/classic/assets/js/jquery.flexslider.js
+HTTP_REFERER=http://localhost:7070/SE2014---Group-5---K57CA---UET/index.php/share
+---
+2014/03/22 10:14:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.themepunch.revolution.min.js".' in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014---Group-5---K57CA---UET/themes/classic/assets/js/jquery.themepunch.revolution.min.js
+HTTP_REFERER=http://localhost:7070/SE2014---Group-5---K57CA---UET/index.php/share
+---
+2014/03/22 10:14:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/modernizr.custom.js".' in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014---Group-5---K57CA---UET/themes/classic/assets/js/modernizr.custom.js
+HTTP_REFERER=http://localhost:7070/SE2014---Group-5---K57CA---UET/index.php/share
+---
+2014/03/22 10:18:28 [error] [php] Undefined variable: year (C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\views\share\partial\side_bar_left.php:17)
+Stack trace:
+#0 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(869): ShareController->renderFile()
+#1 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\views\share\share.php(13): ShareController->renderPartial()
+#2 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CBaseController.php(126): require()
+#3 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CBaseController.php(95): ShareController->renderInternal()
+#4 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(869): ShareController->renderFile()
+#5 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(782): ShareController->renderPartial()
+#6 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php(13): ShareController->render()
+#7 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php(6): ShareController->actionShare()
+#8 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\actions\CInlineAction.php(49): ShareController->actionIndex()
+#9 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(308): CInlineAction->runWithParams()
+#10 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(286): ShareController->runAction()
+#11 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(265): ShareController->runActionWithFilters()
+#12 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(282): ShareController->run()
+#13 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#14 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\index.php(14): CWebApplication->run()
+REQUEST_URI=/SE2014---Group-5---K57CA---UET/index.php/share
+in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\views\share\partial\side_bar_left.php (17)
+in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\views\share\share.php (13)
+in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php (13)
+2014/03/22 10:20:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.flexslider.js".' in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014---Group-5---K57CA---UET/themes/classic/assets/js/jquery.flexslider.js
+HTTP_REFERER=http://localhost:7070/SE2014---Group-5---K57CA---UET/index.php/share
+---
+2014/03/22 10:20:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.themepunch.revolution.min.js".' in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014---Group-5---K57CA---UET/themes/classic/assets/js/jquery.themepunch.revolution.min.js
+HTTP_REFERER=http://localhost:7070/SE2014---Group-5---K57CA---UET/index.php/share
+---
+2014/03/22 10:20:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/modernizr.custom.js".' in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014---Group-5---K57CA---UET/themes/classic/assets/js/modernizr.custom.js
+HTTP_REFERER=http://localhost:7070/SE2014---Group-5---K57CA---UET/index.php/share
+---
+2014/03/22 10:26:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.flexslider.js".' in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014---Group-5---K57CA---UET/themes/classic/assets/js/jquery.flexslider.js
+HTTP_REFERER=http://localhost:7070/SE2014---Group-5---K57CA---UET/index.php/share
+---
+2014/03/22 10:26:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.themepunch.revolution.min.js".' in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014---Group-5---K57CA---UET/themes/classic/assets/js/jquery.themepunch.revolution.min.js
+HTTP_REFERER=http://localhost:7070/SE2014---Group-5---K57CA---UET/index.php/share
+---
+2014/03/22 10:26:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/modernizr.custom.js".' in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014---Group-5---K57CA---UET/themes/classic/assets/js/modernizr.custom.js
+HTTP_REFERER=http://localhost:7070/SE2014---Group-5---K57CA---UET/index.php/share
+---
+2014/03/22 10:27:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.flexslider.js".' in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014---Group-5---K57CA---UET/themes/classic/assets/js/jquery.flexslider.js
+HTTP_REFERER=http://localhost:7070/SE2014---Group-5---K57CA---UET/index.php/share
+---
+2014/03/22 10:27:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.themepunch.revolution.min.js".' in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014---Group-5---K57CA---UET/themes/classic/assets/js/jquery.themepunch.revolution.min.js
+HTTP_REFERER=http://localhost:7070/SE2014---Group-5---K57CA---UET/index.php/share
+---
+2014/03/22 10:27:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/modernizr.custom.js".' in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014---Group-5---K57CA---UET/themes/classic/assets/js/modernizr.custom.js
+HTTP_REFERER=http://localhost:7070/SE2014---Group-5---K57CA---UET/index.php/share
+---
+2014/03/22 10:32:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.flexslider.js".' in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014---Group-5---K57CA---UET/themes/classic/assets/js/jquery.flexslider.js
+HTTP_REFERER=http://localhost:7070/SE2014---Group-5---K57CA---UET/index.php/share
+---
+2014/03/22 10:32:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.themepunch.revolution.min.js".' in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014---Group-5---K57CA---UET/themes/classic/assets/js/jquery.themepunch.revolution.min.js
+HTTP_REFERER=http://localhost:7070/SE2014---Group-5---K57CA---UET/index.php/share
+---
+2014/03/22 10:32:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/modernizr.custom.js".' in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014---Group-5---K57CA---UET/themes/classic/assets/js/modernizr.custom.js
+HTTP_REFERER=http://localhost:7070/SE2014---Group-5---K57CA---UET/index.php/share
+---
+2014/03/22 10:33:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.flexslider.js".' in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014---Group-5---K57CA---UET/themes/classic/assets/js/jquery.flexslider.js
+HTTP_REFERER=http://localhost:7070/SE2014---Group-5---K57CA---UET/index.php/share
+---
+2014/03/22 10:33:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.themepunch.revolution.min.js".' in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014---Group-5---K57CA---UET/themes/classic/assets/js/jquery.themepunch.revolution.min.js
+HTTP_REFERER=http://localhost:7070/SE2014---Group-5---K57CA---UET/index.php/share
+---
+2014/03/22 10:33:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/modernizr.custom.js".' in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014---Group-5---K57CA---UET/themes/classic/assets/js/modernizr.custom.js
+HTTP_REFERER=http://localhost:7070/SE2014---Group-5---K57CA---UET/index.php/share
+---
+2014/03/22 10:33:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.flexslider.js".' in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014---Group-5---K57CA---UET/themes/classic/assets/js/jquery.flexslider.js
+HTTP_REFERER=http://localhost:7070/SE2014---Group-5---K57CA---UET/index.php/share
+---
+2014/03/22 10:33:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.themepunch.revolution.min.js".' in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014---Group-5---K57CA---UET/themes/classic/assets/js/jquery.themepunch.revolution.min.js
+HTTP_REFERER=http://localhost:7070/SE2014---Group-5---K57CA---UET/index.php/share
+---
+2014/03/22 10:33:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/modernizr.custom.js".' in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014---Group-5---K57CA---UET/themes/classic/assets/js/modernizr.custom.js
+HTTP_REFERER=http://localhost:7070/SE2014---Group-5---K57CA---UET/index.php/share
+---
+2014/03/22 10:33:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.flexslider.js".' in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014---Group-5---K57CA---UET/themes/classic/assets/js/jquery.flexslider.js
+HTTP_REFERER=http://localhost:7070/SE2014---Group-5---K57CA---UET/index.php/share
+---
+2014/03/22 10:33:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.themepunch.revolution.min.js".' in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014---Group-5---K57CA---UET/themes/classic/assets/js/jquery.themepunch.revolution.min.js
+HTTP_REFERER=http://localhost:7070/SE2014---Group-5---K57CA---UET/index.php/share
+---
+2014/03/22 10:33:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/modernizr.custom.js".' in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014---Group-5---K57CA---UET/themes/classic/assets/js/modernizr.custom.js
+HTTP_REFERER=http://localhost:7070/SE2014---Group-5---K57CA---UET/index.php/share
+---
+2014/03/23 07:59:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.flexslider.js".' in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014---Group-5---K57CA---UET/themes/classic/assets/js/jquery.flexslider.js
+HTTP_REFERER=http://localhost:7070/SE2014---Group-5---K57CA---UET/index.php
+---
+2014/03/23 07:59:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/modernizr.custom.js".' in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014---Group-5---K57CA---UET/themes/classic/assets/js/modernizr.custom.js
+HTTP_REFERER=http://localhost:7070/SE2014---Group-5---K57CA---UET/index.php
+---
+2014/03/23 07:59:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.themepunch.revolution.min.js".' in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014---Group-5---K57CA---UET/themes/classic/assets/js/jquery.themepunch.revolution.min.js
+HTTP_REFERER=http://localhost:7070/SE2014---Group-5---K57CA---UET/index.php
+---
+2014/03/23 08:00:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.flexslider.js".' in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014---Group-5---K57CA---UET/themes/classic/assets/js/jquery.flexslider.js
+HTTP_REFERER=http://localhost:7070/SE2014---Group-5---K57CA---UET/index.php
+---
+2014/03/23 08:00:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.themepunch.revolution.min.js".' in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014---Group-5---K57CA---UET/themes/classic/assets/js/jquery.themepunch.revolution.min.js
+HTTP_REFERER=http://localhost:7070/SE2014---Group-5---K57CA---UET/index.php
+---
+2014/03/23 08:00:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/modernizr.custom.js".' in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014---Group-5---K57CA---UET/themes/classic/assets/js/modernizr.custom.js
+HTTP_REFERER=http://localhost:7070/SE2014---Group-5---K57CA---UET/index.php
+---
+2014/03/23 08:00:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/modernizr.custom.js".' in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014---Group-5---K57CA---UET/themes/classic/assets/js/modernizr.custom.js
+HTTP_REFERER=http://localhost:7070/SE2014---Group-5---K57CA---UET/index.php/share
+---
+2014/03/23 08:00:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.flexslider.js".' in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014---Group-5---K57CA---UET/themes/classic/assets/js/jquery.flexslider.js
+HTTP_REFERER=http://localhost:7070/SE2014---Group-5---K57CA---UET/index.php/share
+---
+2014/03/23 08:00:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.themepunch.revolution.min.js".' in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014---Group-5---K57CA---UET/themes/classic/assets/js/jquery.themepunch.revolution.min.js
+HTTP_REFERER=http://localhost:7070/SE2014---Group-5---K57CA---UET/index.php/share
+---
+2014/03/23 08:14:40 [error] [exception.CException] exception 'CException' with message 'Property "Subject.faculty_id" is not defined.' in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\base\CComponent.php:130
+Stack trace:
+#0 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\db\ar\CActiveRecord.php(145): CComponent->__get('faculty_id')
+#1 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\views\share\partial\side_bar_left.php(30): CActiveRecord->__get('faculty_id')
+#2 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php(20): CController->renderPartial('partial/side_ba...', Array)
+#6 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\views\share\share.php(13): ShareController->actionSideBarLeft()
+#7 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#8 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#9 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#10 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(782): CController->renderPartial('share', NULL, true)
+#11 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php(13): CController->render('share')
+#12 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php(6): ShareController->actionShare()
+#13 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\actions\CInlineAction.php(49): ShareController->actionIndex()
+#14 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#15 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#16 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#17 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(282): CController->run('')
+#18 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(141): CWebApplication->runController('share')
+#19 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#20 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\index.php(14): CApplication->run()
+#21 {main}
+REQUEST_URI=/SE2014---Group-5---K57CA---UET/index.php/share
+HTTP_REFERER=http://localhost:7070/SE2014---Group-5---K57CA---UET/index.php
+---
+2014/03/23 08:55:05 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'tbl_subject JOIN tbl_relation_faculty_subject ON subject_id ORDER BY year_id ASC' at line 1. The SQL statement executed was: SELECT `t`.`subject_id`, `t`.`subject_name`, `t`.`year_id`, `t`.`subject_id_university`, `t`.`teacher_id` FROM `tbl_subject` `t` tbl_subject JOIN tbl_relation_faculty_subject ON subject_id ORDER BY year_id ASC.
+in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php (21)
+in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\views\share\share.php (13)
+in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php (13)
+2014/03/23 08:55:05 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'tbl_subject JOIN tbl_relation_faculty_subject ON subject_id ORDER BY year_id ASC' at line 1. The SQL statement executed was: SELECT `t`.`subject_id`, `t`.`subject_name`, `t`.`year_id`, `t`.`subject_id_university`, `t`.`teacher_id` FROM `tbl_subject` `t` tbl_subject JOIN tbl_relation_faculty_subject ON subject_id ORDER BY year_id ASC' in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\db\ar\CActiveRecord.php(1351): CDbCommand->queryAll()
+#2 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\db\ar\CActiveRecord.php(1470): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php(21): CActiveRecord->findAll(Object(CDbCriteria))
+#4 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\views\share\share.php(13): ShareController->actionSideBarLeft()
+#5 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#7 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#8 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(782): CController->renderPartial('share', NULL, true)
+#9 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php(13): CController->render('share')
+#10 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php(6): ShareController->actionShare()
+#11 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\actions\CInlineAction.php(49): ShareController->actionIndex()
+#12 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(282): CController->run('')
+#16 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(141): CWebApplication->runController('share')
+#17 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\index.php(14): CApplication->run()
+#19 {main}
+REQUEST_URI=/SE2014---Group-5---K57CA---UET/index.php/share
+HTTP_REFERER=http://localhost:7070/SE2014---Group-5---K57CA---UET/index.php
+---
+2014/03/23 08:57:14 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'tbl_subject JOIN tbl_relation_faculty_subject ON tbl_subject.subject_id = tbl_re' at line 1. The SQL statement executed was: SELECT `t`.`subject_id`, `t`.`subject_name`, `t`.`year_id`, `t`.`subject_id_university`, `t`.`teacher_id` FROM `tbl_subject` `t` tbl_subject JOIN tbl_relation_faculty_subject ON tbl_subject.subject_id = tbl_relation_faculty_subject.subject_id ORDER BY year_id ASC.
+in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php (21)
+in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\views\share\share.php (13)
+in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php (13)
+2014/03/23 08:57:14 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'tbl_subject JOIN tbl_relation_faculty_subject ON tbl_subject.subject_id = tbl_re' at line 1. The SQL statement executed was: SELECT `t`.`subject_id`, `t`.`subject_name`, `t`.`year_id`, `t`.`subject_id_university`, `t`.`teacher_id` FROM `tbl_subject` `t` tbl_subject JOIN tbl_relation_faculty_subject ON tbl_subject.subject_id = tbl_relation_faculty_subject.subject_id ORDER BY year_id ASC' in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\db\ar\CActiveRecord.php(1351): CDbCommand->queryAll()
+#2 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\db\ar\CActiveRecord.php(1470): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php(21): CActiveRecord->findAll(Object(CDbCriteria))
+#4 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\views\share\share.php(13): ShareController->actionSideBarLeft()
+#5 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#7 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#8 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(782): CController->renderPartial('share', NULL, true)
+#9 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php(13): CController->render('share')
+#10 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php(6): ShareController->actionShare()
+#11 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\actions\CInlineAction.php(49): ShareController->actionIndex()
+#12 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(282): CController->run('')
+#16 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(141): CWebApplication->runController('share')
+#17 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\index.php(14): CApplication->run()
+#19 {main}
+REQUEST_URI=/SE2014---Group-5---K57CA---UET/index.php/share
+HTTP_REFERER=http://localhost:7070/SE2014---Group-5---K57CA---UET/index.php
+---
+2014/03/23 10:44:10 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM `tbl_subject` `t` INNER JOIN tbl_relation_faculty_subject ON tbl_subject.su' at line 1. The SQL statement executed was: SELECT * FROM tbl_subject FROM `tbl_subject` `t` INNER JOIN tbl_relation_faculty_subject ON tbl_subject.subject_id = tbl_relation_faculty_subject.subject_id ORDER BY year_id ASC.
+in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php (21)
+in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\views\share\share.php (13)
+in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php (13)
+2014/03/23 10:44:10 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM `tbl_subject` `t` INNER JOIN tbl_relation_faculty_subject ON tbl_subject.su' at line 1. The SQL statement executed was: SELECT * FROM tbl_subject FROM `tbl_subject` `t` INNER JOIN tbl_relation_faculty_subject ON tbl_subject.subject_id = tbl_relation_faculty_subject.subject_id ORDER BY year_id ASC' in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\db\ar\CActiveRecord.php(1351): CDbCommand->queryAll()
+#2 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\db\ar\CActiveRecord.php(1470): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php(21): CActiveRecord->findAll(Object(CDbCriteria))
+#4 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\views\share\share.php(13): ShareController->actionSideBarLeft()
+#5 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#7 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#8 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(782): CController->renderPartial('share', NULL, true)
+#9 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php(13): CController->render('share')
+#10 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php(6): ShareController->actionShare()
+#11 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\actions\CInlineAction.php(49): ShareController->actionIndex()
+#12 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(282): CController->run('')
+#16 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(141): CWebApplication->runController('share')
+#17 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\index.php(14): CApplication->run()
+#19 {main}
+REQUEST_URI=/SE2014---Group-5---K57CA---UET/index.php/share
+HTTP_REFERER=http://localhost:7070/SE2014---Group-5---K57CA---UET/index.php
+---
+2014/03/23 10:45:00 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM `tbl_subject` `t` INNER JOIN tbl_relation_faculty_subject ON tbl_subject.su' at line 1. The SQL statement executed was: SELECT * FROM tbl_subject FROM `tbl_subject` `t` INNER JOIN tbl_relation_faculty_subject ON tbl_subject.subject_id = tbl_relation_faculty_subject.subject_id ORDER BY year_id ASC.
+in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php (21)
+in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\views\share\share.php (13)
+in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php (13)
+2014/03/23 10:45:00 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM `tbl_subject` `t` INNER JOIN tbl_relation_faculty_subject ON tbl_subject.su' at line 1. The SQL statement executed was: SELECT * FROM tbl_subject FROM `tbl_subject` `t` INNER JOIN tbl_relation_faculty_subject ON tbl_subject.subject_id = tbl_relation_faculty_subject.subject_id ORDER BY year_id ASC' in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\db\ar\CActiveRecord.php(1351): CDbCommand->queryAll()
+#2 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\db\ar\CActiveRecord.php(1470): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php(21): CActiveRecord->findAll(Object(CDbCriteria))
+#4 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\views\share\share.php(13): ShareController->actionSideBarLeft()
+#5 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#7 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#8 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(782): CController->renderPartial('share', NULL, true)
+#9 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php(13): CController->render('share')
+#10 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php(6): ShareController->actionShare()
+#11 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\actions\CInlineAction.php(49): ShareController->actionIndex()
+#12 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(282): CController->run('')
+#16 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(141): CWebApplication->runController('share')
+#17 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\index.php(14): CApplication->run()
+#19 {main}
+REQUEST_URI=/SE2014---Group-5---K57CA---UET/index.php/share
+HTTP_REFERER=http://localhost:7070/SE2014---Group-5---K57CA---UET/index.php
+---
+2014/03/23 10:45:32 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM `tbl_subject` `t` ORDER BY year_id ASC' at line 1. The SQL statement executed was: SELECT * FROM tbl_subject FROM `tbl_subject` `t` ORDER BY year_id ASC.
+in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php (21)
+in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\views\share\share.php (13)
+in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php (13)
+2014/03/23 10:45:32 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'FROM `tbl_subject` `t` ORDER BY year_id ASC' at line 1. The SQL statement executed was: SELECT * FROM tbl_subject FROM `tbl_subject` `t` ORDER BY year_id ASC' in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\db\ar\CActiveRecord.php(1351): CDbCommand->queryAll()
+#2 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\db\ar\CActiveRecord.php(1470): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php(21): CActiveRecord->findAll(Object(CDbCriteria))
+#4 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\views\share\share.php(13): ShareController->actionSideBarLeft()
+#5 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#7 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#8 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(782): CController->renderPartial('share', NULL, true)
+#9 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php(13): CController->render('share')
+#10 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php(6): ShareController->actionShare()
+#11 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\actions\CInlineAction.php(49): ShareController->actionIndex()
+#12 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#14 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(282): CController->run('')
+#16 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(141): CWebApplication->runController('share')
+#17 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\index.php(14): CApplication->run()
+#19 {main}
+REQUEST_URI=/SE2014---Group-5---K57CA---UET/index.php/share
+HTTP_REFERER=http://localhost:7070/SE2014---Group-5---K57CA---UET/index.php
+---
+2014/03/23 10:46:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.flexslider.js".' in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014---Group-5---K57CA---UET/themes/classic/assets/js/jquery.flexslider.js
+HTTP_REFERER=http://localhost:7070/SE2014---Group-5---K57CA---UET/index.php/share
+---
+2014/03/23 10:46:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.themepunch.revolution.min.js".' in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014---Group-5---K57CA---UET/themes/classic/assets/js/jquery.themepunch.revolution.min.js
+HTTP_REFERER=http://localhost:7070/SE2014---Group-5---K57CA---UET/index.php/share
+---
+2014/03/23 10:46:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/modernizr.custom.js".' in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014---Group-5---K57CA---UET/themes/classic/assets/js/modernizr.custom.js
+HTTP_REFERER=http://localhost:7070/SE2014---Group-5---K57CA---UET/index.php/share
+---
+2014/03/23 11:01:53 [error] [exception.CException] exception 'CException' with message 'CDbCommand and its behaviors do not have a method or closure named "form".' in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php(19): CComponent->__call('form', Array)
+#1 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php(19): CDbCommand->form('tbl_subject')
+#2 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\views\share\share.php(13): ShareController->actionSideBarLeft()
+#3 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#4 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#5 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#6 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(782): CController->renderPartial('share', NULL, true)
+#7 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php(13): CController->render('share')
+#8 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php(6): ShareController->actionShare()
+#9 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\actions\CInlineAction.php(49): ShareController->actionIndex()
+#10 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(282): CController->run('')
+#14 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(141): CWebApplication->runController('share')
+#15 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\index.php(14): CApplication->run()
+#17 {main}
+REQUEST_URI=/SE2014---Group-5---K57CA---UET/index.php/share
+HTTP_REFERER=http://localhost:7070/SE2014---Group-5---K57CA---UET/index.php
+---
+2014/03/23 11:02:14 [error] [php] Trying to get property of non-object (C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\views\share\partial\side_bar_left.php:30)
+Stack trace:
+#0 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(869): ShareController->renderFile()
+#1 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php(23): ShareController->renderPartial()
+#2 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\views\share\share.php(13): ShareController->actionSideBarLeft()
+#3 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CBaseController.php(126): require()
+#4 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CBaseController.php(95): ShareController->renderInternal()
+#5 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(869): ShareController->renderFile()
+#6 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(782): ShareController->renderPartial()
+#7 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php(13): ShareController->render()
+#8 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php(6): ShareController->actionShare()
+#9 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\actions\CInlineAction.php(49): ShareController->actionIndex()
+#10 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(308): CInlineAction->runWithParams()
+#11 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(286): ShareController->runAction()
+#12 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CController.php(265): ShareController->runActionWithFilters()
+#13 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(282): ShareController->run()
+#14 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#15 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\index.php(14): CWebApplication->run()
+REQUEST_URI=/SE2014---Group-5---K57CA---UET/index.php/share
+in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\views\share\partial\side_bar_left.php (30)
+in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php (23)
+in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\views\share\share.php (13)

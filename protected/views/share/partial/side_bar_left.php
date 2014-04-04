@@ -8,14 +8,15 @@
                         <nav class="w-nav">
                             <div class="w-nav-h">
                                 <div class="w-nav-list layout_ver level_1">
-                                    <div class="w-nav-list-h">
+                                    <div class="w-nav-list-h">                                        
                                         <div class="w-nav-item level_1 active">
-                                            <div class="w-nav-item-h">
-                                                <a href="#" class="w-nav-anchor level_1">
-                                                    <span class="w-nav-title">Năm nhất</span>
-                                                </a>
+                                            <div class="w-nav-item-h">                                                
+                                                <a href="#" class="w-nav-anchor level_1">                                                    
+                                                    <span class="w-nav-title">Năm nhất</span>                                                    
+                                                </a>                                                
                                                 <div class="w-nav-list layout_ver place_inside level_2">
                                                     <div class="w-nav-list-h">
+                                                        
                                                         <div class="w-nav-item level_2">
                                                             <div class="w-nav-item-h">
                                                                 <a href="#" class="w-nav-anchor level_2">
@@ -23,20 +24,18 @@
                                                                 </a>
                                                                 <div class="w-nav-list place_aside show_onhover level_3">
                                                                         <div class="w-nav-list-h">
+                                                                                <?php foreach ($year as $yea): ?>
                                                                                 <div class="w-nav-item level_3">
                                                                                         <div class="w-nav-item-h">
-                                                                                            <a href="<?php echo Yii::app()->createUrl('share/subject')?>" class="w-nav-anchor level_3" style="color: black">Đại số</a>
+                                                                                            <a href="<?php echo Yii::app()->createUrl('share/subject')?>" class="w-nav-anchor level_3" style="color: black"><?php if($yea->year_id == 1 && $yea->faculty_id == 1) echo $yea->subject_name ?></a>
                                                                                         </div>
                                                                                 </div>
-                                                                                <div class="w-nav-item level_3">
-                                                                                        <div class="w-nav-item-h">
-                                                                                            <a href="<?php echo Yii::app()->createUrl('share/subject')?> class="w-nav-anchor level_3" style="color: black">Giải tích</a>
-                                                                                        </div>
-                                                                                </div>
+                                                                                <?php endforeach; ?>
                                                                         </div>
                                                                 </div>
                                                             </div>
                                                         </div>
+                                                       
                                                         <div class="w-nav-item level_2 active">
                                                             <div class="w-nav-item-h">
                                                                 <a href="#" class="w-nav-anchor level_2">
@@ -83,6 +82,7 @@
                                                 </div>
                                             </div>
                                         </div>
+                                       
                                         <div class="w-nav-item level_1 active">
                                             <div class="w-nav-item-h">
                                                 <a href="#" class="w-nav-anchor level_1">
