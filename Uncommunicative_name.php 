@@ -1,4 +1,4 @@
-    function facebook_login(){
+    function getinfo_fb(){
 		$app_id = "1428478800723370";
         $app_secret = "64b21e0ab23ec7db82979f9607065704";
         $site_url = "bluebee-uet.com";
