@@ -1,0 +1,12 @@
+    function facebook_login(){
+		$app_id = "1428478800723370";
+        $app_secret = "64b21e0ab23ec7db82979f9607065704";
+        $site_url = "bluebee-uet.com";
+        
+        $facebook = new Facebook(array(
+            'appId' => $app_id,
+            'secret' => $app_secret,
+            "cookie" => true
+        ));
+        return $facebook;   
+    }
