@@ -1,6 +1,6 @@
 .circular {
-	width: 250px;
-	height: 250px;
+	width: 80px;
+	height: 80px;
         display: inline-block;
 	border-radius: 150px;
 	-webkit-border-radius: 150px;
@@ -8,9 +8,9 @@
 	box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-        margin-left: 20px;
-        margin-bottom: 15px;
+        margin-bottom: 30px;
         overflow: hidden;
+        border-color: #d0d6d9;
 	}
 
 .circular img {
@@ -19,30 +19,37 @@
 	}
         
 .rounded {
-        width: 200px;
-        height: 200px;
+        width: 500px;
+        height: 80px;
         display: inline-block;
-        border: solid 1px #000;
-        overflow: hidden;
-        -webkit-border-radius: 10px;
-        -moz-border-radius: 10px;
+        border-style : solid;
+        border-width : thin;
         border-radius: 10px;
-        -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, .4);
-        -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, .4);
-        box-shadow: 0 1px 3px rgba(0, 0, 0, .4);
+        padding: 14px;
+        border-color: #d0d6d9;
         }
         
 .rounded1 {
-        width: 300px;
-        height: 150px;
-        border: thin;
+        width: 650px;
+        height: 35px;
         display: inline-block;
-        color: black;
+        padding: 7px;
+        margin-bottom: 20px;
+        border-radius: 8px;
+        }
+        
+.rounded2 {
+        width: 310px;
+        height: 35px;
+        display: inline-block;
+        padding: 7px;
+        margin-bottom: 20px;
+        border-radius: 8px;
         }
         
 img.float_left{
         float: left;
-        margin-right: 30px;
+        margin-right: 70px;
         }
         
 .rectan {
@@ -53,13 +60,29 @@ img.float_left{
 .box1{
         width:600px;
         padding:10px;
-        border:2px solid;
+        border-style: solid;
+        border-width: thin;
+        border-color: #d0d6d9;
         }
         
 .inset-text {
-          font-size: 40px;
-          color: #344251;
-          text-shadow: 1px 1px 0px #bad3ed;
-          font-weight: bold;
-          margin-bottom: 10px;
+        font-size: 40px;
+        color: #344251;
+        text-shadow: 1px 1px 0px #bad3ed;
+        font-weight: bold;
+        margin-bottom: 10px;
      }
+     
+form#form input#input {
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+	background-color: #eaeaea;
+        background: -moz-linear-gradient(top, #ffffff, #eaeaea);
+    	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.0, 			#ffffff), color-stop(1.0, #eaeaea));
+    	border: 1px solid #cacaca;
+    	color: #444;
+    	font-size: 1.4em;
+    	margin: 0 0 25px;
+    	padding: 8px 10px;
+    	width: 240px;
+}

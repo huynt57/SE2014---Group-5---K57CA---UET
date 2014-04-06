@@ -73,6 +73,15 @@
             return false;
         });
     });
+
+    //valid
+    var r={
+      'special':/['<>']/g,
+    }
+
+    function valid(o,w){
+      o.value = o.value.replace(r[w],'');
+    }
 </script>
 
 
@@ -106,7 +115,7 @@
                                                     <div class="g-form-row" style="margin: 5px 0 5px 0; padding: 0;">
                                                         <div class="g-form-row-field">
                                                             <div class="g-input">
-                                                                <textarea name="post_content" id="contact_message" cols="30" rows="10"  style="border-color: #429EDB"></textarea>
+                                                                <textarea name="post_content" id="contact_message" cols="30" rows="10"  style="border-color: #429EDB" onkeyup="valid(this,'special')" onblur="valid(this,'special')" placeholder="what do you want to post?"></textarea>
                                                             </div>
                                                         </div>
                                                     </div>
