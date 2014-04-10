@@ -40,7 +40,6 @@
                 }
               });
             });
-            $('#learn-more a').smoothScroll();
         </script>
 
         <script type="text/javascript" src="js/jquery.isotope.js"></script>
@@ -215,7 +214,7 @@
                                                 </div>
                                             </div>
                                             <div class="w-tabs-section" style="border-top: 2px dashed #429edb">
-                                                <div class="w-tabs-section-title">
+                                                <div id="signuparea" class="w-tabs-section-title">
                                                     <span class="w-tabs-section-title-text fix-g-form" style="margin: 0 0 0 5px; padding: 0">Chưa có Tài Khoản? Đăng Ký!</span>
                                                 </div>
                                                 <div class="w-tabs-section-content" style="display: none;">
@@ -397,13 +396,19 @@
         $(document).ready(function() {
           $('#signup').click(function() {
             $.smoothScroll({
-              scrollTarget: '#'
+              scrollTarget: '#',
+              afterScroll: function() {
+                $('div#signuparea').trigger('click');
+              },
+              speed: 800,
+              easing: 'swing',
             });
             return false;
           });
           $('#learn-more').click(function() {
             $.smoothScroll({
-              scrollTarget: '#rock'
+              scrollTarget: '#rock',
+              speed: 800,
             });
             return false;
           });
