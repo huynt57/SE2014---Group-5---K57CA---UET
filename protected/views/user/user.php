@@ -109,6 +109,10 @@
                             <div class="rounded1 color_alternate">
                                 <h6>Kien's quotes</h6>
                             </div>
+                            
+                            <div>
+                                Kien hasn't added any quotes yet.<a href="">Add quotes now >></a>
+                            </div>
 
 
                             <div class="rounded1 color_alternate">
@@ -226,18 +230,6 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-
-                            <div class="rounded1 color_alternate">
-                                <h6>Kien's friend comments</h6>
-                            </div>
-
-                            <div class="wrapper">
-                                <form id="form" action="" method="" name="" style="color: windowframe">
-                                    <label for="input-1">Friend's Comments</label>
-                                    <textarea name="message" id="message" placeholder="Enter a cool message..." tabindex="5" class="txtblock" style="color: whitesmoke"></textarea>
-                                    <input type="submit" name="submit" id="submitbtn" class="submitbtn" tabindex="7" value="Post">
-                                </form>
                             </div>
 
                         </div>
