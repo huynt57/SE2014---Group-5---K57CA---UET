@@ -1,0 +1,513 @@
+[2014-04-12 11:22:23] DiscussionPageCept.php.INFO: am on page "/" [] []
+[2014-04-12 11:22:24] DiscussionPageCept.php.INFO: see "Thảo luận" [] []
+[2014-04-12 11:22:24] DiscussionPageCept.php.INFO: PASSED [] []
+[2014-04-12 11:22:24] DocumentCept.php.INFO: am on page "/document" [] []
+[2014-04-12 11:22:24] DocumentCept.php.INFO: PASSED [] []
+[2014-04-12 11:22:24] LoginCept.php.INFO: am on page "/login" [] []
+[2014-04-12 11:22:24] LoginCept.php.INFO: fill field "username","davert" [] []
+[2014-04-12 11:22:24] LoginCept.php.INFO: fill field "Password","qwerty" [] []
+[2014-04-12 11:22:24] LoginCept.php.INFO: click "Submit" [] []
+[2014-04-12 11:22:24] LoginCept.php.INFO: see "Ten nguoi dung chua dc dang ky" [] []
+[2014-04-12 11:22:24] LoginCept.php.INFO: PASSED [] []
+[2014-04-12 11:24:08] DiscussionPageCept.php.INFO: am on page "/" [] []
+[2014-04-12 11:24:08] DiscussionPageCept.php.INFO: see "Thảo luận" [] []
+[2014-04-12 11:24:08] DiscussionPageCept.php.INFO: PASSED [] []
+[2014-04-12 11:24:08] DocumentCept.php.INFO: am on page "/document" [] []
+[2014-04-12 11:24:08] DocumentCept.php.INFO: PASSED [] []
+[2014-04-12 11:24:08] LoginCept.php.INFO: am on page "/login" [] []
+[2014-04-12 11:24:08] LoginCept.php.INFO: fill field "username","davert" [] []
+[2014-04-12 11:24:08] LoginCept.php.INFO: fill field "Password","qwerty" [] []
+[2014-04-12 11:24:09] LoginCept.php.INFO: click "Submit" [] []
+[2014-04-12 11:24:09] LoginCept.php.INFO: see "Ten nguoi dung chua dc dang ky" [] []
+[2014-04-12 11:24:09] LoginCept.php.INFO: PASSED [] []
+[2014-04-12 11:25:24] DiscussionPageCept.php.INFO: am on page "/" [] []
+[2014-04-12 11:25:24] DiscussionPageCept.php.INFO: see "Thao luan" [] []
+[2014-04-12 11:25:24] DiscussionPageCept.php.ALERT: Failed asserting that 
+-->  <bold>/SE2014-Project_Website/index.php/</bold><info>﻿    $(function () { $('#example-f').barrating(); });  jQuery(document).ready(function() { jQuery('.w-map-h').gMap({ controls: { panControl: false, zoomControl: true, mapTypeControl: true, scaleControl: false, streetViewControl: false, overviewMapControl: false }, address: "&#272</info>
+<debug>[Content too long to display. See complete response in '_log' directory]</debug>
+--> contains "thao luan". [] []
+[2014-04-12 11:25:24] DiscussionPageCept.php.INFO: # FAILED # [] []
+[2014-04-12 11:25:24] DiscussionPageCept.php.INFO: PASSED [] []
+[2014-04-12 11:25:24] DocumentCept.php.INFO: am on page "/document" [] []
+[2014-04-12 11:25:24] DocumentCept.php.INFO: PASSED [] []
+[2014-04-12 11:25:24] LoginCept.php.INFO: am on page "/login" [] []
+[2014-04-12 11:25:24] LoginCept.php.INFO: fill field "username","davert" [] []
+[2014-04-12 11:25:24] LoginCept.php.INFO: fill field "Password","qwerty" [] []
+[2014-04-12 11:25:24] LoginCept.php.INFO: click "Submit" [] []
+[2014-04-12 11:25:25] LoginCept.php.INFO: see "Ten nguoi dung chua dc dang ky" [] []
+[2014-04-12 11:25:25] LoginCept.php.INFO: PASSED [] []
+[2014-04-12 11:40:30] DiscussionPageCept.php.INFO: am on page "/" [] []
+[2014-04-12 11:40:30] DiscussionPageCept.php.INFO: see "Thao luan" [] []
+[2014-04-12 11:40:30] DiscussionPageCept.php.ALERT: Failed asserting that 
+-->  <bold>/SE2014-Project_Website/index.php/</bold><info>﻿    $(function () { $('#example-f').barrating(); });  jQuery(document).ready(function() { jQuery('.w-map-h').gMap({ controls: { panControl: false, zoomControl: true, mapTypeControl: true, scaleControl: false, streetViewControl: false, overviewMapControl: false }, address: "&#272</info>
+<debug>[Content too long to display. See complete response in '_log' directory]</debug>
+--> contains "thao luan". [] []
+[2014-04-12 11:40:30] DiscussionPageCept.php.INFO: # FAILED # [] []
+[2014-04-12 11:40:30] DiscussionPageCept.php.INFO: PASSED [] []
+[2014-04-12 11:40:30] DocumentCept.php.INFO: am on page "/document" [] []
+[2014-04-12 11:40:30] DocumentCept.php.INFO: PASSED [] []
+[2014-04-12 11:41:02] DiscussionPageCept.php.INFO: am on page "/" [] []
+[2014-04-12 11:41:02] DiscussionPageCept.php.INFO: see "Thảo luận" [] []
+[2014-04-12 11:41:02] DiscussionPageCept.php.INFO: PASSED [] []
+[2014-04-12 11:41:02] DocumentCept.php.INFO: am on page "/document" [] []
+[2014-04-12 11:41:02] DocumentCept.php.INFO: PASSED [] []
+[2014-04-12 11:42:31] DiscussionPageCept.php.INFO: am on page "/" [] []
+[2014-04-12 11:42:31] DiscussionPageCept.php.INFO: see "Thảo luận" [] []
+[2014-04-12 11:42:32] DiscussionPageCept.php.INFO: PASSED [] []
+[2014-04-12 11:42:32] DocumentCept.php.INFO: am on page "/document" [] []
+[2014-04-12 11:42:32] DocumentCept.php.INFO: PASSED [] []
+[2014-04-12 12:10:18] DiscussionPageCept.php.INFO: am on page "/" [] []
+[2014-04-12 12:10:18] DiscussionPageCept.php.INFO: see "Thảo luận" [] []
+[2014-04-12 12:10:18] DiscussionPageCept.php.INFO: PASSED [] []
+[2014-04-12 12:10:18] DocumentCept.php.INFO: am on page "/document" [] []
+[2014-04-12 12:10:18] DocumentCept.php.INFO: see "" [] []
+[2014-04-12 12:10:18] DocumentCept.php.ALERT: Failed asserting that 
+-->  <bold>/SE2014-Project_Website/index.php/document</bold><info>PHP notice /*<![CDATA[*/ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead</info>
+<debug>[Content too long to display. See complete response in '_log' directory]</debug>
+--> contains "". [] []
+[2014-04-12 12:10:18] DocumentCept.php.INFO: # FAILED # [] []
+[2014-04-12 12:10:18] DocumentCept.php.INFO: PASSED [] []
+[2014-04-12 12:10:18] LoginCept.php.INFO: am on page "/login" [] []
+[2014-04-12 12:10:18] LoginCept.php.INFO: fill field "username","davert" [] []
+[2014-04-12 12:10:18] LoginCept.php.INFO: fill field "Password","qwerty" [] []
+[2014-04-12 12:10:18] LoginCept.php.INFO: click "Submit" [] []
+[2014-04-12 12:10:18] LoginCept.php.INFO: see "Ten nguoi dung chua dc dang ky" [] []
+[2014-04-12 12:10:18] LoginCept.php.INFO: PASSED [] []
+[2014-04-12 12:25:34] DiscussionPageCept.php.INFO: am on page "/" [] []
+[2014-04-12 12:25:35] DiscussionPageCept.php.INFO: see "Thảo luận" [] []
+[2014-04-12 12:25:35] DiscussionPageCept.php.INFO: PASSED [] []
+[2014-04-12 12:25:35] DocumentCept.php.INFO: am on page "/document" [] []
+[2014-04-12 12:25:35] DocumentCept.php.INFO: see "" [] []
+[2014-04-12 12:25:35] DocumentCept.php.ALERT: Failed asserting that 
+-->  <bold>/SE2014-Project_Website/index.php/document</bold><info>﻿    $(function () { $('#example-f').barrating(); });  jQuery(document).ready(function() { jQuery('.w-map-h').gMap({ controls: { panControl: false, zoomControl: true, mapTypeControl: true, scaleControl: false, streetViewControl: false, overviewMapControl: false }, address: "&#272</info>
+<debug>[Content too long to display. See complete response in '_log' directory]</debug>
+--> contains "". [] []
+[2014-04-12 12:25:35] DocumentCept.php.INFO: # FAILED # [] []
+[2014-04-12 12:25:35] DocumentCept.php.INFO: PASSED [] []
+[2014-04-12 12:25:35] LoginCept.php.INFO: am on page "/login" [] []
+[2014-04-12 12:25:35] LoginCept.php.INFO: fill field "username","davert" [] []
+[2014-04-12 12:25:35] LoginCept.php.INFO: fill field "Password","qwerty" [] []
+[2014-04-12 12:25:35] LoginCept.php.INFO: click "Submit" [] []
+[2014-04-12 12:25:35] LoginCept.php.INFO: see "Ten nguoi dung chua dc dang ky" [] []
+[2014-04-12 12:25:35] LoginCept.php.INFO: PASSED [] []
+[2014-04-12 12:26:39] DiscussionPageCept.php.INFO: am on page "/" [] []
+[2014-04-12 12:26:39] DiscussionPageCept.php.INFO: see "Thảo luận" [] []
+[2014-04-12 12:26:39] DiscussionPageCept.php.INFO: PASSED [] []
+[2014-04-12 12:26:39] DocumentCept.php.INFO: am on page "/document" [] []
+[2014-04-12 12:26:39] DocumentCept.php.INFO: see "Bạn muốn chia sẻ 1 tài liệu lên?" [] []
+[2014-04-12 12:26:39] DocumentCept.php.INFO: PASSED [] []
+[2014-04-12 12:26:39] LoginCept.php.INFO: am on page "/login" [] []
+[2014-04-12 12:26:39] LoginCept.php.INFO: fill field "username","davert" [] []
+[2014-04-12 12:26:39] LoginCept.php.INFO: fill field "Password","qwerty" [] []
+[2014-04-12 12:26:39] LoginCept.php.INFO: click "Submit" [] []
+[2014-04-12 12:26:40] LoginCept.php.INFO: see "Ten nguoi dung chua dc dang ky" [] []
+[2014-04-12 12:26:40] LoginCept.php.INFO: PASSED [] []
+[2014-04-12 12:39:51] DiscussionPageCept.php.INFO: am on page "/" [] []
+[2014-04-12 12:39:51] DiscussionPageCept.php.INFO: see "Thảo luận" [] []
+[2014-04-12 12:39:51] DiscussionPageCept.php.INFO: PASSED [] []
+[2014-04-12 12:39:51] DocumentCept.php.INFO: am on page "/document" [] []
+[2014-04-12 12:39:51] DocumentCept.php.INFO: see "Bạn muốn chia sẻ 1 tài liệu lên?" [] []
+[2014-04-12 12:39:51] DocumentCept.php.INFO: PASSED [] []
+[2014-04-12 12:39:51] Login_did_not_have_accountCept.php.INFO: am on page "/login" [] []
+[2014-04-12 12:39:51] Login_did_not_have_accountCept.php.INFO: click "Chưa có Tài Khoản?Đăng Ký?" [] []
+[2014-04-12 12:39:51] Login_did_not_have_accountCept.php.ALERT: CSS or XPath 'Chưa có Tài Khoản?Đăng Ký?' was not found on page. [] []
+[2014-04-12 12:39:51] Login_did_not_have_accountCept.php.INFO: # FAILED # [] []
+[2014-04-12 12:39:51] Login_did_not_have_accountCept.php.INFO: PASSED [] []
+[2014-04-12 12:39:51] Login_wrong_accountCept.php.INFO: am on page "/login" [] []
+[2014-04-12 12:39:51] Login_wrong_accountCept.php.INFO: fill field "username","davert" [] []
+[2014-04-12 12:39:51] Login_wrong_accountCept.php.INFO: fill field "Password","qwerty" [] []
+[2014-04-12 12:39:51] Login_wrong_accountCept.php.INFO: click "Submit" [] []
+[2014-04-12 12:39:52] Login_wrong_accountCept.php.INFO: see "Ten nguoi dung chua dc dang ky" [] []
+[2014-04-12 12:39:52] Login_wrong_accountCept.php.INFO: PASSED [] []
+[2014-04-12 12:43:33] DiscussionPageCept.php.INFO: am on page "/" [] []
+[2014-04-12 12:43:33] DiscussionPageCept.php.INFO: see "Thảo luận" [] []
+[2014-04-12 12:43:33] DiscussionPageCept.php.INFO: PASSED [] []
+[2014-04-12 12:43:33] DocumentCept.php.INFO: am on page "/document" [] []
+[2014-04-12 12:43:34] DocumentCept.php.INFO: see "Bạn muốn chia sẻ 1 tài liệu lên?" [] []
+[2014-04-12 12:43:34] DocumentCept.php.INFO: PASSED [] []
+[2014-04-12 12:43:34] Login_did_not_have_accountCept.php.INFO: am on page "/login" [] []
+[2014-04-12 12:43:34] Login_did_not_have_accountCept.php.INFO: click "Chưa có Tài Khoản?Đăng Ký?" [] []
+[2014-04-12 12:43:34] Login_did_not_have_accountCept.php.ALERT: CSS or XPath 'Chưa có Tài Khoản?Đăng Ký?' was not found on page. [] []
+[2014-04-12 12:43:34] Login_did_not_have_accountCept.php.INFO: # FAILED # [] []
+[2014-04-12 12:43:34] Login_did_not_have_accountCept.php.INFO: PASSED [] []
+[2014-04-12 12:43:34] Login_successfullyCept.php.INFO: am on page "/login" [] []
+[2014-04-12 12:43:34] Login_successfullyCept.php.INFO: fill field "username","khoalevan" [] []
+[2014-04-12 12:43:34] Login_successfullyCept.php.INFO: fill field "Password","123456" [] []
+[2014-04-12 12:43:34] Login_successfullyCept.php.INFO: click "Submit" [] []
+[2014-04-12 12:43:34] Login_successfullyCept.php.INFO: see "Đăng nhập thành công" [] []
+[2014-04-12 12:43:34] Login_successfullyCept.php.ALERT: Failed asserting that 
+-->  <bold>/SE2014-Project_Website/index.php/login</bold><info>{"message":"\u0110\u0103ng nh\u1eadp th\u00e0nh c\u00f4ng"}</info>
+--> contains "��ng nhập th�nh c�ng". [] []
+[2014-04-12 12:43:34] Login_successfullyCept.php.INFO: # FAILED # [] []
+[2014-04-12 12:43:34] Login_successfullyCept.php.INFO: PASSED [] []
+[2014-04-12 12:43:34] Login_wrong_accountCept.php.INFO: am on page "/login" [] []
+[2014-04-12 12:43:34] Login_wrong_accountCept.php.INFO: fill field "username","davert" [] []
+[2014-04-12 12:43:34] Login_wrong_accountCept.php.INFO: fill field "Password","qwerty" [] []
+[2014-04-12 12:43:34] Login_wrong_accountCept.php.INFO: click "Submit" [] []
+[2014-04-12 12:43:35] Login_wrong_accountCept.php.INFO: see "Ten nguoi dung chua dc dang ky" [] []
+[2014-04-12 12:43:35] Login_wrong_accountCept.php.INFO: PASSED [] []
+[2014-04-12 12:45:36] DiscussionPageCept.php.INFO: am on page "/" [] []
+[2014-04-12 12:45:36] DiscussionPageCept.php.INFO: see "Thảo luận" [] []
+[2014-04-12 12:45:36] DiscussionPageCept.php.INFO: PASSED [] []
+[2014-04-12 12:45:36] DocumentCept.php.INFO: am on page "/document" [] []
+[2014-04-12 12:45:36] DocumentCept.php.INFO: see "Bạn muốn chia sẻ 1 tài liệu lên?" [] []
+[2014-04-12 12:45:36] DocumentCept.php.INFO: PASSED [] []
+[2014-04-12 12:45:36] Login_did_not_have_accountCept.php.INFO: am on page "/login" [] []
+[2014-04-12 12:45:36] Login_did_not_have_accountCept.php.INFO: click "Chưa có Tài Khoản?Đăng Ký?" [] []
+[2014-04-12 12:45:36] Login_did_not_have_accountCept.php.ALERT: CSS or XPath 'Chưa có Tài Khoản?Đăng Ký?' was not found on page. [] []
+[2014-04-12 12:45:36] Login_did_not_have_accountCept.php.INFO: # FAILED # [] []
+[2014-04-12 12:45:36] Login_did_not_have_accountCept.php.INFO: PASSED [] []
+[2014-04-12 12:45:36] Login_successfullyCept.php.INFO: am on page "/login" [] []
+[2014-04-12 12:45:36] Login_successfullyCept.php.INFO: fill field "username","khoalevan" [] []
+[2014-04-12 12:45:36] Login_successfullyCept.php.INFO: fill field "Password","123456" [] []
+[2014-04-12 12:45:37] Login_successfullyCept.php.INFO: click "Submit" [] []
+[2014-04-12 12:45:37] Login_successfullyCept.php.INFO: see "Đăng nhập thành công" [] []
+[2014-04-12 12:45:37] Login_successfullyCept.php.ALERT: Failed asserting that 
+-->  <bold>/SE2014-Project_Website/index.php/login</bold><info>{"message":"\u0110\u0103ng nh\u1eadp th\u00e0nh c\u00f4ng"}</info>
+--> contains "��ng nhập th�nh c�ng". [] []
+[2014-04-12 12:45:37] Login_successfullyCept.php.INFO: # FAILED # [] []
+[2014-04-12 12:45:37] Login_successfullyCept.php.INFO: PASSED [] []
+[2014-04-12 12:45:37] Login_wrong_accountCept.php.INFO: am on page "/login" [] []
+[2014-04-12 12:45:37] Login_wrong_accountCept.php.INFO: fill field "username","davert" [] []
+[2014-04-12 12:45:37] Login_wrong_accountCept.php.INFO: fill field "Password","qwerty" [] []
+[2014-04-12 12:45:37] Login_wrong_accountCept.php.INFO: click "Submit" [] []
+[2014-04-12 12:45:37] Login_wrong_accountCept.php.INFO: see "Ten nguoi dung chua dc dang ky" [] []
+[2014-04-12 12:45:37] Login_wrong_accountCept.php.INFO: PASSED [] []
+[2014-04-12 12:46:11] DiscussionPageCept.php.INFO: am on page "/" [] []
+[2014-04-12 12:46:11] DiscussionPageCept.php.INFO: see "Thảo luận" [] []
+[2014-04-12 12:46:11] DiscussionPageCept.php.INFO: PASSED [] []
+[2014-04-12 12:46:11] DocumentCept.php.INFO: am on page "/document" [] []
+[2014-04-12 12:46:11] DocumentCept.php.INFO: see "Bạn muốn chia sẻ 1 tài liệu lên?" [] []
+[2014-04-12 12:46:11] DocumentCept.php.INFO: PASSED [] []
+[2014-04-12 12:46:11] Login_did_not_have_accountCept.php.INFO: am on page "/login" [] []
+[2014-04-12 12:46:11] Login_did_not_have_accountCept.php.INFO: click "Chưa có Tài Khoản?Đăng Ký?" [] []
+[2014-04-12 12:46:11] Login_did_not_have_accountCept.php.ALERT: CSS or XPath 'Chưa có Tài Khoản?Đăng Ký?' was not found on page. [] []
+[2014-04-12 12:46:11] Login_did_not_have_accountCept.php.INFO: # FAILED # [] []
+[2014-04-12 12:46:11] Login_did_not_have_accountCept.php.INFO: PASSED [] []
+[2014-04-12 12:46:11] Login_successfullyCept.php.INFO: am on page "/login" [] []
+[2014-04-12 12:46:11] Login_successfullyCept.php.INFO: fill field "username","khoalevan" [] []
+[2014-04-12 12:46:11] Login_successfullyCept.php.INFO: fill field "Password","123456" [] []
+[2014-04-12 12:46:11] Login_successfullyCept.php.INFO: click "Submit" [] []
+[2014-04-12 12:46:12] Login_successfullyCept.php.INFO: see "Đăng nhập thành công " [] []
+[2014-04-12 12:46:12] Login_successfullyCept.php.ALERT: Failed asserting that 
+-->  <bold>/SE2014-Project_Website/index.php/login</bold><info>{"message":"\u0110\u0103ng nh\u1eadp th\u00e0nh c\u00f4ng"}</info>
+--> contains "��ng nhập th�nh c�ng ". [] []
+[2014-04-12 12:46:12] Login_successfullyCept.php.INFO: # FAILED # [] []
+[2014-04-12 12:46:12] Login_successfullyCept.php.INFO: PASSED [] []
+[2014-04-12 12:46:12] Login_wrong_accountCept.php.INFO: am on page "/login" [] []
+[2014-04-12 12:46:12] Login_wrong_accountCept.php.INFO: fill field "username","davert" [] []
+[2014-04-12 12:46:12] Login_wrong_accountCept.php.INFO: fill field "Password","qwerty" [] []
+[2014-04-12 12:46:12] Login_wrong_accountCept.php.INFO: click "Submit" [] []
+[2014-04-12 12:46:12] Login_wrong_accountCept.php.INFO: see "Ten nguoi dung chua dc dang ky" [] []
+[2014-04-12 12:46:12] Login_wrong_accountCept.php.INFO: PASSED [] []
+[2014-04-12 12:47:15] DiscussionPageCept.php.INFO: am on page "/" [] []
+[2014-04-12 12:47:15] DiscussionPageCept.php.INFO: see "Thảo luận" [] []
+[2014-04-12 12:47:15] DiscussionPageCept.php.INFO: PASSED [] []
+[2014-04-12 12:47:15] DocumentCept.php.INFO: am on page "/document" [] []
+[2014-04-12 12:47:15] DocumentCept.php.INFO: see "Bạn muốn chia sẻ 1 tài liệu lên?" [] []
+[2014-04-12 12:47:15] DocumentCept.php.INFO: PASSED [] []
+[2014-04-12 12:47:15] Login_did_not_have_accountCept.php.INFO: am on page "/login" [] []
+[2014-04-12 12:47:15] Login_did_not_have_accountCept.php.INFO: click "Chưa có Tài Khoản?Đăng Ký?" [] []
+[2014-04-12 12:47:15] Login_did_not_have_accountCept.php.ALERT: CSS or XPath 'Chưa có Tài Khoản?Đăng Ký?' was not found on page. [] []
+[2014-04-12 12:47:15] Login_did_not_have_accountCept.php.INFO: # FAILED # [] []
+[2014-04-12 12:47:15] Login_did_not_have_accountCept.php.INFO: PASSED [] []
+[2014-04-12 12:47:15] Login_successfullyCept.php.INFO: am on page "/login" [] []
+[2014-04-12 12:47:15] Login_successfullyCept.php.INFO: fill field "username","khoalevan" [] []
+[2014-04-12 12:47:15] Login_successfullyCept.php.INFO: fill field "Password","123456" [] []
+[2014-04-12 12:47:15] Login_successfullyCept.php.INFO: click "Submit" [] []
+[2014-04-12 12:47:15] Login_successfullyCept.php.INFO: see "Dang nhap thanh cong" [] []
+[2014-04-12 12:47:15] Login_successfullyCept.php.ALERT: Failed asserting that 
+-->  <bold>/SE2014-Project_Website/index.php/login</bold><info>{"message":"\u0110\u0103ng nh\u1eadp th\u00e0nh c\u00f4ng"}</info>
+--> contains "dang nhap thanh cong". [] []
+[2014-04-12 12:47:15] Login_successfullyCept.php.INFO: # FAILED # [] []
+[2014-04-12 12:47:15] Login_successfullyCept.php.INFO: PASSED [] []
+[2014-04-12 12:47:15] Login_wrong_accountCept.php.INFO: am on page "/login" [] []
+[2014-04-12 12:47:16] Login_wrong_accountCept.php.INFO: fill field "username","davert" [] []
+[2014-04-12 12:47:16] Login_wrong_accountCept.php.INFO: fill field "Password","qwerty" [] []
+[2014-04-12 12:47:16] Login_wrong_accountCept.php.INFO: click "Submit" [] []
+[2014-04-12 12:47:16] Login_wrong_accountCept.php.INFO: see "Ten nguoi dung chua dc dang ky" [] []
+[2014-04-12 12:47:16] Login_wrong_accountCept.php.INFO: PASSED [] []
+[2014-04-12 12:49:24] DiscussionPageCept.php.INFO: am on page "/" [] []
+[2014-04-12 12:49:24] DiscussionPageCept.php.INFO: see "Thảo luận" [] []
+[2014-04-12 12:49:24] DiscussionPageCept.php.INFO: PASSED [] []
+[2014-04-12 12:49:24] DocumentCept.php.INFO: am on page "/document" [] []
+[2014-04-12 12:49:24] DocumentCept.php.INFO: see "Bạn muốn chia sẻ 1 tài liệu lên?" [] []
+[2014-04-12 12:49:24] DocumentCept.php.INFO: PASSED [] []
+[2014-04-12 12:49:24] Login_did_not_have_accountCept.php.INFO: am on page "/login" [] []
+[2014-04-12 12:49:24] Login_did_not_have_accountCept.php.INFO: click "Chưa có Tài Khoản?Đăng Ký!" [] []
+[2014-04-12 12:49:24] Login_did_not_have_accountCept.php.ALERT: CSS or XPath 'Chưa có Tài Khoản?Đăng Ký!' was not found on page. [] []
+[2014-04-12 12:49:24] Login_did_not_have_accountCept.php.INFO: # FAILED # [] []
+[2014-04-12 12:49:24] Login_did_not_have_accountCept.php.INFO: PASSED [] []
+[2014-04-12 12:49:24] Login_successfullyCept.php.INFO: am on page "/login" [] []
+[2014-04-12 12:49:24] Login_successfullyCept.php.INFO: fill field "username","khoalevan" [] []
+[2014-04-12 12:49:24] Login_successfullyCept.php.INFO: fill field "Password","123456" [] []
+[2014-04-12 12:49:24] Login_successfullyCept.php.INFO: click "Submit" [] []
+[2014-04-12 12:49:25] Login_successfullyCept.php.INFO: see "Dang nhap thanh cong" [] []
+[2014-04-12 12:49:25] Login_successfullyCept.php.ALERT: Failed asserting that 
+-->  <bold>/SE2014-Project_Website/index.php/login</bold><info>{"message":"\u0110\u0103ng nh\u1eadp th\u00e0nh c\u00f4ng"}</info>
+--> contains "dang nhap thanh cong". [] []
+[2014-04-12 12:49:25] Login_successfullyCept.php.INFO: # FAILED # [] []
+[2014-04-12 12:49:25] Login_successfullyCept.php.INFO: PASSED [] []
+[2014-04-12 12:49:25] Login_wrong_accountCept.php.INFO: am on page "/login" [] []
+[2014-04-12 12:49:25] Login_wrong_accountCept.php.INFO: fill field "username","davert" [] []
+[2014-04-12 12:49:25] Login_wrong_accountCept.php.INFO: fill field "Password","qwerty" [] []
+[2014-04-12 12:49:25] Login_wrong_accountCept.php.INFO: click "Submit" [] []
+[2014-04-12 12:49:25] Login_wrong_accountCept.php.INFO: see "Ten nguoi dung chua dc dang ky" [] []
+[2014-04-12 12:49:25] Login_wrong_accountCept.php.INFO: PASSED [] []
+[2014-04-12 12:50:35] DiscussionPageCept.php.INFO: am on page "/" [] []
+[2014-04-12 12:50:35] DiscussionPageCept.php.INFO: see "Thảo luận" [] []
+[2014-04-12 12:50:35] DiscussionPageCept.php.INFO: PASSED [] []
+[2014-04-12 12:50:35] DocumentCept.php.INFO: am on page "/document" [] []
+[2014-04-12 12:50:35] DocumentCept.php.INFO: see "Bạn muốn chia sẻ 1 tài liệu lên?" [] []
+[2014-04-12 12:50:35] DocumentCept.php.INFO: PASSED [] []
+[2014-04-12 12:50:35] Login_did_not_have_accountCept.php.INFO: am on page "/login" [] []
+[2014-04-12 12:50:35] Login_did_not_have_accountCept.php.INFO: click "Chưa có Tài Khoản? Đăng Ký!" [] []
+[2014-04-12 12:50:35] Login_did_not_have_accountCept.php.ALERT: CSS or XPath 'Chưa có Tài Khoản? Đăng Ký!' was not found on page. [] []
+[2014-04-12 12:50:35] Login_did_not_have_accountCept.php.INFO: # FAILED # [] []
+[2014-04-12 12:50:35] Login_did_not_have_accountCept.php.INFO: PASSED [] []
+[2014-04-12 12:50:35] Login_successfullyCept.php.INFO: am on page "/login" [] []
+[2014-04-12 12:50:35] Login_successfullyCept.php.INFO: fill field "username","khoalevan" [] []
+[2014-04-12 12:50:35] Login_successfullyCept.php.INFO: fill field "Password","123456" [] []
+[2014-04-12 12:50:35] Login_successfullyCept.php.INFO: click "Submit" [] []
+[2014-04-12 12:50:36] Login_successfullyCept.php.INFO: see "Dang nhap thanh cong" [] []
+[2014-04-12 12:50:36] Login_successfullyCept.php.ALERT: Failed asserting that 
+-->  <bold>/SE2014-Project_Website/index.php/login</bold><info>{"message":"\u0110\u0103ng nh\u1eadp th\u00e0nh c\u00f4ng"}</info>
+--> contains "dang nhap thanh cong". [] []
+[2014-04-12 12:50:36] Login_successfullyCept.php.INFO: # FAILED # [] []
+[2014-04-12 12:50:36] Login_successfullyCept.php.INFO: PASSED [] []
+[2014-04-12 12:50:36] Login_wrong_accountCept.php.INFO: am on page "/login" [] []
+[2014-04-12 12:50:36] Login_wrong_accountCept.php.INFO: fill field "username","davert" [] []
+[2014-04-12 12:50:36] Login_wrong_accountCept.php.INFO: fill field "Password","qwerty" [] []
+[2014-04-12 12:50:36] Login_wrong_accountCept.php.INFO: click "Submit" [] []
+[2014-04-12 12:50:36] Login_wrong_accountCept.php.INFO: see "Ten nguoi dung chua dc dang ky" [] []
+[2014-04-12 12:50:36] Login_wrong_accountCept.php.INFO: PASSED [] []
+[2014-04-12 12:56:32] DiscussionPageCept.php.INFO: am on page "/" [] []
+[2014-04-12 12:56:32] DiscussionPageCept.php.INFO: see "Thảo luận" [] []
+[2014-04-12 12:56:32] DiscussionPageCept.php.INFO: PASSED [] []
+[2014-04-12 12:56:32] DocumentCept.php.INFO: am on page "/document" [] []
+[2014-04-12 12:56:33] DocumentCept.php.INFO: see "Bạn muốn chia sẻ 1 tài liệu lên?" [] []
+[2014-04-12 12:56:33] DocumentCept.php.INFO: PASSED [] []
+[2014-04-12 12:56:33] Login_did_not_have_accountCept.php.INFO: am on page "/login" [] []
+[2014-04-12 12:56:33] Login_did_not_have_accountCept.php.INFO: click "Chưa có Tài Khoản? Đăng Ký!" [] []
+[2014-04-12 12:56:33] Login_did_not_have_accountCept.php.ALERT: CSS or XPath 'Chưa có Tài Khoản? Đăng Ký!' was not found on page. [] []
+[2014-04-12 12:56:33] Login_did_not_have_accountCept.php.INFO: # FAILED # [] []
+[2014-04-12 12:56:33] Login_did_not_have_accountCept.php.INFO: PASSED [] []
+[2014-04-12 12:56:33] Login_successfullyCept.php.INFO: am on page "/login" [] []
+[2014-04-12 12:56:33] Login_successfullyCept.php.INFO: fill field "username","khoalevan" [] []
+[2014-04-12 12:56:33] Login_successfullyCept.php.INFO: fill field "Password","123456" [] []
+[2014-04-12 12:56:33] Login_successfullyCept.php.INFO: click "Submit" [] []
+[2014-04-12 12:56:33] Login_successfullyCept.php.INFO: see "Dang nhap thanh cong" [] []
+[2014-04-12 12:56:33] Login_successfullyCept.php.ALERT: Failed asserting that 
+-->  <bold>/SE2014-Project_Website/index.php/login</bold><info>{"message":"\u0110\u0103ng nh\u1eadp th\u00e0nh c\u00f4ng"}</info>
+--> contains "dang nhap thanh cong". [] []
+[2014-04-12 12:56:33] Login_successfullyCept.php.INFO: # FAILED # [] []
+[2014-04-12 12:56:33] Login_successfullyCept.php.INFO: PASSED [] []
+[2014-04-12 12:56:33] Login_wrong_accountCept.php.INFO: am on page "/login" [] []
+[2014-04-12 12:56:33] Login_wrong_accountCept.php.INFO: fill field "username","davert" [] []
+[2014-04-12 12:56:34] Login_wrong_accountCept.php.INFO: fill field "Password","qwerty" [] []
+[2014-04-12 12:56:34] Login_wrong_accountCept.php.INFO: click "Submit" [] []
+[2014-04-12 12:56:34] Login_wrong_accountCept.php.INFO: see "Ten nguoi dung chua dc dang ky" [] []
+[2014-04-12 12:56:34] Login_wrong_accountCept.php.INFO: PASSED [] []
+[2014-04-12 12:57:09] DiscussionPageCept.php.INFO: am on page "/" [] []
+[2014-04-12 12:57:10] DiscussionPageCept.php.INFO: see "Thảo luận" [] []
+[2014-04-12 12:57:10] DiscussionPageCept.php.INFO: PASSED [] []
+[2014-04-12 12:57:10] DocumentCept.php.INFO: am on page "/document" [] []
+[2014-04-12 12:57:10] DocumentCept.php.INFO: see "Bạn muốn chia sẻ 1 tài liệu lên?" [] []
+[2014-04-12 12:57:10] DocumentCept.php.INFO: PASSED [] []
+[2014-04-12 12:57:10] Login_did_not_have_accountCept.php.INFO: am on page "/login" [] []
+[2014-04-12 12:57:10] Login_did_not_have_accountCept.php.INFO: click "Sign_up" [] []
+[2014-04-12 12:57:10] Login_did_not_have_accountCept.php.ALERT: CSS or XPath 'Sign_up' was not found on page. [] []
+[2014-04-12 12:57:10] Login_did_not_have_accountCept.php.INFO: # FAILED # [] []
+[2014-04-12 12:57:10] Login_did_not_have_accountCept.php.INFO: PASSED [] []
+[2014-04-12 12:57:10] Login_successfullyCept.php.INFO: am on page "/login" [] []
+[2014-04-12 12:57:10] Login_successfullyCept.php.INFO: fill field "username","khoalevan" [] []
+[2014-04-12 12:57:10] Login_successfullyCept.php.INFO: fill field "Password","123456" [] []
+[2014-04-12 12:57:10] Login_successfullyCept.php.INFO: click "Submit" [] []
+[2014-04-12 12:57:10] Login_successfullyCept.php.INFO: see "Dang nhap thanh cong" [] []
+[2014-04-12 12:57:10] Login_successfullyCept.php.ALERT: Failed asserting that 
+-->  <bold>/SE2014-Project_Website/index.php/login</bold><info>{"message":"\u0110\u0103ng nh\u1eadp th\u00e0nh c\u00f4ng"}</info>
+--> contains "dang nhap thanh cong". [] []
+[2014-04-12 12:57:10] Login_successfullyCept.php.INFO: # FAILED # [] []
+[2014-04-12 12:57:10] Login_successfullyCept.php.INFO: PASSED [] []
+[2014-04-12 12:57:10] Login_wrong_accountCept.php.INFO: am on page "/login" [] []
+[2014-04-12 12:57:10] Login_wrong_accountCept.php.INFO: fill field "username","davert" [] []
+[2014-04-12 12:57:10] Login_wrong_accountCept.php.INFO: fill field "Password","qwerty" [] []
+[2014-04-12 12:57:10] Login_wrong_accountCept.php.INFO: click "Submit" [] []
+[2014-04-12 12:57:11] Login_wrong_accountCept.php.INFO: see "Ten nguoi dung chua dc dang ky" [] []
+[2014-04-12 12:57:11] Login_wrong_accountCept.php.INFO: PASSED [] []
+[2014-04-12 12:57:50] DiscussionPageCept.php.INFO: am on page "/" [] []
+[2014-04-12 12:57:50] DiscussionPageCept.php.INFO: see "Thảo luận" [] []
+[2014-04-12 12:57:50] DiscussionPageCept.php.INFO: PASSED [] []
+[2014-04-12 12:57:50] DocumentCept.php.INFO: am on page "/document" [] []
+[2014-04-12 12:57:50] DocumentCept.php.INFO: see "Bạn muốn chia sẻ 1 tài liệu lên?" [] []
+[2014-04-12 12:57:50] DocumentCept.php.INFO: PASSED [] []
+[2014-04-12 12:57:50] Login_did_not_have_accountCept.php.INFO: am on page "/login" [] []
+[2014-04-12 12:57:51] Login_did_not_have_accountCept.php.INFO: click "Sign_up" [] []
+[2014-04-12 12:57:51] Login_did_not_have_accountCept.php.ALERT: CSS or XPath 'Sign_up' was not found on page. [] []
+[2014-04-12 12:57:51] Login_did_not_have_accountCept.php.INFO: # FAILED # [] []
+[2014-04-12 12:57:51] Login_did_not_have_accountCept.php.INFO: PASSED [] []
+[2014-04-12 12:57:51] Login_successfullyCept.php.INFO: am on page "/login" [] []
+[2014-04-12 12:57:51] Login_successfullyCept.php.INFO: fill field "username","khoalevan" [] []
+[2014-04-12 12:57:51] Login_successfullyCept.php.INFO: fill field "Password","123456" [] []
+[2014-04-12 12:57:51] Login_successfullyCept.php.INFO: click "Submit" [] []
+[2014-04-12 12:57:51] Login_successfullyCept.php.INFO: see "Dang nhap thanh cong" [] []
+[2014-04-12 12:57:51] Login_successfullyCept.php.ALERT: Failed asserting that 
+-->  <bold>/SE2014-Project_Website/index.php/login</bold><info>{"message":"\u0110\u0103ng nh\u1eadp th\u00e0nh c\u00f4ng"}</info>
+--> contains "dang nhap thanh cong". [] []
+[2014-04-12 12:57:51] Login_successfullyCept.php.INFO: # FAILED # [] []
+[2014-04-12 12:57:51] Login_successfullyCept.php.INFO: PASSED [] []
+[2014-04-12 12:57:51] Login_wrong_accountCept.php.INFO: am on page "/login" [] []
+[2014-04-12 12:57:51] Login_wrong_accountCept.php.INFO: fill field "username","davert" [] []
+[2014-04-12 12:57:51] Login_wrong_accountCept.php.INFO: fill field "Password","qwerty" [] []
+[2014-04-12 12:57:51] Login_wrong_accountCept.php.INFO: click "Submit" [] []
+[2014-04-12 12:57:51] Login_wrong_accountCept.php.INFO: see "Ten nguoi dung chua dc dang ky" [] []
+[2014-04-12 12:57:51] Login_wrong_accountCept.php.INFO: PASSED [] []
+[2014-04-12 13:24:00] DiscussionPageCept.php.INFO: am on page "/" [] []
+[2014-04-12 13:24:00] DiscussionPageCept.php.INFO: see "Thảo luận" [] []
+[2014-04-12 13:24:00] DiscussionPageCept.php.INFO: PASSED [] []
+[2014-04-12 13:24:00] DocumentCept.php.INFO: am on page "/document" [] []
+[2014-04-12 13:24:00] DocumentCept.php.INFO: see "Bạn muốn chia sẻ 1 tài liệu lên?" [] []
+[2014-04-12 13:24:00] DocumentCept.php.INFO: PASSED [] []
+[2014-04-12 13:24:00] Login_did_not_have_accountCept.php.INFO: am on page "/login" [] []
+[2014-04-12 13:24:00] Login_did_not_have_accountCept.php.INFO: click ".w-tabs-section-title-text" [] []
+[2014-04-12 13:24:00] Login_did_not_have_accountCept.php.ALERT: Exception thrown by (//html/descendant-or-self::*[@class and contains(concat(' ', normalize-space(@class), ' '), ' w-tabs-section-title-text ')])[1]
+Goutte driver supports clicking on inputs and links only. But "span" provided [] []
+[2014-04-12 13:24:00] Login_did_not_have_accountCept.php.INFO: # ERROR # [] []
+[2014-04-12 13:24:00] Login_did_not_have_accountCept.php.INFO: PASSED [] []
+[2014-04-12 13:24:00] Login_successfullyCept.php.INFO: am on page "/login" [] []
+[2014-04-12 13:24:00] Login_successfullyCept.php.INFO: fill field "username","khoalevan" [] []
+[2014-04-12 13:24:00] Login_successfullyCept.php.INFO: fill field "Password","123456" [] []
+[2014-04-12 13:24:00] Login_successfullyCept.php.INFO: click "Submit" [] []
+[2014-04-12 13:24:01] Login_successfullyCept.php.INFO: see "Dang nhap thanh cong" [] []
+[2014-04-12 13:24:01] Login_successfullyCept.php.ALERT: Failed asserting that 
+-->  <bold>/SE2014-Project_Website/index.php/login</bold><info>{"message":"\u0110\u0103ng nh\u1eadp th\u00e0nh c\u00f4ng"}</info>
+--> contains "dang nhap thanh cong". [] []
+[2014-04-12 13:24:01] Login_successfullyCept.php.INFO: # FAILED # [] []
+[2014-04-12 13:24:01] Login_successfullyCept.php.INFO: PASSED [] []
+[2014-04-12 13:24:01] Login_wrong_accountCept.php.INFO: am on page "/login" [] []
+[2014-04-12 13:24:01] Login_wrong_accountCept.php.INFO: fill field "username","davert" [] []
+[2014-04-12 13:24:01] Login_wrong_accountCept.php.INFO: fill field "Password","qwerty" [] []
+[2014-04-12 13:24:01] Login_wrong_accountCept.php.INFO: click "Submit" [] []
+[2014-04-12 13:24:01] Login_wrong_accountCept.php.INFO: see "Ten nguoi dung chua dc dang ky" [] []
+[2014-04-12 13:24:01] Login_wrong_accountCept.php.INFO: PASSED [] []
+[2014-04-12 13:46:40] DiscussionPageCept.php.INFO: am on page "/" [] []
+[2014-04-12 13:46:40] DiscussionPageCept.php.INFO: see "Thảo luận" [] []
+[2014-04-12 13:46:40] DiscussionPageCept.php.INFO: PASSED [] []
+[2014-04-12 13:46:40] DocumentCept.php.INFO: am on page "/document" [] []
+[2014-04-12 13:46:40] DocumentCept.php.INFO: see "Bạn muốn chia sẻ 1 tài liệu lên?" [] []
+[2014-04-12 13:46:40] DocumentCept.php.INFO: PASSED [] []
+[2014-04-12 13:46:40] Login_did_not_have_accountCept.php.INFO: am on page "/login" [] []
+[2014-04-12 13:46:40] Login_did_not_have_accountCept.php.INFO: click "Sign_up" [] []
+[2014-04-12 13:46:40] Login_did_not_have_accountCept.php.ALERT: CSS or XPath 'Sign_up' was not found on page. [] []
+[2014-04-12 13:46:40] Login_did_not_have_accountCept.php.INFO: # FAILED # [] []
+[2014-04-12 13:46:40] Login_did_not_have_accountCept.php.INFO: PASSED [] []
+[2014-04-12 13:46:40] Login_successfullyCept.php.INFO: am on page "/login" [] []
+[2014-04-12 13:46:40] Login_successfullyCept.php.INFO: fill field "username","khoalevan" [] []
+[2014-04-12 13:46:40] Login_successfullyCept.php.INFO: fill field "Password","123456" [] []
+[2014-04-12 13:46:40] Login_successfullyCept.php.INFO: click "Submit" [] []
+[2014-04-12 13:46:41] Login_successfullyCept.php.INFO: see "Dang nhap thanh cong" [] []
+[2014-04-12 13:46:41] Login_successfullyCept.php.ALERT: Failed asserting that 
+-->  <bold>/SE2014-Project_Website/index.php/login</bold><info>{"message":"\u0110\u0103ng nh\u1eadp th\u00e0nh c\u00f4ng"}</info>
+--> contains "dang nhap thanh cong". [] []
+[2014-04-12 13:46:41] Login_successfullyCept.php.INFO: # FAILED # [] []
+[2014-04-12 13:46:41] Login_successfullyCept.php.INFO: PASSED [] []
+[2014-04-12 13:46:41] Login_wrong_accountCept.php.INFO: am on page "/login" [] []
+[2014-04-12 13:46:41] Login_wrong_accountCept.php.INFO: fill field "username","davert" [] []
+[2014-04-12 13:46:41] Login_wrong_accountCept.php.INFO: fill field "Password","qwerty" [] []
+[2014-04-12 13:46:41] Login_wrong_accountCept.php.INFO: click "Submit" [] []
+[2014-04-12 13:46:41] Login_wrong_accountCept.php.INFO: see "Ten nguoi dung chua dc dang ky" [] []
+[2014-04-12 13:46:41] Login_wrong_accountCept.php.INFO: PASSED [] []
+[2014-04-12 13:49:14] DiscussionPageCept.php.INFO: am on page "/" [] []
+[2014-04-12 13:49:14] DiscussionPageCept.php.INFO: see "Thảo luận" [] []
+[2014-04-12 13:49:14] DiscussionPageCept.php.INFO: PASSED [] []
+[2014-04-12 13:49:14] DocumentCept.php.INFO: am on page "/document" [] []
+[2014-04-12 13:49:14] DocumentCept.php.INFO: see "Bạn muốn chia sẻ 1 tài liệu lên?" [] []
+[2014-04-12 13:49:14] DocumentCept.php.INFO: PASSED [] []
+[2014-04-12 13:49:14] Login_did_not_have_accountCept.php.INFO: am on page "/signup" [] []
+[2014-04-12 13:49:14] Login_did_not_have_accountCept.php.INFO: click "Sign_up" [] []
+[2014-04-12 13:49:14] Login_did_not_have_accountCept.php.ALERT: CSS or XPath 'Sign_up' was not found on page. [] []
+[2014-04-12 13:49:14] Login_did_not_have_accountCept.php.INFO: # FAILED # [] []
+[2014-04-12 13:49:14] Login_did_not_have_accountCept.php.INFO: PASSED [] []
+[2014-04-12 13:49:14] Login_successfullyCept.php.INFO: am on page "/login" [] []
+[2014-04-12 13:49:14] Login_successfullyCept.php.INFO: fill field "username","khoalevan" [] []
+[2014-04-12 13:49:14] Login_successfullyCept.php.INFO: fill field "Password","123456" [] []
+[2014-04-12 13:49:14] Login_successfullyCept.php.INFO: click "Submit" [] []
+[2014-04-12 13:49:14] Login_successfullyCept.php.INFO: see "Dang nhap thanh cong" [] []
+[2014-04-12 13:49:14] Login_successfullyCept.php.ALERT: Failed asserting that 
+-->  <bold>/SE2014-Project_Website/index.php/login</bold><info>{"message":"\u0110\u0103ng nh\u1eadp th\u00e0nh c\u00f4ng"}</info>
+--> contains "dang nhap thanh cong". [] []
+[2014-04-12 13:49:14] Login_successfullyCept.php.INFO: # FAILED # [] []
+[2014-04-12 13:49:14] Login_successfullyCept.php.INFO: PASSED [] []
+[2014-04-12 13:49:15] Login_wrong_accountCept.php.INFO: am on page "/login" [] []
+[2014-04-12 13:49:15] Login_wrong_accountCept.php.INFO: fill field "username","davert" [] []
+[2014-04-12 13:49:15] Login_wrong_accountCept.php.INFO: fill field "Password","qwerty" [] []
+[2014-04-12 13:49:15] Login_wrong_accountCept.php.INFO: click "Submit" [] []
+[2014-04-12 13:49:15] Login_wrong_accountCept.php.INFO: see "Ten nguoi dung chua dc dang ky" [] []
+[2014-04-12 13:49:15] Login_wrong_accountCept.php.INFO: PASSED [] []
+[2014-04-12 16:05:57] Click_subjectCept.php.INFO: am on page "/share" [] []
+[2014-04-12 16:05:57] Click_subjectCept.php.INFO: click "Đại số" [] []
+[2014-04-12 16:05:57] Click_subjectCept.php.INFO: see "UPLOAD TÀI LIỆU VỀ MÔN NÀY" [] []
+[2014-04-12 16:05:57] Click_subjectCept.php.ALERT: Failed asserting that 
+-->  <bold>/SE2014-Project_Website/index.php/share/subject</bold><info>﻿    $(function () { $('#example-f').barrating(); });  jQuery(document).ready(function() { jQuery('.w-map-h').gMap({ controls: { panControl: false, zoomControl: true, mapTypeControl: true, scaleControl: false, streetViewControl: false, overviewMapControl: false }, address: "&#272</info>
+<debug>[Content too long to display. See complete response in '_log' directory]</debug>
+--> contains "upload t�i liỆu vỀ m�n n�y". [] []
+[2014-04-12 16:05:57] Click_subjectCept.php.INFO: # FAILED # [] []
+[2014-04-12 16:05:57] Click_subjectCept.php.INFO: PASSED [] []
+[2014-04-12 16:05:57] DiscussionPageCept.php.INFO: am on page "/" [] []
+[2014-04-12 16:05:58] DiscussionPageCept.php.INFO: see "Thảo luận" [] []
+[2014-04-12 16:05:58] DiscussionPageCept.php.INFO: PASSED [] []
+[2014-04-12 16:05:58] DocumentCept.php.INFO: am on page "/document" [] []
+[2014-04-12 16:05:58] DocumentCept.php.INFO: see "Bạn muốn chia sẻ 1 tài liệu lên?" [] []
+[2014-04-12 16:05:58] DocumentCept.php.INFO: PASSED [] []
+[2014-04-12 16:05:58] Login_did_not_have_accountCept.php.INFO: am on page "/login" [] []
+[2014-04-12 16:05:58] Login_did_not_have_accountCept.php.INFO: click "Sign_up" [] []
+[2014-04-12 16:05:58] Login_did_not_have_accountCept.php.ALERT: CSS or XPath 'Sign_up' was not found on page. [] []
+[2014-04-12 16:05:58] Login_did_not_have_accountCept.php.INFO: # FAILED # [] []
+[2014-04-12 16:05:58] Login_did_not_have_accountCept.php.INFO: PASSED [] []
+[2014-04-12 16:05:58] Login_successfullyCept.php.INFO: am on page "/login" [] []
+[2014-04-12 16:05:58] Login_successfullyCept.php.INFO: fill field "username","khoalevan" [] []
+[2014-04-12 16:05:58] Login_successfullyCept.php.INFO: fill field "Password","123456" [] []
+[2014-04-12 16:05:58] Login_successfullyCept.php.INFO: click "Submit" [] []
+[2014-04-12 16:05:59] Login_successfullyCept.php.INFO: see "Dang nhap thanh cong" [] []
+[2014-04-12 16:05:59] Login_successfullyCept.php.ALERT: Failed asserting that 
+-->  <bold>/SE2014-Project_Website/index.php/login</bold><info>{"message":"\u0110\u0103ng nh\u1eadp th\u00e0nh c\u00f4ng"}</info>
+--> contains "dang nhap thanh cong". [] []
+[2014-04-12 16:05:59] Login_successfullyCept.php.INFO: # FAILED # [] []
+[2014-04-12 16:05:59] Login_successfullyCept.php.INFO: PASSED [] []
+[2014-04-12 16:05:59] Login_wrong_accountCept.php.INFO: am on page "/login" [] []
+[2014-04-12 16:05:59] Login_wrong_accountCept.php.INFO: fill field "username","davert" [] []
+[2014-04-12 16:05:59] Login_wrong_accountCept.php.INFO: fill field "Password","qwerty" [] []
+[2014-04-12 16:05:59] Login_wrong_accountCept.php.INFO: click "Submit" [] []
+[2014-04-12 16:05:59] Login_wrong_accountCept.php.INFO: see "Ten nguoi dung chua dc dang ky" [] []
+[2014-04-12 16:05:59] Login_wrong_accountCept.php.INFO: PASSED [] []
+[2014-04-12 16:07:14] Click_subjectCept.php.INFO: am on page "/share" [] []
+[2014-04-12 16:07:14] Click_subjectCept.php.INFO: click "Đại số" [] []
+[2014-04-12 16:07:15] Click_subjectCept.php.INFO: see "Upload tài liệu về môn này" [] []
+[2014-04-12 16:07:15] Click_subjectCept.php.INFO: PASSED [] []
+[2014-04-12 16:07:15] DiscussionPageCept.php.INFO: am on page "/" [] []
+[2014-04-12 16:07:15] DiscussionPageCept.php.INFO: see "Thảo luận" [] []
+[2014-04-12 16:07:15] DiscussionPageCept.php.INFO: PASSED [] []
+[2014-04-12 16:07:15] DocumentCept.php.INFO: am on page "/document" [] []
+[2014-04-12 16:07:15] DocumentCept.php.INFO: see "Bạn muốn chia sẻ 1 tài liệu lên?" [] []
+[2014-04-12 16:07:15] DocumentCept.php.INFO: PASSED [] []
+[2014-04-12 16:07:15] Login_did_not_have_accountCept.php.INFO: am on page "/login" [] []
+[2014-04-12 16:07:15] Login_did_not_have_accountCept.php.INFO: click "Sign_up" [] []
+[2014-04-12 16:07:15] Login_did_not_have_accountCept.php.ALERT: CSS or XPath 'Sign_up' was not found on page. [] []
+[2014-04-12 16:07:15] Login_did_not_have_accountCept.php.INFO: # FAILED # [] []
+[2014-04-12 16:07:15] Login_did_not_have_accountCept.php.INFO: PASSED [] []
+[2014-04-12 16:07:15] Login_successfullyCept.php.INFO: am on page "/login" [] []
+[2014-04-12 16:07:15] Login_successfullyCept.php.INFO: fill field "username","khoalevan" [] []
+[2014-04-12 16:07:15] Login_successfullyCept.php.INFO: fill field "Password","123456" [] []
+[2014-04-12 16:07:15] Login_successfullyCept.php.INFO: click "Submit" [] []
+[2014-04-12 16:07:16] Login_successfullyCept.php.INFO: see "Dang nhap thanh cong" [] []
+[2014-04-12 16:07:16] Login_successfullyCept.php.ALERT: Failed asserting that 
+-->  <bold>/SE2014-Project_Website/index.php/login</bold><info>{"message":"\u0110\u0103ng nh\u1eadp th\u00e0nh c\u00f4ng"}</info>
+--> contains "dang nhap thanh cong". [] []
+[2014-04-12 16:07:16] Login_successfullyCept.php.INFO: # FAILED # [] []
+[2014-04-12 16:07:16] Login_successfullyCept.php.INFO: PASSED [] []
+[2014-04-12 16:07:16] Login_wrong_accountCept.php.INFO: am on page "/login" [] []
+[2014-04-12 16:07:16] Login_wrong_accountCept.php.INFO: fill field "username","davert" [] []
+[2014-04-12 16:07:16] Login_wrong_accountCept.php.INFO: fill field "Password","qwerty" [] []
+[2014-04-12 16:07:16] Login_wrong_accountCept.php.INFO: click "Submit" [] []
+[2014-04-12 16:07:16] Login_wrong_accountCept.php.INFO: see "Ten nguoi dung chua dc dang ky" [] []
+[2014-04-12 16:07:16] Login_wrong_accountCept.php.INFO: PASSED [] []

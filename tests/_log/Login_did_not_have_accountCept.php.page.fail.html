@@ -312,323 +312,232 @@
 
             <!-- MAIN -->
             <div class="l-main">
-                <style>
-    .fixsizeitems{
-        height: 220px;
-        width: 180px;
-    }
-    .fixmarginbottom{
-        margin-bottom: 5%;
-    }
-</style>
-<script type="text/javascript">
+                <script type="text/javascript">
     $(document).ready(function() {
-        $('#loading').hide();
-        var form = $('#formscribd');
+        var form = $('#loginform');
         form.submit(function(event) {
-            // prevent default action
-            event.preventDefault();
-            // send ajax request
-
+            $('#res').html('');
+            var data = form.serialize();
             $.ajax({
-                beforeSend: function() {
-                    $('#loading').show();
-                },
-                url: '/SE2014-Project_Website/index.php/document/updateinfo',
-                type: 'POST',
-                data: form.serialize(), //form serizlize data
-                complete: function() {
-                    $('#loading').hide();
-                },
+                type: "POST",
+                url: '/SE2014-Project_Website/index.php/login/Login',
+                data: data,
                 success: function(data) {
-                    // Append with fadeIn see http://stackoverflow.com/a/978731
                     var json = data;
                     var result = $.parseJSON(json);
-                    var docid = result.docid;
-                    var item = $('<div class="w-portfolio-item order_1 naming webdesign fixsizeitems fixmarginbottom">' +
-                            '<div class="w-portfolio-item-h">' +
-                           '<a class="w-portfolio-item-anchor" href="/SE2014-Project_Website/index.php/0">' +
-                            '<div class="w-portfolio-item-image fixsizeitems fixmarginbottom">' +
-                            '<img src="' + result.thumbnail + '" class="fixsizeitems" alt="" style="border-style: solid; border-width: thin; border-color: #d0d6d9;"/>' +
-                            '<div class="w-portfolio-item-meta">' +
-                            '<h2 class="w-portfolio-item-title">' + result.title + '   </h2>' +
-                            '<i class="icon-mail-forward"></i>' +
-                            '</div>' +
-                            '</div>' +
-                            '</a>' +
-                            '</div>' +
-                            '</div>').hide().fadeIn(800);
-                    $('#docblock').prepend(item);
-
-                    $('.w-tabs-section-title-text').click();
-                    document.getElementById("formscribd").reset();
-                    document.getElementById("my-dropzone").reset();
-                    $('#loading').hide();
-                },
-                error: function(event) {
-                    alert(event);
+                    $('#res').html(result.message);
+//                    var json = $.parseJSON(data);
+//                    $('#res').html('Message : ' + json.message + '<br>Success : ' + json.success)
                 }
-
             });
-
+            event.preventDefault();
             event.stopPropagation();
             return false;
         });
     });
 </script>
-
+<!-- MAIN -->
 <div class="l-submain">
     <div class="l-submain-h g-html i-cf">
-        <div class="g-cols">
-               <div class="one-fourth" style="border-right-style: solid; border-right-width: thin; border-color: #d0d6d9;">
-                    <h3>Các chủ đề</h3>
-                    <div class="widget">
-                        <nav class="w-nav">
-                            <div class="w-nav-h">
-                                <div class="w-nav-list layout_ver level_1">
-                                    <div class="w-nav-list-h">
-                                        <div class="w-nav-item level_1">
-                                            <div class="w-nav-item-h">
-                                                <a href="#" class="w-nav-anchor level_1">
-                                                    <span class="w-nav-title">Responsive Design</span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <div class="w-nav-item level_1 active">
-                                            <div class="w-nav-item-h">
-                                                <a href="#" class="w-nav-anchor level_1">
-                                                    <span class="w-nav-title">Retina Ready</span>
-                                                </a>
-                                                <div class="w-nav-list layout_ver place_inside level_2">
-                                                    <div class="w-nav-list-h">
-                                                        <div class="w-nav-item level_2">
-                                                            <div class="w-nav-item-h">
-                                                                <a href="#" class="w-nav-anchor level_2">
-                                                                    <span class="w-nav-title">Second Level Item</span>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                        <div class="w-nav-item level_2 active">
-                                                            <div class="w-nav-item-h">
-                                                                <a href="#" class="w-nav-anchor level_2">
-                                                                    <span class="w-nav-title">Second Level Item</span>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                        <div class="w-nav-item level_2">
-                                                            <div class="w-nav-item-h">
-                                                                <a href="#" class="w-nav-anchor level_2">
-                                                                    <span class="w-nav-title">Second Level Item</span>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="w-nav-item level_1">
-                                            <div class="w-nav-item-h">
-                                                <a href="#" class="w-nav-anchor level_1">
-                                                    <span class="w-nav-title">Font Awesome Icons</span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <div class="w-nav-item level_1">
-                                            <div class="w-nav-item-h">
-                                                <a href="#" class="w-nav-anchor level_1">
-                                                    <span class="w-nav-title">Slider Revolution</span>
-                                                </a>
-                                            </div>
-                                        </div>
+        <div class="l-content">
+            <div class="l-content-h i-widgets">
+                <div class="g-cols">
+                    <div class="one-half">
+                        <div class="wpb_text_column ">
+                            <div class="wpb_wrapper">
+                                <h3>Project Info</h3>
+                                <blockquote>
+                                    <b>Vu Ngoc Son</b>
+                                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. 
+                                    Aenean commodo ligula eget dolor. Aenean massa. Cum sociis 
+                                    natoque penatibus et magnis dis parturient montes.
+                                </blockquote>
+                            </div>
+                        </div>
+                        <div class="w-video ratio_16-9">
+                            <div class="w-video-h">
+                                <iframe src="//www.youtube.com/embed/on0bAfbLALQ" width="1500" height="844" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" __idm_id__="3631105"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="one-half">
 
+                        <div class="w-tabs layout_accordion with_icon">
+                            <div class="w-tabs-h">
+                                <div class="w-tabs-section with_icon active">
+                                    <div class="w-tabs-section-title">
+                                        <span class="w-tabs-section-title-icon fa fa-trophy">
+                                        </span>
+                                        <span class="w-tabs-section-title-text">Đăng Nhập</span>
+                                        <span class="w-tabs-section-title-control">
+                                            <i class="icon-angle-down"></i>
+                                        </span>
+                                    </div>
+                                    <div class="w-tabs-section-content" style="display: none;">
+                                        <div class="w-tabs-section-content-h">
+                                            <div class="wpb_text_column ">
+                                                <div class="wpb_wrapper">
+                                                    <form class="g-form" action="" method="POST" id="loginform">
+                                                        <div class="g-form-group">
+                                                            <div class="g-form-group-rows">
+                                                                <div class="g-form-row">
+                                                                    <div class="g-form-row-label">
+                                                                        <label class="g-form-row-label-h" for="contact_email">Tên người dùng (User name) *</label>
+                                                                    </div>
+                                                                    <div class="g-form-row-field">
+                                                                        <div class="g-input">
+                                                                            <input type="text" name="username" id="contact_username" value="">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="g-form-row">
+                                                                    <div class="g-form-row-label">
+                                                                        <label class="g-form-row-label-h" for="Password">Mật Khẩu *</label>
+                                                                    </div>
+                                                                    <div class="g-form-row-field">
+                                                                        <div class="g-input">
+                                                                            <input type="password" name="Password" id="Password" value="">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="g-form-row">
+                                                                    <div class="g-form-row-label">
+                                                                        <label class="g-form-row-label-h" id="res" style="color: red;"></label>
+                                                                    </div>
+
+                                                                </div>
+                                                                <div class="g-form-row">
+                                                                    <div class="checkbox" style="display: block; min-height: 20px; margin: 0; padding-left: 20px;">
+                                                                        <label style="display: inline; margin-bottom: 0; font-weight: normal; cursor:pointer;">
+                                                                            <input type="checkbox" style="float:left; line-height: normal; margin: 5px 0 0 -20px;">
+                                                                            Duy trì Đăng Nhập
+                                                                        </label>
+                                                                    </div>
+                                                                </div>
+                                                                <a href="quenmatkhau" style="float:right; margin-top: 5px;">Quên Mật Khẩu?</a>
+                                                                <div class="g-form-row">
+                                                                    <div class="g-form-row-field">
+                                                                        <button class="g-btn type_primary" type="submit" name="Submit" value="Submit">Đăng Nhập</button>
+                                                                    </div>
+                                                                </div>
+                                                               
+                                                            </div>
+                                                        </div>
+                                                    </form>
+<div class="g-form-row">
+    <form action="/SE2014-Project_Website/index.php/login/fb_login">
+        <div class="g-form-row-field">
+            <button class="g-btn type_primary size_small" style="background-color: #1265A8" type="submit">
+                <i class="icon-facebook"></i>
+                <span>Đăng Nhập qua Facebook</span>
+            </button>
+        </div>
+    </form>
+</div>                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </nav>
-
-                    </div>
-                    <h3>Đang hot</h3>            
-                    <div class="widget">
-                        <nav class="w-nav">
-                            <div class="w-nav-h">
-                                <div class="w-nav-list layout_ver level_1">
-                                    <div class="w-nav-list-h">
-                                        <div class="w-nav-item level_1">
-                                            <div class="w-nav-item-h">
-                                                <a href="#" class="w-nav-anchor level_1">
-                                                    <span class="w-nav-title">Responsive Design</span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <div class="w-nav-item level_1 active">
-                                            <div class="w-nav-item-h">
-                                                <a href="#" class="w-nav-anchor level_1">
-                                                    <span class="w-nav-title">Retina Ready</span>
-                                                </a>
-                                                <div class="w-nav-list layout_ver place_inside level_2">
-                                                    <div class="w-nav-list-h">
-                                                        <div class="w-nav-item level_2">
-                                                            <div class="w-nav-item-h">
-                                                                <a href="#" class="w-nav-anchor level_2">
-                                                                    <span class="w-nav-title">Second Level Item</span>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                        <div class="w-nav-item level_2 active">
-                                                            <div class="w-nav-item-h">
-                                                                <a href="#" class="w-nav-anchor level_2">
-                                                                    <span class="w-nav-title">Second Level Item</span>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                        <div class="w-nav-item level_2">
-                                                            <div class="w-nav-item-h">
-                                                                <a href="#" class="w-nav-anchor level_2">
-                                                                    <span class="w-nav-title">Second Level Item</span>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="w-nav-item level_1">
-                                            <div class="w-nav-item-h">
-                                                <a href="#" class="w-nav-anchor level_1">
-                                                    <span class="w-nav-title">Font Awesome Icons</span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <div class="w-nav-item level_1">
-                                            <div class="w-nav-item-h">
-                                                <a href="#" class="w-nav-anchor level_1">
-                                                    <span class="w-nav-title">Slider Revolution</span>
-                                                </a>
-                                            </div>
-                                        </div>
-
+                                <div class="w-tabs-section with_icon">
+                                    <div class="w-tabs-section-title">
+                                        <span class="w-tabs-section-title-icon fa fa-flask"></span>
+                                        <span class="w-tabs-section-title-text" name="Sign_up" value="Sign_up">Chưa có Tài Khoản? Đăng Ký!</span>
+                                        <span class="w-tabs-section-title-control">
+                                            <i class="icon-angle-down"></i>
+                                        </span>
                                     </div>
-                                </div>
-                            </div>
-                        </nav>
-
-                    </div>
-                </div>            <div class="three-fourths">
-                <!--Drag and Drop file to upload-->
-<script type="text/javascript">
-	Dropzone.autoDiscover = false;
+                                    <script type="text/javascript">
     $(document).ready(function() {
-        var myDropzone = new Dropzone("#my-dropzone");
-        myDropzone.on("success", function(file, data) {
-	        var json = data;
-	        var result = $.parseJSON(json);
-	        $('#thumbnail_url').val(result.thumbnail);
-	        $('#doc_id').val(result.docid);
-                
+        var form = $('#signupform');
+        form.submit(function(event) {
+            $('#res').html('');
+            var data = form.serialize();
+            $.ajax({
+                type: "POST",
+                url: '/SE2014-Project_Website/index.php/login/signup',
+                data: data,
+                success: function(data) {
+                    var json = data;
+                    var result = $.parseJSON(json);
+                    $('#res2').html(result.message);
+//                    var json = $.parseJSON(data);
+//                    $('#res').html('Message : ' + json.message + '<br>Success : ' + json.success)
+                }
+            });
+            event.preventDefault();
+            event.stopPropagation();
+            return false;
         });
-
     });
 </script>
-<style>
-    .fixmargin{
-        margin: 2% 5% 2% 5%;
-    }
-</style>
-<div class="w-tabs layout_accordion type_toggle" style="margin-bottom: 5%">
-    <div class="w-tabs-h">
-        <div class="w-tabs-section with_icon">
-            <div class="w-tabs-section-title">
-                <span class="w-tabs-section-title-icon icon-book"></span>
-                <span class="w-tabs-section-title-text">Bạn muốn chia sẻ 1 tài liệu lên?</span>
-                <span class="w-tabs-section-title-control"><i class="icon-angle-down"></i></span>
-            </div>
-            <div class="w-tabs-section-content">
+<div class="w-tabs-section-content" style="display: none;">
+    <div class="w-tabs-section-content-h">
+        <div class="wpb_text_column ">
+            <div class="wpb_wrapper">
+                <form class="g-form" action="/SE2014-Project_Website/index.php/login/signup" method="POST" id="signupform">
+                    <input type="hidden" name="action" value="contact">
+                    <div class="g-form-group">
+                        <div class="g-form-group-rows">
+                            <div class="g-form-row">
+                                <div class="g-form-row-label">
+                                    <label class="g-form-row-label-h" for="new_user_name">Tên của bạn *</label>
+                                </div>
+                                <div class="g-form-row-field">
+                                    <div class="g-input">
+                                        <input type="text" name="contact_name" id="contact_name" value="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="g-form-row">
+                                <div class="g-form-row-label">
+                                    <label class="g-form-row-label-h" for="contact_email">Email của bạn *</label>
+                                </div>
+                                <div class="g-form-row-field">
+                                    <div class="g-input">
+                                        <input type="text" name="contact_email" id="contact_email" value="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="g-form-row">
+                                <div class="g-form-row-label">
+                                    <label class="g-form-row-label-h" for="Password">Mật Khẩu *</label>
+                                </div>
+                                <div class="g-form-row-field">
+                                    <div class="g-input">
+                                        <input type="password" name="Password" id="Password" value="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="g-form-row">
+                                <div class="g-form-row-label">
+                                    <label class="g-form-row-label-h" id="res2" style="color: red;"></label>
+                                </div>
 
-                <div class="g-form-group">
-                    <div class="g-form-group-rows">
-                        <div id="dropzone" class="fixmargin" style="min-height: 180px; border:2px dashed #4894C7; border-radius: 5px;">
-                            <form action="/SE2014-Project_Website/index.php/document/upload" class="dropzone dz-clickable dz-started"
-                                  id="my-dropzone">
-                            </form>
+                            </div>
+                            <div class="g-form-row">
+                                <div class="g-form-row-field">
+                                    <button class="g-btn type_primary" type="submit" name="Submit" value="Submit">Đăng Ký</button>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <form method="POST" id="formscribd" action="document/updateinfo">
-                        <div class="g-form-group-rows">
-                            <div class="g-form-row-field">
-                                <div class="g-input">
-                                    <input type="hidden" name="thumbnail_url" id="thumbnail_url" value="" style="max-width: 50%; margin-left: 5%; margin-top: 2%; border-radius: 5px; background-color: white;">
-                                </div>
-                            </div>
-                        </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
 
-                        <div class="g-form-group-rows">
-                            <div class="g-form-row-field">
-                                <div class="g-input">
-                                    <input type="hidden" name="doc_id" id="doc_id" value="" style="max-width: 50%; margin-left: 5%; margin-top: 2%; border-radius: 5px; background-color: white;" >
-                                </div>
-                            </div>
-                        </div>
-                        <div class="g-form-group-rows">
-                            <div class="g-form-row-field">
-                                <div class="g-input">
-                                    <input type="text" name="title" id="title" value="" style="max-width: 50%; margin-left: 5%; margin-top: 2%; border-radius: 5px; background-color: white;" placeholder="Tên Tài Liệu *">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="g-form-group-rows">
-                            <div class="g-form-row-field">
-                                <div class="g-input">
-                                    <textarea name="description" id="description" value="" style="max-height: 5%; max-width: 90%; margin-left: 5%; margin-right: 5%; margin-top: 2%; border-radius: 5px; background-color: white;" placeholder="Thêm mô tả *"></textarea>
-                                </div>
-                            </div>
-                        </div>
 
-                        <div class="g-form-group-rows fixmargin one-third">
-                            <select style="max-width: 300px; border-radius: 5px; background-color: white;" name="faculty">
-                                <!--thêm ngành học tại đây-->
-                                <option>Ngành học</option>
-                                <option value="1">Công nghệ thông tin</option>
-                                <option value="2">Vật lý kĩ thuật</option>
-                            </select>
+                                </div>
+                            </div>
                         </div>
-                        <div class="g-form-group-rows">
-                            <button class="g-btn type_primary size_small fixmargin" type="submit" name="Submit">Đăng Tài Liệu</button>
-                        </div>
-                    </form>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
-                <div class="w-portfolio columns_4">
-                     <div> <img class="" src="/SE2014-Project_Website/themes/classic/assets/img/ajax-loader.gif" alt="" style="" id="loading"/></div>
-                    <div class="w-portfolio-h">
-                        <div class="w-portfolio-list">
-                           
-                            <div class="w-portfolio-list-h" id="docblock">
-
-                                
-                            </div>
-                        </div>
-
-                        <div class="w-portfolio-pagination">
-                            <div class="g-pagination align_center">
-                                <a href="javascript:void(0);" class="g-pagination-item to_prev disabled">Prev</a>
-                                <a href="javascript:void(0);" class="g-pagination-item active">1</a>
-                                <a href="javascript:void(0);" class="g-pagination-item">2</a>
-                                <a href="javascript:void(0);" class="g-pagination-item">3</a>
-                                <a href="javascript:void(0);" class="g-pagination-item to_next">Next</a>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-</div>            </div>
+<!-- /MAIN -->            </div>
             <!-- /MAIN -->
 
         </div>

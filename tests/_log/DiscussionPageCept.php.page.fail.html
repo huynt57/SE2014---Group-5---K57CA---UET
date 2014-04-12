@@ -312,76 +312,111 @@
 
             <!-- MAIN -->
             <div class="l-main">
-                <style>
-    .fixsizeitems{
-        height: 220px;
-        width: 180px;
-    }
-    .fixmarginbottom{
-        margin-bottom: 5%;
-    }
-</style>
-<script type="text/javascript">
+                <script type="text/javascript">
     $(document).ready(function() {
-        $('#loading').hide();
-        var form = $('#formscribd');
+         $('#loading').hide();
+        var form = $('#postform');
         form.submit(function(event) {
             // prevent default action
             event.preventDefault();
             // send ajax request
-
             $.ajax({
                 beforeSend: function() {
-                    $('#loading').show();
-                },
-                url: '/SE2014-Project_Website/index.php/document/updateinfo',
+           $('#loading').show();
+        },
+                url: '/SE2014-Project_Website/index.php/discussion/makepost',
                 type: 'POST',
                 data: form.serialize(), //form serizlize data
-                complete: function() {
-                    $('#loading').hide();
-                },
+        complete: function() {
+            $('#loading').hide();
+        },
                 success: function(data) {
                     // Append with fadeIn see http://stackoverflow.com/a/978731
                     var json = data;
                     var result = $.parseJSON(json);
-                    var docid = result.docid;
-                    var item = $('<div class="w-portfolio-item order_1 naming webdesign fixsizeitems fixmarginbottom">' +
-                            '<div class="w-portfolio-item-h">' +
-                           '<a class="w-portfolio-item-anchor" href="/SE2014-Project_Website/index.php/0">' +
-                            '<div class="w-portfolio-item-image fixsizeitems fixmarginbottom">' +
-                            '<img src="' + result.thumbnail + '" class="fixsizeitems" alt="" style="border-style: solid; border-width: thin; border-color: #d0d6d9;"/>' +
-                            '<div class="w-portfolio-item-meta">' +
-                            '<h2 class="w-portfolio-item-title">' + result.title + '   </h2>' +
-                            '<i class="icon-mail-forward"></i>' +
-                            '</div>' +
-                            '</div>' +
-                            '</a>' +
-                            '</div>' +
-                            '</div>').hide().fadeIn(800);
-                    $('#docblock').prepend(item);
+                    var item = $('<div class="w-blog-entry" >'+
+           ' <div class="w-blog-entry-h">'+
+                                            '<a class="w-blog-entry-link" href="blog-post.html">'+
+                                                        '<span class="w-blog-entry-img animate_afc animate_start" style="width: 60px;">'+
+                                                            '<img class="w-blog-entry-img-h" src="/SE2014-Project_Website/themes/classic/assets/img/demo/blog-1.jpg" alt="" style=""/>'+
+                                                        '</span>'+
+                                                   ' </a>'+
+                                                    '<div class="w-blog-entry-body" style="margin-left: 90px;">'+
+                                                        '<div class="w-blog-entry-meta">'+
+                                                            '<div class="w-blog-entry-meta-date">'+
+                                                                '<i class="icon-time"></i>'+
+                                                                '<span class="w-blog-entry-meta-date-month">March</span>'+
+                                                                '<span class="w-blog-entry-meta-date-day">23,</span>'+
+                                                                '<span class="w-blog-entry-meta-date-year">2013</span>'+
+                                                            '</div>'+
 
-                    $('.w-tabs-section-title-text').click();
-                    document.getElementById("formscribd").reset();
-                    document.getElementById("my-dropzone").reset();
-                    $('#loading').hide();
+                                                            '<div class="w-blog-entry-meta-author">'+
+                                                                '<i class="icon-user"></i>'+
+                                                                '<a class="w-blog-entry-meta-author-h" href="javascript:void(0);">Admin</a>'+
+                                                           ' </div>'+
+
+                                                            '<div class="w-blog-entry-meta-tags">'+
+                                                               ' <i class="icon-tags"></i>'+
+                                                                '<a href="javascript:void(0);">Web Design</a>,'+
+                                                                '<a href="javascript:void(0);">Branding</a>'+
+                                                           ' </div>'+
+
+                                                            '<div class="w-blog-entry-meta-comments">'+
+                                                                '<i class="icon-comments"></i>'+
+                                                                '<a class="w-blog-entry-meta-comments-h" href="javascript:void(0);">13 comments</a>'+
+                                                            '</div>'+
+                                                        '</div>'+
+
+                                                        '<div class="w-blog-entry-short">'+
+                                                            '<p>'+result.message+'</p>'+
+                                                        '</div>'+
+                                                        '<button class=" g-btn type_primary size_small" id="opencmt" onclick=""><span>Xem thêm</span></button>'+
+                                                    '</div>'+
+                                               '</div>'+
+                                               '</div>').hide().fadeIn(800);
+                                        $('#loading').html('');
+                    $('#blogblock').prepend(item);
+                  document.getElementById("postform").reset();
                 },
                 error: function(event) {
                     alert(event);
                 }
-
             });
 
             event.stopPropagation();
             return false;
         });
     });
+
+    //valid
+    var r={
+      'special':/['<>']/g,
+    }
+
+    function valid(o,w){
+      o.value = o.value.replace(r[w],'');
+    }
 </script>
 
-<div class="l-submain">
-    <div class="l-submain-h g-html i-cf">
-        <div class="g-cols">
-               <div class="one-fourth" style="border-right-style: solid; border-right-width: thin; border-color: #d0d6d9;">
-                    <h3>Các chủ đề</h3>
+
+<div class="l-main-h">
+    <div class="l-submain for_pagehead">
+        <div class="l-submain-h g-html i-cf">
+            <div class="w-pagehead">
+                <h1>Thảo luận</h1>
+                <p>Share everything !!</p>
+            </div>
+        </div>
+    </div>
+    <div class="l-submain">
+        <div class="l-submain-h g-html i-cf ">
+            <div class="g-cols">
+                   <div class="one-fourth" style="
+                     border-right-style: solid;
+                     border-right-width: thin;
+                     border-color: #d0d6d9;
+                     ">
+                    <h3>Các chủ đề</h3>            
                     <div class="widget">
                         <nav class="w-nav">
                             <div class="w-nav-h">
@@ -514,117 +549,42 @@
                         </nav>
 
                     </div>
-                </div>            <div class="three-fourths">
-                <!--Drag and Drop file to upload-->
-<script type="text/javascript">
-	Dropzone.autoDiscover = false;
-    $(document).ready(function() {
-        var myDropzone = new Dropzone("#my-dropzone");
-        myDropzone.on("success", function(file, data) {
-	        var json = data;
-	        var result = $.parseJSON(json);
-	        $('#thumbnail_url').val(result.thumbnail);
-	        $('#doc_id').val(result.docid);
-                
-        });
-
-    });
-</script>
-<style>
-    .fixmargin{
-        margin: 2% 5% 2% 5%;
-    }
-</style>
-<div class="w-tabs layout_accordion type_toggle" style="margin-bottom: 5%">
-    <div class="w-tabs-h">
-        <div class="w-tabs-section with_icon">
-            <div class="w-tabs-section-title">
-                <span class="w-tabs-section-title-icon icon-book"></span>
-                <span class="w-tabs-section-title-text">Bạn muốn chia sẻ 1 tài liệu lên?</span>
-                <span class="w-tabs-section-title-control"><i class="icon-angle-down"></i></span>
-            </div>
-            <div class="w-tabs-section-content">
-
-                <div class="g-form-group">
-                    <div class="g-form-group-rows">
-                        <div id="dropzone" class="fixmargin" style="min-height: 180px; border:2px dashed #4894C7; border-radius: 5px;">
-                            <form action="/SE2014-Project_Website/index.php/document/upload" class="dropzone dz-clickable dz-started"
-                                  id="my-dropzone">
-                            </form>
+                </div>                <div class="three-fourths">
+                    <div class="one-half" style="margin-bottom: 40px">
+                        <div class="w-tabs layout_accordion type_toggle">
+                            <div class="w-tabs-h">
+                                <div class="w-tabs-section with_icon">
+                                    <div class="w-tabs-section-title">
+                                        <span class="w-tabs-section-title-icon icon-pencil"></span>
+                                        <span class="w-tabs-section-title-text">Hãy cho ý kiến của bạn ...</span>
+                                        <span class="w-tabs-section-title-control"><i class="icon-angle-down"></i></span>
+                                    </div>
+                                    <div class="w-tabs-section-content" style="margin: 2% 5% 2% 5%">
+                                        <form class="g-form" action="/SE2014-Project_Website/index.php/discussion/makepost" method="post" id="postform">
+                                            <div class="g-form-group">
+                                                <div class="g-form-group-rows">
+                                                    <div class="g-form-row" style="margin: 5px 0 5px 0; padding: 0;">
+                                                        <div class="g-form-row-field">
+                                                            <div class="g-input">
+                                                                <textarea name="post_content" id="contact_message" cols="30" rows="10"  style="border-color: #429EDB" onkeyup="valid(this,'special')" onblur="valid(this,'special')" placeholder="what do you want to post?"></textarea>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="g-form-row">
+                                                        <div class="g-form-row-field">
+                                                            <button class="g-btn type_primary size_small" type="submit" name="Submit">Đăng tin</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <form method="POST" id="formscribd" action="document/updateinfo">
-                        <div class="g-form-group-rows">
-                            <div class="g-form-row-field">
-                                <div class="g-input">
-                                    <input type="hidden" name="thumbnail_url" id="thumbnail_url" value="" style="max-width: 50%; margin-left: 5%; margin-top: 2%; border-radius: 5px; background-color: white;">
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="g-form-group-rows">
-                            <div class="g-form-row-field">
-                                <div class="g-input">
-                                    <input type="hidden" name="doc_id" id="doc_id" value="" style="max-width: 50%; margin-left: 5%; margin-top: 2%; border-radius: 5px; background-color: white;" >
-                                </div>
-                            </div>
-                        </div>
-                        <div class="g-form-group-rows">
-                            <div class="g-form-row-field">
-                                <div class="g-input">
-                                    <input type="text" name="title" id="title" value="" style="max-width: 50%; margin-left: 5%; margin-top: 2%; border-radius: 5px; background-color: white;" placeholder="Tên Tài Liệu *">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="g-form-group-rows">
-                            <div class="g-form-row-field">
-                                <div class="g-input">
-                                    <textarea name="description" id="description" value="" style="max-height: 5%; max-width: 90%; margin-left: 5%; margin-right: 5%; margin-top: 2%; border-radius: 5px; background-color: white;" placeholder="Thêm mô tả *"></textarea>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="g-form-group-rows fixmargin one-third">
-                            <select style="max-width: 300px; border-radius: 5px; background-color: white;" name="faculty">
-                                <!--thêm ngành học tại đây-->
-                                <option>Ngành học</option>
-                                <option value="1">Công nghệ thông tin</option>
-                                <option value="2">Vật lý kĩ thuật</option>
-                            </select>
-                        </div>
-                        <div class="g-form-group-rows">
-                            <button class="g-btn type_primary size_small fixmargin" type="submit" name="Submit">Đăng Tài Liệu</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-                <div class="w-portfolio columns_4">
-                     <div> <img class="" src="/SE2014-Project_Website/themes/classic/assets/img/ajax-loader.gif" alt="" style="" id="loading"/></div>
-                    <div class="w-portfolio-h">
-                        <div class="w-portfolio-list">
-                           
-                            <div class="w-portfolio-list-h" id="docblock">
-
-                                
-                            </div>
-                        </div>
-
-                        <div class="w-portfolio-pagination">
-                            <div class="g-pagination align_center">
-                                <a href="javascript:void(0);" class="g-pagination-item to_prev disabled">Prev</a>
-                                <a href="javascript:void(0);" class="g-pagination-item active">1</a>
-                                <a href="javascript:void(0);" class="g-pagination-item">2</a>
-                                <a href="javascript:void(0);" class="g-pagination-item">3</a>
-                                <a href="javascript:void(0);" class="g-pagination-item to_next">Next</a>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
+                     <div> <img class="w-blog-entry-img-h" src="/SE2014-Project_Website/themes/classic/assets/img/ajax-loader.gif" alt="" style="" id="loading"/></div>
+                                    </div>
             </div>
         </div>
     </div>

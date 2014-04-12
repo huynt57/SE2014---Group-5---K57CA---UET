@@ -24,13 +24,13 @@
                                                                 </a>
                                                                 <div class="w-nav-list place_aside show_onhover level_3">
                                                                         <div class="w-nav-list-h">
-                                                                                <?php foreach ($year as $yea): ?>
+                                                                               
                                                                                 <div class="w-nav-item level_3">
                                                                                         <div class="w-nav-item-h">
-                                                                                            <a href="<?php echo Yii::app()->createUrl('share/subject')?>" class="w-nav-anchor level_3" style="color: black"><?php if($yea->year_id == 1 && $yea->faculty_id == 1) echo $yea->subject_name ?></a>
+                                                                                            <a href="<?php echo Yii::app()->createUrl('share/subject')?>" class="w-nav-anchor level_3" style="color: black">Đại số</a>
                                                                                         </div>
                                                                                 </div>
-                                                                                <?php endforeach; ?>
+                                                                                
                                                                         </div>
                                                                 </div>
                                                             </div>

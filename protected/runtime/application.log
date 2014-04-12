@@ -18826,3 +18826,888 @@ REQUEST_URI=/SE2014---Group-5---K57CA---UET/index.php/share
 in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\views\share\partial\side_bar_left.php (30)
 in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\controllers\ShareController.php (23)
 in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\protected\views\share\share.php (13)
+2014/04/12 12:04:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "quenmatkhau".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('quenmatkhau')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/quenmatkhau
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/login
+---
+2014/04/12 12:04:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.flexslider.js".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/assets/js/jquery.flexslider.js
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/quenmatkhau
+---
+2014/04/12 12:04:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/modernizr.custom.js".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/assets/js/modernizr.custom.js
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/quenmatkhau
+---
+2014/04/12 12:04:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.themepunch.revolution.min.js".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/assets/js/jquery.themepunch.revolution.min.js
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/quenmatkhau
+---
+2014/04/12 12:10:18 [error] [php] Use of undefined constant result - assumed 'result' (C:\xampp\htdocs\SE2014-Project_Website\protected\views\document\document.php:36)
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CController.php(869): DocumentController->renderFile()
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CController.php(782): DocumentController->renderPartial()
+#2 C:\xampp\htdocs\SE2014-Project_Website\protected\controllers\DocumentController.php(17): DocumentController->render()
+#3 C:\xampp\htdocs\SE2014-Project_Website\protected\controllers\DocumentController.php(9): DocumentController->actionDocument()
+#4 C:\xampp\htdocs\SE2014-Project_Website\framework\web\actions\CInlineAction.php(49): DocumentController->actionIndex()
+#5 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CController.php(286): DocumentController->runAction()
+#7 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CController.php(265): DocumentController->runActionWithFilters()
+#8 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(282): DocumentController->run()
+#9 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CWebApplication->run()
+REQUEST_URI=/SE2014-Project_Website/index.php/document
+in C:\xampp\htdocs\SE2014-Project_Website\protected\views\document\document.php (36)
+in C:\xampp\htdocs\SE2014-Project_Website\protected\controllers\DocumentController.php (17)
+in C:\xampp\htdocs\SE2014-Project_Website\protected\controllers\DocumentController.php (9)
+2014/04/12 12:11:03 [error] [php] Use of undefined constant result - assumed 'result' (C:\xampp\htdocs\SE2014-Project_Website\protected\views\document\document.php:36)
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CController.php(869): DocumentController->renderFile()
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CController.php(782): DocumentController->renderPartial()
+#2 C:\xampp\htdocs\SE2014-Project_Website\protected\controllers\DocumentController.php(17): DocumentController->render()
+#3 C:\xampp\htdocs\SE2014-Project_Website\protected\controllers\DocumentController.php(9): DocumentController->actionDocument()
+#4 C:\xampp\htdocs\SE2014-Project_Website\framework\web\actions\CInlineAction.php(49): DocumentController->actionIndex()
+#5 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CController.php(286): DocumentController->runAction()
+#7 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CController.php(265): DocumentController->runActionWithFilters()
+#8 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(282): DocumentController->run()
+#9 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CWebApplication->run()
+REQUEST_URI=/SE2014-Project_Website/index.php/document
+in C:\xampp\htdocs\SE2014-Project_Website\protected\views\document\document.php (36)
+in C:\xampp\htdocs\SE2014-Project_Website\protected\controllers\DocumentController.php (17)
+in C:\xampp\htdocs\SE2014-Project_Website\protected\controllers\DocumentController.php (9)
+2014/04/12 12:15:39 [error] [php] Use of undefined constant result - assumed 'result' (C:\xampp\htdocs\SE2014-Project_Website\protected\views\document\document.php:36)
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CController.php(869): DocumentController->renderFile()
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CController.php(782): DocumentController->renderPartial()
+#2 C:\xampp\htdocs\SE2014-Project_Website\protected\controllers\DocumentController.php(17): DocumentController->render()
+#3 C:\xampp\htdocs\SE2014-Project_Website\protected\controllers\DocumentController.php(9): DocumentController->actionDocument()
+#4 C:\xampp\htdocs\SE2014-Project_Website\framework\web\actions\CInlineAction.php(49): DocumentController->actionIndex()
+#5 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CController.php(286): DocumentController->runAction()
+#7 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CController.php(265): DocumentController->runActionWithFilters()
+#8 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(282): DocumentController->run()
+#9 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CWebApplication->run()
+REQUEST_URI=/SE2014-Project_Website/index.php/document
+in C:\xampp\htdocs\SE2014-Project_Website\protected\views\document\document.php (36)
+in C:\xampp\htdocs\SE2014-Project_Website\protected\controllers\DocumentController.php (17)
+in C:\xampp\htdocs\SE2014-Project_Website\protected\controllers\DocumentController.php (9)
+2014/04/12 12:17:29 [error] [php] Use of undefined constant docid - assumed 'docid' (C:\xampp\htdocs\SE2014-Project_Website\protected\views\document\document.php:36)
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CController.php(869): DocumentController->renderFile()
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CController.php(782): DocumentController->renderPartial()
+#2 C:\xampp\htdocs\SE2014-Project_Website\protected\controllers\DocumentController.php(17): DocumentController->render()
+#3 C:\xampp\htdocs\SE2014-Project_Website\protected\controllers\DocumentController.php(9): DocumentController->actionDocument()
+#4 C:\xampp\htdocs\SE2014-Project_Website\framework\web\actions\CInlineAction.php(49): DocumentController->actionIndex()
+#5 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CController.php(286): DocumentController->runAction()
+#7 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CController.php(265): DocumentController->runActionWithFilters()
+#8 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(282): DocumentController->run()
+#9 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CWebApplication->run()
+REQUEST_URI=/SE2014-Project_Website/index.php/document
+in C:\xampp\htdocs\SE2014-Project_Website\protected\views\document\document.php (36)
+in C:\xampp\htdocs\SE2014-Project_Website\protected\controllers\DocumentController.php (17)
+in C:\xampp\htdocs\SE2014-Project_Website\protected\controllers\DocumentController.php (9)
+2014/04/12 12:21:31 [error] [php] Use of undefined constant docid - assumed 'docid' (C:\xampp\htdocs\SE2014-Project_Website\protected\views\document\document.php:36)
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CController.php(869): DocumentController->renderFile()
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CController.php(782): DocumentController->renderPartial()
+#2 C:\xampp\htdocs\SE2014-Project_Website\protected\controllers\DocumentController.php(17): DocumentController->render()
+#3 C:\xampp\htdocs\SE2014-Project_Website\protected\controllers\DocumentController.php(9): DocumentController->actionDocument()
+#4 C:\xampp\htdocs\SE2014-Project_Website\framework\web\actions\CInlineAction.php(49): DocumentController->actionIndex()
+#5 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CController.php(286): DocumentController->runAction()
+#7 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CController.php(265): DocumentController->runActionWithFilters()
+#8 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(282): DocumentController->run()
+#9 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CWebApplication->run()
+REQUEST_URI=/SE2014-Project_Website/index.php/document
+in C:\xampp\htdocs\SE2014-Project_Website\protected\views\document\document.php (36)
+in C:\xampp\htdocs\SE2014-Project_Website\protected\controllers\DocumentController.php (17)
+in C:\xampp\htdocs\SE2014-Project_Website\protected\controllers\DocumentController.php (9)
+2014/04/12 12:23:33 [error] [php] Use of undefined constant docid - assumed 'docid' (C:\xampp\htdocs\SE2014-Project_Website\protected\views\document\document.php:36)
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CController.php(869): DocumentController->renderFile()
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CController.php(782): DocumentController->renderPartial()
+#2 C:\xampp\htdocs\SE2014-Project_Website\protected\controllers\DocumentController.php(17): DocumentController->render()
+#3 C:\xampp\htdocs\SE2014-Project_Website\protected\controllers\DocumentController.php(9): DocumentController->actionDocument()
+#4 C:\xampp\htdocs\SE2014-Project_Website\framework\web\actions\CInlineAction.php(49): DocumentController->actionIndex()
+#5 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CController.php(308): CInlineAction->runWithParams()
+#6 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CController.php(286): DocumentController->runAction()
+#7 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CController.php(265): DocumentController->runActionWithFilters()
+#8 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(282): DocumentController->run()
+#9 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CWebApplication->run()
+REQUEST_URI=/SE2014-Project_Website/index.php/document
+in C:\xampp\htdocs\SE2014-Project_Website\protected\views\document\document.php (36)
+in C:\xampp\htdocs\SE2014-Project_Website\protected\controllers\DocumentController.php (17)
+in C:\xampp\htdocs\SE2014-Project_Website\protected\controllers\DocumentController.php (9)
+2014/04/12 12:24:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.flexslider.js".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/assets/js/jquery.flexslider.js
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/document
+---
+2014/04/12 12:24:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.themepunch.revolution.min.js".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/assets/js/jquery.themepunch.revolution.min.js
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/document
+---
+2014/04/12 12:24:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/modernizr.custom.js".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/assets/js/modernizr.custom.js
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/document
+---
+2014/04/12 12:25:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.flexslider.js".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/assets/js/jquery.flexslider.js
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/document
+---
+2014/04/12 12:25:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.themepunch.revolution.min.js".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/assets/js/jquery.themepunch.revolution.min.js
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/document
+---
+2014/04/12 12:25:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/modernizr.custom.js".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/assets/js/modernizr.custom.js
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/document
+---
+2014/04/12 12:25:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.flexslider.js".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/assets/js/jquery.flexslider.js
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/document
+---
+2014/04/12 12:25:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.themepunch.revolution.min.js".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/assets/js/jquery.themepunch.revolution.min.js
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/document
+---
+2014/04/12 12:25:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/modernizr.custom.js".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/assets/js/modernizr.custom.js
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/document
+---
+2014/04/12 12:41:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.flexslider.js".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/assets/js/jquery.flexslider.js
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/login
+---
+2014/04/12 12:41:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/modernizr.custom.js".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/assets/js/modernizr.custom.js
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/login
+---
+2014/04/12 12:41:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.themepunch.revolution.min.js".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/assets/js/jquery.themepunch.revolution.min.js
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/login
+---
+2014/04/12 12:49:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.flexslider.js".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/assets/js/jquery.flexslider.js
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/login
+---
+2014/04/12 12:49:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.themepunch.revolution.min.js".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/assets/js/jquery.themepunch.revolution.min.js
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/login
+---
+2014/04/12 12:49:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/modernizr.custom.js".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/assets/js/modernizr.custom.js
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/login
+---
+2014/04/12 13:35:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.themepunch.revolution.min.js".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/assets/js/jquery.themepunch.revolution.min.js
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/login
+---
+2014/04/12 13:35:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/modernizr.custom.js".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/assets/js/modernizr.custom.js
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/login
+---
+2014/04/12 13:35:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.flexslider.js".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/assets/js/jquery.flexslider.js
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/login
+---
+2014/04/12 13:45:23 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'uet_study.tbl_relation_faculty_subject' doesn't exist. The SQL statement executed was: SELECT *
+FROM `tbl_subject`
+JOIN `tbl_relation_faculty_subject` ON tbl_subject.subject_id = tbl_relation_faculty_subject.subject_id.
+in C:\xampp\htdocs\SE2014-Project_Website\protected\controllers\ShareController.php (21)
+in C:\xampp\htdocs\SE2014-Project_Website\protected\views\share\share.php (13)
+in C:\xampp\htdocs\SE2014-Project_Website\protected\controllers\ShareController.php (13)
+2014/04/12 13:45:23 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'uet_study.tbl_relation_faculty_subject' doesn't exist. The SQL statement executed was: SELECT *
+FROM `tbl_subject`
+JOIN `tbl_relation_faculty_subject` ON tbl_subject.subject_id = tbl_relation_faculty_subject.subject_id' in C:\xampp\htdocs\SE2014-Project_Website\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\xampp\htdocs\SE2014-Project_Website\protected\controllers\ShareController.php(21): CDbCommand->queryAll()
+#2 C:\xampp\htdocs\SE2014-Project_Website\protected\views\share\share.php(13): ShareController->actionSideBarLeft()
+#3 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#4 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#5 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#6 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CController.php(782): CController->renderPartial('share', NULL, true)
+#7 C:\xampp\htdocs\SE2014-Project_Website\protected\controllers\ShareController.php(13): CController->render('share')
+#8 C:\xampp\htdocs\SE2014-Project_Website\protected\controllers\ShareController.php(6): ShareController->actionShare()
+#9 C:\xampp\htdocs\SE2014-Project_Website\framework\web\actions\CInlineAction.php(49): ShareController->actionIndex()
+#10 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(282): CController->run('')
+#14 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('share')
+#15 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CApplication->run()
+#17 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/share
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/login
+---
+2014/04/12 13:48:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.flexslider.js".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/assets/js/jquery.flexslider.js
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/login
+---
+2014/04/12 13:48:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.themepunch.revolution.min.js".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/assets/js/jquery.themepunch.revolution.min.js
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/login
+---
+2014/04/12 13:48:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/modernizr.custom.js".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/assets/js/modernizr.custom.js
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/login
+---
+2014/04/12 13:49:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "signup".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('signup')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/signup
+---
+2014/04/12 13:57:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.themepunch.revolution.min.js".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/assets/js/jquery.themepunch.revolution.min.js
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/document
+---
+2014/04/12 13:57:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.flexslider.js".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/assets/js/jquery.flexslider.js
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/document
+---
+2014/04/12 13:57:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/modernizr.custom.js".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/assets/js/modernizr.custom.js
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/document
+---
+2014/04/12 13:57:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.themepunch.revolution.min.js".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/assets/js/jquery.themepunch.revolution.min.js
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/document
+---
+2014/04/12 13:57:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/modernizr.custom.js".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/assets/js/modernizr.custom.js
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/document
+---
+2014/04/12 13:57:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.flexslider.js".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/assets/js/jquery.flexslider.js
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/document
+---
+2014/04/12 13:57:48 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'uet_study.tbl_relation_faculty_subject' doesn't exist. The SQL statement executed was: SELECT *
+FROM `tbl_subject`
+JOIN `tbl_relation_faculty_subject` ON tbl_subject.subject_id = tbl_relation_faculty_subject.subject_id.
+in C:\xampp\htdocs\SE2014-Project_Website\protected\controllers\ShareController.php (21)
+in C:\xampp\htdocs\SE2014-Project_Website\protected\views\share\share.php (13)
+in C:\xampp\htdocs\SE2014-Project_Website\protected\controllers\ShareController.php (13)
+2014/04/12 13:57:48 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'uet_study.tbl_relation_faculty_subject' doesn't exist. The SQL statement executed was: SELECT *
+FROM `tbl_subject`
+JOIN `tbl_relation_faculty_subject` ON tbl_subject.subject_id = tbl_relation_faculty_subject.subject_id' in C:\xampp\htdocs\SE2014-Project_Website\framework\db\CDbCommand.php:543
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\db\CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\xampp\htdocs\SE2014-Project_Website\protected\controllers\ShareController.php(21): CDbCommand->queryAll()
+#2 C:\xampp\htdocs\SE2014-Project_Website\protected\views\share\share.php(13): ShareController->actionSideBarLeft()
+#3 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CBaseController.php(126): require('C:\xampp\htdocs...')
+#4 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\xampp\htdocs...', NULL, true)
+#5 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CController.php(869): CBaseController->renderFile('C:\xampp\htdocs...', NULL, true)
+#6 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CController.php(782): CController->renderPartial('share', NULL, true)
+#7 C:\xampp\htdocs\SE2014-Project_Website\protected\controllers\ShareController.php(13): CController->render('share')
+#8 C:\xampp\htdocs\SE2014-Project_Website\protected\controllers\ShareController.php(6): ShareController->actionShare()
+#9 C:\xampp\htdocs\SE2014-Project_Website\framework\web\actions\CInlineAction.php(49): ShareController->actionIndex()
+#10 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#12 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(282): CController->run('')
+#14 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('share')
+#15 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CApplication->run()
+#17 {main}
+REQUEST_URI=/SE2014-Project_Website/index.php/share
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/document
+---
+2014/04/12 13:59:19 [error] [php] Undefined variable: year (C:\xampp\htdocs\SE2014-Project_Website\protected\views\share\partial\side_bar_left.php:27)
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CController.php(869): ShareController->renderFile()
+#1 C:\xampp\htdocs\SE2014-Project_Website\protected\controllers\ShareController.php(23): ShareController->renderPartial()
+#2 C:\xampp\htdocs\SE2014-Project_Website\protected\views\share\share.php(13): ShareController->actionSideBarLeft()
+#3 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CBaseController.php(126): require()
+#4 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CBaseController.php(95): ShareController->renderInternal()
+#5 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CController.php(869): ShareController->renderFile()
+#6 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CController.php(782): ShareController->renderPartial()
+#7 C:\xampp\htdocs\SE2014-Project_Website\protected\controllers\ShareController.php(13): ShareController->render()
+#8 C:\xampp\htdocs\SE2014-Project_Website\protected\controllers\ShareController.php(6): ShareController->actionShare()
+#9 C:\xampp\htdocs\SE2014-Project_Website\framework\web\actions\CInlineAction.php(49): ShareController->actionIndex()
+#10 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CController.php(308): CInlineAction->runWithParams()
+#11 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CController.php(286): ShareController->runAction()
+#12 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CController.php(265): ShareController->runActionWithFilters()
+#13 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(282): ShareController->run()
+#14 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#15 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#16 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CWebApplication->run()
+REQUEST_URI=/SE2014-Project_Website/index.php/share
+in C:\xampp\htdocs\SE2014-Project_Website\protected\views\share\partial\side_bar_left.php (27)
+in C:\xampp\htdocs\SE2014-Project_Website\protected\controllers\ShareController.php (23)
+in C:\xampp\htdocs\SE2014-Project_Website\protected\views\share\share.php (13)
+2014/04/12 14:00:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.flexslider.js".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/assets/js/jquery.flexslider.js
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/share
+---
+2014/04/12 14:00:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.themepunch.revolution.min.js".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/assets/js/jquery.themepunch.revolution.min.js
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/share
+---
+2014/04/12 14:00:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/modernizr.custom.js".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/assets/js/modernizr.custom.js
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/share
+---
+2014/04/12 14:01:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.themepunch.revolution.min.js".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/assets/js/jquery.themepunch.revolution.min.js
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/login
+---
+2014/04/12 14:01:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.flexslider.js".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/assets/js/jquery.flexslider.js
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/login
+---
+2014/04/12 14:01:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/modernizr.custom.js".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/assets/js/modernizr.custom.js
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/login
+---
+2014/04/12 14:01:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/modernizr.custom.js".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/assets/js/modernizr.custom.js
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/document
+---
+2014/04/12 14:01:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.flexslider.js".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/assets/js/jquery.flexslider.js
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/document
+---
+2014/04/12 14:01:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.themepunch.revolution.min.js".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/assets/js/jquery.themepunch.revolution.min.js
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/document
+---
+2014/04/12 14:01:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.themepunch.revolution.min.js".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/assets/js/jquery.themepunch.revolution.min.js
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/share
+---
+2014/04/12 14:01:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/modernizr.custom.js".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/assets/js/modernizr.custom.js
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/share
+---
+2014/04/12 14:01:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.flexslider.js".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/assets/js/jquery.flexslider.js
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/share
+---
+2014/04/12 14:01:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.themepunch.revolution.min.js".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/assets/js/jquery.themepunch.revolution.min.js
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/share/subject
+---
+2014/04/12 14:01:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.flexslider.js".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/assets/js/jquery.flexslider.js
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/share/subject
+---
+2014/04/12 14:01:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/modernizr.custom.js".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/assets/js/modernizr.custom.js
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/share/subject
+---
+2014/04/12 15:59:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.flexslider.js".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/assets/js/jquery.flexslider.js
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/document
+---
+2014/04/12 15:59:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/modernizr.custom.js".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/assets/js/modernizr.custom.js
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/document
+---
+2014/04/12 15:59:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.themepunch.revolution.min.js".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/assets/js/jquery.themepunch.revolution.min.js
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/document
+---
+2014/04/12 15:59:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/modernizr.custom.js".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/assets/js/modernizr.custom.js
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/share
+---
+2014/04/12 15:59:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.themepunch.revolution.min.js".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/assets/js/jquery.themepunch.revolution.min.js
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/share
+---
+2014/04/12 15:59:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.flexslider.js".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/assets/js/jquery.flexslider.js
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/share
+---
+2014/04/12 15:59:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/modernizr.custom.js".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/assets/js/modernizr.custom.js
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/share/subject
+---
+2014/04/12 15:59:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.themepunch.revolution.min.js".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/assets/js/jquery.themepunch.revolution.min.js
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/share/subject
+---
+2014/04/12 15:59:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.flexslider.js".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/assets/js/jquery.flexslider.js
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/share/subject
+---
+2014/04/12 15:59:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.flexslider.js".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/assets/js/jquery.flexslider.js
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/share/subject
+---
+2014/04/12 15:59:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/modernizr.custom.js".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/assets/js/modernizr.custom.js
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/share/subject
+---
+2014/04/12 15:59:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.themepunch.revolution.min.js".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/assets/js/jquery.themepunch.revolution.min.js
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/share/subject
+---
+2014/04/12 15:59:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.flexslider.js".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/assets/js/jquery.flexslider.js
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/share/subject
+---
+2014/04/12 15:59:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.themepunch.revolution.min.js".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/assets/js/jquery.themepunch.revolution.min.js
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/share/subject
+---
+2014/04/12 15:59:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/modernizr.custom.js".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/assets/js/modernizr.custom.js
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/share/subject
+---
+2014/04/12 15:59:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/modernizr.custom.js".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/assets/js/modernizr.custom.js
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/share/teacher
+---
+2014/04/12 15:59:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.flexslider.js".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/assets/js/jquery.flexslider.js
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/share/teacher
+---
+2014/04/12 15:59:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.themepunch.revolution.min.js".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/assets/js/jquery.themepunch.revolution.min.js
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/share/teacher
+---
+2014/04/12 15:59:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.themepunch.revolution.min.js".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/assets/js/jquery.themepunch.revolution.min.js
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/share/subject
+---
+2014/04/12 15:59:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/modernizr.custom.js".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/assets/js/modernizr.custom.js
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/share/subject
+---
+2014/04/12 15:59:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.flexslider.js".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/assets/js/jquery.flexslider.js
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/share/subject
+---
+2014/04/12 15:59:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.themepunch.revolution.min.js".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/assets/js/jquery.themepunch.revolution.min.js
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/share/subject
+---
+2014/04/12 15:59:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/modernizr.custom.js".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/assets/js/modernizr.custom.js
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/share/subject
+---
+2014/04/12 15:59:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.flexslider.js".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/assets/js/jquery.flexslider.js
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/share/subject
+---
+2014/04/12 15:59:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.flexslider.js".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/assets/js/jquery.flexslider.js
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/share
+---
+2014/04/12 15:59:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.themepunch.revolution.min.js".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/assets/js/jquery.themepunch.revolution.min.js
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/share
+---
+2014/04/12 15:59:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/modernizr.custom.js".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/assets/js/modernizr.custom.js
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/share
+---
+2014/04/12 16:04:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.flexslider.js".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/assets/js/jquery.flexslider.js
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/share/subject
+---
+2014/04/12 16:04:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/jquery.themepunch.revolution.min.js".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/assets/js/jquery.themepunch.revolution.min.js
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/share/subject
+---
+2014/04/12 16:04:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "themes/classic/assets/js/modernizr.custom.js".' in C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014-Project_Website\framework\web\CWebApplication.php(141): CWebApplication->runController('themes/classic/...')
+#1 C:\xampp\htdocs\SE2014-Project_Website\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014-Project_Website\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014-Project_Website/themes/classic/assets/js/modernizr.custom.js
+HTTP_REFERER=http://localhost:7070/SE2014-Project_Website/index.php/share/subject
+---

@@ -312,323 +312,488 @@
 
             <!-- MAIN -->
             <div class="l-main">
-                <style>
-    .fixsizeitems{
-        height: 220px;
-        width: 180px;
-    }
-    .fixmarginbottom{
-        margin-bottom: 5%;
-    }
-</style>
-<script type="text/javascript">
-    $(document).ready(function() {
-        $('#loading').hide();
-        var form = $('#formscribd');
-        form.submit(function(event) {
-            // prevent default action
-            event.preventDefault();
-            // send ajax request
-
-            $.ajax({
-                beforeSend: function() {
-                    $('#loading').show();
-                },
-                url: '/SE2014-Project_Website/index.php/document/updateinfo',
-                type: 'POST',
-                data: form.serialize(), //form serizlize data
-                complete: function() {
-                    $('#loading').hide();
-                },
-                success: function(data) {
-                    // Append with fadeIn see http://stackoverflow.com/a/978731
-                    var json = data;
-                    var result = $.parseJSON(json);
-                    var docid = result.docid;
-                    var item = $('<div class="w-portfolio-item order_1 naming webdesign fixsizeitems fixmarginbottom">' +
-                            '<div class="w-portfolio-item-h">' +
-                           '<a class="w-portfolio-item-anchor" href="/SE2014-Project_Website/index.php/0">' +
-                            '<div class="w-portfolio-item-image fixsizeitems fixmarginbottom">' +
-                            '<img src="' + result.thumbnail + '" class="fixsizeitems" alt="" style="border-style: solid; border-width: thin; border-color: #d0d6d9;"/>' +
-                            '<div class="w-portfolio-item-meta">' +
-                            '<h2 class="w-portfolio-item-title">' + result.title + '   </h2>' +
-                            '<i class="icon-mail-forward"></i>' +
-                            '</div>' +
-                            '</div>' +
-                            '</a>' +
-                            '</div>' +
-                            '</div>').hide().fadeIn(800);
-                    $('#docblock').prepend(item);
-
-                    $('.w-tabs-section-title-text').click();
-                    document.getElementById("formscribd").reset();
-                    document.getElementById("my-dropzone").reset();
-                    $('#loading').hide();
-                },
-                error: function(event) {
-                    alert(event);
-                }
-
-            });
-
-            event.stopPropagation();
-            return false;
-        });
-    });
-</script>
-
-<div class="l-submain">
-    <div class="l-submain-h g-html i-cf">
-        <div class="g-cols">
-               <div class="one-fourth" style="border-right-style: solid; border-right-width: thin; border-color: #d0d6d9;">
-                    <h3>Các chủ đề</h3>
-                    <div class="widget">
-                        <nav class="w-nav">
-                            <div class="w-nav-h">
-                                <div class="w-nav-list layout_ver level_1">
-                                    <div class="w-nav-list-h">
-                                        <div class="w-nav-item level_1">
-                                            <div class="w-nav-item-h">
-                                                <a href="#" class="w-nav-anchor level_1">
-                                                    <span class="w-nav-title">Responsive Design</span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <div class="w-nav-item level_1 active">
-                                            <div class="w-nav-item-h">
-                                                <a href="#" class="w-nav-anchor level_1">
-                                                    <span class="w-nav-title">Retina Ready</span>
-                                                </a>
-                                                <div class="w-nav-list layout_ver place_inside level_2">
-                                                    <div class="w-nav-list-h">
-                                                        <div class="w-nav-item level_2">
-                                                            <div class="w-nav-item-h">
-                                                                <a href="#" class="w-nav-anchor level_2">
-                                                                    <span class="w-nav-title">Second Level Item</span>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                        <div class="w-nav-item level_2 active">
-                                                            <div class="w-nav-item-h">
-                                                                <a href="#" class="w-nav-anchor level_2">
-                                                                    <span class="w-nav-title">Second Level Item</span>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                        <div class="w-nav-item level_2">
-                                                            <div class="w-nav-item-h">
-                                                                <a href="#" class="w-nav-anchor level_2">
-                                                                    <span class="w-nav-title">Second Level Item</span>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="w-nav-item level_1">
-                                            <div class="w-nav-item-h">
-                                                <a href="#" class="w-nav-anchor level_1">
-                                                    <span class="w-nav-title">Font Awesome Icons</span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <div class="w-nav-item level_1">
-                                            <div class="w-nav-item-h">
-                                                <a href="#" class="w-nav-anchor level_1">
-                                                    <span class="w-nav-title">Slider Revolution</span>
-                                                </a>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </nav>
-
-                    </div>
-                    <h3>Đang hot</h3>            
-                    <div class="widget">
-                        <nav class="w-nav">
-                            <div class="w-nav-h">
-                                <div class="w-nav-list layout_ver level_1">
-                                    <div class="w-nav-list-h">
-                                        <div class="w-nav-item level_1">
-                                            <div class="w-nav-item-h">
-                                                <a href="#" class="w-nav-anchor level_1">
-                                                    <span class="w-nav-title">Responsive Design</span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <div class="w-nav-item level_1 active">
-                                            <div class="w-nav-item-h">
-                                                <a href="#" class="w-nav-anchor level_1">
-                                                    <span class="w-nav-title">Retina Ready</span>
-                                                </a>
-                                                <div class="w-nav-list layout_ver place_inside level_2">
-                                                    <div class="w-nav-list-h">
-                                                        <div class="w-nav-item level_2">
-                                                            <div class="w-nav-item-h">
-                                                                <a href="#" class="w-nav-anchor level_2">
-                                                                    <span class="w-nav-title">Second Level Item</span>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                        <div class="w-nav-item level_2 active">
-                                                            <div class="w-nav-item-h">
-                                                                <a href="#" class="w-nav-anchor level_2">
-                                                                    <span class="w-nav-title">Second Level Item</span>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                        <div class="w-nav-item level_2">
-                                                            <div class="w-nav-item-h">
-                                                                <a href="#" class="w-nav-anchor level_2">
-                                                                    <span class="w-nav-title">Second Level Item</span>
-                                                                </a>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="w-nav-item level_1">
-                                            <div class="w-nav-item-h">
-                                                <a href="#" class="w-nav-anchor level_1">
-                                                    <span class="w-nav-title">Font Awesome Icons</span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <div class="w-nav-item level_1">
-                                            <div class="w-nav-item-h">
-                                                <a href="#" class="w-nav-anchor level_1">
-                                                    <span class="w-nav-title">Slider Revolution</span>
-                                                </a>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </nav>
-
-                    </div>
-                </div>            <div class="three-fourths">
-                <!--Drag and Drop file to upload-->
-<script type="text/javascript">
-	Dropzone.autoDiscover = false;
-    $(document).ready(function() {
-        var myDropzone = new Dropzone("#my-dropzone");
-        myDropzone.on("success", function(file, data) {
-	        var json = data;
-	        var result = $.parseJSON(json);
-	        $('#thumbnail_url').val(result.thumbnail);
-	        $('#doc_id').val(result.docid);
-                
-        });
-
-    });
-</script>
-<style>
-    .fixmargin{
-        margin: 2% 5% 2% 5%;
-    }
-</style>
-<div class="w-tabs layout_accordion type_toggle" style="margin-bottom: 5%">
-    <div class="w-tabs-h">
-        <div class="w-tabs-section with_icon">
-            <div class="w-tabs-section-title">
-                <span class="w-tabs-section-title-icon icon-book"></span>
-                <span class="w-tabs-section-title-text">Bạn muốn chia sẻ 1 tài liệu lên?</span>
-                <span class="w-tabs-section-title-control"><i class="icon-angle-down"></i></span>
+                <div id="content">
+	
+<!-- MAIN -->
+<div class="l-main-h">
+    <div class="l-submain for_pagehead">
+        <div class="l-submain-h g-html i-cf">
+            <div class="w-pagehead">
+                <h1>Kinh nghiệm - Chia sẻ</h1>
             </div>
-            <div class="w-tabs-section-content">
+        </div>
+    </div>
 
-                <div class="g-form-group">
-                    <div class="g-form-group-rows">
-                        <div id="dropzone" class="fixmargin" style="min-height: 180px; border:2px dashed #4894C7; border-radius: 5px;">
-                            <form action="/SE2014-Project_Website/index.php/document/upload" class="dropzone dz-clickable dz-started"
-                                  id="my-dropzone">
-                            </form>
+    <div class="l-submain">
+        <div class="l-submain-h g-html i-cf">
+            <div class="g-cols">
+                   <div class="one-fourth" style="
+                     border-right-style: double;
+                     border-right-width: thick;
+                     border-color: #d0d6d9;
+                     ">
+                    <h3>Các chủ đề</h3>            
+                    <div class="widget">
+                        <nav class="w-nav">
+                            <div class="w-nav-h">
+                                <div class="w-nav-list layout_ver level_1">
+                                    <div class="w-nav-list-h">                                        
+                                        <div class="w-nav-item level_1 active">
+                                            <div class="w-nav-item-h">                                                
+                                                <a href="#" class="w-nav-anchor level_1">                                                    
+                                                    <span class="w-nav-title">Năm nhất</span>                                                    
+                                                </a>                                                
+                                                <div class="w-nav-list layout_ver place_inside level_2">
+                                                    <div class="w-nav-list-h">
+                                                        
+                                                        <div class="w-nav-item level_2">
+                                                            <div class="w-nav-item-h">
+                                                                <a href="#" class="w-nav-anchor level_2">
+                                                                    <span class="w-nav-title">Công nghệ thông tin</span>
+                                                                </a>
+                                                                <div class="w-nav-list place_aside show_onhover level_3">
+                                                                        <div class="w-nav-list-h">
+                                                                               
+                                                                                <div class="w-nav-item level_3">
+                                                                                        <div class="w-nav-item-h">
+                                                                                            <a href="/SE2014-Project_Website/index.php/share/subject" class="w-nav-anchor level_3" style="color: black">Đại số</a>
+                                                                                        </div>
+                                                                                </div>
+                                                                                
+                                                                        </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                       
+                                                        <div class="w-nav-item level_2 active">
+                                                            <div class="w-nav-item-h">
+                                                                <a href="#" class="w-nav-anchor level_2">
+                                                                    <span class="w-nav-title">Vật lý kĩ thuật</span>
+                                                                </a>
+                                                                <div class="w-nav-list place_aside show_onhover level_3">
+                                                                        <div class="w-nav-list-h">
+                                                                                <div class="w-nav-item level_3">
+                                                                                        <div class="w-nav-item-h">
+                                                                                                <a href="home-landing.html" class="w-nav-anchor level_3" style="color: black">Đại số</a>
+                                                                                        </div>
+                                                                                </div>
+                                                                                <div class="w-nav-item level_3">
+                                                                                        <div class="w-nav-item-h">
+                                                                                                <a href="home-parallax.html" class="w-nav-anchor level_3" style="color: black">Giải tích</a>
+                                                                                        </div>
+                                                                                </div>
+                                                                        </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="w-nav-item level_2">
+                                                            <div class="w-nav-item-h">
+                                                                <a href="#" class="w-nav-anchor level_2">
+                                                                    <span class="w-nav-title">Cơ điện tử</span>
+                                                                </a>
+                                                                <div class="w-nav-list place_aside show_onhover level_3">
+                                                                        <div class="w-nav-list-h">
+                                                                                <div class="w-nav-item level_3">
+                                                                                        <div class="w-nav-item-h">
+                                                                                                <a href="home-landing.html" class="w-nav-anchor level_3" style="color: black">Đại số</a>
+                                                                                        </div>
+                                                                                </div>
+                                                                                <div class="w-nav-item level_3">
+                                                                                        <div class="w-nav-item-h">
+                                                                                                <a href="home-parallax.html" class="w-nav-anchor level_3" style="color: black">Giải tích</a>
+                                                                                        </div>
+                                                                                </div>
+                                                                        </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                       
+                                        <div class="w-nav-item level_1 active">
+                                            <div class="w-nav-item-h">
+                                                <a href="#" class="w-nav-anchor level_1">
+                                                    <span class="w-nav-title">Năm Hai</span>
+                                                </a>
+                                                <div class="w-nav-list layout_ver place_inside level_2">
+                                                    <div class="w-nav-list-h">
+                                                        <div class="w-nav-item level_2">
+                                                            <div class="w-nav-item-h">
+                                                                <a href="#" class="w-nav-anchor level_2">
+                                                                    <span class="w-nav-title">Công nghệ thông tin</span>
+                                                                </a>
+                                                                <div class="w-nav-list place_aside show_onhover level_3">
+                                                                        <div class="w-nav-list-h">
+                                                                                <div class="w-nav-item level_3">
+                                                                                        <div class="w-nav-item-h">
+                                                                                                <a href="home-landing.html" class="w-nav-anchor level_3" style="color: black">Lập trình</a>
+                                                                                        </div>
+                                                                                </div>
+                                                                                <div class="w-nav-item level_3">
+                                                                                        <div class="w-nav-item-h">
+                                                                                                <a href="home-parallax.html" class="w-nav-anchor level_3" style="color: black">Hệ điều hành</a>
+                                                                                        </div>
+                                                                                </div>
+                                                                        </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="w-nav-item level_2 active">
+                                                            <div class="w-nav-item-h">
+                                                                <a href="#" class="w-nav-anchor level_2">
+                                                                    <span class="w-nav-title">Vật lý kĩ thuật</span>
+                                                                </a>
+                                                                <div class="w-nav-list place_aside show_onhover level_3">
+                                                                        <div class="w-nav-list-h">
+                                                                                <div class="w-nav-item level_3">
+                                                                                        <div class="w-nav-item-h">
+                                                                                                <a href="home-landing.html" class="w-nav-anchor level_3" style="color: black">Vật lý ứng dụng</a>
+                                                                                        </div>
+                                                                                </div>
+                                                                                <div class="w-nav-item level_3">
+                                                                                        <div class="w-nav-item-h">
+                                                                                                <a href="home-parallax.html" class="w-nav-anchor level_3" style="color: black">Tin học</a>
+                                                                                        </div>
+                                                                                </div>
+                                                                        </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="w-nav-item level_2">
+                                                            <div class="w-nav-item-h">
+                                                                <a href="#" class="w-nav-anchor level_2">
+                                                                    <span class="w-nav-title">Cơ điện tử</span>
+                                                                </a>
+                                                                <div class="w-nav-list place_aside show_onhover level_3">
+                                                                        <div class="w-nav-list-h">
+                                                                                <div class="w-nav-item level_3">
+                                                                                        <div class="w-nav-item-h">
+                                                                                                <a href="home-landing.html" class="w-nav-anchor level_3" style="color: black">Đại số</a>
+                                                                                        </div>
+                                                                                </div>
+                                                                                <div class="w-nav-item level_3">
+                                                                                        <div class="w-nav-item-h">
+                                                                                                <a href="home-parallax.html" class="w-nav-anchor level_3" style="color: black">Giải tích</a>
+                                                                                        </div>
+                                                                                </div>
+                                                                        </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="w-nav-item level_1 active">
+                                            <div class="w-nav-item-h">
+                                                <a href="#" class="w-nav-anchor level_1">
+                                                    <span class="w-nav-title">Năm Ba</span>
+                                                </a>
+                                                <div class="w-nav-list layout_ver place_inside level_2">
+                                                    <div class="w-nav-list-h">
+                                                        <div class="w-nav-item level_2">
+                                                            <div class="w-nav-item-h">
+                                                                <a href="#" class="w-nav-anchor level_2">
+                                                                    <span class="w-nav-title">Công nghệ thông tin</span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="w-nav-item level_2 active">
+                                                            <div class="w-nav-item-h">
+                                                                <a href="#" class="w-nav-anchor level_2">
+                                                                    <span class="w-nav-title">Vật lý kĩ thuật</span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="w-nav-item level_2">
+                                                            <div class="w-nav-item-h">
+                                                                <a href="#" class="w-nav-anchor level_2">
+                                                                    <span class="w-nav-title">Cơ điện tử</span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="w-nav-item level_1 active">
+                                            <div class="w-nav-item-h">
+                                                <a href="#" class="w-nav-anchor level_1">
+                                                    <span class="w-nav-title">Năm Cuối</span>
+                                                </a>
+                                                <div class="w-nav-list layout_ver place_inside level_2">
+                                                    <div class="w-nav-list-h">
+                                                        <div class="w-nav-item level_2">
+                                                            <div class="w-nav-item-h">
+                                                                <a href="#" class="w-nav-anchor level_2">
+                                                                    <span class="w-nav-title">Công nghệ thông tin</span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="w-nav-item level_2 active">
+                                                            <div class="w-nav-item-h">
+                                                                <a href="#" class="w-nav-anchor level_2">
+                                                                    <span class="w-nav-title">Vật lý kĩ thuật</span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="w-nav-item level_2">
+                                                            <div class="w-nav-item-h">
+                                                                <a href="#" class="w-nav-anchor level_2">
+                                                                    <span class="w-nav-title">Cơ điện tử</span>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+
+                    </div>
+                    
+                </div>                <div class="three-fourths">
+                    <div class="l-submain-h g-html i-cf">
+                        <div>
+                            <img class="rounded float_left" src="/SE2014-Project_Website/themes/classic/assets/img/demo/blog-1.jpg"/>
+                            <span style="font-size: xx-large">Đại số tuyến tính</span>
+                        </div>
+
+                        <div style="margin-top: 10px">
+                            <i class="icon-time" style="margin-top: 20px"></i>
+                            <span class="w-blog-entry-meta-date-month">March</span>
+                            <span class="w-blog-entry-meta-date-day">23,</span>
+                            <span class="w-blog-entry-meta-date-year">2013</span>
+                        </div>
+
+                        <div>
+                            <span>Hãy từ bỏ trước khi quá muộn =))</span>
+                        </div>
+                        <div class="w-actionbox-controls at_right">
+                            <a href=""><button class="g-btn type_primary size_big"><span><i class="icon-star-empty"></i>Upload tài liệu về môn này</span></button></a>
                         </div>
                     </div>
-                    <form method="POST" id="formscribd" action="document/updateinfo">
-                        <div class="g-form-group-rows">
-                            <div class="g-form-row-field">
-                                <div class="g-input">
-                                    <input type="hidden" name="thumbnail_url" id="thumbnail_url" value="" style="max-width: 50%; margin-left: 5%; margin-top: 2%; border-radius: 5px; background-color: white;">
-                                </div>
-                            </div>
-                        </div>
 
-                        <div class="g-form-group-rows">
-                            <div class="g-form-row-field">
-                                <div class="g-input">
-                                    <input type="hidden" name="doc_id" id="doc_id" value="" style="max-width: 50%; margin-left: 5%; margin-top: 2%; border-radius: 5px; background-color: white;" >
+                    <div class="g-hr">
+                        <span class="g-hr-h">
+                            <i class="icon-star"></i>
+                        </span>
+                    </div>
+                    <div class="g-cols">
+                        <div class="full-width">
+                            <h3>Các thầy cô trong môn học</h3>
+                            <div class="g-cols">
+                                <div class="one-fourth">
+                                    <a  href="/SE2014-Project_Website/index.php/share/teacher" target="_blank">
+                                        <div class="w-team-member">
+                                            <div class="w-team-member-h">
+                                                <div class="w-team-member-image">
+                                                    <img src="/SE2014-Project_Website/themes/classic/assets/img/demo/member-3.jpg" alt="Item picture" />
+                                                </div>
+                                                <div class="w-team-member-meta">
+                                                    <h4 class="w-team-member-name">Huy Nguyễn</h4>
+                                                    <div class="w-team-member-role">PGS.TS</div>
+                                                    <div class="w-team-member-description">
+                                                        <p></p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
                                 </div>
-                            </div>
-                        </div>
-                        <div class="g-form-group-rows">
-                            <div class="g-form-row-field">
-                                <div class="g-input">
-                                    <input type="text" name="title" id="title" value="" style="max-width: 50%; margin-left: 5%; margin-top: 2%; border-radius: 5px; background-color: white;" placeholder="Tên Tài Liệu *">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="g-form-group-rows">
-                            <div class="g-form-row-field">
-                                <div class="g-input">
-                                    <textarea name="description" id="description" value="" style="max-height: 5%; max-width: 90%; margin-left: 5%; margin-right: 5%; margin-top: 2%; border-radius: 5px; background-color: white;" placeholder="Thêm mô tả *"></textarea>
-                                </div>
-                            </div>
-                        </div>
 
-                        <div class="g-form-group-rows fixmargin one-third">
-                            <select style="max-width: 300px; border-radius: 5px; background-color: white;" name="faculty">
-                                <!--thêm ngành học tại đây-->
-                                <option>Ngành học</option>
-                                <option value="1">Công nghệ thông tin</option>
-                                <option value="2">Vật lý kĩ thuật</option>
-                            </select>
+                                <div class="one-fourth">
+
+                                    <div class="w-team-member">
+                                        <div class="w-team-member-h">
+                                            <div class="w-team-member-image">
+                                                <img src="/SE2014-Project_Website/themes/classic/assets/img/demo/member-2.jpg" alt="Item picture" />
+                                                <div class="w-team-member-links">
+                                                    <div class="w-team-member-links-list">
+                                                        <a class="w-team-member-links-item" href="http://www.fb.com/" target="_blank">
+                                                            <i class="icon-twitter"></i>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="w-team-member-meta">
+                                                <h4 class="w-team-member-name">Sơn Nguyễn</h4>
+                                                <div class="w-team-member-role">ThS</div>
+                                                <div class="w-team-member-description">
+                                                    <p></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="one-fourth">
+
+                                    <div class="w-team-member">
+                                        <div class="w-team-member-h">
+                                            <div class="w-team-member-image">
+                                                <img src="/SE2014-Project_Website/themes/classic/assets/img/demo/member-2.jpg" alt="Item picture" />
+                                                <div class="w-team-member-links">
+                                                    <div class="w-team-member-links-list">
+                                                        <a class="w-team-member-links-item" href="http://www.fb.com/" target="_blank">
+                                                            <i class="icon-twitter"></i>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="w-team-member-meta">
+                                                <h4 class="w-team-member-name">Kiên Nguyễn</h4>
+                                                <div class="w-team-member-role">ThS</div>
+                                                <div class="w-team-member-description">
+                                                    <p></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="one-fourth">
+
+                                    <div class="w-team-member">
+                                        <div class="w-team-member-h">
+                                            <div class="w-team-member-image">
+                                                <img src="/SE2014-Project_Website/themes/classic/assets/img/demo/member-2.jpg" alt="Item picture" />
+                                                <div class="w-team-member-links">
+                                                    <div class="w-team-member-links-list">
+                                                        <a class="w-team-member-links-item" href="http://www.fb.com/" target="_blank">
+                                                            <i class="icon-twitter"></i>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="w-team-member-meta">
+                                                <h4 class="w-team-member-name">Khoa Lê</h4>
+                                                <div class="w-team-member-role">ThS</div>
+                                                <div class="w-team-member-description">
+                                                    <p></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
                         </div>
-                        <div class="g-form-group-rows">
-                            <button class="g-btn type_primary size_small fixmargin" type="submit" name="Submit">Đăng Tài Liệu</button>
+                    </div>
+
+                    <div class="g-hr">
+                        <span class="g-hr-h">
+                            <i class="icon-star"></i>
+                        </span>
+                    </div>
+
+                    <div class="g-cols">
+                        <div class="full-width">
+                            <h3>Sơ lược về môn học</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores corporis
+                                dicta distinctio, dolorum ducimus fuga fugit harum inventore neque nesciunt
+                                nostrum nulla numquam perferendis quas quibusdam ratione veritatis vero
+                                voluptatem.</p>
                         </div>
-                    </form>
+                    </div>
+                    <div class="g-hr">
+                        <span class="g-hr-h">
+                            <i class="icon-star"></i>
+                        </span>
+                    </div>
+
+                    <div class="g-cols">
+                        <div class="full-width">
+                            <h3>Các tài liệu liên quan</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores corporis
+                                dicta distinctio, dolorum ducimus fuga fugit harum inventore neque nesciunt
+                                nostrum nulla numquam perferendis quas quibusdam ratione veritatis vero
+                                voluptatem.</p>
+                        </div>
+                    </div>
+
+                    <div class="g-hr type_short">
+                        <span class="g-hr-h">
+                            <i class="icon-star"></i>
+                        </span>
+                    </div>
+
+                    <div class="w-portfolio columns_4">
+                        <div class="w-portfolio-h">
+                            <div class="w-portfolio-list">
+                                <div class="w-portfolio-list-h">
+                                    <div class="w-portfolio-item">
+                                        <div class="w-portfolio-item-h">
+                                            <a class="w-portfolio-item-anchor" href="project-another-slider.html">
+                                                <div class="w-portfolio-item-image">
+                                                    <img src="/SE2014-Project_Website/themes/classic/assets/img/demo/thumb-3.jpg" alt="" />
+                                                    <div class="w-portfolio-item-meta">
+                                                        <h3 class="w-portfolio-item-title">Đề thi 2013</h3>
+                                                        <i class="icon-mail-forward"></i>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="w-portfolio-item">
+                                        <div class="w-portfolio-item-h">
+                                            <a class="w-portfolio-item-anchor" href="project-another-slider.html">
+                                                <div class="w-portfolio-item-image">
+                                                    <img src="/SE2014-Project_Website/themes/classic/assets/img/demo/thumb-3.jpg" alt="" />
+                                                    <div class="w-portfolio-item-meta">
+                                                        <h3 class="w-portfolio-item-title">Giáo trình</h3>
+                                                        <i class="icon-mail-forward"></i>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="w-portfolio-item">
+                                        <div class="w-portfolio-item-h">
+                                            <a class="w-portfolio-item-anchor" href="project-another-slider.html">
+                                                <div class="w-portfolio-item-image">
+                                                    <img src="/SE2014-Project_Website/themes/classic/assets/img/demo/thumb-3.jpg" alt="" />
+                                                    <div class="w-portfolio-item-meta">
+                                                        <h3 class="w-portfolio-item-title">Silde lecture</h3>
+                                                        <i class="icon-mail-forward"></i>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="w-portfolio-item">
+                                        <div class="w-portfolio-item-h">
+                                            <a class="w-portfolio-item-anchor" href="project-another-slider.html">
+                                                <div class="w-portfolio-item-image">
+                                                    <img src="/SE2014-Project_Website/themes/classic/assets/img/demo/thumb-3.jpg" alt="" />
+                                                    <div class="w-portfolio-item-meta">
+                                                        <h3 class="w-portfolio-item-title">Đáp án</h3>
+                                                        <i class="icon-mail-forward"></i>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
-                <div class="w-portfolio columns_4">
-                     <div> <img class="" src="/SE2014-Project_Website/themes/classic/assets/img/ajax-loader.gif" alt="" style="" id="loading"/></div>
-                    <div class="w-portfolio-h">
-                        <div class="w-portfolio-list">
-                           
-                            <div class="w-portfolio-list-h" id="docblock">
-
-                                
-                            </div>
-                        </div>
-
-                        <div class="w-portfolio-pagination">
-                            <div class="g-pagination align_center">
-                                <a href="javascript:void(0);" class="g-pagination-item to_prev disabled">Prev</a>
-                                <a href="javascript:void(0);" class="g-pagination-item active">1</a>
-                                <a href="javascript:void(0);" class="g-pagination-item">2</a>
-                                <a href="javascript:void(0);" class="g-pagination-item">3</a>
-                                <a href="javascript:void(0);" class="g-pagination-item to_next">Next</a>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
+<!-- /MAIN -->
+</div><!-- content -->
             </div>
-        </div>
-    </div>
-</div>            </div>
             <!-- /MAIN -->
 
         </div>

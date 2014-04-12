@@ -14,13 +14,13 @@ class ShareController extends Controller {
         }
 
     public function actionSideBarLeft(){
-        $subject = Yii::app()->db->createCommand()
-        ->select('*')
-        ->from('tbl_subject')
-        ->join('tbl_relation_faculty_subject', 'tbl_subject.subject_id = tbl_relation_faculty_subject.subject_id')
-        ->queryAll();
+//        $subject = Yii::app()->db->createCommand()
+//        ->select('*')
+//        ->from('tbl_subject')
+//        ->join('tbl_relation_faculty_subject', 'tbl_subject.subject_id = tbl_relation_faculty_subject.subject_id')
+//        ->queryAll();
        
-        $this->renderPartial("partial/side_bar_left", array('year'=>  $subject));
+        $this->renderPartial("partial/side_bar_left"/*, array('year'=>  $subject)*/);
     }
 
 
