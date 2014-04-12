@@ -56,7 +56,7 @@
                                 <h6>Kien's favorite books</h6>
                             </div>
 
-                            <div class="w-gallery layout_tile size_xs">
+                            <div class="w-gallery layout_tile size_s">
                                 <div class="w-gallery-h">
                                     <div class="w-gallery-tnails">
                                         <div class="w-gallery-tnails-h">
