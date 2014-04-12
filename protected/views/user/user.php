@@ -288,12 +288,33 @@
                     </div>
                 </div>
                 
+                <div>
+                    <a href="" style="margin-left: 30px">More...</a>
+                    <br/>
+                    <a href="">
+                    <button class="g-btn type_outline"><span><i class="icon-heart"></i>Creat your own group</span></button>
+                    </a>
+                </div>
+
                 <div class="rounded2 color_alternate">
-                    <h6>Kien's friends</h6>
+                    <h6>Kien's Information</h6>
                 </div>
                 
-                <div class="rounded2 color_alternate">
-                    <h6>Groups Kien is followings</h6>
+                <div>
+                    <i class="icon-user"></i>
+                    <span>&nbsp Working at &nbsp : &nbsp &nbsp &nbsp &nbsp &nbsp <span style="color: #B0B3B5">UET-bluebee team</span> </span>
+                    <br/>
+                    <i class="icon-phone"></i>
+                    <span>&nbsp Phone &nbsp : &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <span style="color: #B0B3B5">01666107083</span> </span>
+                    <br/>
+                    <i class="icon-home"></i>
+                    <span>&nbsp Live at &nbsp : &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <span style="color: #B0B3B5">Ha Noi, Viet Nam</span> </span>
+                    <br/>
+                    <i class="icon-heart"></i>
+                    <span>&nbsp Relationship &nbsp : &nbsp &nbsp &nbsp <span style="color: #BABDBF">Forever alone</span> </span>
+                    <br/>
+                    <i class="icon-group"></i>
+                    <span>&nbsp Join in &nbsp : &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <span style="color: #B0B3B5">13/1/2014</span> </span>
                 </div>
 
             </div>
