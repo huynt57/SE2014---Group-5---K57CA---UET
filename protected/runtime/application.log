@@ -20532,3 +20532,27 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/SE2014---Group-5---K57CA---UET/index.php
 ---
+2014/04/12 10:17:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "discussion".' in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014---Group-5---K57CA---UET/index.php
+---
+2014/04/12 10:39:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "discussion".' in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014---Group-5---K57CA---UET/index.php
+---
+2014/04/12 10:40:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "discussion".' in C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\web\CWebApplication.php(141): CWebApplication->runController('')
+#1 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\SE2014---Group-5---K57CA---UET\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/SE2014---Group-5---K57CA---UET/index.php
+---
