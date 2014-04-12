@@ -3,10 +3,13 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/xampp/htdocs/SE2014-Project_Website/themes/classic/assets/css/ava.css</file>
-            <file>file:/C:/xampp/htdocs/SE2014-Project_Website/protected/views/user/user.php</file>
-            <file>file:/C:/xampp/htdocs/SE2014-Project_Website/protected/views/contact/Contact.php</file>
-            <file>file:/C:/xampp/htdocs/SE2014-Project_Website/protected/views/discussion/discussion.php</file>
+            <file>file:/C:/xampp/htdocs/SE2014-Group-2-K57CA-UET-BlueBee/protected/controllers/UserController.php</file>
+            <file>file:/C:/xampp/htdocs/SE2014-Group-2-K57CA-UET-BlueBee/protected/controllers/ViewDocumentController.php</file>
+            <file>file:/C:/xampp/htdocs/SE2014-Group-2-K57CA-UET-BlueBee/protected/controllers/ShareController.php</file>
+            <file>file:/C:/xampp/htdocs/SE2014-Group-2-K57CA-UET-BlueBee/protected/views/classpage/ClassPage.php</file>
+            <file>file:/C:/xampp/htdocs/SE2014-Group-2-K57CA-UET-BlueBee/protected/views/contact/Contact.php</file>
+            <file>file:/C:/xampp/htdocs/SE2014-Group-2-K57CA-UET-BlueBee/protected/views/aboutUs/AboutUs.php</file>
+            <file>file:/C:/xampp/htdocs/SE2014-Group-2-K57CA-UET-BlueBee/protected/controllers/SiteController.php</file>
         </group>
     </open-files>
 </project-private>
