@@ -109,6 +109,10 @@
                             <div class="rounded1 color_alternate">
                                 <h6>Kien's quotes</h6>
                             </div>
+                            
+                            <div>
+                                Kien hasn't added any quotes yet.<a href="">Add quotes now >></a>
+                            </div>
 
 
                             <div class="rounded1 color_alternate">
@@ -228,18 +232,6 @@
                                 </div>
                             </div>
 
-                            <div class="rounded1 color_alternate">
-                                <h6>Kien's friend comments</h6>
-                            </div>
-
-                            <div class="wrapper">
-                                <form id="form" action="" method="" name="" style="color: windowframe">
-                                    <label for="input-1">Friend's Comments</label>
-                                    <textarea name="message" id="message" placeholder="Enter a cool message..." tabindex="5" class="txtblock" style="color: whitesmoke"></textarea>
-                                    <input type="submit" name="submit" id="submitbtn" class="submitbtn" tabindex="7" value="Post">
-                                </form>
-                            </div>
-
                         </div>
                     </div>
                 </div>
@@ -288,12 +280,33 @@
                     </div>
                 </div>
                 
+                <div>
+                    <a href="" style="margin-left: 30px">More...</a>
+                    <br/>
+                    <a href="">
+                    <button class="g-btn type_outline"><span><i class="icon-heart"></i>Creat your own group</span></button>
+                    </a>
+                </div>
+
                 <div class="rounded2 color_alternate">
-                    <h6>Kien's friends</h6>
+                    <h6>Kien's Information</h6>
                 </div>
                 
-                <div class="rounded2 color_alternate">
-                    <h6>Groups Kien is followings</h6>
+                <div>
+                    <i class="icon-user"></i>
+                    <span>&nbsp Working at &nbsp : &nbsp &nbsp &nbsp &nbsp &nbsp <span style="color: #B0B3B5">UET-bluebee team</span> </span>
+                    <br/>
+                    <i class="icon-phone"></i>
+                    <span>&nbsp Phone &nbsp : &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <span style="color: #B0B3B5">01666107083</span> </span>
+                    <br/>
+                    <i class="icon-home"></i>
+                    <span>&nbsp Live at &nbsp : &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <span style="color: #B0B3B5">Ha Noi, Viet Nam</span> </span>
+                    <br/>
+                    <i class="icon-heart"></i>
+                    <span>&nbsp Relationship &nbsp : &nbsp &nbsp &nbsp <span style="color: #BABDBF">Forever alone</span> </span>
+                    <br/>
+                    <i class="icon-group"></i>
+                    <span>&nbsp Join in &nbsp : &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <span style="color: #B0B3B5">13/1/2014</span> </span>
                 </div>
 
             </div>
