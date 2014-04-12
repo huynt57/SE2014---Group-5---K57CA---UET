@@ -68,7 +68,7 @@
                             </div>
                             <div class="g-form-row">
                                 <div class="g-form-row-field">
-                                    <button class="g-btn type_primary" type="submit" name="Submit" value="Submit">Đăng Ký</button>
+                                    <button class="g-btn type_primary" type="submit" name="Submit" value="Submit">Đang ky</button>
                                 </div>
                             </div>
                         </div>

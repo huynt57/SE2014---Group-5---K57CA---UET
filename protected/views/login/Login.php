@@ -119,7 +119,7 @@
                                 <div class="w-tabs-section with_icon">
                                     <div class="w-tabs-section-title">
                                         <span class="w-tabs-section-title-icon fa fa-flask"></span>
-                                        <span class="w-tabs-section-title-text">Chưa có Tài Khoản? Đăng Ký!</span>
+                                        <span class="w-tabs-section-title-text" name="Sign_up">Chua co tai khoan? Dang ky!</span>
                                         <span class="w-tabs-section-title-control">
                                             <i class="icon-angle-down"></i>
                                         </span>
