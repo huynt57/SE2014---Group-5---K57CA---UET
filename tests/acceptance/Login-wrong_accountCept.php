@@ -1,3 +1,9 @@
 <?php
 $I = new WebGuy($scenario);
-$I->wantTo('perform actions and see result');
+$I->wantTo('login');
+$I->amOnPage('/login');
+$I->fillField('username', 'nguyen');
+$I->fillField('Password','123');
+$I->click('Submit');
+$I->see('Ten nguoi dung chua duoc danh ky');
+?>

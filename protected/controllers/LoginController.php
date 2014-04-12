@@ -31,20 +31,20 @@ class LoginController extends BaseController {
                         if ($user) {
                             //user existed, check password
                             if (strcmp($user->user_password, $loginFormData['user_password'] == 0)) {
-                                $this->retVal->message = "Đăng nhập thành công";
+                                $this->retVal->message = "Dang nhap thanh cong";
                                 //     Yii::app()->request->redirect('discussion');
                             } else {
                                 //user not existed
-                                $this->retVal->message = "Sai tên người dùng hoặc mật khẩu";
+                                $this->retVal->message = "Sai ten nguoi dung hoac mat khau";
                             }
                         } else {
-                            $this->retVal->message = "Tên người dùng chưa được đăng kí";
+                            $this->retVal->message = "Ten nguoi dung chua duoc danh ky";
                         }
                     } else {
-                        $this->retVal->message = "Password không được để trống";
+                        $this->retVal->message = "Password khong duoc de trong";
                     }
                 } else {
-                    $this->retVal->message = "User name không được để trống";
+                    $this->retVal->message = "User name khong duoc de trong";
                 }
             } catch (exception $e) {
                 $this->retVal->message = $e->getMessage();
