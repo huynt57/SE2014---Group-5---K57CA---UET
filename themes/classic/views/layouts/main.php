@@ -94,7 +94,7 @@
     </head>
 
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
-<body class="l-body home">
+<body class="l-body home" style="background-color: white">
 
     <!-- CANVAS -->
     <div class="l-canvas type_wide col_cont headerpos_fixed headertype_extended">
@@ -316,135 +316,13 @@
                 <?php echo $content; ?>
             </div>
             <!-- /MAIN -->
-
         </div>
     </div>
     <!-- /CANVAS -->
 
     <!-- FOOTER -->
-    <div class="l-footer type_normal">
+    <div class="l-footer type_normal" style="margin-top: 50px;">
         <div class="l-footer-h">
-
-            <!-- subfooter: top -->
-            <div class="l-subfooter at_top">
-                <div class="l-subfooter-h g-cols cols_fluid">
-
-                    <div class="one-third">
-                        <div class="widget">
-                            <h4>Ý tưởng</h4>
-                            <p>Chúng tôi là 5 sinh viên K57CA - UET, chúng tôi tạo ra trang web này với mong muốn trở thành một nơi hoạt động bổ ích cho mọi sinh viên đại học. Đến với chúng tôi, bạn sẽ tìm thấy mọi thứ bạn cần ! </p>
-                            <p>BlueBee - Everything you need to become an UET's student !!!</p>
-                        </div>
-                    </div>
-
-
-
-                    <div class="one-third">
-                        <div class="widget">
-
-                            <h4>Tìm chúng tôi bằng cách nào ?</h4>
-
-                            <div class="w-contacts">
-                                <div class="w-contacts-h">
-                                    <div class="w-contacts-list">
-                                        <div class="w-contacts-item for_address">
-                                            <i class="icon-location"></i>
-                                            <span class="w-contacts-item-name">Địa chỉ:</span>
-                                            <span class="w-contacts-item-value">Đại học Công nghệ - Đại học Quốc gia Hà Nội</span>
-                                        </div>
-                                        <div class="w-contacts-item for_phone">
-                                            <i class="icon-mobile"></i>
-                                            <span class="w-contacts-item-name">Phone:</span>
-                                            <span class="w-contacts-item-value">+321 123 4567</span>
-                                        </div>
-                                        <div class="w-contacts-item for_email">
-                                            <i class="icon-mail"></i>
-                                            <span class="w-contacts-item-name">Email:</span>
-                                            <span class="w-contacts-item-value"><a href="mailto:info@example.com">info@example.com</a></span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="widget">
-
-                            <div class="w-socials size_normal">
-                                <div class="w-socials-h">
-                                    <div class="w-socials-list">
-
-                                        <div class="w-socials-item facebook">
-                                            <a class="w-socials-item-link" target="_blank" href="javascript:void(0);">
-                                                <i class="icon-facebook"></i>
-                                            </a>
-                                            <div class="w-socials-item-popup">
-                                                <div class="w-socials-item-popup-h">
-                                                    <span class="w-socials-item-popup-text">Facebook</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="w-socials-item twitter">
-                                            <a class="w-socials-item-link" target="_blank" href="javascript:void(0);">
-                                                <i class="icon-twitter"></i>
-                                            </a>
-                                            <div class="w-socials-item-popup">
-                                                <div class="w-socials-item-popup-h">
-                                                    <span class="w-socials-item-popup-text">Twitter</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="w-socials-item gplus">
-                                            <a class="w-socials-item-link" target="_blank" href="javascript:void(0);">
-                                                <i class="icon-google-plus"></i>
-                                            </a>
-                                            <div class="w-socials-item-popup">
-                                                <div class="w-socials-item-popup-h">
-                                                    <span class="w-socials-item-popup-text">Google</span>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="w-socials-item linkedin">
-                                            <a class="w-socials-item-link" target="_blank" href="javascript:void(0);">
-                                                <i class="icon-linkedin"></i>
-                                            </a>
-                                            <div class="w-socials-item-popup">
-                                                <div class="w-socials-item-popup-h">
-                                                    <span class="w-socials-item-popup-text">LinkedIn</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="w-socials-item tumblr">
-                                            <a class="w-socials-item-link" target="_blank" href="javascript:void(0);">
-                                                <i class="icon-tumblr"></i>
-                                            </a>
-                                            <div class="w-socials-item-popup">
-                                                <div class="w-socials-item-popup-h">
-                                                    <span class="w-socials-item-popup-text">Tumblr</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="w-socials-item dribbble">
-                                            <a class="w-socials-item-link" target="_blank" href="javascript:void(0);">
-                                                <i class="icon-dribbble"></i>
-                                            </a>
-                                            <div class="w-socials-item-popup">
-                                                <div class="w-socials-item-popup-h">
-                                                    <span class="w-socials-item-popup-text">Dribbble</span>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
             <!-- subfooter: bottom -->
             <div class="l-subfooter at_bottom">
                 <div class="l-subfooter-h i-cf">
@@ -489,7 +367,7 @@
 
     <!-- /FOOTER -->
 
-    <a class="w-toplink" href="#"><i class="icon-angle-up"></i></a>
+    <a class="w-toplink" href="#"><i class="icon-angle-up" style="line-height: inherit"></i></a>
 
     <script>
         window.color_scheme = "color_11";

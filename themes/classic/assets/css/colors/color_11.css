@@ -117,7 +117,6 @@ body {
 .w-timeline-item,
 .w-timeline-section-title,
 .w-timeline.type_vertical .w-timeline-section-content,
-.flex-direction-nav a,
 .tp-leftarrow.default,
 .tp-rightarrow.default {
 	background-color: #fff;
@@ -368,7 +367,6 @@ a:active,
 .for_faq .w-tabs-section-title-icon,
 .w-team-member-role,
 .w-testimonial-person i,
-.flex-direction-nav a,
 .tp-leftarrow.default,
 .tp-rightarrow.default,
 #wp-calendar thead th,
