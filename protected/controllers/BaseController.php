@@ -1,8 +1,7 @@
 <?php
 
-class BaseController extends CController
-{
-	public $retVal;
-        
-	
+class BaseController extends CController {
+
+    public $retVal;
+
 }
