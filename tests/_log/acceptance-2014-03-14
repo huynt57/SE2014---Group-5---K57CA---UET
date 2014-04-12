@@ -1,34 +1,0 @@
-[2014-03-14 01:39:06] DiscussionPageCept.php.INFO: am on page "/" [] []
-[2014-03-14 01:39:06] DiscussionPageCept.php.INFO: see "Thảo luận" [] []
-[2014-03-14 01:39:06] DiscussionPageCept.php.INFO: PASSED [] []
-[2014-03-14 01:39:06] DocumentCept.php.INFO: am on page "/document" [] []
-[2014-03-14 01:39:08] DocumentCept.php.INFO: see "" [] []
-[2014-03-14 01:39:08] DocumentCept.php.ALERT: Failed asserting that 
--->  <bold>/SE2014-Project_Website/index.php/document</bold><info>﻿    jQuery(document).ready(function() { jQuery('.w-map-h').gMap({ controls: { panControl: false, zoomControl: true, mapTypeControl: true, scaleControl: false, streetViewControl: false, overviewMapControl: false }, address: "&#272;&#7841;i h&#7885;c Qu&#7889;c Gia H&agrave; N&#7897;i</info>
-<debug>[Content too long to display. See complete response in '_log' directory]</debug>
---> contains "". [] []
-[2014-03-14 01:39:08] DocumentCept.php.INFO: # FAILED # [] []
-[2014-03-14 01:39:08] DocumentCept.php.INFO: PASSED [] []
-[2014-03-14 01:39:08] LoginCept.php.INFO: am on page "/login" [] []
-[2014-03-14 01:39:08] LoginCept.php.INFO: fill field "username","davert" [] []
-[2014-03-14 01:39:08] LoginCept.php.INFO: fill field "Password","qwerty" [] []
-[2014-03-14 01:39:08] LoginCept.php.INFO: click "Submit" [] []
-[2014-03-14 01:39:09] LoginCept.php.INFO: see "Ten nguoi dung chua dc dang ky" [] []
-[2014-03-14 01:39:09] LoginCept.php.INFO: PASSED [] []
-[2014-03-14 11:46:43] DiscussionPageCept.php.INFO: am on page "/" [] []
-[2014-03-14 11:46:43] DiscussionPageCept.php.INFO: see "Thảo luận" [] []
-[2014-03-14 11:46:43] DiscussionPageCept.php.INFO: PASSED [] []
-[2014-03-14 11:46:43] DocumentCept.php.INFO: am on page "/document" [] []
-[2014-03-14 11:46:44] DocumentCept.php.INFO: see "" [] []
-[2014-03-14 11:46:44] DocumentCept.php.ALERT: Failed asserting that 
--->  <bold>/SE2014-Project_Website/index.php/document</bold><info>﻿    jQuery(document).ready(function() { jQuery('.w-map-h').gMap({ controls: { panControl: false, zoomControl: true, mapTypeControl: true, scaleControl: false, streetViewControl: false, overviewMapControl: false }, address: "&#272;&#7841;i h&#7885;c Qu&#7889;c Gia H&agrave; N&#7897;i</info>
-<debug>[Content too long to display. See complete response in '_log' directory]</debug>
---> contains "". [] []
-[2014-03-14 11:46:44] DocumentCept.php.INFO: # FAILED # [] []
-[2014-03-14 11:46:44] DocumentCept.php.INFO: PASSED [] []
-[2014-03-14 11:46:44] LoginCept.php.INFO: am on page "/login" [] []
-[2014-03-14 11:46:44] LoginCept.php.INFO: fill field "username","davert" [] []
-[2014-03-14 11:46:44] LoginCept.php.INFO: fill field "Password","qwerty" [] []
-[2014-03-14 11:46:44] LoginCept.php.INFO: click "Submit" [] []
-[2014-03-14 11:46:46] LoginCept.php.INFO: see "Ten nguoi dung chua dc dang ky" [] []
-[2014-03-14 11:46:46] LoginCept.php.INFO: PASSED [] []
