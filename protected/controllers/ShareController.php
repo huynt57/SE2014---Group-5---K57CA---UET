@@ -10,11 +10,11 @@ class ShareController extends Controller {
         $this->render('share');
     }
 
-    public function actionTeacher(){
+    public function actionTeacher() {
         $this->render('teacher');
     }
-    
-    public function actionSubject(){
+
+    public function actionSubject() {
         $this->render('subject');
     }
 
