@@ -13,7 +13,7 @@ class DocumentController extends BaseController {
         $Criteria = new CDbCriteria(); //represent for query such as conditions, ordering by, limit/offset. 
         $Criteria->select = "*";
         $Criteria->order = "doc_id DESC";
-        
+
         $this->render('document', array('document' => Doc::model()->findAll($Criteria)));
     }
 
