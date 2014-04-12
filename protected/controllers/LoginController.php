@@ -4,7 +4,7 @@ Yii::import('application.controllers.BaseController');
 Yii::import('application.components.facebook');
 Yii::import('application.components.base_facebook');
 
-$facebook_path = Yii::getPathOfAlias('webroot').'/protected/extensions/facebook.php';
+$facebook_path = Yii::getPathOfAlias('webroot') . '/protected/extensions/facebook.php';
 include_once($facebook_path);
 
 //YiiBase::import($facebook_path);
@@ -38,7 +38,7 @@ class LoginController extends BaseController {
                                 $this->retVal->message = "Sai tên người dùng hoặc mật khẩu";
                             }
                         } else {
-                            $this->retVal->message = "Ten nguoi dung chua dc dang ky";
+                            $this->retVal->message = "Tên người dùng chưa được đăng kí";
                         }
                     } else {
                         $this->retVal->message = "Password không được để trống";
@@ -93,15 +93,15 @@ class LoginController extends BaseController {
                                                     if ($model->save(FALSE)) {
                                                         $this->retVal->message = "Đăng ký thành công, hãy đăng nhập bằng tài khoản của bạn";
                                                     } else {
-                                                        $this->retVal->message = "Không thể lưu user";
+                                                        $this->retVal->message = "Không thể lưu user do lỗi server";
                                                     }
                                                 } else {
-                                                    $this->retVal->message = "Không thể lưu user";
+                                                    $this->retVal->message = "Không thể lưu user do lỗi server ";
                                                 }
                                             }
                                         }
                                     } else {
-                                        $this->retVal->message = "password phải nhiều hơn 5 kí tự";
+                                        $this->retVal->message = "Password phải nhiều hơn 5 kí tự";
                                     }
                                 } else {
                                     $this->retVal->message = "Sai định dạng email";
@@ -110,13 +110,13 @@ class LoginController extends BaseController {
                                 $this->retVal->message = "username không được có khoảng trắng và phải nhiều hơn 5 kí tự";
                             }
                         } else {
-                            $this->retVal->message = "password không được để trống";
+                            $this->retVal->message = "Password không được để trống";
                         }
                     } else {
-                        $this->retVal->message = "email không được để trống";
+                        $this->retVal->message = "Email không được để trống";
                     }
                 } else {
-                    $this->retVal->message = "username không được để trống";
+                    $this->retVal->message = "Username không được để trống";
                 }
             } catch (exception $e) {
                 $this->retVal->message = $e->getMessage();
@@ -127,40 +127,42 @@ class LoginController extends BaseController {
 
         $this->render('login/signup');
     }
-    function getFb(){
-		$app_id = "1428478800723370";
+
+    function getFb() {
+        $app_id = "1428478800723370";
         $app_secret = "64b21e0ab23ec7db82979f9607065704";
         $site_url = "bluebee-uet.com";
-        
+
         $facebook = new Facebook(array(
             'appId' => $app_id,
             'secret' => $app_secret,
             "cookie" => true
         ));
-        return $facebook;   
+        return $facebook;
     }
-    public function actionFb_login(){
-	    $facebook = $this->getFb();
-	    $loginUrl = $facebook->getLoginUrl(array(
+
+    public function actionFb_login() {
+        $facebook = $this->getFb();
+        $loginUrl = $facebook->getLoginUrl(array(
             'scope' => '',
             'redirect_uri' => "http://bluebee-uet.com/discussion",
         ));
         $this->redirect($loginUrl);
     }
-    public function actionFb_login_result(){
-	    $facebook = $this->getFb();
-	    $access_token = $facebook->getAccessToken();
-		//$message .= "access_token = ".$access_token."<br/>";
-		$user = $facebook->api("me","get",array(
-			"access_token" => $access_token
-		));
-		//print_r($user);
+
+    public function actionFb_login_result() {
+        $facebook = $this->getFb();
+        $access_token = $facebook->getAccessToken();
+        $user = $facebook->api("me", "get", array(
+            "access_token" => $access_token
+        ));
     }
+
     public function actionloginFacebook() {
         $app_id = "1428478800723370";
         $app_secret = "64b21e0ab23ec7db82979f9607065704";
         $site_url = "bluebee-uet.com";
-        
+
         $facebook = new Facebook(array(
             'appId' => $app_id,
             'secret' => $app_secret,
@@ -168,12 +170,6 @@ class LoginController extends BaseController {
 
 // Get User ID
         $user = $facebook->getUser();
-// We may or may not have this data based
-// on whether the user is logged in.
-// If we have a $user id here, it means we know
-// the user is logged into
-// Facebook, but we don’t know if the access token is valid. An access
-// token is invalid if the user logged out of Facebook.
 
         if ($user) {
 //==================== Single query method ======================================
@@ -197,7 +193,6 @@ class LoginController extends BaseController {
                 'redirect_uri' => $site_url,
             ));
             $this->redirect($loginUrl);
-            
         }
 
         if ($user) {
@@ -224,31 +219,6 @@ class LoginController extends BaseController {
             $feed = json_decode($batchResponse[1]['body'], TRUE);
             $friends_list = json_decode($batchResponse[2]['body'], TRUE);
             $photos = json_decode($batchResponse[3]['body'], TRUE);
-////========= Batch requests over the Facebook Graph API using the PHP-SDK ends =====
-//            // Update user's status using graph api
-//            if (isset($_POST['publish'])) {
-//                try {
-//                    $publishStream = $facebook->api("/$user/feed", 'post', array(
-//                        'message' => 'Check out 25 labs',
-//                        'link' => 'http://25labs.com',
-//                        'picture' => 'http://25labs.com/images/25-labs-160-160.jpg',
-//                        'name' => '25 labs',
-//                        'caption' => '25labs.com',
-//                        'description' => 'A Technology Laboratory. Highly Recomented technology blog.',
-//                    ));
-//                } catch (FacebookApiException $e) {
-//                    error_log($e);
-//                }
-//            }
-//
-//            // Update user's status using graph api
-//            if (isset($_POST['status'])) {
-//                try {
-//                    $statusUpdate = $facebook->api("/$user/feed", 'post', array('message' => $_POST['status']));
-//                } catch (FacebookApiException $e) {
-//                    error_log($e);
-//                }
-//            }
         }
         $this->render('fb');
     }
