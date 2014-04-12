@@ -26,12 +26,12 @@
                             <div class="w-contacts-item for_phone">
                                 <i class="fa fa-phone"></i>
                                 <span class="w-contacts-item-name">Điện Thoại:</span>
-                                <span class="w-contacts-item-value">+321 123 4567</span>
+                                <span class="w-contacts-item-value">+123456789</span>
                             </div>
                             <div class="w-contacts-item for_email">
                                 <i class="fa fa-envelope"></i>
                                 <span class="w-contacts-item-name">Email:</span>
-                                <span class="w-contacts-item-value"><a href="mailto:info@example.com">info@example.com</a></span>
+                                <span class="w-contacts-item-value"><a href="mailto:admin@bluebee.com">info@example.com</a></span>
                             </div>
                         </div>
                     </div>
