@@ -47,15 +47,20 @@
         border-radius: 8px;
         }
         
-.rec1 {
-	width: 30px;
-	height: 40px;
+.ava {
+	width: 60px;
+	height: 60px;
         display: inline-block;
-        margin-right: 10px;
-        margin-top: 11px;
-        overflow: hidden;
-        border: hidden;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+        margin: 10px;
 	}
+        
+.ava img {
+        opacity: 0;
+	filter: alpha(opacity=0);
+        }
         
 img.float_left{
         float: left;

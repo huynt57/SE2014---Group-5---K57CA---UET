@@ -2,6 +2,6 @@
 $I = new WebGuy($scenario);
 $I->wantTo('sign up');
 $I->amOnPage('/login');
-$I->click('Sign_up');
-$I->see('Dang ky');
+$I->click('Dang ky');
+$I->see('Username khong duoc de trong');
 ?>

@@ -116,7 +116,7 @@ class LoginController extends BaseController {
                         $this->retVal->message = "Email không được để trống";
                     }
                 } else {
-                    $this->retVal->message = "Username không được để trống";
+                    $this->retVal->message = "Username khong duoc de trong";
                 }
             } catch (exception $e) {
                 $this->retVal->message = $e->getMessage();
