@@ -72,7 +72,7 @@
                 $(document).on('click', '.popup-modal-dismiss', function(e) {
                     e.preventDefault();
                     $.magnificPopup.close();
-                    }
+                }
                 );
             });
         </script>
@@ -121,114 +121,13 @@
             <!-- HEADER -->
             <div class="l-header">
                 <div class="l-header-h">
-
-                    <div class="l-subheader at_top">
+                    <div class="l-subheader at_top" style="background-image: url('<?php echo Yii::app()->theme->baseUrl; ?>/assets/img/demo/header.jpg')">
                         <div class="l-subheader-h i-cf">
-
-                            <div class="w-contacts">
-                                <div class="w-contacts-h">
-                                    <div class="w-contacts-list">
-                                        <div class="w-contacts-item for_phone">
-                                            <i class="icon-phone"></i>
-                                            <span class="w-contacts-item-name">Phone:</span>
-                                            <span class="w-contacts-item-value">+84123456789</span>
-                                        </div>
-                                        <div class="w-contacts-item for_email">
-                                            <i class="icon-envelope"></i>
-                                            <span class="w-contacts-item-name">Email:</span>
-                                            <span class="w-contacts-item-value"><a href="mailto:info@example.com">info@example.com</a></span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-
-
-                            <div class="w-socials">
-                                <div class="w-socials-h">
-                                    <div class="w-socials-list">
-
-                                        <div class="w-socials-item facebook">
-                                            <a class="w-socials-item-link" target="_blank" href="javascript:void(0);">
-                                                <i class="icon-facebook"></i>
-                                            </a>
-                                            <div class="w-socials-item-popup">
-                                                <div class="w-socials-item-popup-h">
-                                                    <span class="w-socials-item-popup-text">Facebook</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="w-socials-item twitter">
-                                            <a class="w-socials-item-link" target="_blank" href="javascript:void(0);">
-                                                <i class="icon-twitter"></i>
-                                            </a>
-                                            <div class="w-socials-item-popup">
-                                                <div class="w-socials-item-popup-h">
-                                                    <span class="w-socials-item-popup-text">Twitter</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="w-socials-item gplus">
-                                            <a class="w-socials-item-link" target="_blank" href="javascript:void(0);">
-                                                <i class="icon-google-plus"></i>
-                                            </a>
-                                            <div class="w-socials-item-popup">
-                                                <div class="w-socials-item-popup-h">
-                                                    <span class="w-socials-item-popup-text">Google</span>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <div class="w-socials-item linkedin">
-                                            <a class="w-socials-item-link" target="_blank" href="javascript:void(0);">
-                                                <i class="icon-linkedin"></i>
-                                            </a>
-                                            <div class="w-socials-item-popup">
-                                                <div class="w-socials-item-popup-h">
-                                                    <span class="w-socials-item-popup-text">LinkedIn</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="w-socials-item youtube">
-                                            <a class="w-socials-item-link" target="_blank" href="javascript:void(0);">
-                                                <i class="icon-youtube-play"></i>
-                                            </a>
-                                            <div class="w-socials-item-popup">
-                                                <div class="w-socials-item-popup-h">
-                                                    <span class="w-socials-item-popup-text">YouTube</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="w-socials-item pinterest">
-                                            <a class="w-socials-item-link" target="_blank" href="javascript:void(0);">
-                                                <i class="icon-pinterest"></i>
-                                            </a>
-                                            <div class="w-socials-item-popup">
-                                                <div class="w-socials-item-popup-h">
-                                                    <span class="w-socials-item-popup-text">Pinterest</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="w-socials-item tumblr">
-                                            <a class="w-socials-item-link" target="_blank" href="javascript:void(0);">
-                                                <i class="icon-tumblr"></i>
-                                            </a>
-                                            <div class="w-socials-item-popup">
-                                                <div class="w-socials-item-popup-h">
-                                                    <span class="w-socials-item-popup-text">Tumblr</span>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-
                         </div>
                     </div>
+
                     <div class="l-subheader at_middle">
                         <div class="l-subheader-h i-cf">
-
                             <!-- LOGO -->
                             <div class="w-logo">
                                 <div class="w-logo-h">
@@ -283,7 +182,7 @@
                                                 <div class="w-nav-item-h">
                                                     <a href="<?php echo Yii::app()->createUrl("discussion") ?>" class="w-nav-anchor level_1">
                                                         <span class="w-nav-icon"><i class="icon-star"></i></span>
-                                                        <span class="w-nav-title">Thảo luận</span>
+                                                        <span class="w-nav-title"><b>Home</b></span>
                                                         <span class="w-nav-hint"></span>
                                                     </a>
                                                 </div>
@@ -292,7 +191,7 @@
                                                 <div class="w-nav-item-h">
                                                     <a href="<?php echo Yii::app()->createUrl("document") ?>" class="w-nav-anchor level_1">
                                                         <span class="w-nav-icon"><i class="icon-star"></i></span>
-                                                        <span class="w-nav-title">Chia sẻ tài liệu</span>
+                                                        <span class="w-nav-title"><b>Book shelf</b></span>
                                                         <span class="w-nav-hint"></span>
                                                     </a>
                                                 </div>
@@ -302,17 +201,44 @@
                                                 <div class="w-nav-item-h">
                                                     <a href="<?php echo Yii::app()->createUrl("share") ?>" class="w-nav-anchor level_1">
                                                         <span class="w-nav-icon"><i class="icon-star"></i></span>
-                                                        <span class="w-nav-title">Kinh nghiệm học tập</span>
+                                                        <span class="w-nav-title"><b>My classes</b></span>
+                                                        <span class="w-nav-hint"></span>
+                                                    </a>
+
+                                                    <div class="w-nav-list place_down show_onhover level_2">
+                                                        <div class="w-nav-list-h">
+                                                            <div class="w-nav-item level_2">
+                                                                <div class="w-nav-item-h">
+                                                                    <a href="home-landing.html" class="w-nav-anchor level_2">Home - Landing Page</a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="w-nav-item level_2">
+                                                                <div class="w-nav-item-h">
+                                                                    <a href="home-parallax.html" class="w-nav-anchor level_2">Home - Parallax</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+                                            <div class="w-nav-item level_1">
+                                                <div class="w-nav-item-h">
+                                                    <a href="<?php echo Yii::app()->createUrl("share") ?>" class="w-nav-anchor level_1">
+                                                        <span class="w-nav-icon"><i class="icon-star"></i></span>
+                                                        <span class="w-nav-title"><b>Groups</b></span>
                                                         <span class="w-nav-hint"></span>
                                                     </a>
 
                                                 </div>
                                             </div>
+
                                             <div class="w-nav-item level_1">
                                                 <div class="w-nav-item-h">
                                                     <a href="<?php echo Yii::app()->createUrl("login") ?>" class="w-nav-anchor level_1">
                                                         <span class="w-nav-icon"><i class="icon-star"></i></span>
-                                                        <span class="w-nav-title">Đăng nhập</span>
+                                                        <span class="w-nav-title"><b>Log in</b></span>
                                                         <span class="w-nav-hint"></span>
                                                     </a>
                                                 </div>
