@@ -40,9 +40,6 @@
                         <div class="w-tabs">
                             <div class="w-tabs-h" id="fix-style-w-tab">
                                 <div class="w-tabs-list">
-                                    <style>
-                                        
-                                    </style>
                                     <div class="w-tabs-item fix-w-tab-item active">
                                         <span class="w-tabs-item-icon"></span>
                                         <span class="w-tabs-item-title">Activity</span>
@@ -70,9 +67,72 @@
                                         <span class="w-tabs-section-title-text">Activity</span>
                                         <span class="w-tabs-section-title-control"></span>
                                     </div>
+                                    <style>
+                                        .activity-input {
+                                            margin: 20px;
+                                            display: block;
+                                            width: auto;
+                                            height: auto;
+                                            position: relative;
+                                            overflow: visible;
+                                        }
+                                        .avatar-view {
+                                            width:35px;
+                                            height: 35px;
+                                            background-size: 35px;
+                                            border-radius: 50%;
+                                            top: 6px;
+                                            left: 6px;
+                                            z-index: 2;
+                                            position: absolute;
+                                        }
+                                        .activity-input-box {
+                                            border: 1px solid #d0d6d9;
+                                            border-radius: 5px;
+                                            box-sizing: border-box;
+                                            display: inline-block;
+                                            min-width: 50px;
+                                            width: 100%;
+                                            height: 100%;
+                                            overflow: hidden;
+                                            vertical-align: baseline;
+                                        }
+                                        .activity-input-content {
+                                            color: #3c4752;
+                                            width: 100%;
+                                            height: auto;
+                                            min-height: 45px;
+                                            line-height: 16px;
+                                            font-size: 14px;
+                                            padding: 15px 100px 14px 56px;
+                                        }
+                                        .placeholder {
+                                            color: #acacac;
+                                        }
+                                        .submit-button {
+                                            right: 9px;
+                                            bottom: 8px;
+                                            position: absolute;
+                                            z-index: 1;
+                                            margin: 0;
+                                        }
+                                    </style>
                                     <div class="w-tabs-section-content">
                                         <div class="w-tabs-section-content-h">
-                                            <input>
+                                            <div class="activity-input">
+                                                <a class="avatar-view" href="user">
+                                                    <img class="" width="35" height="35" src="<?php echo Yii::app()->theme->baseUrl; ?>/assets/img/default-avatar.png" style="opacity: 1;">
+                                                </a>
+                                                <div class="activity-input-box">
+                                                    <div contenteditable="true" class="activity-input-content">
+                                                        What's new User?
+                                                    </div>
+                                                    <button type="submit" class="g-btn type_primary size_small submit-button">
+                                                        <span>Post</span>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                            <div class="activity-content"></div>
                                         </div>
                                     </div>
                                 </div>
