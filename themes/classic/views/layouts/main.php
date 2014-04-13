@@ -122,8 +122,6 @@
             <div class="l-header">
                 <div class="l-header-h">
                     <div class="l-subheader at_top" style="background-image: url('<?php echo Yii::app()->theme->baseUrl; ?>/assets/img/demo/header.jpg')">
-                        <div class="l-subheader-h i-cf">
-                        </div>
                     </div>
 
                     <div class="l-subheader at_middle">
@@ -170,8 +168,8 @@
                             </div>
 
                             <!-- NAV -->
-                            <nav class="w-nav">
-                                <div class="w-nav-h">
+                            <nav class="w-nav ">
+                                <div class="w-nav-h align_center">
                                     <div class="w-nav-select">
                                         <select class="w-nav-select-h">
                                         </select>
@@ -182,7 +180,7 @@
                                                 <div class="w-nav-item-h">
                                                     <a href="<?php echo Yii::app()->createUrl("discussion") ?>" class="w-nav-anchor level_1">
                                                         <span class="w-nav-icon"><i class="icon-star"></i></span>
-                                                        <span class="w-nav-title"><b>Home</b></span>
+                                                        <span class="w-nav-title">Home</span>
                                                         <span class="w-nav-hint"></span>
                                                     </a>
                                                 </div>
@@ -191,7 +189,7 @@
                                                 <div class="w-nav-item-h">
                                                     <a href="<?php echo Yii::app()->createUrl("document") ?>" class="w-nav-anchor level_1">
                                                         <span class="w-nav-icon"><i class="icon-star"></i></span>
-                                                        <span class="w-nav-title"><b>Book shelf</b></span>
+                                                        <span class="w-nav-title">Book shelf</span>
                                                         <span class="w-nav-hint"></span>
                                                     </a>
                                                 </div>
@@ -201,7 +199,7 @@
                                                 <div class="w-nav-item-h">
                                                     <a href="<?php echo Yii::app()->createUrl("share") ?>" class="w-nav-anchor level_1">
                                                         <span class="w-nav-icon"><i class="icon-star"></i></span>
-                                                        <span class="w-nav-title"><b>My classes</b></span>
+                                                        <span class="w-nav-title">My classes</span>
                                                         <span class="w-nav-hint"></span>
                                                     </a>
 
@@ -209,12 +207,12 @@
                                                         <div class="w-nav-list-h">
                                                             <div class="w-nav-item level_2">
                                                                 <div class="w-nav-item-h">
-                                                                    <a href="home-landing.html" class="w-nav-anchor level_2">Home - Landing Page</a>
+                                                                    <a href="home-landing.html" class="w-nav-anchor level_2">Class - Vietnam National University</a>
                                                                 </div>
                                                             </div>
                                                             <div class="w-nav-item level_2">
                                                                 <div class="w-nav-item-h">
-                                                                    <a href="home-parallax.html" class="w-nav-anchor level_2">Home - Parallax</a>
+                                                                    <a href="home-parallax.html" class="w-nav-anchor level_2">Class - Blue UET team</a>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -227,10 +225,30 @@
                                                 <div class="w-nav-item-h">
                                                     <a href="<?php echo Yii::app()->createUrl("share") ?>" class="w-nav-anchor level_1">
                                                         <span class="w-nav-icon"><i class="icon-star"></i></span>
-                                                        <span class="w-nav-title"><b>Groups</b></span>
+                                                        <span class="w-nav-title">Groups</span>
                                                         <span class="w-nav-hint"></span>
                                                     </a>
-
+                                                    
+                                                    <div class="w-nav-list place_down show_onhover level_2">
+                                                        <div class="w-nav-list-h">
+                                                            <div class="w-nav-item level_2">
+                                                                <div class="w-nav-item-h">
+                                                                    <a href="home-landing.html" class="w-nav-anchor level_2">Group - Vietnam National University</a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="w-nav-item level_2">
+                                                                <div class="w-nav-item-h">
+                                                                    <a href="home-parallax.html" class="w-nav-anchor level_2">Group - Blue UET team</a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="w-nav-item level_2">
+                                                                <div class="w-nav-item-h">
+                                                                    <a href="home-parallax.html" class="w-nav-anchor level_2">Group - Blue UET team</a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    
                                                 </div>
                                             </div>
 
@@ -238,7 +256,17 @@
                                                 <div class="w-nav-item-h">
                                                     <a href="<?php echo Yii::app()->createUrl("login") ?>" class="w-nav-anchor level_1">
                                                         <span class="w-nav-icon"><i class="icon-star"></i></span>
-                                                        <span class="w-nav-title"><b>Log in</b></span>
+                                                        <span class="w-nav-title">Sign out</span>
+                                                        <span class="w-nav-hint"></span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="w-nav-item level_1">
+                                                <div class="w-nav-item-h">
+                                                    <a href="<?php echo Yii::app()->createUrl("login") ?>" class="w-nav-anchor level_1">
+                                                        <span class="w-nav-icon"><i class="icon-star"></i></span>
+                                                        <span class="w-nav-title"><img class="rec1" style="float: left" src="<?php echo Yii::app()->theme->baseUrl; ?>/assets/img/demo/blog-1.jpg"/> Duy Kien </span>
                                                         <span class="w-nav-hint"></span>
                                                     </a>
                                                 </div>
