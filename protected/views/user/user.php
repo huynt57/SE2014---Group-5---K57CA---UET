@@ -344,9 +344,9 @@
                                     <textarea id="textarea">Try to resize me to see how popup CSS-based resizing works.</textarea>
                                 </li>
                             </ol>
-                            
+
                             <p><a class="popup-modal-dismiss" href="http://localhost/SE_project/index.php/class"><button class="g-btn type_default size_small"><span><i class="icon-arrow-up"></i>Submit</span></button></a></p>
-                            
+
                         </fieldset>
                     </form>
                 </div>
