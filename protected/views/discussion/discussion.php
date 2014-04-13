@@ -109,7 +109,7 @@
                                         <span class="w-tabs-section-title-control"><i class="icon-angle-down"></i></span>
                                     </div>
                                     <div class="w-tabs-section-content" style="margin: 2% 5% 2% 5%">
-                                        <form class="g-form" action="<?php echo Yii::app()->createUrl('discussion/makepost') ?>" method="post" id="postform">
+                                        <form class="g-form" action="<?php echo Yii::app()->createUrl('disculssion/makepost') ?>" method="post" id="postform">
                                             <div class="g-form-group">
                                                 <div class="g-form-group-rows">
                                                     <div class="g-form-row" style="margin: 5px 0 5px 0; padding: 0;">
