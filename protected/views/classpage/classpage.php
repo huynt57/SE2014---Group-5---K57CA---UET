@@ -30,7 +30,7 @@
                         <span>Change Cover</span>
                     </button>
                     <button class="g-btn type_primary size_small">
-                        <span>Creat A Class</span>
+                        <span>Create A Class</span>
                     </button>
                 </div>
             </div>
@@ -176,7 +176,7 @@
                             <i class="icon-user"></i>
                         </span>
                     </div>
-                    <h3>Giáo Viên</h3>
+                    <h3 style="margin-top: -20px">Giáo Viên</h3>
                     <ul>
                         <style>
                             .one-third li {
