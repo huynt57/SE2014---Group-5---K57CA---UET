@@ -103,9 +103,9 @@
                         <div class="w-tabs layout_accordion type_toggle">
                             <div class="w-tabs-h">
                                 <div class="w-tabs-section with_icon">
-                                    <div class="w-tabs-section-title">
+                                    <div class="w-tabs-section-title" name ="Hay cho y kien cua ban ...">
                                         <span class="w-tabs-section-title-icon icon-pencil"></span>
-                                        <span class="w-tabs-section-title-text">Hãy cho ý kiến của bạn ...</span>
+                                        <span class="w-tabs-section-title-text">Hay cho y kien cua ban ...</span>
                                         <span class="w-tabs-section-title-control"><i class="icon-angle-down"></i></span>
                                     </div>
                                     <div class="w-tabs-section-content" style="margin: 2% 5% 2% 5%">

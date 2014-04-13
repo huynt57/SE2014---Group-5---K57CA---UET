@@ -116,18 +116,15 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="w-tabs-section with_icon">
+                                <div class="w-tabs-section with_icon" href ="khoalevan" name ="Sign_up">
                                     <div class="w-tabs-section-title">
                                         <span class="w-tabs-section-title-icon fa fa-flask"></span>
-                                        <span class="w-tabs-section-title-text" name="Sign_up">Chua co tai khoan? Dang ky!</span>
+                                        <span class="w-tabs-section-title-text">Chua co tai khoan? Dang ky!</span>
                                         <span class="w-tabs-section-title-control">
                                             <i class="icon-angle-down"></i>
                                         </span>
                                     </div>
                                     <?php $this->renderPartial('signup') ?>
-
-
-
                                 </div>
                             </div>
                         </div>
