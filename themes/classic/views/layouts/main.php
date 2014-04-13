@@ -251,24 +251,31 @@
                                                     
                                                 </div>
                                             </div>
-
-                                            <div class="w-nav-item level_1">
-                                                <div class="w-nav-item-h">
-                                                    <a href="<?php echo Yii::app()->createUrl("login") ?>" class="w-nav-anchor level_1">
-                                                        <span class="w-nav-icon"><i class="icon-star"></i></span>
-                                                        <span class="w-nav-title">Sign out</span>
-                                                        <span class="w-nav-hint"></span>
-                                                    </a>
-                                                </div>
-                                            </div>
                                             
                                             <div class="w-nav-item level_1">
                                                 <div class="w-nav-item-h">
                                                     <a href="<?php echo Yii::app()->createUrl("login") ?>" class="w-nav-anchor level_1">
                                                         <span class="w-nav-icon"><i class="icon-star"></i></span>
-                                                        <span class="w-nav-title"><img class="rec1" style="float: left" src="<?php echo Yii::app()->theme->baseUrl; ?>/assets/img/demo/blog-1.jpg"/> Duy Kien </span>
+                                                        <span class="w-nav-title"><img class="ava" src="<?php echo Yii::app()->theme->baseUrl; ?>/assets/img/demo/blog-1.jpg"/></span>
                                                         <span class="w-nav-hint"></span>
                                                     </a>
+                                                    
+                                                    <div class="w-nav-list place_down show_onhover level_2">
+                                                        <div class="w-nav-list-h">
+                                                            <div class="w-nav-item level_2">
+                                                                <div class="w-nav-item-h">
+                                                                    <a href="home-landing.html" class="w-nav-anchor level_2">Sign out</a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="w-nav-item level_2">
+                                                                <div class="w-nav-item-h">
+                                                                    <a href="home-parallax.html" class="w-nav-anchor level_2">Update information</a>
+                                                                </div>
+                                                            </div>
+                                                            
+                                                        </div>
+                                                    </div>
+                                                    
                                                 </div>
                                             </div>
 
