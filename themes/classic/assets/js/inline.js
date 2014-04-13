@@ -4,6 +4,17 @@
  * and open the template in the editor.
  */
 
+var mfp, // As we have only one instance of MagnificPopup object, we define it locally to not to use 'this'
+	MagnificPopup = function(){},
+	_isJQ = !!(window.jQuery),
+	_prevStatus,
+	_window = $(window),
+	_body,
+	_document,
+	_prevContentType,
+	_wrapClasses,
+	_currPopupType;
+
 var INLINE_NS = 'inline',
         _hiddenClass,
         _inlinePlaceholder,

@@ -49,16 +49,34 @@
         <script type="text/javascript" src="<?php echo Yii::app()->theme->baseUrl; ?>/assets/js/modernizr.custom.js"></script>
         <script type="text/javascript" src="<?php echo Yii::app()->theme->baseUrl; ?>/assets/js/dropzone.js"></script>
         <script type="text/javascript" src="<?php echo Yii::app()->theme->baseUrl; ?>/assets/js/w-switcher.js"></script>
-        
+        <script type="text/javascript" src="<?php echo Yii::app()->theme->baseUrl; ?>/assets/js/jquery.magnific-popup.min.js"></script>
+
         <!-- Star rating-->
         <link rel="stylesheet" type="text/css" media="all" href="<?php echo Yii::app()->theme->baseUrl; ?>/assets/css/ratings.css" />
         <script type="text/javascript" src="<?php echo Yii::app()->theme->baseUrl; ?>/assets/js/jquery.barrating.js"></script>
         <script type="text/javascript">
-            $(function () {
+            $(function() {
                 $('#example-f').barrating();
             });
         </script>
-         
+
+        <!-- Pop-up -->
+        <script>
+            $(function() {
+                $('.popup-modal').magnificPopup({
+                    type: 'inline',
+                    preloader: false,
+                    focus: '#username',
+                    modal: true
+                });
+                $(document).on('click', '.popup-modal-dismiss', function(e) {
+                    e.preventDefault();
+                    $.magnificPopup.close();
+                    }
+                );
+            });
+        </script>
+
         <!-- GMap-->
         <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
         <script type="text/javascript" src="<?php echo Yii::app()->theme->baseUrl; ?>/assets/js/jquery.gmap.min.js"></script>
@@ -222,7 +240,7 @@
                                     </a>
                                 </div>
                             </div>
-                             <div class="w-logo">
+                            <div class="w-logo">
                                 <div class="w-logo-h">
                                     <a class="w-logo-link" href="<?php echo Yii::app()->createUrl("") ?>" class="w-nav-anchor level_1">
                                         <img class="w-logo-img" src="<?php echo Yii::app()->theme->baseUrl; ?>/assets/img/logo2.jpg" alt="BlueBee" />

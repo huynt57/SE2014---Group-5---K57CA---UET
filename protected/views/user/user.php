@@ -223,11 +223,11 @@
             </div>
 
             <div class="one-third">
-                
+
                 <div class="rounded2 color_alternate"  style="margin-top: 70px">
                     <h6>Kien's Information</h6>
                 </div>
-                
+
                 <div>
                     <i class="icon-user"></i>
                     <span>&nbsp Working at &nbsp : &nbsp &nbsp &nbsp &nbsp &nbsp <span style="color: #B0B3B5">UET-bluebee team</span> </span>
@@ -245,11 +245,11 @@
                     <span>&nbsp Join in &nbsp : &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <span style="color: #B0B3B5">13/1/2014</span> </span>
                     <br/>
                 </div>
-                
+
                 <div class="rounded2 color_alternate" style="margin-top: 10px">
                     <h6>Class Kien follows</h6>
                 </div>
-                
+
                 <div class="w-portfolio columns_2 wide-margins type_sortable">
                     <div class="w-portfolio-h">
                         <div class="w-portfolio-list">
@@ -268,7 +268,7 @@
                                         </a>
                                     </div>
                                 </div>
-                                
+
                                 <div class="w-portfolio-item naming webdesign">
                                     <div class="w-portfolio-item-h animate_afc">
                                         <a class="w-portfolio-item-anchor" href="project-another-slider.html">
@@ -282,7 +282,7 @@
                                         </a>
                                     </div>
                                 </div>
-                                
+
                                 <div class="w-portfolio-item naming webdesign">
                                     <div class="w-portfolio-item-h animate_afc">
                                         <a class="w-portfolio-item-anchor" href="project-another-slider.html">
@@ -315,15 +315,42 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div>
                     <a href="" style="margin-left: 30px">More...</a>
                     <br/>
-                    <a href="">
-                    <button class="g-btn type_outline"><span><i class="icon-heart"></i>Creat your own class</span></button>
+                    <a class="popup-modal" href="#test-modal">
+                        <button class="g-btn type_outline"><span><i class="icon-heart"></i>Creat your own class</span></button>
                     </a>
+
+                    <form id="test-modal" class="white-popup-block mfp-hide">
+                        <h1>Creat your class</h1>
+                        <fieldset style="size: 200px ; alignment-adjust: central">
+                            <ol>
+                                <li>
+                                    <label for="name"><h4>Name Class</h4></label>
+                                    <input id="name" name="name" placeholder="Name Class" required="" type="text">
+                                </li>
+                                <li>
+                                    <label for="email"><h4>Your Email</h4></label>
+                                    <input id="email" name="email" placeholder="example@domain.com" required="" type="email">
+                                </li>
+                                <li>
+                                    <label for="phone"><h4>Your Phone number</h4></label>
+                                    <input id="phone" name="phone" placeholder="Eg. +447500000000" required="" type="tel">
+                                </li>
+                                <li>
+                                    <label for="textarea"><h4>Describle about class</h4></label><br>
+                                    <textarea id="textarea">Try to resize me to see how popup CSS-based resizing works.</textarea>
+                                </li>
+                            </ol>
+                            
+                            <p><a class="popup-modal-dismiss" href="http://localhost/SE_project/index.php/class"><button class="g-btn type_default size_small"><span><i class="icon-arrow-up"></i>Submit</span></button></a></p>
+                            
+                        </fieldset>
+                    </form>
                 </div>
-                
+
                 <div class="rounded2 color_alternate">
                     <h6>Kien's groups</h6>
                 </div>
@@ -346,7 +373,7 @@
                                         </a>
                                     </div>
                                 </div>
-                                
+
                                 <div class="w-portfolio-item naming webdesign">
                                     <div class="w-portfolio-item-h animate_afc">
                                         <a class="w-portfolio-item-anchor" href="project-another-slider.html">
@@ -379,12 +406,12 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div>
                     <a href="" style="margin-left: 30px">More...</a>
                     <br/>
                     <a href="">
-                    <button class="g-btn type_outline"><span><i class="icon-heart"></i>Creat your own group</span></button>
+                        <button class="g-btn type_outline"><span><i class="icon-heart"></i>Creat your own group</span></button>
                     </a>
                 </div>
 

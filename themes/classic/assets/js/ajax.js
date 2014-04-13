@@ -4,7 +4,6 @@
  * and open the template in the editor.
  */
 
-
 var AJAX_NS = 'ajax',
         _ajaxCur,
         _removeAjaxCursor = function() {
