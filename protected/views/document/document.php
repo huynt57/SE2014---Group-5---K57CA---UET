@@ -70,10 +70,10 @@
             <div class="three-fourths">
                 <?php $this->renderPartial("partial/upload-file-area") ?>
                 <div class="w-portfolio columns_4">
-                     <div> <img class="" src="<?php echo Yii::app()->theme->baseUrl; ?>/assets/img/ajax-loader.gif" alt="" style="" id="loading"/></div>
+                    <div> <img class="" src="<?php echo Yii::app()->theme->baseUrl; ?>/assets/img/ajax-loader.gif" alt="" style="" id="loading"/></div>
                     <div class="w-portfolio-h">
                         <div class="w-portfolio-list">
-                           
+
                             <div class="w-portfolio-list-h" id="docblock">
 
                                 <?php foreach ($document as $doc): ?>
