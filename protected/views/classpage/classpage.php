@@ -2,13 +2,15 @@
     <div class="l-content">
         <div class="l-content-h i-widgets">
             <style>
-                #cover {
+                .cover {
                     background-image: url(<?php echo Yii::app()->theme->baseUrl; ?>/assets/img/demo/cover.jpg);
+                    background-repeat: no-repeat;
+                    background-size: 100% 100%;
                     min-height: 400px;
                 }
-                #button-change-cover {
+                .button-on-cover {
                     top: 350px;
-                    left: 850px;
+                    left: 700px;
                 }
                 #fix-style-w-tab {
                     border-top: none;
@@ -22,10 +24,15 @@
                     text-align: center;
                 }
             </style>
-            <div id="cover">
-                <button class="g-btn type_primary size_small" id="button-change-cover">
-                    <span>Change Cover</span>
-                </button>
+            <div class="cover">
+                <div class="button-on-cover" style="position: relative">
+                    <button class="g-btn type_primary size_small" >
+                        <span>Change Cover</span>
+                    </button>
+                    <button class="g-btn type_primary size_small">
+                        <span>Creat A Class</span>
+                    </button>
+                </div>
             </div>
             <div class="g-cols">
                 <div class="two-thirds">
@@ -159,17 +166,78 @@
                     <p><strong>Mã Môn Học:</strong> INT2208</p>
                     <p><strong>Số tín chỉ:</strong> 3</p>
                     <p><strong>Website Môn Học:</strong> <a href="bluebee-uet.com">bluebee-uet.com</a></p>
-                    <p><strong>Sơ Lược Môn Học:</strong> bla bal lab lba</p>
+                    <div>
+                        <p style="float: left"><strong>Thành viên:</strong> <a>7 người</a></p>
+                        <a href="#SDA"><p style="float: right">Thêm thành viên <i class="icon-plus"></i></p></a>
+                    </div>
+                    
                     <div class="g-hr">
                         <span class="g-hr-h">
                             <i class="icon-user"></i>
                         </span>
                     </div>
-                    <h3>Teacher(2)</h3>
+                    <h3>Giáo Viên</h3>
                     <ul>
-                        <li><strong>Client</strong>: ThemeForest</li>
-                        <li><strong>Date</strong>: April 16, 2013</li>
-                        <li><strong>Project URL</strong>:&nbsp;<a href="#">www.yoursite.com</a></li>
+                        <style>
+                            .one-third li {
+                                clear: both;
+                            }
+                            .teacher-block:after, .one-third li:after {
+                                clear: both;
+                                content: "."
+                                display: block;
+                                height: 0;
+                                line-height: 0;
+                                visibility: hidden;
+                            }
+                            .teacher-block {
+                                clear: both;
+                                min-height: 80px;
+                                position: relative;
+                                border: 1px solid #d0d6d9;
+                                border-radius: 5px;
+                                margin-bottom: 10px;
+                            }
+
+                        </style>
+                        <li>
+                            <div class="teacher-block">
+                                <img style="float: left" class="ava" src="http://localhost:7070/SE_2014_Group5/themes/classic/assets/img/demo/blog-1.jpg" />
+                                <div>
+                                    <p>Nguyễn Văn A</p>
+                                    <a href="">Thông tin cá nhân</a>
+                                </div>
+                                <div class="input select rating-f">
+                                    <p style="float: left">Rating: </p>
+                                    <select class="example-f" name="rating" style="display: none; float: right">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="teacher-block">
+                                <img style="float: left" class="ava" src="http://localhost:7070/SE_2014_Group5/themes/classic/assets/img/demo/blog-1.jpg" />
+                                <div>
+                                    <p>Nguyễn Văn B</p>
+                                    <a href="">Thông tin cá nhân</a>
+                                </div>
+                                <div class="input select rating-f">
+                                    <p style="float: left">Rating: </p>
+                                    <select class="example-f" name="rating" style="display: none; float: right">
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </li>
                     </ul>
                 </div>
             </div>

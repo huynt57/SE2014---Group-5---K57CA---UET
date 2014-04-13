@@ -56,7 +56,7 @@
         <script type="text/javascript" src="<?php echo Yii::app()->theme->baseUrl; ?>/assets/js/jquery.barrating.js"></script>
         <script type="text/javascript">
             $(function() {
-                $('#example-f').barrating();
+                $('.example-f').barrating({showSelectedRating:false});
             });
         </script>
 
