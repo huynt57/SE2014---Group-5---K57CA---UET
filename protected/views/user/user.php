@@ -44,11 +44,13 @@
                                 <b>Details</b> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Hanoi, Vietnam.
                                 <br/>
                                 <b>Activity</b> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Joined in March 2013, Vip member of website - boss. 
+                                <br/>
+                                <b>Quote</b> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Change words, Change world.
                             </div>
 
                             <div style="text-align: center">
                                 <p>
-                                    <a href="">Send he a mess</a> | <a href="">Add he to a group</a> | <a href="">Send friend request</a>
+                                    <a href="">Add he/she to a class</a> | <a href="">Add he/she to a group</a> | <a href="">Suggest he/she books</a>
                                 </p>
                             </div>
 
@@ -56,7 +58,7 @@
                                 <h6>Kien's favorite books</h6>
                             </div>
 
-                            <div class="w-gallery layout_tile size_xs">
+                            <div class="w-gallery layout_tile size_s">
                                 <div class="w-gallery-h">
                                     <div class="w-gallery-tnails">
                                         <div class="w-gallery-tnails-h">
@@ -107,11 +109,6 @@
                             <a href="" style="margin-left: 30px">More...</a>
 
                             <div class="rounded1 color_alternate">
-                                <h6>Kien's quotes</h6>
-                            </div>
-
-
-                            <div class="rounded1 color_alternate">
                                 <h6>Kien's recent updates</h6>
                             </div>
 
@@ -121,10 +118,6 @@
                                         <div class="w-blog-entry">
                                             <div class="w-blog-entry-h">
                                                 <a class="w-blog-entry-link" href="blog-post.html">
-                                                    <span class="w-blog-entry-img">
-                                                        <img class="w-blog-entry-img-h" src="img/demo/big-2.jpg" alt="" />
-                                                    </span>
-
                                                     <h2 class="w-blog-entry-title">
                                                         <span class="w-blog-entry-title-h">This is a Single Clean Post</span>
                                                     </h2>
@@ -169,10 +162,6 @@
                                         <div class="w-blog-entry">
                                             <div class="w-blog-entry-h">
                                                 <a class="w-blog-entry-link" href="blog-post.html">
-                                                    <span class="w-blog-entry-img">
-                                                        <img class="w-blog-entry-img-h" src="img/demo/big-1.jpg" alt="" />
-                                                    </span>
-
                                                     <h2 class="w-blog-entry-title">
                                                         <span class="w-blog-entry-title-h">Another Single Interesting Post</span>
                                                     </h2>
@@ -228,32 +217,71 @@
                                 </div>
                             </div>
 
-                            <div class="rounded1 color_alternate">
-                                <h6>Kien's friend comments</h6>
-                            </div>
-
-                            <div class="wrapper">
-                                <form id="form" action="" method="" name="" style="color: windowframe">
-                                    <label for="input-1">Friend's Comments</label>
-                                    <textarea name="message" id="message" placeholder="Enter a cool message..." tabindex="5" class="txtblock" style="color: whitesmoke"></textarea>
-                                    <input type="submit" name="submit" id="submitbtn" class="submitbtn" tabindex="7" value="Post">
-                                </form>
-                            </div>
-
                         </div>
                     </div>
                 </div>
             </div>
 
             <div class="one-third">
-                <div class="rounded2 color_alternate" style="margin-top: 70px">
-                    <h6>Kien's groups</h6>
+
+                <div class="rounded2 color_alternate"  style="margin-top: 70px">
+                    <h6>Kien's Information</h6>
+                </div>
+
+                <div>
+                    <i class="icon-user"></i>
+                    <span>&nbsp Working at &nbsp : &nbsp &nbsp &nbsp &nbsp &nbsp <span style="color: #B0B3B5">UET-bluebee team</span> </span>
+                    <br/>
+                    <i class="icon-phone"></i>
+                    <span>&nbsp Phone &nbsp : &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <span style="color: #B0B3B5">01666107083</span> </span>
+                    <br/>
+                    <i class="icon-home"></i>
+                    <span>&nbsp Live at &nbsp : &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <span style="color: #B0B3B5">Ha Noi, Viet Nam</span> </span>
+                    <br/>
+                    <i class="icon-heart"></i>
+                    <span>&nbsp Relationship &nbsp : &nbsp &nbsp &nbsp <span style="color: #BABDBF">Forever alone</span> </span>
+                    <br/>
+                    <i class="icon-group"></i>
+                    <span>&nbsp Join in &nbsp : &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp <span style="color: #B0B3B5">13/1/2014</span> </span>
+                    <br/>
+                </div>
+
+                <div class="rounded2 color_alternate" style="margin-top: 10px">
+                    <h6>Class Kien follows</h6>
                 </div>
 
                 <div class="w-portfolio columns_2 wide-margins type_sortable">
                     <div class="w-portfolio-h">
                         <div class="w-portfolio-list">
                             <div class="w-portfolio-list-h">
+
+                                <div class="w-portfolio-item naming webdesign">
+                                    <div class="w-portfolio-item-h animate_afc">
+                                        <a class="w-portfolio-item-anchor" href="project-another-slider.html">
+                                            <div class="w-portfolio-item-image">
+                                                <img src="<?php echo Yii::app()->theme->baseUrl; ?>/assets/img/demo/portfolio-1.jpg" alt="" />
+                                                <div class="w-portfolio-item-meta">
+                                                    <h2 class="w-portfolio-item-title">Vietnam National University</h2>
+                                                    <i class="icon-mail-forward"></i>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="w-portfolio-item naming webdesign">
+                                    <div class="w-portfolio-item-h animate_afc">
+                                        <a class="w-portfolio-item-anchor" href="project-another-slider.html">
+                                            <div class="w-portfolio-item-image">
+                                                <img src="<?php echo Yii::app()->theme->baseUrl; ?>/assets/img/demo/portfolio-1.jpg" alt="" />
+                                                <div class="w-portfolio-item-meta">
+                                                    <h2 class="w-portfolio-item-title">Vietnam National University</h2>
+                                                    <i class="icon-mail-forward"></i>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
 
                                 <div class="w-portfolio-item naming webdesign">
                                     <div class="w-portfolio-item-h animate_afc">
@@ -287,13 +315,104 @@
                         </div>
                     </div>
                 </div>
-                
-                <div class="rounded2 color_alternate">
-                    <h6>Kien's friends</h6>
+
+                <div>
+                    <a href="" style="margin-left: 30px">More...</a>
+                    <br/>
+                    <a class="popup-modal" href="#test-modal">
+                        <button class="g-btn type_outline"><span><i class="icon-heart"></i>Creat your own class</span></button>
+                    </a>
+
+                    <form id="test-modal" class="white-popup-block mfp-hide">
+                        <h1>Creat your class</h1>
+                        <fieldset style="size: 200px ; alignment-adjust: central">
+                            <ol>
+                                <li>
+                                    <label for="name"><h4>Name Class</h4></label>
+                                    <input id="name" name="name" placeholder="Name Class" required="" type="text">
+                                </li>
+                                <li>
+                                    <label for="email"><h4>Your Email</h4></label>
+                                    <input id="email" name="email" placeholder="example@domain.com" required="" type="email">
+                                </li>
+                                <li>
+                                    <label for="phone"><h4>Your Phone number</h4></label>
+                                    <input id="phone" name="phone" placeholder="Eg. +447500000000" required="" type="tel">
+                                </li>
+                                <li>
+                                    <label for="textarea"><h4>Describle about class</h4></label><br>
+                                    <textarea id="textarea">Try to resize me to see how popup CSS-based resizing works.</textarea>
+                                </li>
+                            </ol>
+                            
+                            <p><a class="popup-modal-dismiss" href="http://localhost/SE_project/index.php/class"><button class="g-btn type_default size_small"><span><i class="icon-arrow-up"></i>Submit</span></button></a></p>
+                            
+                        </fieldset>
+                    </form>
                 </div>
-                
+
                 <div class="rounded2 color_alternate">
-                    <h6>Groups Kien is followings</h6>
+                    <h6>Kien's groups</h6>
+                </div>
+
+                <div class="w-portfolio columns_2 wide-margins type_sortable">
+                    <div class="w-portfolio-h">
+                        <div class="w-portfolio-list">
+                            <div class="w-portfolio-list-h">
+
+                                <div class="w-portfolio-item naming webdesign">
+                                    <div class="w-portfolio-item-h animate_afc">
+                                        <a class="w-portfolio-item-anchor" href="project-another-slider.html">
+                                            <div class="w-portfolio-item-image">
+                                                <img src="<?php echo Yii::app()->theme->baseUrl; ?>/assets/img/demo/portfolio-1.jpg" alt="" />
+                                                <div class="w-portfolio-item-meta">
+                                                    <h2 class="w-portfolio-item-title">Vietnam National University</h2>
+                                                    <i class="icon-mail-forward"></i>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="w-portfolio-item naming webdesign">
+                                    <div class="w-portfolio-item-h animate_afc">
+                                        <a class="w-portfolio-item-anchor" href="project-another-slider.html">
+                                            <div class="w-portfolio-item-image">
+                                                <img src="<?php echo Yii::app()->theme->baseUrl; ?>/assets/img/demo/portfolio-1.jpg" alt="" />
+                                                <div class="w-portfolio-item-meta">
+                                                    <h2 class="w-portfolio-item-title">Vietnam National University</h2>
+                                                    <i class="icon-mail-forward"></i>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <div class="w-portfolio-item naming branding">
+                                    <div class="w-portfolio-item-h animate_afc d1">
+                                        <a class="w-portfolio-item-anchor" href="project-slider.html">
+                                            <div class="w-portfolio-item-image">
+                                                <img src="<?php echo Yii::app()->theme->baseUrl; ?>/assets/img/demo/portfolio-2.jpg" alt="" />
+                                                <div class="w-portfolio-item-meta">
+                                                    <h2 class="w-portfolio-item-title">Kien's Group</h2>
+                                                    <i class="icon-mail-forward"></i>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <a href="" style="margin-left: 30px">More...</a>
+                    <br/>
+                    <a href="">
+                        <button class="g-btn type_outline"><span><i class="icon-heart"></i>Creat your own group</span></button>
+                    </a>
                 </div>
 
             </div>
