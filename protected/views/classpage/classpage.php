@@ -283,7 +283,7 @@
                     </div>
                     <div id="box-invite-friends" style="clear: both; display: none">
                         <div contenteditable=true id="invite-friends"></div>
-                        <button type="submit" class="g-btn type_primary size_small" style="width: 100%">
+                        <button type="submit" id="invite-friends-button" class="g-btn type_primary size_small" style="width: 100%">
                             <span>Invite Your Friends</span>
                         </button>
                         <script type="text/javascript">
@@ -297,7 +297,7 @@
                                 theme: "facebook",
                                 preventDuplicates: true
                             });
-                            $('button[type=submit]').click(function () {
+                            $('button#invite-friends-button').click(function () {
                                 alert("Would submit: " + $(this).siblings("#invite-friends").val());
                             });
                         });
