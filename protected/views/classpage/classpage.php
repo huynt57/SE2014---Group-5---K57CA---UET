@@ -137,7 +137,7 @@
                                         }
                                         .teacher-block:after, .one-third li:after, .clearfix:after {
                                             clear: both;
-                                            content: "."
+                                            content: ".";
                                             display: block;
                                             height: 0;
                                             line-height: 0;
