@@ -1,6 +1,6 @@
 <script type="text/javascript">
     $(document).ready(function() {
-         $('#loading').hide();
+        $('#loading').hide();
         var form = $('#commentform');
         form.submit(function(event) {
             // prevent default action
@@ -30,9 +30,9 @@
                                     </div>\
                                 </div>').hide().fadeIn(800);
                     $('#commentblock').append(item);
-                  document.getElementById("commentform").reset();
+                    document.getElementById("commentform").reset();
                 },
-                 complete: function() {
+                complete: function() {
                     $('#loading').hide();
                 },
                 error: function(event) {
@@ -100,9 +100,9 @@
                                             </div>
                                         </div>
                                     <?php endforeach; ?>
-                                 
+
                                 </div>
-  <div> <img class="" src="<?php echo Yii::app()->theme->baseUrl; ?>/assets/img/ajax-loader.gif" alt="" style="" id="loading"/></div>
+                                <div> <img class="" src="<?php echo Yii::app()->theme->baseUrl; ?>/assets/img/ajax-loader.gif" alt="" style="" id="loading"/></div>
                                 <div class="w-comments-form" style="margin-left: 5%; margin-right: 5%" id="form">
                                     <div class="w-comments-form-title">Bình luận</div>
                                     <div class="w-comments-form-text">Cho chúng tôi thấy ý kiến của bạn !!</div>

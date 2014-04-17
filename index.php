@@ -1,4 +1,5 @@
 <?php
+require 'c3.php';
 error_reporting(E_ALL);
 // change the following paths if necessary
 // error_reporting(E_ALL);

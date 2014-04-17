@@ -1,4 +1,14 @@
-
+coverage:
+    enabled: true
+    remote: true
+    whitelist:
+        include:
+            - index.php
+            - protected/controllers/LoginController.php
+            - protected/controllers/ShareController.php
+    blacklist:
+        include: 
+            - tests/*
 paths:
     tests: tests
     log: tests/_log

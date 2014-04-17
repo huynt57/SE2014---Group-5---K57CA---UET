@@ -106,11 +106,11 @@
                                                                         <button class="g-btn type_primary" type="submit" name="Submit" value="Submit">Đăng Nhập</button>
                                                                     </div>
                                                                 </div>
-                                                               
+
                                                             </div>
                                                         </div>
                                                     </form>
-<?php $this->renderPartial('fb') ?>
+                                                    <?php $this->renderPartial('fb') ?>
                                                 </div>
                                             </div>
                                         </div>

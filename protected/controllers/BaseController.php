@@ -1,5 +1,5 @@
 <?php
-
+Yii::import('application.components.c3');
 class BaseController extends CController {
 
     public $retVal;

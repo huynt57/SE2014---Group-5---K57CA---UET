@@ -9,6 +9,9 @@
 # RUN `build` COMMAND AFTER ADDING/REMOVING MODULES.
 
 class_name: WebGuy
+coverage:
+    enabled: true
+    remote: true
 modules:
     enabled:
         - PhpBrowser

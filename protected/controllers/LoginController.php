@@ -1,5 +1,4 @@
 <?php
-
 Yii::import('application.controllers.BaseController');
 Yii::import('application.components.facebook');
 Yii::import('application.components.base_facebook');
