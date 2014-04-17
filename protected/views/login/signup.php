@@ -32,7 +32,7 @@
                         <div class="g-form-group-rows">
                             <div class="g-form-row">
                                 <div class="g-form-row-label">
-                                    <label class="g-form-row-label-h" for="new_user_name">Tên của bạn *</label>
+                                    <label class="g-form-row-label-h" for="new_user_name">Ten cua ban *</label>
                                 </div>
                                 <div class="g-form-row-field">
                                     <div class="g-input">

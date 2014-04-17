@@ -1,26 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="acceptance" tests="10" assertions="9" failures="2" errors="0" time="19.849169">
-    <testcase file="Click_subjectCept.php" name="view information about a subject (Click_subjectCept.php)" assertions="1" time="2.769257"/>
-    <testcase file="Click_teacher_in_subjectCept.php" name="view information about a teacher that teach this subject (Click_teacher_in_subjectCept.php)" assertions="1" time="2.363423"/>
-    <testcase file="DiscussionPageCept.php" name="ensure that frontpage works (DiscussionPageCept.php)" assertions="1" time="1.288843"/>
-    <testcase file="DocumentCept.php" name="ensure that frontpage works (DocumentCept.php)" assertions="0" time="1.335084"/>
-    <testcase file="Login_correct_accountCept.php" name="login (Login_correct_accountCept.php)" assertions="1" time="2.436437"/>
-    <testcase file="Login_did_not_have_accountCept.php" name="sign up (Login_did_not_have_accountCept.php)" assertions="1" time="2.395560"/>
-    <testcase file="Login_leave_password_blankCept.php" name="login (Login_leave_password_blankCept.php)" assertions="1" time="2.612695"/>
-    <testcase file="Login_leave_username_blankCept.php" name="login (Login_leave_username_blankCept.php)" assertions="1" time="1.961840"/>
-    <testcase file="Login_wrong_account2Cept.php" name="login (Login_wrong_account2Cept.php)" assertions="1" time="2.417519">
-      <failure type="PHPUnit_Framework_ExpectationFailedException">login (Login_wrong_account2Cept.php)
-Failed asserting that 
---&gt;  &lt;bold&gt;/SE2014-Project_Website/index.php/login&lt;/bold&gt;&lt;info&gt;{"message":"Dang nhap thanh cong"}&lt;/info&gt;
---&gt; contains "sai ten nguoi dung hoac mat khau".
-
-C:\xampp\htdocs\SE2014-Project_Website\tests\acceptance\WebGuy.php:605
-C:\xampp\htdocs\SE2014-Project_Website\tests\acceptance\Login_wrong_account2Cept.php:8
-C:\xampp\htdocs\SE2014-Project_Website\codecept.phar:7
-</failure>
-    </testcase>
-    <testcase file="Post_statusCept.php" name="post a status (Post_statusCept.php)" assertions="1" time="0.268511">
+  <testsuite name="acceptance" tests="11" assertions="10" failures="1" errors="0" time="25.927898">
+    <testcase file="Click_subjectCept.php" name="view information about a subject (Click_subjectCept.php)" assertions="1" time="2.369171"/>
+    <testcase file="Click_teacher_in_subjectCept.php" name="view information about a teacher that teach this subject (Click_teacher_in_subjectCept.php)" assertions="1" time="2.573266"/>
+    <testcase file="DiscussionPageCept.php" name="ensure that frontpage works (DiscussionPageCept.php)" assertions="1" time="1.930899"/>
+    <testcase file="DocumentCept.php" name="ensure that frontpage works (DocumentCept.php)" assertions="0" time="1.742818"/>
+    <testcase file="Login_correct_accountCept.php" name="login (Login_correct_accountCept.php)" assertions="1" time="2.449338"/>
+    <testcase file="Login_did_not_have_accountCept.php" name="sign up (Login_did_not_have_accountCept.php)" assertions="1" time="1.943814"/>
+    <testcase file="Login_facebookCept.php" name="login via facebook (Login_facebookCept.php)" assertions="1" time="5.254262"/>
+    <testcase file="Login_leave_password_blankCept.php" name="login (Login_leave_password_blankCept.php)" assertions="1" time="2.116035"/>
+    <testcase file="Login_leave_username_blankCept.php" name="login (Login_leave_username_blankCept.php)" assertions="1" time="2.123127"/>
+    <testcase file="Login_wrong_account2Cept.php" name="login (Login_wrong_account2Cept.php)" assertions="1" time="3.061823"/>
+    <testcase file="Post_statusCept.php" name="post a status (Post_statusCept.php)" assertions="1" time="0.363345">
       <failure type="PHPUnit_Framework_ExpectationFailedException">post a status (Post_statusCept.php)
 Failed asserting that 
 --&gt;  &lt;bold&gt;/SE2014-Project_Website/index.php/&lt;/bold&gt;&lt;info&gt;﻿&#13; &#13; &#13; &#13; $(function() {&#13; $('.example-f').barrating({showSelectedRating:false});&#13; });&#13; &#13; $(function() {&#13; $('.popup-modal').magnificPopup({&#13; type: 'inline',&#13; preloader: false,&#13; focus: '#username',&#13; modal: true&#13; });&#13; $(document).on('click', '.popup-modal-dismiss', function(e) {&#13; e.preventDefault();&#13; &lt;/info&gt;
