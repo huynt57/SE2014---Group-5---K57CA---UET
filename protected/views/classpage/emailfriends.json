@@ -1,4 +1,10 @@
 [
-    {"id":"0","name":"vungocson94@gmail.com"},
-    {"id":"1","name":"sonvn_57@ctmail.com"},
+    {
+        "id": "0",
+        "name": "vungocson94@gmail.com"
+    },
+    {
+        "id": "1",
+        "name": "sonvn_57@ctmail.com"
+    }
 ]

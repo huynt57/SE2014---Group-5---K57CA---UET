@@ -29,7 +29,7 @@ class LoginController extends BaseController {
                         $user = User::model()->findByAttributes(array('user_name' => $loginFormData['user_name']));
                         if ($user) {
                             //user existed, check password
-                            if (strcmp($user->user_password, $loginFormData['user_password'] == 0)) {
+                            if ($user->user_password == $loginFormData['user_password']) {
                                 $this->retVal->message = "Dang nhap thanh cong";
                                 //     Yii::app()->request->redirect('discussion');
                             } else {

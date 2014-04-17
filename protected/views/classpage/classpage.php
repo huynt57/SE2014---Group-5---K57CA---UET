@@ -123,21 +123,13 @@
                                             z-index: 1;
                                             margin: 0;
                                         }
-                                        .activity-content {
-                                            width: auto;
-                                            height: auto;
-                                            overflow: visible;
-                                            position: relative;
-                                            margin: 0 0 0 70px;
-                                            width: 100%;
-                                            height: 100%;
-                                        }
+                                        
                                         .one-third li {
                                             clear: both;
                                         }
                                         .teacher-block:after, .one-third li:after, .clearfix:after {
                                             clear: both;
-                                            content: "."
+                                            content: ".";
                                             display: block;
                                             height: 0;
                                             line-height: 0;
@@ -167,9 +159,47 @@
                                                     </button>
                                                 </div>
                                             </div>
+                                            <style>
+                                                .activity-content {
+                                                    width: auto;
+                                                    height: auto;
+                                                    overflow: visible;
+                                                    position: relative;
+                                                    margin: 0 20px 0 80px;
+                                                    height: 100%;
+                                                }
+                                                .activity-item {
+                                                    border-radius: 5px;
+                                                    position: relative;
+                                                    border: 1px solid #d8d8d8;
+                                                    box-sizing: border-box;
+                                                }
+                                                .other-user-avatar {
+                                                    background-size: 50px;
+                                                    width: 50px;
+                                                    height: 50px;
+                                                    display: block;
+                                                    top:0;
+                                                    right: 100%;
+                                                    margin-right: 10px;
+                                                    position: absolute;
+                                                }
+                                                .other-user-avatar img {
+                                                    border-radius: 50%;
+                                                }
+                                                .profile {
+                                                    margin: 15px;
+                                                    display: inline-block;
+                                                }
+                                            </style>
                                             <div class="activity-content">
-                                                <div>
-                                                    
+                                                <div class="activity-item">
+                                                    <a class="other-user-avatar" href="/glang">
+                                                        <img class="" width="50" height="50" src="//gravatar.com/avatar/7b75aef92133d076da32941576f8d885?size=70&amp;d=https://koding-cdn.s3.amazonaws.com/images/default.avatar.70.png&amp;r=g" style="opacity: 1;">
+                                                    </a>
+                                                    <a href="/glang" class="profile">
+                                                        <span data-paths="profile.firstName profile.lastName" id="el-105">Granger Lang</span>
+                                                    </a>
                                                 </div>
                                             </div>
                                         </div>
@@ -267,7 +297,7 @@
                     <p><strong>Website Môn Học:</strong> <a href="bluebee-uet.com">bluebee-uet.com</a></p>
                     <div class="clearfix">
                         <p style="float: left"><strong>Thành viên:</strong> <a>7 người</a></p>
-                        <a id="add-members" style="float: right" href="#SDA"><p id="add-members-contents">Thêm thành viên <i class="icon-plus"></i></p></a>
+                        <a id="add-members" style="float: right" href="javascript:void(0)"><p id="add-members-contents">Thêm thành viên <i class="icon-plus"></i></p></a>
                         <script>
                             $(document).ready(function() {
                                 $('a#add-members').click(function(event) {
@@ -303,12 +333,15 @@
                         });
                         </script>
                     </div>
-                    <div class="g-hr">
+                    <div class="g-hr" style="clear: both">
                         <span class="g-hr-h">
                             <i class="icon-user"></i>
                         </span>
                     </div>
-                    <h3 style="margin-top: -20px">Giáo Viên</h3>
+                    <div class="clearfix">
+                        <h3 style="float: left">Giáo Viên</h3>
+                        <a style="float: right; margin-top: 10px" href="javascript:void(0)"><p id="add-members-contents">Thêm giáo viên <i class="icon-plus"></i></p></a>
+                    </div>
                     <ul>
                         <li>
                             <div class="teacher-block">
