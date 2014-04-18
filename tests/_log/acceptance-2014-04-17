@@ -1548,3 +1548,61 @@ Goutte driver supports clicking on inputs and links only. But "div" provided [] 
 Unable to submit on a "input" tag. [] []
 [2014-04-17 19:15:26] SignupCept.php.INFO: # ERROR # [] []
 [2014-04-17 19:15:26] SignupCept.php.INFO: PASSED [] []
+[2014-04-17 19:25:36] Click_subjectCept.php.INFO: am on page "/share" [] []
+[2014-04-17 19:25:37] Click_subjectCept.php.INFO: click "Đại số" [] []
+[2014-04-17 19:25:38] Click_subjectCept.php.INFO: see "Upload tài liệu về môn này" [] []
+[2014-04-17 19:25:38] Click_subjectCept.php.INFO: PASSED [] []
+[2014-04-17 19:25:39] Click_teacher_in_subjectCept.php.INFO: am on page "/share/subject" [] []
+[2014-04-17 19:25:40] Click_teacher_in_subjectCept.php.INFO: click "Huy Nguyễn" [] []
+[2014-04-17 19:25:41] Click_teacher_in_subjectCept.php.INFO: see "Giáo viên" [] []
+[2014-04-17 19:25:41] Click_teacher_in_subjectCept.php.INFO: PASSED [] []
+[2014-04-17 19:25:41] DiscussionPageCept.php.INFO: am on page "/" [] []
+[2014-04-17 19:25:42] DiscussionPageCept.php.INFO: see "Thảo luận" [] []
+[2014-04-17 19:25:42] DiscussionPageCept.php.INFO: PASSED [] []
+[2014-04-17 19:25:42] DocumentCept.php.INFO: am on page "/document" [] []
+[2014-04-17 19:25:44] DocumentCept.php.INFO: PASSED [] []
+[2014-04-17 19:25:45] Login_correct_accountCept.php.INFO: am on page "/login" [] []
+[2014-04-17 19:25:46] Login_correct_accountCept.php.INFO: fill field "username","khoalevan" [] []
+[2014-04-17 19:25:46] Login_correct_accountCept.php.INFO: fill field "Password","123456" [] []
+[2014-04-17 19:25:46] Login_correct_accountCept.php.INFO: click "Submit" [] []
+[2014-04-17 19:25:48] Login_correct_accountCept.php.INFO: see "Dang nhap thanh cong" [] []
+[2014-04-17 19:25:48] Login_correct_accountCept.php.INFO: PASSED [] []
+[2014-04-17 19:25:48] Login_did_not_have_accountCept.php.INFO: am on page "/login" [] []
+[2014-04-17 19:25:50] Login_did_not_have_accountCept.php.INFO: click "Dang ky" [] []
+[2014-04-17 19:25:51] Login_did_not_have_accountCept.php.INFO: see "Username khong duoc de trong" [] []
+[2014-04-17 19:25:51] Login_did_not_have_accountCept.php.INFO: PASSED [] []
+[2014-04-17 19:25:51] Login_facebookCept.php.INFO: am on page "/login" [] []
+[2014-04-17 19:25:52] Login_facebookCept.php.INFO: click "Dang nhap qua Facebook" [] []
+[2014-04-17 19:25:57] Login_facebookCept.php.INFO: see "Đăng nhập Facebook" [] []
+[2014-04-17 19:25:57] Login_facebookCept.php.INFO: PASSED [] []
+[2014-04-17 19:25:57] Login_leave_password_blankCept.php.INFO: am on page "/login" [] []
+[2014-04-17 19:25:58] Login_leave_password_blankCept.php.INFO: fill field "username","khoalevan" [] []
+[2014-04-17 19:25:58] Login_leave_password_blankCept.php.INFO: fill field "Password","" [] []
+[2014-04-17 19:25:58] Login_leave_password_blankCept.php.INFO: click "Submit" [] []
+[2014-04-17 19:25:59] Login_leave_password_blankCept.php.INFO: see "Password khong duoc de trong" [] []
+[2014-04-17 19:25:59] Login_leave_password_blankCept.php.INFO: PASSED [] []
+[2014-04-17 19:25:59] Login_leave_username_blankCept.php.INFO: am on page "/login" [] []
+[2014-04-17 19:26:00] Login_leave_username_blankCept.php.INFO: fill field "username","" [] []
+[2014-04-17 19:26:00] Login_leave_username_blankCept.php.INFO: fill field "Password","123456" [] []
+[2014-04-17 19:26:01] Login_leave_username_blankCept.php.INFO: click "Submit" [] []
+[2014-04-17 19:26:02] Login_leave_username_blankCept.php.INFO: see "User name khong duoc de trong" [] []
+[2014-04-17 19:26:02] Login_leave_username_blankCept.php.INFO: PASSED [] []
+[2014-04-17 19:26:02] Login_wrong_account2Cept.php.INFO: am on page "/login" [] []
+[2014-04-17 19:26:03] Login_wrong_account2Cept.php.INFO: fill field "username","khoalevan" [] []
+[2014-04-17 19:26:03] Login_wrong_account2Cept.php.INFO: fill field "Password","123" [] []
+[2014-04-17 19:26:03] Login_wrong_account2Cept.php.INFO: click "Submit" [] []
+[2014-04-17 19:26:04] Login_wrong_account2Cept.php.INFO: see "Sai ten nguoi dung hoac mat khau" [] []
+[2014-04-17 19:26:04] Login_wrong_account2Cept.php.INFO: PASSED [] []
+[2014-04-17 19:26:04] Post_statusCept.php.INFO: fill field "post_content","nguyen the huy" [] []
+[2014-04-17 19:26:04] Post_statusCept.php.INFO: see "nguyen the huy" [] []
+[2014-04-17 19:26:05] Post_statusCept.php.ALERT: Failed asserting that 
+-->  <bold>/SE2014-Project_Website/index.php/</bold><info>﻿    $(function() { $('.example-f').barrating({showSelectedRating:false}); });  $(function() { $('.popup-modal').magnificPopup({ type: 'inline', preloader: false, focus: '#username', modal: true }); $(document).on('click', '.popup-modal-dismiss', function(e) { e.preventDefault(); </info>
+<debug>[Content too long to display. See complete response in '_log' directory]</debug>
+--> contains "nguyen the huy". [] []
+[2014-04-17 19:26:05] Post_statusCept.php.INFO: # FAILED # [] []
+[2014-04-17 19:26:05] Post_statusCept.php.INFO: PASSED [] []
+[2014-04-17 19:26:05] SignupCept.php.INFO: am on page "/login" [] []
+[2014-04-17 19:26:06] SignupCept.php.INFO: click "#Chua" [] []
+[2014-04-17 19:26:06] SignupCept.php.ALERT: CSS or XPath '#Chua' was not found on page. [] []
+[2014-04-17 19:26:06] SignupCept.php.INFO: # FAILED # [] []
+[2014-04-17 19:26:06] SignupCept.php.INFO: PASSED [] []

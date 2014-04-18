@@ -62,7 +62,7 @@ class LoginController extends BaseController {
             try {
                 $loginFormData = array(
                     'user_name' => $_POST['contact_name'],
-                    'user_password' => $_POST['Password'],
+                    'user_password' => $_POST['Password1'],
                     'user_email' => $_POST['contact_email'],
                 );
                 if (!empty($loginFormData['user_name'])) {
@@ -76,11 +76,11 @@ class LoginController extends BaseController {
                                         $user = User::model()->findByAttributes(array('user_name' => $loginFormData['user_name']));
                                         if ($user) {
                                             //user existed, check password
-                                            $this->retVal->message = "Tên người dùng đã được đăng ký";
+                                            $this->retVal->message = "Ten nguoi dung da duoc dang ky";
                                         } else {
                                             $user = User::model()->findByAttributes(array('user_email' => $loginFormData['user_email']));
                                             if ($user) {
-                                                $this->retVal->message = "Email đã được đăng ký";
+                                                $this->retVal->message = "Email da duoc dang ky";
                                             } else {
                                                 $model = new User;
                                                 if ($model) {
@@ -90,29 +90,29 @@ class LoginController extends BaseController {
                                                     $model->user_status = 1;
                                                     $model->save(FALSE);
                                                     if ($model->save(FALSE)) {
-                                                        $this->retVal->message = "Đăng ký thành công, hãy đăng nhập bằng tài khoản của bạn";
+                                                        $this->retVal->message = "Dang ky thanh cong, hay dang nhap bang tai khoan cua ban";
                                                     } else {
-                                                        $this->retVal->message = "Không thể lưu user do lỗi server";
+                                                        $this->retVal->message = "Khong the luu user do loi server";
                                                     }
                                                 } else {
-                                                    $this->retVal->message = "Không thể lưu user do lỗi server ";
+                                                    $this->retVal->message = "Khong the luu user do loi server ";
                                                 }
                                             }
                                         }
                                     } else {
-                                        $this->retVal->message = "Password phải nhiều hơn 5 kí tự";
+                                        $this->retVal->message = "Password phai nhieu hon 5 ky tu";
                                     }
                                 } else {
-                                    $this->retVal->message = "Sai định dạng email";
+                                    $this->retVal->message = "Sai dinh dang email";
                                 }
                             } else {
-                                $this->retVal->message = "username không được có khoảng trắng và phải nhiều hơn 5 kí tự";
+                                $this->retVal->message = "username khong duoc co khoang trang va phai nhieu hon 5 ky tu";
                             }
                         } else {
-                            $this->retVal->message = "Password không được để trống";
+                            $this->retVal->message = "Password khong duoc de trong";
                         }
                     } else {
-                        $this->retVal->message = "Email không được để trống";
+                        $this->retVal->message = "Email khong duoc de trong";
                     }
                 } else {
                     $this->retVal->message = "Username khong duoc de trong";
@@ -140,7 +140,7 @@ class LoginController extends BaseController {
         return $facebook;
     }
 
-    public function actionFb_login() {
+    /*public function actionFb_login() {
         $facebook = $this->getFb();
         $loginUrl = $facebook->getLoginUrl(array(
             'scope' => '',

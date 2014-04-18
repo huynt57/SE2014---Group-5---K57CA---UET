@@ -56,7 +56,7 @@
                                 </div>
                                 <div class="g-form-row-field">
                                     <div class="g-input">
-                                        <input type="password" name="Password" id="Password" value="">
+                                        <input type="password" name="Password1" id="Password" value="">
                                     </div>
                                 </div>
                             </div>
@@ -68,7 +68,7 @@
                             </div>
                             <div class="g-form-row">
                                 <div class="g-form-row-field">
-                                    <button class="g-btn type_primary" type="submit" name="Submit" value="Submit">Dang ky</button>
+                                    <button class="g-btn type_primary" type="submit" name="Signup" value="Submit">Dang ky</button>
                                 </div>
                             </div>
                         </div>

@@ -6,6 +6,8 @@ coverage:
             - index.php
             - protected/controllers/LoginController.php
             - protected/controllers/ShareController.php
+            - protected/controllers/BaseController.php
+            - protected/controllers/DiscussionController.php
     blacklist:
         include: 
             - tests/*

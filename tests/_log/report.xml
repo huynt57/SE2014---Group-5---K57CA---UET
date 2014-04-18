@@ -1,17 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-  <testsuite name="acceptance" tests="11" assertions="10" failures="1" errors="0" time="25.927898">
-    <testcase file="Click_subjectCept.php" name="view information about a subject (Click_subjectCept.php)" assertions="1" time="2.369171"/>
-    <testcase file="Click_teacher_in_subjectCept.php" name="view information about a teacher that teach this subject (Click_teacher_in_subjectCept.php)" assertions="1" time="2.573266"/>
-    <testcase file="DiscussionPageCept.php" name="ensure that frontpage works (DiscussionPageCept.php)" assertions="1" time="1.930899"/>
-    <testcase file="DocumentCept.php" name="ensure that frontpage works (DocumentCept.php)" assertions="0" time="1.742818"/>
-    <testcase file="Login_correct_accountCept.php" name="login (Login_correct_accountCept.php)" assertions="1" time="2.449338"/>
-    <testcase file="Login_did_not_have_accountCept.php" name="sign up (Login_did_not_have_accountCept.php)" assertions="1" time="1.943814"/>
-    <testcase file="Login_facebookCept.php" name="login via facebook (Login_facebookCept.php)" assertions="1" time="5.254262"/>
-    <testcase file="Login_leave_password_blankCept.php" name="login (Login_leave_password_blankCept.php)" assertions="1" time="2.116035"/>
-    <testcase file="Login_leave_username_blankCept.php" name="login (Login_leave_username_blankCept.php)" assertions="1" time="2.123127"/>
-    <testcase file="Login_wrong_account2Cept.php" name="login (Login_wrong_account2Cept.php)" assertions="1" time="3.061823"/>
-    <testcase file="Post_statusCept.php" name="post a status (Post_statusCept.php)" assertions="1" time="0.363345">
+  <testsuite name="acceptance" tests="14" assertions="13" failures="2" errors="0" time="8.103399">
+    <testcase file="Click_subjectCept.php" name="view information about a subject (Click_subjectCept.php)" assertions="1" time="0.716458"/>
+    <testcase file="Click_teacher_in_subjectCept.php" name="view information about a teacher that teach this subject (Click_teacher_in_subjectCept.php)" assertions="1" time="0.579532"/>
+    <testcase file="DiscussionPageCept.php" name="ensure that frontpage works (DiscussionPageCept.php)" assertions="1" time="0.367296"/>
+    <testcase file="DocumentCept.php" name="ensure that frontpage works (DocumentCept.php)" assertions="0" time="0.373948"/>
+    <testcase file="Login_correct_accountCept.php" name="login (Login_correct_accountCept.php)" assertions="1" time="0.652878"/>
+    <testcase file="Login_did_not_have_accountCept.php" name="sign up (Login_did_not_have_accountCept.php)" assertions="1" time="0.549731"/>
+    <testcase file="Login_facebookCept.php" name="login via facebook (Login_facebookCept.php)" assertions="1" time="0.644034">
+      <failure type="PHPUnit_Framework_ExpectationFailedException">login via facebook (Login_facebookCept.php)
+Failed asserting that 
+--&gt;  &lt;bold&gt;/SE2014-Project_Website/index.php/login/fb_login?Dang+nhap+qua+Facebook=&lt;/bold&gt;&lt;info&gt;ï»¿&#13; &#13; &#13; &#13; $(function() {&#13; $('.example-f').barrating({showSelectedRating:false});&#13; });&#13; &#13; $(function() {&#13; $('.popup-modal').magnificPopup({&#13; type: 'inline',&#13; preloader: false,&#13; focus: '#username',&#13; modal: true&#13; });&#13; $(document).on('click', '.popup-modal-dismiss', function(e) {&#13; e.preventDefault();&#13; &lt;/info&gt;
+&lt;debug&gt;[Content too long to display. See complete response in '_log' directory]&lt;/debug&gt;
+--&gt; contains "ääng nháº­p facebook".
+
+C:\xampp\htdocs\SE2014-Project_Website\tests\acceptance\WebGuy.php:605
+C:\xampp\htdocs\SE2014-Project_Website\tests\acceptance\Login_facebookCept.php:6
+C:\xampp\htdocs\SE2014-Project_Website\codecept.phar:7
+</failure>
+    </testcase>
+    <testcase file="Login_leave_password_blankCept.php" name="login (Login_leave_password_blankCept.php)" assertions="1" time="0.705616"/>
+    <testcase file="Login_leave_username_blankCept.php" name="login (Login_leave_username_blankCept.php)" assertions="1" time="0.555387"/>
+    <testcase file="Login_wrong_account2Cept.php" name="login (Login_wrong_account2Cept.php)" assertions="1" time="0.629369"/>
+    <testcase file="Post_statusCept.php" name="post a status (Post_statusCept.php)" assertions="1" time="0.253814">
       <failure type="PHPUnit_Framework_ExpectationFailedException">post a status (Post_statusCept.php)
 Failed asserting that 
 --&gt;  &lt;bold&gt;/SE2014-Project_Website/index.php/&lt;/bold&gt;&lt;info&gt;﻿&#13; &#13; &#13; &#13; $(function() {&#13; $('.example-f').barrating({showSelectedRating:false});&#13; });&#13; &#13; $(function() {&#13; $('.popup-modal').magnificPopup({&#13; type: 'inline',&#13; preloader: false,&#13; focus: '#username',&#13; modal: true&#13; });&#13; $(document).on('click', '.popup-modal-dismiss', function(e) {&#13; e.preventDefault();&#13; &lt;/info&gt;
@@ -23,6 +34,9 @@ C:\xampp\htdocs\SE2014-Project_Website\tests\acceptance\Post_statusCept.php:5
 C:\xampp\htdocs\SE2014-Project_Website\codecept.phar:7
 </failure>
     </testcase>
+    <testcase file="SignupCept.php" name="sign up an account (SignupCept.php)" assertions="1" time="0.655599"/>
+    <testcase file="Signup_successCept.php" name="sign up an account (Signup_successCept.php)" assertions="1" time="0.818529"/>
+    <testcase file="Signup_with_existed_emailCept.php" name="sign up an account (Signup_with_existed_emailCept.php)" assertions="1" time="0.601208"/>
   </testsuite>
   <testsuite name="functional" tests="0" assertions="0" failures="0" errors="0" time="0.000000"/>
   <testsuite name="unit" tests="0" assertions="0" failures="0" errors="0" time="0.000000"/>
