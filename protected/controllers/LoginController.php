@@ -140,7 +140,7 @@ class LoginController extends BaseController {
         return $facebook;
     }
 
-    /*public function actionFb_login() {
+    public function actionFb_login() {
         $facebook = $this->getFb();
         $loginUrl = $facebook->getLoginUrl(array(
             'scope' => '',

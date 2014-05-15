@@ -26,7 +26,6 @@ class DiscussionController extends BaseController {
                 );
                 $post_model = new Post;
                 $post_model->post_content = $loginFormData['post_content'];
-
                 $post_model->save(FALSE);
                 if ($post_model->save(FALSE)) {
                     $this->retVal->success = TRUE;

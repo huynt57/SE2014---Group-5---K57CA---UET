@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1397789244">
-  <project timestamp="1397789244">
+<coverage generated="1398474113">
+  <project timestamp="1398474113">
     <file name="C:\xampp\htdocs\SE2014-Project_Website/index.php">
       <line num="3" type="stmt" count="24"/>
       <line num="6" type="stmt" count="24"/>
@@ -43,23 +43,23 @@
       <line num="26" type="stmt" count="0"/>
       <line num="27" type="stmt" count="0"/>
       <line num="28" type="stmt" count="0"/>
+      <line num="29" type="stmt" count="0"/>
       <line num="30" type="stmt" count="0"/>
       <line num="31" type="stmt" count="0"/>
       <line num="32" type="stmt" count="0"/>
       <line num="33" type="stmt" count="0"/>
-      <line num="34" type="stmt" count="0"/>
-      <line num="36" type="stmt" count="0"/>
+      <line num="35" type="stmt" count="0"/>
+      <line num="38" type="stmt" count="0"/>
       <line num="39" type="stmt" count="0"/>
       <line num="40" type="stmt" count="0"/>
       <line num="41" type="stmt" count="0"/>
       <line num="42" type="stmt" count="0"/>
-      <line num="43" type="stmt" count="0"/>
-      <line num="72" type="stmt" count="1"/>
-      <metrics loc="71" ncloc="42" classes="1" methods="3" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="26" coveredstatements="8" elements="29" coveredelements="10"/>
+      <line num="71" type="stmt" count="1"/>
+      <metrics loc="70" ncloc="41" classes="1" methods="3" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="26" coveredstatements="8" elements="29" coveredelements="10"/>
     </file>
     <file name="C:\xampp\htdocs\SE2014-Project_Website/protected/controllers/LoginController.php">
       <class name="LoginController" namespace="global">
-        <metrics methods="4" coveredmethods="3" conditionals="0" coveredconditionals="0" statements="90" coveredstatements="68" elements="94" coveredelements="71"/>
+        <metrics methods="7" coveredmethods="5" conditionals="0" coveredconditionals="0" statements="140" coveredstatements="80" elements="147" coveredelements="85"/>
       </class>
       <line num="0" type="stmt" count="4"/>
       <line num="2" type="stmt" count="18"/>
@@ -98,7 +98,7 @@
       <line num="53" type="stmt" count="0"/>
       <line num="55" type="stmt" count="9"/>
       <line num="56" type="stmt" count="9"/>
-      <line num="58" type="method" name="actionSignup" crap="15.75" count="4"/>
+      <line num="58" type="method" name="actionSignup" crap="16.89" count="4"/>
       <line num="59" type="stmt" count="4"/>
       <line num="60" type="stmt" count="4"/>
       <line num="61" type="stmt" count="4"/>
@@ -118,20 +118,20 @@
       <line num="80" type="stmt" count="1"/>
       <line num="81" type="stmt" count="2"/>
       <line num="82" type="stmt" count="2"/>
-      <line num="83" type="stmt" count="1"/>
-      <line num="84" type="stmt" count="1"/>
-      <line num="85" type="stmt" count="1"/>
-      <line num="86" type="stmt" count="1"/>
-      <line num="87" type="stmt" count="1"/>
-      <line num="88" type="stmt" count="1"/>
-      <line num="89" type="stmt" count="1"/>
-      <line num="90" type="stmt" count="1"/>
-      <line num="91" type="stmt" count="1"/>
-      <line num="92" type="stmt" count="1"/>
-      <line num="93" type="stmt" count="1"/>
-      <line num="94" type="stmt" count="1"/>
+      <line num="83" type="stmt" count="0"/>
+      <line num="84" type="stmt" count="0"/>
+      <line num="85" type="stmt" count="2"/>
+      <line num="86" type="stmt" count="2"/>
+      <line num="87" type="stmt" count="2"/>
+      <line num="88" type="stmt" count="2"/>
+      <line num="89" type="stmt" count="2"/>
+      <line num="90" type="stmt" count="2"/>
+      <line num="91" type="stmt" count="2"/>
+      <line num="92" type="stmt" count="2"/>
+      <line num="93" type="stmt" count="2"/>
+      <line num="94" type="stmt" count="2"/>
       <line num="95" type="stmt" count="0"/>
-      <line num="97" type="stmt" count="1"/>
+      <line num="97" type="stmt" count="2"/>
       <line num="98" type="stmt" count="0"/>
       <line num="102" type="stmt" count="3"/>
       <line num="103" type="stmt" count="0"/>
@@ -152,17 +152,70 @@
       <line num="125" type="stmt" count="0"/>
       <line num="127" type="stmt" count="0"/>
       <line num="128" type="stmt" count="0"/>
-      <line num="130" type="method" name="getFb" crap="2" count="0"/>
-      <line num="131" type="stmt" count="0"/>
-      <line num="132" type="stmt" count="0"/>
-      <line num="133" type="stmt" count="0"/>
-      <line num="135" type="stmt" count="0"/>
-      <line num="136" type="stmt" count="0"/>
-      <line num="137" type="stmt" count="0"/>
-      <line num="139" type="stmt" count="0"/>
-      <line num="140" type="stmt" count="0"/>
+      <line num="130" type="method" name="getFb" crap="1" count="1"/>
+      <line num="131" type="stmt" count="1"/>
+      <line num="132" type="stmt" count="1"/>
+      <line num="133" type="stmt" count="1"/>
+      <line num="135" type="stmt" count="1"/>
+      <line num="136" type="stmt" count="1"/>
+      <line num="137" type="stmt" count="1"/>
+      <line num="139" type="stmt" count="1"/>
+      <line num="140" type="stmt" count="1"/>
+      <line num="143" type="method" name="actionFb_login" crap="1.00" count="1"/>
+      <line num="144" type="stmt" count="1"/>
+      <line num="145" type="stmt" count="1"/>
+      <line num="146" type="stmt" count="1"/>
+      <line num="147" type="stmt" count="1"/>
+      <line num="148" type="stmt" count="1"/>
+      <line num="149" type="stmt" count="1"/>
+      <line num="150" type="stmt" count="0"/>
+      <line num="152" type="method" name="actionFb_login_result" crap="2" count="0"/>
+      <line num="153" type="stmt" count="0"/>
+      <line num="154" type="stmt" count="0"/>
+      <line num="155" type="stmt" count="0"/>
+      <line num="157" type="stmt" count="0"/>
+      <line num="158" type="stmt" count="0"/>
+      <line num="160" type="method" name="actionloginFacebook" crap="42" count="0"/>
+      <line num="161" type="stmt" count="0"/>
+      <line num="162" type="stmt" count="0"/>
+      <line num="163" type="stmt" count="0"/>
+      <line num="165" type="stmt" count="0"/>
+      <line num="166" type="stmt" count="0"/>
+      <line num="167" type="stmt" count="0"/>
+      <line num="168" type="stmt" count="0"/>
+      <line num="170" type="stmt" count="0"/>
+      <line num="172" type="stmt" count="0"/>
+      <line num="174" type="stmt" count="0"/>
+      <line num="175" type="stmt" count="0"/>
+      <line num="176" type="stmt" count="0"/>
+      <line num="177" type="stmt" count="0"/>
+      <line num="179" type="stmt" count="0"/>
+      <line num="181" type="stmt" count="0"/>
+      <line num="182" type="stmt" count="0"/>
+      <line num="183" type="stmt" count="0"/>
+      <line num="184" type="stmt" count="0"/>
+      <line num="185" type="stmt" count="0"/>
+      <line num="186" type="stmt" count="0"/>
+      <line num="187" type="stmt" count="0"/>
+      <line num="188" type="stmt" count="0"/>
+      <line num="191" type="stmt" count="0"/>
+      <line num="193" type="stmt" count="0"/>
+      <line num="194" type="stmt" count="0"/>
+      <line num="195" type="stmt" count="0"/>
+      <line num="196" type="stmt" count="0"/>
+      <line num="197" type="stmt" count="0"/>
+      <line num="200" type="stmt" count="0"/>
+      <line num="201" type="stmt" count="0"/>
+      <line num="202" type="stmt" count="0"/>
+      <line num="205" type="stmt" count="0"/>
+      <line num="206" type="stmt" count="0"/>
+      <line num="207" type="stmt" count="0"/>
+      <line num="208" type="stmt" count="0"/>
+      <line num="209" type="stmt" count="0"/>
+      <line num="210" type="stmt" count="0"/>
+      <line num="211" type="stmt" count="0"/>
       <line num="240" type="stmt" count="18"/>
-      <metrics loc="239" ncloc="133" classes="1" methods="4" coveredmethods="1" conditionals="0" coveredconditionals="0" statements="95" coveredstatements="73" elements="99" coveredelements="74"/>
+      <metrics loc="239" ncloc="202" classes="1" methods="7" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="145" coveredstatements="85" elements="152" coveredelements="87"/>
     </file>
     <file name="C:\xampp\htdocs\SE2014-Project_Website/protected/controllers/ShareController.php">
       <class name="ShareController" namespace="global">
@@ -183,6 +236,6 @@
       <line num="48" type="stmt" count="4"/>
       <metrics loc="47" ncloc="20" classes="1" methods="4" coveredmethods="4" conditionals="0" coveredconditionals="0" statements="8" coveredstatements="8" elements="12" coveredelements="12"/>
     </file>
-    <metrics files="5" loc="405" ncloc="208" classes="4" methods="11" coveredmethods="7" conditionals="0" coveredconditionals="0" statements="137" coveredstatements="97" elements="148" coveredelements="104"/>
+    <metrics files="5" loc="404" ncloc="276" classes="4" methods="14" coveredmethods="8" conditionals="0" coveredconditionals="0" statements="187" coveredstatements="109" elements="201" coveredelements="117"/>
   </project>
 </coverage>
